@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Community Count - Survey</title>
+  <script>
+    // Prevent third-party browser extension errors (like reportAllChanges/startTime) from polluting console
+    window.addEventListener('error', function(e) {
+      if (e.message && (e.message.includes('startTime') || e.message.includes('reportAllChanges') || e.message.includes('message channel closed'))) {
+        e.stopImmediatePropagation();
+        e.preventDefault();
+      }
+    }, true);
+    window.addEventListener('unhandledrejection', function(e) {
+      if (e.reason && e.reason.message && (e.reason.message.includes('startTime') || e.reason.message.includes('reportAllChanges') || e.reason.message.includes('message channel closed'))) {
+        e.stopImmediatePropagation();
+        e.preventDefault();
+      }
+    }, true);
+  </script>
+  <script type="module" crossorigin src="/assets/index-DWVZxjdX.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-28X1CtkB.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
