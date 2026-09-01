@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Users, MapPin, Award, Trash2, ChevronDown, Check } from "lucide-react";
 import { transliterateNameToHindi, ensureEnglish } from "../lib/transliterate";
 import { wards, getWardCategoryLabel } from "../data/wards";
+import { API_BASE_URL } from "../config/apiConfig";
 
 export type WardVoter = {
   serialNumber: number;
@@ -101,7 +102,7 @@ export function Dashboard({ voters, onPartyCardClick, onDelete, lang }: Dashboar
     async function fetchWardVoters() {
       setIsLoadingWardVoters(true);
       try {
-        const res = await fetch(`http://localhost:3001/api/voters/ward/${selectedWard}`);
+        const res = await fetch(`${API_BASE_URL}/api/voters/ward/${selectedWard}`);
         if (res.ok) {
           const data = await res.json();
           if (isMounted) {

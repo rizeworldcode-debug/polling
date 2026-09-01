@@ -5,6 +5,7 @@ import { SubmissionsList } from "./submissions-list";
 import { ChairmanList } from "./chairman-list";
 import { LayoutDashboard, Users, LogOut, KeyRound, Mail, Award, Eye, EyeOff } from "lucide-react";
 import { translations } from "../data/translations";
+import { API_BASE_URL } from "../config/apiConfig";
 
 export function AdminPanel() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -46,7 +47,9 @@ export function AdminPanel() {
       window.location.hash = "dashboard";
     }
 
-    return () => window.location.hash && window.removeEventListener("hashchange", handleHashChange);
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
   }, []);
 
   // Load responses from API / localStorage
@@ -64,7 +67,7 @@ export function AdminPanel() {
 
   const loadVoters = async () => {
     try {
-      const res = await fetch("http://localhost:3001/api/responses");
+      const res = await fetch(`${API_BASE_URL}/api/responses`);
       if (res.ok) {
         const data = await res.json();
         setVoters(data);
@@ -88,7 +91,7 @@ export function AdminPanel() {
     setAuthError("");
     setSuccessMessage("");
     try {
-      const res = await fetch("http://localhost:3001/api/admin/admin_login", {
+      const res = await fetch(`${API_BASE_URL}/api/admin/admin_login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -113,7 +116,7 @@ export function AdminPanel() {
   const handleLogout = async () => {
     try {
       const token = localStorage.getItem("survey_admin_token");
-      await fetch("http://localhost:3001/api/admin/admin_logout", {
+      await fetch(`${API_BASE_URL}/api/admin/admin_logout`, {
         method: "POST",
         headers: {
           "Authorization": `Bearer ${token}`
@@ -132,7 +135,7 @@ export function AdminPanel() {
     setAuthError("");
     setSuccessMessage("");
     try {
-      const res = await fetch("http://localhost:3001/api/admin/sendOtpTOadmin", {
+      const res = await fetch(`${API_BASE_URL}/api/admin/sendOtpTOadmin`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: username }),
@@ -155,7 +158,7 @@ export function AdminPanel() {
     setAuthError("");
     setSuccessMessage("");
     try {
-      const res = await fetch("http://localhost:3001/api/admin/verifyOtp", {
+      const res = await fetch(`${API_BASE_URL}/api/admin/verifyOtp`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: username, otp: otp }),
@@ -180,7 +183,7 @@ export function AdminPanel() {
     setSuccessMessage("");
     try {
       const token = localStorage.getItem("survey_admin_token");
-      const res = await fetch("http://localhost:3001/api/admin/admin_forgatePassword", {
+      const res = await fetch(`${API_BASE_URL}/api/admin/admin_forgatePassword`, {
         method: "POST",
         headers: { 
           "Content-Type": "application/json",
@@ -207,7 +210,7 @@ export function AdminPanel() {
   const handleDelete = async (id: string) => {
     if (window.confirm(t.deleteAlert)) {
       try {
-        await fetch(`http://localhost:3001/api/responses/${id}`, {
+        await fetch(`${API_BASE_URL}/api/responses/${id}`, {
           method: "DELETE",
         });
       } catch (e) {

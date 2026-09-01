@@ -31,6 +31,7 @@ import { translations } from "@/data/translations";
 import { transliterateNameToHindi } from "@/lib/transliterate";
 import { bjpCandidates, getBjpCandidateForWard } from "@/data/bjpCandidates";
 import { congressCandidates, getCongressCandidateForWard } from "@/data/congressCandidates";
+import { API_BASE_URL } from "@/config/apiConfig";
 
 const errorTranslationMap = {
   "Please select your ward and area.": "wardError",
@@ -307,7 +308,7 @@ export function SurveyFlow() {
 
     setIsValidating(true);
     try {
-      const response = await fetch("http://localhost:3001/api/voters/verify", {
+      const response = await fetch(`${API_BASE_URL}/api/voters/verify`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -397,7 +398,7 @@ export function SurveyFlow() {
       
       // Save to local shared API server
       try {
-        await fetch("http://localhost:3001/api/responses", {
+        await fetch(`${API_BASE_URL}/api/responses`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

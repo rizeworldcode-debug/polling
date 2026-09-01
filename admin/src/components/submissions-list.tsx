@@ -223,7 +223,7 @@ export function SubmissionsList({
                   </td>
                   <td data-label={lang === "hi" ? "मोबाइल" : "Mobile"} style={{ fontFamily: "monospace" }}>{v.mobileNumber}</td>
                   <td data-label={lang === "hi" ? "पता" : "Address"}>
-                    <div>{lang === "hi" && v.address ? transliterateNameToHindi(v.address) : ensureEnglish(v.address) || "—"}</div>
+                    <div>{lang === "hi" && v.address ? transliterateNameToHindi(v.address) : ensureEnglish(v.address || "") || "—"}</div>
                     {v.houseNumber && (
                       <div style={{ fontSize: "11px", color: "var(--muted)", marginTop: "2px" }}>
                         {lang === "hi" ? "मकान संख्या" : "House No"}: {v.houseNumber}
