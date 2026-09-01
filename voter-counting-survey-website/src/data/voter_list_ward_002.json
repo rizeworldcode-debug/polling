@@ -1,0 +1,5996 @@
+{
+  "metadata": {
+    "municipality": "Bahadurpur",
+    "wardNumber": 2,
+    "partNumber": 1,
+    "assemblyConstituency": "65-Alwar Rural",
+    "district": "Alwar",
+    "totalVoters": 597,
+    "maleVoters": 317,
+    "femaleVoters": 280,
+    "thirdGenderVoters": 0,
+    "areas": [
+      "Main revenue village Jodiyawas Patti",
+      "Along pahadi ghumav bandh ki paal",
+      "Via Panchayat Bhavan Jodiyawas Patti",
+      "Along Naharpur Kala road",
+      "Subban Ka Bass",
+      "Nangaliyo Ki Dhani",
+      "Aivaj Ka Bass",
+      "Hajira Ka Bass"
+    ]
+  },
+  "ward_details": "Main revenue village Jodiyawas Patti along pahadi ghumav bandh ki paal, via Panchayat Bhavan Jodiyawas Patti, along Naharpur Kala road, Subban Ka Bass, Nangaliyo Ki Dhani, Aivaj Ka Bass, Hajira Ka Bass,",
+  "voters": [
+    {
+      "s_no": 1,
+      "epic_voter_id": "WHH1591809",
+      "name": "Sahroon Khan",
+      "relation": "Father",
+      "relative_name": "Jayarmal Khan",
+      "house_no": "137",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 2,
+      "epic_voter_id": "WHH1591767",
+      "name": "Aneesha",
+      "relation": "Husband",
+      "relative_name": "Sahroon Khan",
+      "house_no": "137",
+      "gender": "Female",
+      "age": 37
+    },
+    {
+      "s_no": 3,
+      "epic_voter_id": "RJ/08/061/456409",
+      "name": "Sharifan",
+      "relation": "Husband",
+      "relative_name": "Boydan",
+      "house_no": "476",
+      "gender": "Female",
+      "age": 65
+    },
+    {
+      "s_no": 4,
+      "epic_voter_id": "RJ/08/061/456663",
+      "name": "Mamura",
+      "relation": "Father",
+      "relative_name": "Noorkhan",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 5,
+      "epic_voter_id": "RJ/08/061/456408",
+      "name": "Raheesa",
+      "relation": "Husband",
+      "relative_name": "Mamura",
+      "house_no": "476",
+      "gender": "Female",
+      "age": 51
+    },
+    {
+      "s_no": 6,
+      "epic_voter_id": "WHH0661694",
+      "name": "Shareef Mohammad",
+      "relation": "Father",
+      "relative_name": "Mauj Khan",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 50
+    },
+    {
+      "s_no": 7,
+      "epic_voter_id": "CVS1282821",
+      "name": "Sharmeena",
+      "relation": "Husband",
+      "relative_name": "Sarsamal",
+      "house_no": "476",
+      "gender": "Female",
+      "age": 48
+    },
+    {
+      "s_no": 8,
+      "epic_voter_id": "CVS1282847",
+      "name": "Sahuni",
+      "relation": "Husband",
+      "relative_name": "Abbas Khan",
+      "house_no": "476",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 9,
+      "epic_voter_id": "WHH0482125",
+      "name": "Akhtar Khan",
+      "relation": "Father",
+      "relative_name": "Boydan Khan",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 33
+    },
+    {
+      "s_no": 10,
+      "epic_voter_id": "WHH0661702",
+      "name": "Khatija",
+      "relation": "Husband",
+      "relative_name": "Akhtar Khan",
+      "house_no": "476",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 11,
+      "epic_voter_id": "RJ/08/061/456693",
+      "name": "Rasooli",
+      "relation": "Husband",
+      "relative_name": "Subban",
+      "house_no": "477",
+      "gender": "Female",
+      "age": 80
+    },
+    {
+      "s_no": 12,
+      "epic_voter_id": "RJ/08/061/456118",
+      "name": "Sammer",
+      "relation": "Father",
+      "relative_name": "Subban",
+      "house_no": "477",
+      "gender": "Male",
+      "age": 60
+    },
+    {
+      "s_no": 13,
+      "epic_voter_id": "RJ/08/061/456453",
+      "name": "Sharifan",
+      "relation": "Husband",
+      "relative_name": "Sammer",
+      "house_no": "477",
+      "gender": "Female",
+      "age": 56
+    },
+    {
+      "s_no": 14,
+      "epic_voter_id": "RJ/08/061/456174",
+      "name": "Kalu",
+      "relation": "Father",
+      "relative_name": "Subban",
+      "house_no": "477",
+      "gender": "Male",
+      "age": 56
+    },
+    {
+      "s_no": 15,
+      "epic_voter_id": "RJ/08/061/456411",
+      "name": "Maina",
+      "relation": "Husband",
+      "relative_name": "Kalu",
+      "house_no": "477",
+      "gender": "Female",
+      "age": 54
+    },
+    {
+      "s_no": 16,
+      "epic_voter_id": "WHH1265057",
+      "name": "Samsheer Khan",
+      "relation": "Father",
+      "relative_name": "Atru Khan",
+      "house_no": "508",
+      "gender": "Male",
+      "age": 37
+    },
+    {
+      "s_no": 17,
+      "epic_voter_id": "WHH1264993",
+      "name": "Raziya",
+      "relation": "Husband",
+      "relative_name": "Samsheer Khan",
+      "house_no": "508",
+      "gender": "Female",
+      "age": 36
+    },
+    {
+      "s_no": 18,
+      "epic_voter_id": "WHH1306091",
+      "name": "Imamuddin",
+      "relation": "Mother",
+      "relative_name": "Atru Khan",
+      "house_no": "508",
+      "gender": "Male",
+      "age": 33
+    },
+    {
+      "s_no": 19,
+      "epic_voter_id": "WHH1306083",
+      "name": "Janto",
+      "relation": "Husband",
+      "relative_name": "Imamuddin",
+      "house_no": "508",
+      "gender": "Female",
+      "age": 31
+    },
+    {
+      "s_no": 20,
+      "epic_voter_id": "WHH0976688",
+      "name": "Sabina",
+      "relation": "Husband",
+      "relative_name": "Hasamuddin",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 33
+    },
+    {
+      "s_no": 21,
+      "epic_voter_id": "WHH0978189",
+      "name": "Shaukat Khan",
+      "relation": "Father",
+      "relative_name": "Subban Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 33
+    },
+    {
+      "s_no": 22,
+      "epic_voter_id": "WHH0977520",
+      "name": "Mustak Khan",
+      "relation": "Father",
+      "relative_name": "Aivaj Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 23,
+      "epic_voter_id": "WHH0977546",
+      "name": "Mumtaz",
+      "relation": "Father",
+      "relative_name": "Aas Mohammad",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 27
+    },
+    {
+      "s_no": 24,
+      "epic_voter_id": "WHH0978080",
+      "name": "Hazrat Deen",
+      "relation": "Father",
+      "relative_name": "Aas Mohammad",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 27
+    },
+    {
+      "s_no": 25,
+      "epic_voter_id": "WHH1950393",
+      "name": "Sarjeena",
+      "relation": "Husband",
+      "relative_name": "Taufiq Ahmad",
+      "house_no": "456",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 26,
+      "epic_voter_id": "WHH1992437",
+      "name": "Rohan Khan",
+      "relation": "Father",
+      "relative_name": "Samsheer Khan",
+      "house_no": "508",
+      "gender": "Male",
+      "age": 19
+    },
+    {
+      "s_no": 27,
+      "epic_voter_id": "WHH2030872",
+      "name": "Muskan",
+      "relation": "Husband",
+      "relative_name": "Vakeel Khan",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 20
+    },
+    {
+      "s_no": 28,
+      "epic_voter_id": "WHH1601384",
+      "name": "Hakam",
+      "relation": "Father",
+      "relative_name": "Naharpur Kala",
+      "house_no": "305",
+      "gender": "Male",
+      "age": 45
+    },
+    {
+      "s_no": 29,
+      "epic_voter_id": "WHH0321208",
+      "name": "Ilyas Khan",
+      "relation": "Father",
+      "relative_name": "Mamraj",
+      "house_no": "433",
+      "gender": "Male",
+      "age": 34
+    },
+    {
+      "s_no": 30,
+      "epic_voter_id": "WHH0978213",
+      "name": "Arfeena",
+      "relation": "Husband",
+      "relative_name": "Ilyas",
+      "house_no": "433",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 31,
+      "epic_voter_id": "WHH0978247",
+      "name": "Apsana",
+      "relation": "Husband",
+      "relative_name": "Sajid",
+      "house_no": "466",
+      "gender": "Female",
+      "age": 26
+    },
+    {
+      "s_no": 32,
+      "epic_voter_id": "RJ/08/061/456432",
+      "name": "Asru",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "493",
+      "gender": "Male",
+      "age": 70
+    },
+    {
+      "s_no": 33,
+      "epic_voter_id": "RJ/08/061/456418",
+      "name": "Fajari",
+      "relation": "Husband",
+      "relative_name": "Asru",
+      "house_no": "493",
+      "gender": "Female",
+      "age": 68
+    },
+    {
+      "s_no": 34,
+      "epic_voter_id": "CVS1282912",
+      "name": "Aazad",
+      "relation": "Father",
+      "relative_name": "Asru",
+      "house_no": "493",
+      "gender": "Male",
+      "age": 44
+    },
+    {
+      "s_no": 35,
+      "epic_voter_id": "CVS1282920",
+      "name": "Aasbi",
+      "relation": "Husband",
+      "relative_name": "Aazad",
+      "house_no": "493",
+      "gender": "Female",
+      "age": 43
+    },
+    {
+      "s_no": 36,
+      "epic_voter_id": "WHH1207828",
+      "name": "Sahroona",
+      "relation": "Husband",
+      "relative_name": "Hameed Khan",
+      "house_no": "493",
+      "gender": "Female",
+      "age": 35
+    },
+    {
+      "s_no": 37,
+      "epic_voter_id": "WHH1207687",
+      "name": "Jafrina",
+      "relation": "Husband",
+      "relative_name": "Shahid Khan",
+      "house_no": "493",
+      "gender": "Female",
+      "age": 35
+    },
+    {
+      "s_no": 38,
+      "epic_voter_id": "WHH0482208",
+      "name": "Shahid Khan",
+      "relation": "Father",
+      "relative_name": "Asru Khan",
+      "house_no": "493",
+      "gender": "Male",
+      "age": 32
+    },
+    {
+      "s_no": 39,
+      "epic_voter_id": "WHH0482216",
+      "name": "Aabid Khan",
+      "relation": "Father",
+      "relative_name": "Asru Khan",
+      "house_no": "493",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 40,
+      "epic_voter_id": "WHH1207810",
+      "name": "Hameed Khan",
+      "relation": "Father",
+      "relative_name": "Asru Khan",
+      "house_no": "493",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 41,
+      "epic_voter_id": "WHH1849090",
+      "name": "Raneesha",
+      "relation": "Husband",
+      "relative_name": "Nasir Khan",
+      "house_no": "493",
+      "gender": "Female",
+      "age": 24
+    },
+    {
+      "s_no": 42,
+      "epic_voter_id": "WHH1625110",
+      "name": "Nasir Khan",
+      "relation": "Father",
+      "relative_name": "Aazad",
+      "house_no": "493",
+      "gender": "Male",
+      "age": 23
+    },
+    {
+      "s_no": 43,
+      "epic_voter_id": "WHH1848977",
+      "name": "Junisha",
+      "relation": "Husband",
+      "relative_name": "Waseem Akram",
+      "house_no": "493",
+      "gender": "Female",
+      "age": 22
+    },
+    {
+      "s_no": 44,
+      "epic_voter_id": "WHH1849033",
+      "name": "Waseem Akram",
+      "relation": "Father",
+      "relative_name": "Aazad Khan",
+      "house_no": "493",
+      "gender": "Male",
+      "age": 19
+    },
+    {
+      "s_no": 45,
+      "epic_voter_id": "WHH0661827",
+      "name": "Ramzan",
+      "relation": "Father",
+      "relative_name": "Gabdu",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 66
+    },
+    {
+      "s_no": 46,
+      "epic_voter_id": "WHH0661736",
+      "name": "Joyra Khan",
+      "relation": "Father",
+      "relative_name": "Gabdu",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 63
+    },
+    {
+      "s_no": 47,
+      "epic_voter_id": "WHH0661835",
+      "name": "Nijarbi",
+      "relation": "Husband",
+      "relative_name": "Ramzan",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 61
+    },
+    {
+      "s_no": 48,
+      "epic_voter_id": "WHH0661744",
+      "name": "Jaitooni",
+      "relation": "Husband",
+      "relative_name": "Joyra Khan",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 59
+    },
+    {
+      "s_no": 49,
+      "epic_voter_id": "RJ/08/061/456620",
+      "name": "Sabjan",
+      "relation": "Father",
+      "relative_name": "Rustam Khan",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 50
+    },
+    {
+      "s_no": 50,
+      "epic_voter_id": "CVS1282938",
+      "name": "Akhtari",
+      "relation": "Husband",
+      "relative_name": "Sabjan",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 45
+    },
+    {
+      "s_no": 51,
+      "epic_voter_id": "CVS1352137",
+      "name": "Sahun",
+      "relation": "Father",
+      "relative_name": "Rustam",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 44
+    },
+    {
+      "s_no": 52,
+      "epic_voter_id": "CVS1282946",
+      "name": "Majmoona",
+      "relation": "Husband",
+      "relative_name": "Sahun",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 43
+    },
+    {
+      "s_no": 53,
+      "epic_voter_id": "WHH0661850",
+      "name": "Shahbuddin",
+      "relation": "Father",
+      "relative_name": "Ramzan",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 54,
+      "epic_voter_id": "WHH0661868",
+      "name": "Namkhor",
+      "relation": "Husband",
+      "relative_name": "Shahbuddin",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 43
+    },
+    {
+      "s_no": 55,
+      "epic_voter_id": "WHH1115880",
+      "name": "Jamshed",
+      "relation": "Father",
+      "relative_name": "Joyra Khan",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 40
+    },
+    {
+      "s_no": 56,
+      "epic_voter_id": "WHH0661751",
+      "name": "Janto",
+      "relation": "Husband",
+      "relative_name": "Jamshed",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 39
+    },
+    {
+      "s_no": 57,
+      "epic_voter_id": "WHH0661769",
+      "name": "Khurshid Khan",
+      "relation": "Father",
+      "relative_name": "Joyra Khan",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 58,
+      "epic_voter_id": "WHH0661876",
+      "name": "Jakir Khan",
+      "relation": "Father",
+      "relative_name": "Ramzan",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 59,
+      "epic_voter_id": "WHH0661777",
+      "name": "Dhauli",
+      "relation": "Husband",
+      "relative_name": "Khurshid",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 60,
+      "epic_voter_id": "WHH0661884",
+      "name": "Farmeena",
+      "relation": "Husband",
+      "relative_name": "Jakir",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 61,
+      "epic_voter_id": "WHH0661801",
+      "name": "Farukh",
+      "relation": "Father",
+      "relative_name": "Joyra Khan",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 37
+    },
+    {
+      "s_no": 62,
+      "epic_voter_id": "WHH0661819",
+      "name": "Majmoona",
+      "relation": "Husband",
+      "relative_name": "Farukh",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 36
+    },
+    {
+      "s_no": 63,
+      "epic_voter_id": "WHH0661785",
+      "name": "Mosam Khan",
+      "relation": "Father",
+      "relative_name": "Joyra Khan",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 34
+    },
+    {
+      "s_no": 64,
+      "epic_voter_id": "WHH0661793",
+      "name": "Dhauli",
+      "relation": "Husband",
+      "relative_name": "Mosam",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 33
+    },
+    {
+      "s_no": 65,
+      "epic_voter_id": "WHH0482224",
+      "name": "Akbar Khan",
+      "relation": "Father",
+      "relative_name": "Rustam Khan",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 32
+    },
+    {
+      "s_no": 66,
+      "epic_voter_id": "WHH0777979",
+      "name": "Raveena",
+      "relation": "Husband",
+      "relative_name": "Akbar",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 31
+    },
+    {
+      "s_no": 67,
+      "epic_voter_id": "WHH1704840",
+      "name": "Aasif Khan",
+      "relation": "Father",
+      "relative_name": "Sahun Khan",
+      "house_no": "494",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 68,
+      "epic_voter_id": "RJ/08/061/456325",
+      "name": "Ali",
+      "relation": "Father",
+      "relative_name": "Hari Singh",
+      "house_no": "495",
+      "gender": "Male",
+      "age": 65
+    },
+    {
+      "s_no": 69,
+      "epic_voter_id": "RJ/08/061/456391",
+      "name": "Magni",
+      "relation": "Husband",
+      "relative_name": "Ali",
+      "house_no": "495",
+      "gender": "Female",
+      "age": 63
+    },
+    {
+      "s_no": 70,
+      "epic_voter_id": "WHH0978270",
+      "name": "Mubarak Khan",
+      "relation": "Father",
+      "relative_name": "Ali",
+      "house_no": "495",
+      "gender": "Male",
+      "age": 27
+    },
+    {
+      "s_no": 71,
+      "epic_voter_id": "WHH1659200",
+      "name": "Sakeena",
+      "relation": "Husband",
+      "relative_name": "Mubarak Khan",
+      "house_no": "495",
+      "gender": "Female",
+      "age": 22
+    },
+    {
+      "s_no": 72,
+      "epic_voter_id": "WHH1577394",
+      "name": "Roybal Khan",
+      "relation": "Father",
+      "relative_name": "Ali",
+      "house_no": "495",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 73,
+      "epic_voter_id": "WHH1697887",
+      "name": "Imrana",
+      "relation": "Husband",
+      "relative_name": "Roybal Khan",
+      "house_no": "495",
+      "gender": "Female",
+      "age": 20
+    },
+    {
+      "s_no": 74,
+      "epic_voter_id": "RJ/08/061/456494",
+      "name": "Raheemi",
+      "relation": "Husband",
+      "relative_name": "Batan",
+      "house_no": "497",
+      "gender": "Female",
+      "age": 93
+    },
+    {
+      "s_no": 75,
+      "epic_voter_id": "RJ/08/061/456322",
+      "name": "Harun",
+      "relation": "Father",
+      "relative_name": "Batan",
+      "house_no": "497",
+      "gender": "Male",
+      "age": 68
+    },
+    {
+      "s_no": 76,
+      "epic_voter_id": "RJ/08/061/456388",
+      "name": "Hajra",
+      "relation": "Husband",
+      "relative_name": "Harun",
+      "house_no": "497",
+      "gender": "Female",
+      "age": 67
+    },
+    {
+      "s_no": 77,
+      "epic_voter_id": "WHH0482323",
+      "name": "Kasam",
+      "relation": "Father",
+      "relative_name": "Batan",
+      "house_no": "497",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 78,
+      "epic_voter_id": "RJ/08/061/456390",
+      "name": "Raveena",
+      "relation": "Husband",
+      "relative_name": "Kasam",
+      "house_no": "497",
+      "gender": "Female",
+      "age": 51
+    },
+    {
+      "s_no": 79,
+      "epic_voter_id": "WHH0087247",
+      "name": "Arshad Khan",
+      "relation": "Father",
+      "relative_name": "Harun",
+      "house_no": "497",
+      "gender": "Male",
+      "age": 37
+    },
+    {
+      "s_no": 80,
+      "epic_voter_id": "WHH0087254",
+      "name": "Jamsheeda",
+      "relation": "Father",
+      "relative_name": "Arshad Khan",
+      "house_no": "497",
+      "gender": "Female",
+      "age": 35
+    },
+    {
+      "s_no": 81,
+      "epic_voter_id": "WHH0423293",
+      "name": "Saddam Hussain",
+      "relation": "Father",
+      "relative_name": "Harun Khan",
+      "house_no": "497",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 82,
+      "epic_voter_id": "WHH0978312",
+      "name": "Shaukeen Khan",
+      "relation": "Father",
+      "relative_name": "Kasam Khan",
+      "house_no": "497",
+      "gender": "Male",
+      "age": 26
+    },
+    {
+      "s_no": 83,
+      "epic_voter_id": "RJ/08/061/456610",
+      "name": "Anmati",
+      "relation": "Husband",
+      "relative_name": "Javar Khan",
+      "house_no": "498",
+      "gender": "Female",
+      "age": 72
+    },
+    {
+      "s_no": 84,
+      "epic_voter_id": "RJ/08/061/456175",
+      "name": "Mangra",
+      "relation": "Father",
+      "relative_name": "Javar Khan",
+      "house_no": "498",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 85,
+      "epic_voter_id": "CVS1282953",
+      "name": "Umravati",
+      "relation": "Husband",
+      "relative_name": "Mangra",
+      "house_no": "498",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 86,
+      "epic_voter_id": "RJ/08/061/456629",
+      "name": "Pappi",
+      "relation": "Father",
+      "relative_name": "Jabra",
+      "house_no": "498",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 87,
+      "epic_voter_id": "CVS1282961",
+      "name": "Rakshami",
+      "relation": "Husband",
+      "relative_name": "Pappi",
+      "house_no": "498",
+      "gender": "Female",
+      "age": 51
+    },
+    {
+      "s_no": 88,
+      "epic_voter_id": "WHH1207885",
+      "name": "Nawab",
+      "relation": "Father",
+      "relative_name": "Jabra Khan",
+      "house_no": "498",
+      "gender": "Male",
+      "age": 42
+    },
+    {
+      "s_no": 89,
+      "epic_voter_id": "WHH1207893",
+      "name": "Asmeena",
+      "relation": "Husband",
+      "relative_name": "Nawab",
+      "house_no": "498",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 90,
+      "epic_voter_id": "RJ/08/061/456443",
+      "name": "Mudpar",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "499",
+      "gender": "Male",
+      "age": 72
+    },
+    {
+      "s_no": 91,
+      "epic_voter_id": "RJ/08/061/456480",
+      "name": "Sahnavar",
+      "relation": "Husband",
+      "relative_name": "Mudpar",
+      "house_no": "499",
+      "gender": "Female",
+      "age": 63
+    },
+    {
+      "s_no": 92,
+      "epic_voter_id": "WHH0978346",
+      "name": "Saddam Khan",
+      "relation": "Father",
+      "relative_name": "Marmal",
+      "house_no": "499",
+      "gender": "Male",
+      "age": 26
+    },
+    {
+      "s_no": 93,
+      "epic_voter_id": "WHH0978379",
+      "name": "Jubair Khan",
+      "relation": "Father",
+      "relative_name": "Marmal",
+      "house_no": "499",
+      "gender": "Male",
+      "age": 26
+    },
+    {
+      "s_no": 94,
+      "epic_voter_id": "RJ/08/061/456461",
+      "name": "Sammer",
+      "relation": "Husband",
+      "relative_name": "Isa",
+      "house_no": "501",
+      "gender": "Female",
+      "age": 80
+    },
+    {
+      "s_no": 95,
+      "epic_voter_id": "CVS1592153",
+      "name": "Harun",
+      "relation": "Father",
+      "relative_name": "Isa",
+      "house_no": "501",
+      "gender": "Male",
+      "age": 51
+    },
+    {
+      "s_no": 96,
+      "epic_voter_id": "CVS1352145",
+      "name": "Haseena",
+      "relation": "Husband",
+      "relative_name": "Harun",
+      "house_no": "501",
+      "gender": "Female",
+      "age": 49
+    },
+    {
+      "s_no": 97,
+      "epic_voter_id": "WHH1678531",
+      "name": "Naseem",
+      "relation": "Father",
+      "relative_name": "Harun Khan",
+      "house_no": "501",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 98,
+      "epic_voter_id": "CVS1352152",
+      "name": "Rahmati",
+      "relation": "Husband",
+      "relative_name": "Sultan",
+      "house_no": "503",
+      "gender": "Female",
+      "age": 81
+    },
+    {
+      "s_no": 99,
+      "epic_voter_id": "RJ/08/061/456339",
+      "name": "Aas Mohammad",
+      "relation": "Father",
+      "relative_name": "Sultan",
+      "house_no": "503",
+      "gender": "Male",
+      "age": 63
+    },
+    {
+      "s_no": 100,
+      "epic_voter_id": "RJ/08/061/456462",
+      "name": "Raheesan",
+      "relation": "Husband",
+      "relative_name": "Aasu",
+      "house_no": "503",
+      "gender": "Female",
+      "age": 59
+    },
+    {
+      "s_no": 101,
+      "epic_voter_id": "RJ/08/061/456340",
+      "name": "Nizamuddin",
+      "relation": "Father",
+      "relative_name": "Sultan",
+      "house_no": "503",
+      "gender": "Male",
+      "age": 54
+    },
+    {
+      "s_no": 102,
+      "epic_voter_id": "CVS1282987",
+      "name": "Islami",
+      "relation": "Husband",
+      "relative_name": "Nizamuddin",
+      "house_no": "503",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 103,
+      "epic_voter_id": "WHH1311091",
+      "name": "Hasam Khan",
+      "relation": "Father",
+      "relative_name": "Aashu Khan",
+      "house_no": "503",
+      "gender": "Male",
+      "age": 35
+    },
+    {
+      "s_no": 104,
+      "epic_voter_id": "WHH1311075",
+      "name": "Rehana",
+      "relation": "Husband",
+      "relative_name": "Hazratdeen",
+      "house_no": "503",
+      "gender": "Female",
+      "age": 31
+    },
+    {
+      "s_no": 105,
+      "epic_voter_id": "RJ/08/061/456329",
+      "name": "Aivaj",
+      "relation": "Father",
+      "relative_name": "Harikha",
+      "house_no": "505",
+      "gender": "Male",
+      "age": 63
+    },
+    {
+      "s_no": 106,
+      "epic_voter_id": "RJ/08/061/456426",
+      "name": "Majidan",
+      "relation": "Husband",
+      "relative_name": "Aivaj",
+      "house_no": "505",
+      "gender": "Female",
+      "age": 60
+    },
+    {
+      "s_no": 107,
+      "epic_voter_id": "WHH0096271",
+      "name": "Aas Mohammad",
+      "relation": "Father",
+      "relative_name": "Aivaj",
+      "house_no": "505",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 108,
+      "epic_voter_id": "WHH0096289",
+      "name": "Jarina",
+      "relation": "Husband",
+      "relative_name": "Aas Mohammad",
+      "house_no": "505",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 109,
+      "epic_voter_id": "WHH1602861",
+      "name": "Sameena",
+      "relation": "Husband",
+      "relative_name": "Hakam",
+      "house_no": "505",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 110,
+      "epic_voter_id": "WHH1772771",
+      "name": "Arseeda",
+      "relation": "Husband",
+      "relative_name": "Mustak",
+      "house_no": "505",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 111,
+      "epic_voter_id": "WHH1705268",
+      "name": "Asmeena",
+      "relation": "Husband",
+      "relative_name": "Razak",
+      "house_no": "505",
+      "gender": "Female",
+      "age": 36
+    },
+    {
+      "s_no": 112,
+      "epic_voter_id": "WHH0661900",
+      "name": "Shakir Khan",
+      "relation": "Father",
+      "relative_name": "Aivaj Khan",
+      "house_no": "505",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 113,
+      "epic_voter_id": "WHH0661892",
+      "name": "Razak",
+      "relation": "Father",
+      "relative_name": "Aivaj Khan",
+      "house_no": "505",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 114,
+      "epic_voter_id": "WHH1705284",
+      "name": "Razak",
+      "relation": "Father",
+      "relative_name": "Aivaj Khan",
+      "house_no": "505",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 115,
+      "epic_voter_id": "RJ/08/061/456406",
+      "name": "Subba",
+      "relation": "Father",
+      "relative_name": "Harikha",
+      "house_no": "506",
+      "gender": "Male",
+      "age": 68
+    },
+    {
+      "s_no": 116,
+      "epic_voter_id": "RJ/08/061/456425",
+      "name": "Atru",
+      "relation": "Husband",
+      "relative_name": "Subba",
+      "house_no": "506",
+      "gender": "Female",
+      "age": 66
+    },
+    {
+      "s_no": 117,
+      "epic_voter_id": "WHH0096511",
+      "name": "Fajrudeen",
+      "relation": "Father",
+      "relative_name": "Subba Khan",
+      "house_no": "506",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 118,
+      "epic_voter_id": "WHH0661918",
+      "name": "Fajru",
+      "relation": "Father",
+      "relative_name": "Subba",
+      "house_no": "506",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 119,
+      "epic_voter_id": "WHH1772789",
+      "name": "Rassum",
+      "relation": "Husband",
+      "relative_name": "Shaukat Khan",
+      "house_no": "506",
+      "gender": "Female",
+      "age": 31
+    },
+    {
+      "s_no": 120,
+      "epic_voter_id": "WHH0661926",
+      "name": "Aazad",
+      "relation": "Father",
+      "relative_name": "Subba",
+      "house_no": "506",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 121,
+      "epic_voter_id": "CVS1282995",
+      "name": "Deenam",
+      "relation": "Father",
+      "relative_name": "Sadman",
+      "house_no": "507",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 122,
+      "epic_voter_id": "RJ/08/061/1351907",
+      "name": "Rahmati",
+      "relation": "Husband",
+      "relative_name": "Deenam",
+      "house_no": "507",
+      "gender": "Female",
+      "age": 51
+    },
+    {
+      "s_no": 123,
+      "epic_voter_id": "WHH1509090",
+      "name": "Jauhar Khan",
+      "relation": "Father",
+      "relative_name": "Iba Khan",
+      "house_no": "507",
+      "gender": "Male",
+      "age": 45
+    },
+    {
+      "s_no": 124,
+      "epic_voter_id": "WHH1515147",
+      "name": "Wahidan",
+      "relation": "Husband",
+      "relative_name": "Jauhar Khan",
+      "house_no": "507",
+      "gender": "Female",
+      "age": 45
+    },
+    {
+      "s_no": 125,
+      "epic_voter_id": "WHH0814335",
+      "name": "Rakesh Kumar",
+      "relation": "Father",
+      "relative_name": "Nemichand",
+      "house_no": "507",
+      "gender": "Male",
+      "age": 44
+    },
+    {
+      "s_no": 126,
+      "epic_voter_id": "WHH1311141",
+      "name": "Sahroodan",
+      "relation": "Husband",
+      "relative_name": "Khakamb Khan",
+      "house_no": "507",
+      "gender": "Female",
+      "age": 44
+    },
+    {
+      "s_no": 127,
+      "epic_voter_id": "WHH1311174",
+      "name": "Khakamb Khan",
+      "relation": "Father",
+      "relative_name": "Ibrahim Khan",
+      "house_no": "507",
+      "gender": "Male",
+      "age": 40
+    },
+    {
+      "s_no": 128,
+      "epic_voter_id": "WHH1509280",
+      "name": "Tahir Khan",
+      "relation": "Father",
+      "relative_name": "Deenam Khan",
+      "house_no": "507",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 129,
+      "epic_voter_id": "WHH1510163",
+      "name": "Alwardi",
+      "relation": "Husband",
+      "relative_name": "Tahir Khan",
+      "house_no": "507",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 130,
+      "epic_voter_id": "WHH1654912",
+      "name": "Naeeman",
+      "relation": "Husband",
+      "relative_name": "Imshak",
+      "house_no": "507",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 131,
+      "epic_voter_id": "WHH1678937",
+      "name": "Imshak Khan",
+      "relation": "Father",
+      "relative_name": "Deenam Khan",
+      "house_no": "507",
+      "gender": "Male",
+      "age": 27
+    },
+    {
+      "s_no": 132,
+      "epic_voter_id": "WHH1515196",
+      "name": "Sahil Khan",
+      "relation": "Father",
+      "relative_name": "Jauhar Khan",
+      "house_no": "507",
+      "gender": "Male",
+      "age": 23
+    },
+    {
+      "s_no": 133,
+      "epic_voter_id": "RJ/08/061/456412",
+      "name": "Namri",
+      "relation": "Husband",
+      "relative_name": "Atru Khan",
+      "house_no": "508",
+      "gender": "Female",
+      "age": 81
+    },
+    {
+      "s_no": 134,
+      "epic_voter_id": "WHH0321109",
+      "name": "Mo. Javed",
+      "relation": "Father",
+      "relative_name": "Atru Khan",
+      "house_no": "508",
+      "gender": "Male",
+      "age": 34
+    },
+    {
+      "s_no": 135,
+      "epic_voter_id": "RJ/08/061/456059",
+      "name": "Aasudeen",
+      "relation": "Father",
+      "relative_name": "Atru Khan",
+      "house_no": "509",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 136,
+      "epic_voter_id": "RJ/08/061/456460",
+      "name": "Hansari",
+      "relation": "Husband",
+      "relative_name": "Aasudeen",
+      "house_no": "509",
+      "gender": "Female",
+      "age": 51
+    },
+    {
+      "s_no": 137,
+      "epic_voter_id": "WHH1512433",
+      "name": "Aareena",
+      "relation": "Husband",
+      "relative_name": "Mubarak Khan",
+      "house_no": "509",
+      "gender": "Female",
+      "age": 23
+    },
+    {
+      "s_no": 138,
+      "epic_voter_id": "RJ/08/061/456359",
+      "name": "Buddhu Khan",
+      "relation": "Father",
+      "relative_name": "Ummad",
+      "house_no": "510",
+      "gender": "Male",
+      "age": 80
+    },
+    {
+      "s_no": 139,
+      "epic_voter_id": "RJ/08/061/456410",
+      "name": "Hameedi",
+      "relation": "Husband",
+      "relative_name": "Buddhu Khan",
+      "house_no": "510",
+      "gender": "Female",
+      "age": 75
+    },
+    {
+      "s_no": 140,
+      "epic_voter_id": "RJ/08/061/456224",
+      "name": "Fakrudeen",
+      "relation": "Father",
+      "relative_name": "Buddhu Khan",
+      "house_no": "510",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 141,
+      "epic_voter_id": "RJ/08/061/456225",
+      "name": "Amroodi",
+      "relation": "Husband",
+      "relative_name": "Fakrudeen",
+      "house_no": "510",
+      "gender": "Female",
+      "age": 52
+    },
+    {
+      "s_no": 142,
+      "epic_voter_id": "RJ/08/061/456060",
+      "name": "Fajrudeen",
+      "relation": "Father",
+      "relative_name": "Buddhu Khan",
+      "house_no": "510",
+      "gender": "Male",
+      "age": 52
+    },
+    {
+      "s_no": 143,
+      "epic_voter_id": "RJ/08/061/456459",
+      "name": "Khatooni",
+      "relation": "Husband",
+      "relative_name": "Fajrudeen",
+      "house_no": "510",
+      "gender": "Female",
+      "age": 51
+    },
+    {
+      "s_no": 144,
+      "epic_voter_id": "CVS1283001",
+      "name": "Sameena",
+      "relation": "Husband",
+      "relative_name": "Asrudeen",
+      "house_no": "510",
+      "gender": "Female",
+      "age": 46
+    },
+    {
+      "s_no": 145,
+      "epic_voter_id": "WHH0978502",
+      "name": "Rafiq",
+      "relation": "Husband",
+      "relative_name": "Fajru Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 36
+    },
+    {
+      "s_no": 146,
+      "epic_voter_id": "WHH0661959",
+      "name": "Arsheeda",
+      "relation": "Husband",
+      "relative_name": "Jafarudeen",
+      "house_no": "510",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 147,
+      "epic_voter_id": "WHH0978718",
+      "name": "Sahreena",
+      "relation": "Husband",
+      "relative_name": "Javed Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 148,
+      "epic_voter_id": "WHH0661983",
+      "name": "Shaukeen",
+      "relation": "Father",
+      "relative_name": "Buddhu Khan",
+      "house_no": "510",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 149,
+      "epic_voter_id": "WHH0978478",
+      "name": "Sahnaj",
+      "relation": "Husband",
+      "relative_name": "Shakir Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 31
+    },
+    {
+      "s_no": 150,
+      "epic_voter_id": "WHH0661975",
+      "name": "Namrinisha",
+      "relation": "Husband",
+      "relative_name": "Imran Khan",
+      "house_no": "510",
+      "gender": "Female",
+      "age": 30
+    },
+    {
+      "s_no": 151,
+      "epic_voter_id": "WHH1115898",
+      "name": "Majmooda",
+      "relation": "Husband",
+      "relative_name": "Aazad",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 30
+    },
+    {
+      "s_no": 152,
+      "epic_voter_id": "WHH0661934",
+      "name": "Asrudeen",
+      "relation": "Father",
+      "relative_name": "Buddhu Khan",
+      "house_no": "510",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 153,
+      "epic_voter_id": "WHH0661942",
+      "name": "Jafarudeen",
+      "relation": "Father",
+      "relative_name": "Buddhu Khan",
+      "house_no": "510",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 154,
+      "epic_voter_id": "WHH0661967",
+      "name": "Imran Khan",
+      "relation": "Father",
+      "relative_name": "Buddhu Khan",
+      "house_no": "510",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 155,
+      "epic_voter_id": "WHH0661991",
+      "name": "Ruksana",
+      "relation": "Husband",
+      "relative_name": "Shaukeen Khan",
+      "house_no": "510",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 156,
+      "epic_voter_id": "WHH0978445",
+      "name": "Mubarak Khan",
+      "relation": "Father",
+      "relative_name": "Aas Mohammad",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 26
+    },
+    {
+      "s_no": 157,
+      "epic_voter_id": "WHH0978650",
+      "name": "Rohan",
+      "relation": "Father",
+      "relative_name": "Joyra Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 26
+    },
+    {
+      "s_no": 158,
+      "epic_voter_id": "WHH1893288",
+      "name": "Manrik Khan",
+      "relation": "Father",
+      "relative_name": "Kamruddin Khan",
+      "house_no": "Naharpur Kalan",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 159,
+      "epic_voter_id": "WHH1911049",
+      "name": "Aarastoon Bano",
+      "relation": "Father",
+      "relative_name": "Sahun Khan",
+      "house_no": "494",
+      "gender": "Female",
+      "age": 21
+    },
+    {
+      "s_no": 160,
+      "epic_voter_id": "WHH1911262",
+      "name": "Apsana Bano",
+      "relation": "Husband",
+      "relative_name": "Saddam Hussain",
+      "house_no": "497",
+      "gender": "Female",
+      "age": 36
+    },
+    {
+      "s_no": 161,
+      "epic_voter_id": "WHH1916527",
+      "name": "Arbaaz Khan",
+      "relation": "Father",
+      "relative_name": "Kasam Khan",
+      "house_no": "497",
+      "gender": "Male",
+      "age": 19
+    },
+    {
+      "s_no": 162,
+      "epic_voter_id": "WHH1916535",
+      "name": "Anjum",
+      "relation": "Husband",
+      "relative_name": "Shaukeen Khan",
+      "house_no": "497",
+      "gender": "Female",
+      "age": 30
+    },
+    {
+      "s_no": 163,
+      "epic_voter_id": "WHH1916543",
+      "name": "Umrana",
+      "relation": "Husband",
+      "relative_name": "Arbaaz Khan",
+      "house_no": "497",
+      "gender": "Female",
+      "age": 24
+    },
+    {
+      "s_no": 164,
+      "epic_voter_id": "WHH1917467",
+      "name": "Kallo",
+      "relation": "Husband",
+      "relative_name": "Jubair Khan",
+      "house_no": "499",
+      "gender": "Female",
+      "age": 31
+    },
+    {
+      "s_no": 165,
+      "epic_voter_id": "WHH1917475",
+      "name": "Rukhsar",
+      "relation": "Husband",
+      "relative_name": "Saddam",
+      "house_no": "499",
+      "gender": "Female",
+      "age": 26
+    },
+    {
+      "s_no": 166,
+      "epic_voter_id": "WHH0862722",
+      "name": "Afsari",
+      "relation": "Husband",
+      "relative_name": "Sahun Khan",
+      "house_no": "455",
+      "gender": "Female",
+      "age": 34
+    },
+    {
+      "s_no": 167,
+      "epic_voter_id": "WHH1773068",
+      "name": "Tareek",
+      "relation": "Father",
+      "relative_name": "Fajru Khan",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 28
+    },
+    {
+      "s_no": 168,
+      "epic_voter_id": "CVS1283019",
+      "name": "Taiyab Khan",
+      "relation": "Father",
+      "relative_name": "Mudpar",
+      "house_no": "499",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 169,
+      "epic_voter_id": "CVS1283027",
+      "name": "Hakiman",
+      "relation": "Husband",
+      "relative_name": "Taiyab Khan",
+      "house_no": "499",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 170,
+      "epic_voter_id": "WHH1265016",
+      "name": "Boydan Khan",
+      "relation": "Father",
+      "relative_name": "Kallu Khan",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 68
+    },
+    {
+      "s_no": 171,
+      "epic_voter_id": "WHH1265024",
+      "name": "Sarsamal",
+      "relation": "Father",
+      "relative_name": "Kallu Khan",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 66
+    },
+    {
+      "s_no": 172,
+      "epic_voter_id": "WHH1317411",
+      "name": "Yunus Khan",
+      "relation": "Father",
+      "relative_name": "Boydan Khan",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 173,
+      "epic_voter_id": "WHH1657485",
+      "name": "Tasleema",
+      "relation": "Husband",
+      "relative_name": "Riyazudeen Khan",
+      "house_no": "476",
+      "gender": "Female",
+      "age": 22
+    },
+    {
+      "s_no": 174,
+      "epic_voter_id": "WHH1588730",
+      "name": "Riyazudeen",
+      "relation": "Father",
+      "relative_name": "Sarsamal",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 175,
+      "epic_voter_id": "WHH1833383",
+      "name": "Shahrukh Khan",
+      "relation": "Father",
+      "relative_name": "Kalu Khan",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 176,
+      "epic_voter_id": "WHH1655091",
+      "name": "Insaaf Khan",
+      "relation": "Father",
+      "relative_name": "Yunus Khan",
+      "house_no": "476",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 177,
+      "epic_voter_id": "RJ/08/061/456117",
+      "name": "Mahmood Khan",
+      "relation": "Father",
+      "relative_name": "Mangal",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 72
+    },
+    {
+      "s_no": 178,
+      "epic_voter_id": "WHH0069187",
+      "name": "Khatija",
+      "relation": "Husband",
+      "relative_name": "Mahmood Khan",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 70
+    },
+    {
+      "s_no": 179,
+      "epic_voter_id": "RJ/08/061/456616",
+      "name": "Fajru",
+      "relation": "Father",
+      "relative_name": "Mangal",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 67
+    },
+    {
+      "s_no": 180,
+      "epic_voter_id": "WHH0069153",
+      "name": "Kallu",
+      "relation": "Husband",
+      "relative_name": "Fajru",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 65
+    },
+    {
+      "s_no": 181,
+      "epic_voter_id": "CVS1629039",
+      "name": "Namra",
+      "relation": "Father",
+      "relative_name": "Mangal",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 61
+    },
+    {
+      "s_no": 182,
+      "epic_voter_id": "RJ/08/061/456121",
+      "name": "Sarikham",
+      "relation": "Husband",
+      "relative_name": "Namra",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 55
+    },
+    {
+      "s_no": 183,
+      "epic_voter_id": "WHH1309103",
+      "name": "Hanseeran",
+      "relation": "Husband",
+      "relative_name": "Nasir Khan",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 46
+    },
+    {
+      "s_no": 184,
+      "epic_voter_id": "CVS1592161",
+      "name": "Majeed",
+      "relation": "Father",
+      "relative_name": "Fajru",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 185,
+      "epic_voter_id": "CVS7123839",
+      "name": "Reemeena",
+      "relation": "Husband",
+      "relative_name": "Barkat",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 43
+    },
+    {
+      "s_no": 186,
+      "epic_voter_id": "WHH0978932",
+      "name": "Seela Bai",
+      "relation": "Husband",
+      "relative_name": "Palam Ram",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 43
+    },
+    {
+      "s_no": 187,
+      "epic_voter_id": "WHH0574731",
+      "name": "Reemeena",
+      "relation": "Husband",
+      "relative_name": "Majeed",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 188,
+      "epic_voter_id": "CVS7123854",
+      "name": "Taiyab",
+      "relation": "Father",
+      "relative_name": "Islam",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 42
+    },
+    {
+      "s_no": 189,
+      "epic_voter_id": "CVS7123847",
+      "name": "Khatuna",
+      "relation": "Husband",
+      "relative_name": "Taiyab",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 190,
+      "epic_voter_id": "WHH0385328",
+      "name": "Akhyab Khan",
+      "relation": "Father",
+      "relative_name": "Mahmood Khan",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 35
+    },
+    {
+      "s_no": 191,
+      "epic_voter_id": "WHH0662023",
+      "name": "Sajid Khan",
+      "relation": "Father",
+      "relative_name": "Islam Khan",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 192,
+      "epic_voter_id": "WHH0662007",
+      "name": "Kudserad",
+      "relation": "Father",
+      "relative_name": "Islam Khan",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 193,
+      "epic_voter_id": "WHH0662015",
+      "name": "Habeeb Khan",
+      "relation": "Father",
+      "relative_name": "Islam Khan",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 194,
+      "epic_voter_id": "WHH0662031",
+      "name": "Akhtar Hussain",
+      "relation": "Father",
+      "relative_name": "Islam Khan",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 195,
+      "epic_voter_id": "WHH0662072",
+      "name": "Ramjana Bano",
+      "relation": "Husband",
+      "relative_name": "Sajid Khan",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 196,
+      "epic_voter_id": "WHH0662080",
+      "name": "Iqbal",
+      "relation": "Father",
+      "relative_name": "Namar Deen",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 197,
+      "epic_voter_id": "WHH0662106",
+      "name": "Rafiq",
+      "relation": "Father",
+      "relative_name": "Deenam Khan",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 198,
+      "epic_voter_id": "WHH0978841",
+      "name": "Sakeena",
+      "relation": "Husband",
+      "relative_name": "Mosam Deen",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 199,
+      "epic_voter_id": "WHH0844860",
+      "name": "Sharukh Khan",
+      "relation": "Father",
+      "relative_name": "Deen Mohammad",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 28
+    },
+    {
+      "s_no": 200,
+      "epic_voter_id": "WHH1687169",
+      "name": "Apsana",
+      "relation": "Husband",
+      "relative_name": "Shahrukh Khan",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 24
+    },
+    {
+      "s_no": 201,
+      "epic_voter_id": "WHH1949932",
+      "name": "Vakeel Khan",
+      "relation": "Father",
+      "relative_name": "Namrudeen",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 202,
+      "epic_voter_id": "WHH1950138",
+      "name": "Saddik Ali",
+      "relation": "Father",
+      "relative_name": "Nasir Khan",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 19
+    },
+    {
+      "s_no": 203,
+      "epic_voter_id": "WHH2020543",
+      "name": "Muskan",
+      "relation": "Husband",
+      "relative_name": "Vakeel Khan",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 20
+    },
+    {
+      "s_no": 204,
+      "epic_voter_id": "WHH2020626",
+      "name": "Apsareena",
+      "relation": "Husband",
+      "relative_name": "Akhyab Khan",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 33
+    },
+    {
+      "s_no": 205,
+      "epic_voter_id": "WHH2031912",
+      "name": "Rizwana",
+      "relation": "Husband",
+      "relative_name": "Salman Khan",
+      "house_no": "536",
+      "gender": "Female",
+      "age": 21
+    },
+    {
+      "s_no": 206,
+      "epic_voter_id": "WHH2032852",
+      "name": "Salman Khan",
+      "relation": "Father",
+      "relative_name": "Deen Mohammad",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 207,
+      "epic_voter_id": "WHH2037786",
+      "name": "Farukh Khan",
+      "relation": "Father",
+      "relative_name": "Mahmood Khan",
+      "house_no": "536",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 208,
+      "epic_voter_id": "WHH1221373",
+      "name": "Farjeena",
+      "relation": "Mother",
+      "relative_name": "Mamuri",
+      "house_no": "10/510",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 209,
+      "epic_voter_id": "RJ/08/061/444373",
+      "name": "Morikham",
+      "relation": "Husband",
+      "relative_name": "Sadman Khan",
+      "house_no": "1",
+      "gender": "Female",
+      "age": 78
+    },
+    {
+      "s_no": 210,
+      "epic_voter_id": "RJ/08/061/444571",
+      "name": "Ibrahim Khan",
+      "relation": "Father",
+      "relative_name": "Sadman Khan",
+      "house_no": "1",
+      "gender": "Male",
+      "age": 52
+    },
+    {
+      "s_no": 211,
+      "epic_voter_id": "RJ/08/061/444374",
+      "name": "Raheesan",
+      "relation": "Husband",
+      "relative_name": "Ibrahim",
+      "house_no": "1",
+      "gender": "Female",
+      "age": 52
+    },
+    {
+      "s_no": 212,
+      "epic_voter_id": "CVS1279330",
+      "name": "Taiyab Hussain",
+      "relation": "Father",
+      "relative_name": "Sadman Khan",
+      "house_no": "1",
+      "gender": "Male",
+      "age": 48
+    },
+    {
+      "s_no": 213,
+      "epic_voter_id": "CVS1591239",
+      "name": "Rustmana",
+      "relation": "Husband",
+      "relative_name": "Taiyab Hussain",
+      "house_no": "1",
+      "gender": "Female",
+      "age": 46
+    },
+    {
+      "s_no": 214,
+      "epic_voter_id": "WHH1355486",
+      "name": "Sabir Khan",
+      "relation": "Father",
+      "relative_name": "Ibrahim Khan",
+      "house_no": "1",
+      "gender": "Male",
+      "age": 24
+    },
+    {
+      "s_no": 215,
+      "epic_voter_id": "WHH1675917",
+      "name": "Sahil",
+      "relation": "Father",
+      "relative_name": "Taiyab Khan",
+      "house_no": "1",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 216,
+      "epic_voter_id": "RJ/08/061/444080",
+      "name": "Sammood Khan",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "2",
+      "gender": "Male",
+      "age": 73
+    },
+    {
+      "s_no": 217,
+      "epic_voter_id": "RJ/08/061/444150",
+      "name": "Jauhari",
+      "relation": "Husband",
+      "relative_name": "Sammood Khan",
+      "house_no": "2",
+      "gender": "Female",
+      "age": 71
+    },
+    {
+      "s_no": 218,
+      "epic_voter_id": "WHH0068924",
+      "name": "Shaukat",
+      "relation": "Father",
+      "relative_name": "Samad",
+      "house_no": "2",
+      "gender": "Male",
+      "age": 41
+    },
+    {
+      "s_no": 219,
+      "epic_voter_id": "WHH0095638",
+      "name": "Jamshed Hussain",
+      "relation": "Father",
+      "relative_name": "Noore Khan",
+      "house_no": "2",
+      "gender": "Male",
+      "age": 40
+    },
+    {
+      "s_no": 220,
+      "epic_voter_id": "WHH0210773",
+      "name": "Sarmeena",
+      "relation": "Husband",
+      "relative_name": "Sattar",
+      "house_no": "2",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 221,
+      "epic_voter_id": "WHH0155655",
+      "name": "Seema Khan",
+      "relation": "Husband",
+      "relative_name": "Jamshed",
+      "house_no": "2",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 222,
+      "epic_voter_id": "WHH0660480",
+      "name": "Basmeena",
+      "relation": "Husband",
+      "relative_name": "Imran",
+      "house_no": "2",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 223,
+      "epic_voter_id": "WHH0660506",
+      "name": "Imran Khan",
+      "relation": "Mother",
+      "relative_name": "Samad Khan",
+      "house_no": "2",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 224,
+      "epic_voter_id": "WHH1730753",
+      "name": "Sahneeja",
+      "relation": "Father",
+      "relative_name": "Shaukat Khan",
+      "house_no": "2",
+      "gender": "Female",
+      "age": 20
+    },
+    {
+      "s_no": 225,
+      "epic_voter_id": "RJ/08/061/444234",
+      "name": "Noore Khan",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "3",
+      "gender": "Male",
+      "age": 78
+    },
+    {
+      "s_no": 226,
+      "epic_voter_id": "RJ/08/061/444239",
+      "name": "Ahmadi",
+      "relation": "Husband",
+      "relative_name": "Noore Khan",
+      "house_no": "3",
+      "gender": "Female",
+      "age": 75
+    },
+    {
+      "s_no": 227,
+      "epic_voter_id": "RJ/08/061/444134",
+      "name": "Ashraf Khan",
+      "relation": "Father",
+      "relative_name": "Noore Khan",
+      "house_no": "3",
+      "gender": "Male",
+      "age": 56
+    },
+    {
+      "s_no": 228,
+      "epic_voter_id": "RJ/08/061/444237",
+      "name": "Janbi",
+      "relation": "Husband",
+      "relative_name": "Ashraf Khan",
+      "house_no": "3",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 229,
+      "epic_voter_id": "CVS1279348",
+      "name": "Jakir Hussain",
+      "relation": "Father",
+      "relative_name": "Noore Khan",
+      "house_no": "3",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 230,
+      "epic_voter_id": "CVS1279355",
+      "name": "Jamsheeda",
+      "relation": "Husband",
+      "relative_name": "Jakir Hussain",
+      "house_no": "3",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 231,
+      "epic_voter_id": "WHH1587021",
+      "name": "Asmeena",
+      "relation": "Husband",
+      "relative_name": "Arshad Khan",
+      "house_no": "3",
+      "gender": "Female",
+      "age": 33
+    },
+    {
+      "s_no": 232,
+      "epic_voter_id": "WHH1598994",
+      "name": "Subreena",
+      "relation": "Father",
+      "relative_name": "Noore Khan",
+      "house_no": "3",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 233,
+      "epic_voter_id": "WHH1730696",
+      "name": "Waseem Akram",
+      "relation": "Father",
+      "relative_name": "Ashraf Khan",
+      "house_no": "3",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 234,
+      "epic_voter_id": "WHH1730746",
+      "name": "Basmeena",
+      "relation": "Father",
+      "relative_name": "Jakir Hussain",
+      "house_no": "3",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 235,
+      "epic_voter_id": "WHH1736800",
+      "name": "Tasleem Hussain",
+      "relation": "Father",
+      "relative_name": "Ashru Khan",
+      "house_no": "3",
+      "gender": "Male",
+      "age": 19
+    },
+    {
+      "s_no": 236,
+      "epic_voter_id": "RJ/08/061/444063",
+      "name": "Mohammad Khan",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "4",
+      "gender": "Male",
+      "age": 78
+    },
+    {
+      "s_no": 237,
+      "epic_voter_id": "RJ/08/061/444263",
+      "name": "Mahboob Khan",
+      "relation": "Father",
+      "relative_name": "Mohammad Khan",
+      "house_no": "4",
+      "gender": "Male",
+      "age": 59
+    },
+    {
+      "s_no": 238,
+      "epic_voter_id": "RJ/08/061/444235",
+      "name": "Aamina",
+      "relation": "Husband",
+      "relative_name": "Mahboob Khan",
+      "house_no": "4",
+      "gender": "Female",
+      "age": 58
+    },
+    {
+      "s_no": 239,
+      "epic_voter_id": "RJ/08/061/444240",
+      "name": "Mahtab Khan",
+      "relation": "Father",
+      "relative_name": "Mohammad Khan",
+      "house_no": "4",
+      "gender": "Male",
+      "age": 57
+    },
+    {
+      "s_no": 240,
+      "epic_voter_id": "RJ/08/061/444236",
+      "name": "Jamila",
+      "relation": "Husband",
+      "relative_name": "Mahtab Khan",
+      "house_no": "4",
+      "gender": "Female",
+      "age": 55
+    },
+    {
+      "s_no": 241,
+      "epic_voter_id": "RJ/08/061/444187",
+      "name": "Nasir Khan",
+      "relation": "Father",
+      "relative_name": "Mohammad Khan",
+      "house_no": "4",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 242,
+      "epic_voter_id": "RJ/08/061/444607",
+      "name": "Majna",
+      "relation": "Husband",
+      "relative_name": "Nasir Khan",
+      "house_no": "4",
+      "gender": "Female",
+      "age": 52
+    },
+    {
+      "s_no": 243,
+      "epic_voter_id": "WHH1720424",
+      "name": "Jubair Khan",
+      "relation": "Father",
+      "relative_name": "Mahtab Khan",
+      "house_no": "4",
+      "gender": "Male",
+      "age": 33
+    },
+    {
+      "s_no": 244,
+      "epic_voter_id": "WHH1731215",
+      "name": "Laadki Bano",
+      "relation": "Husband",
+      "relative_name": "Khandoos Khan",
+      "house_no": "4",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 245,
+      "epic_voter_id": "WHH1717388",
+      "name": "Sabbir Khan",
+      "relation": "Father",
+      "relative_name": "Mahta Khan",
+      "house_no": "4",
+      "gender": "Male",
+      "age": 28
+    },
+    {
+      "s_no": 246,
+      "epic_voter_id": "WHH1720440",
+      "name": "Sahuni",
+      "relation": "Husband",
+      "relative_name": "Jubair Khan",
+      "house_no": "4",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 247,
+      "epic_voter_id": "WHH1730852",
+      "name": "Jabeela",
+      "relation": "Husband",
+      "relative_name": "Juned Khan",
+      "house_no": "4",
+      "gender": "Female",
+      "age": 27
+    },
+    {
+      "s_no": 248,
+      "epic_voter_id": "WHH1415108",
+      "name": "Dilshan Khan",
+      "relation": "Father",
+      "relative_name": "Mahboob Khan",
+      "house_no": "04",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 249,
+      "epic_voter_id": "WHH1717230",
+      "name": "Basmeena",
+      "relation": "Husband",
+      "relative_name": "Sabbir Khan",
+      "house_no": "4",
+      "gender": "Female",
+      "age": 21
+    },
+    {
+      "s_no": 250,
+      "epic_voter_id": "WHH1713981",
+      "name": "Mubeen Khan",
+      "relation": "Father",
+      "relative_name": "Mahta Khan",
+      "house_no": "4",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 251,
+      "epic_voter_id": "WHH1717131",
+      "name": "Shaukeen Khan",
+      "relation": "Father",
+      "relative_name": "Mahboob Khan",
+      "house_no": "4",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 252,
+      "epic_voter_id": "RJ/08/061/444243",
+      "name": "Modli",
+      "relation": "Husband",
+      "relative_name": "Danam Khan",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 83
+    },
+    {
+      "s_no": 253,
+      "epic_voter_id": "RJ/08/061/444246",
+      "name": "Haneef Khan",
+      "relation": "Father",
+      "relative_name": "Danam Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 59
+    },
+    {
+      "s_no": 254,
+      "epic_voter_id": "RJ/08/061/444254",
+      "name": "Maksudi",
+      "relation": "Husband",
+      "relative_name": "Haneef Khan",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 57
+    },
+    {
+      "s_no": 255,
+      "epic_voter_id": "RJ/08/061/444249",
+      "name": "Shareef Khan",
+      "relation": "Father",
+      "relative_name": "Danam Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 256,
+      "epic_voter_id": "RJ/08/061/444259",
+      "name": "Aasam Khan",
+      "relation": "Father",
+      "relative_name": "Danam Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 257,
+      "epic_voter_id": "RJ/08/061/444256",
+      "name": "Hapa",
+      "relation": "Husband",
+      "relative_name": "Shareef Khan",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 52
+    },
+    {
+      "s_no": 258,
+      "epic_voter_id": "CVS1279363",
+      "name": "Sapat",
+      "relation": "Father",
+      "relative_name": "Danam Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 50
+    },
+    {
+      "s_no": 259,
+      "epic_voter_id": "CVS1591247",
+      "name": "Sahroona",
+      "relation": "Husband",
+      "relative_name": "Sapat",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 48
+    },
+    {
+      "s_no": 260,
+      "epic_voter_id": "WHH0068932",
+      "name": "Kalli",
+      "relation": "Husband",
+      "relative_name": "Aasam Khan",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 47
+    },
+    {
+      "s_no": 261,
+      "epic_voter_id": "CVS1591254",
+      "name": "Fakrudeen",
+      "relation": "Father",
+      "relative_name": "Danam Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 262,
+      "epic_voter_id": "CVS1591262",
+      "name": "Aslampari",
+      "relation": "Husband",
+      "relative_name": "Fakrudeen",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 263,
+      "epic_voter_id": "WHH0188581",
+      "name": "Rukamuddin",
+      "relation": "Father",
+      "relative_name": "Haneef Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 36
+    },
+    {
+      "s_no": 264,
+      "epic_voter_id": "WHH1302355",
+      "name": "Arsheeda",
+      "relation": "Husband",
+      "relative_name": "Rukamuddin",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 30
+    },
+    {
+      "s_no": 265,
+      "epic_voter_id": "WHH0660522",
+      "name": "Asmin",
+      "relation": "Mother",
+      "relative_name": "Shareef",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 266,
+      "epic_voter_id": "WHH0660514",
+      "name": "Saddam",
+      "relation": "Mother",
+      "relative_name": "Haneef Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 267,
+      "epic_voter_id": "WHH1302397",
+      "name": "Rehana Bano",
+      "relation": "Husband",
+      "relative_name": "Saddam",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 27
+    },
+    {
+      "s_no": 268,
+      "epic_voter_id": "WHH1683390",
+      "name": "Rahul Khan",
+      "relation": "Father",
+      "relative_name": "Sapat Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 25
+    },
+    {
+      "s_no": 269,
+      "epic_voter_id": "WHH1720465",
+      "name": "Munfeeda",
+      "relation": "Father",
+      "relative_name": "Aasam Khan",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 25
+    },
+    {
+      "s_no": 270,
+      "epic_voter_id": "WHH1508068",
+      "name": "Aasif Khan",
+      "relation": "Father",
+      "relative_name": "Fakru Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 24
+    },
+    {
+      "s_no": 271,
+      "epic_voter_id": "WHH1683333",
+      "name": "Jamshed Khan",
+      "relation": "Father",
+      "relative_name": "Haneef Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 24
+    },
+    {
+      "s_no": 272,
+      "epic_voter_id": "WHH1720416",
+      "name": "Munreem Khan",
+      "relation": "Father",
+      "relative_name": "Mundra Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 23
+    },
+    {
+      "s_no": 273,
+      "epic_voter_id": "WHH1730779",
+      "name": "Sakeel Khan",
+      "relation": "Father",
+      "relative_name": "Haneef Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 274,
+      "epic_voter_id": "WHH1717487",
+      "name": "Sahil Khan",
+      "relation": "Father",
+      "relative_name": "Sapat Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 275,
+      "epic_voter_id": "WHH1730662",
+      "name": "Rahila",
+      "relation": "Father",
+      "relative_name": "Sapat Khan",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 20
+    },
+    {
+      "s_no": 276,
+      "epic_voter_id": "RJ/08/061/444023",
+      "name": "Jassu Khan",
+      "relation": "Father",
+      "relative_name": "Moti Khan",
+      "house_no": "7",
+      "gender": "Male",
+      "age": 63
+    },
+    {
+      "s_no": 277,
+      "epic_voter_id": "RJ/08/061/444007",
+      "name": "Hameedi",
+      "relation": "Husband",
+      "relative_name": "Jassu Khan",
+      "house_no": "7",
+      "gender": "Female",
+      "age": 61
+    },
+    {
+      "s_no": 278,
+      "epic_voter_id": "RJ/08/061/444009",
+      "name": "Kalu Khan",
+      "relation": "Father",
+      "relative_name": "Moti Khan",
+      "house_no": "7",
+      "gender": "Male",
+      "age": 56
+    },
+    {
+      "s_no": 279,
+      "epic_voter_id": "RJ/08/061/444008",
+      "name": "Raksi",
+      "relation": "Husband",
+      "relative_name": "Kalu Khan",
+      "house_no": "7",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 280,
+      "epic_voter_id": "CVS7124373",
+      "name": "Aasam Khan",
+      "relation": "Father",
+      "relative_name": "Jassu Khan",
+      "house_no": "7",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 281,
+      "epic_voter_id": "WHH1706571",
+      "name": "Arsad Khan",
+      "relation": "Father",
+      "relative_name": "Jassu Khan",
+      "house_no": "7",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 282,
+      "epic_voter_id": "CVS7124381",
+      "name": "Majmoona",
+      "relation": "Husband",
+      "relative_name": "Aasam Khan",
+      "house_no": "7",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 283,
+      "epic_voter_id": "WHH0480772",
+      "name": "Atamla Khan",
+      "relation": "Father",
+      "relative_name": "Jassu Khan",
+      "house_no": "7",
+      "gender": "Male",
+      "age": 34
+    },
+    {
+      "s_no": 284,
+      "epic_voter_id": "WHH1508837",
+      "name": "Janto",
+      "relation": "Husband",
+      "relative_name": "Asmin Khan",
+      "house_no": "07",
+      "gender": "Female",
+      "age": 34
+    },
+    {
+      "s_no": 285,
+      "epic_voter_id": "WHH0777847",
+      "name": "Asmin Khan",
+      "relation": "Father",
+      "relative_name": "Kalu Khan",
+      "house_no": "07",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 286,
+      "epic_voter_id": "WHH1686310",
+      "name": "Dhauli",
+      "relation": "Husband",
+      "relative_name": "Atamla Khan",
+      "house_no": "7",
+      "gender": "Female",
+      "age": 30
+    },
+    {
+      "s_no": 287,
+      "epic_voter_id": "WHH1583590",
+      "name": "Namrudeen",
+      "relation": "Father",
+      "relative_name": "Kalu Khan",
+      "house_no": "7",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 288,
+      "epic_voter_id": "WHH1674407",
+      "name": "Shaukeen",
+      "relation": "Father",
+      "relative_name": "Kalu Khan",
+      "house_no": "7",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 289,
+      "epic_voter_id": "RJ/08/061/444160",
+      "name": "Asad Khan",
+      "relation": "Father",
+      "relative_name": "Moti Khan",
+      "house_no": "8",
+      "gender": "Male",
+      "age": 81
+    },
+    {
+      "s_no": 290,
+      "epic_voter_id": "RJ/08/061/444119",
+      "name": "Mundra Khan",
+      "relation": "Father",
+      "relative_name": "Asad Khan",
+      "house_no": "8",
+      "gender": "Male",
+      "age": 57
+    },
+    {
+      "s_no": 291,
+      "epic_voter_id": "RJ/08/061/444408",
+      "name": "Roshani",
+      "relation": "Husband",
+      "relative_name": "Mundra Khan",
+      "house_no": "8",
+      "gender": "Female",
+      "age": 56
+    },
+    {
+      "s_no": 292,
+      "epic_voter_id": "RJ/08/061/444155",
+      "name": "Bannkha Khan",
+      "relation": "Father",
+      "relative_name": "Asad Khan",
+      "house_no": "8",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 293,
+      "epic_voter_id": "RJ/08/061/444407",
+      "name": "Raheesan",
+      "relation": "Husband",
+      "relative_name": "Bannkha Khan",
+      "house_no": "8",
+      "gender": "Female",
+      "age": 54
+    },
+    {
+      "s_no": 294,
+      "epic_voter_id": "WHH0983858",
+      "name": "Subban Khan",
+      "relation": "Father",
+      "relative_name": "Asad Khan",
+      "house_no": "8",
+      "gender": "Male",
+      "age": 52
+    },
+    {
+      "s_no": 295,
+      "epic_voter_id": "RJ/08/061/444378",
+      "name": "Sammer",
+      "relation": "Husband",
+      "relative_name": "Subban Khan",
+      "house_no": "8",
+      "gender": "Female",
+      "age": 51
+    },
+    {
+      "s_no": 296,
+      "epic_voter_id": "WHH0039198",
+      "name": "Bapa",
+      "relation": "Husband",
+      "relative_name": "Subban Khan",
+      "house_no": "8",
+      "gender": "Female",
+      "age": 44
+    },
+    {
+      "s_no": 297,
+      "epic_voter_id": "WHH1355478",
+      "name": "Mubeen Khan",
+      "relation": "Father",
+      "relative_name": "Mundra Khan",
+      "house_no": "8",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 298,
+      "epic_voter_id": "WHH1720481",
+      "name": "Mubeena",
+      "relation": "Father",
+      "relative_name": "Mundu Khan",
+      "house_no": "8",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 299,
+      "epic_voter_id": "WHH0983924",
+      "name": "Samukdeen",
+      "relation": "Father",
+      "relative_name": "Subban Khan",
+      "house_no": "8",
+      "gender": "Male",
+      "age": 27
+    },
+    {
+      "s_no": 300,
+      "epic_voter_id": "RJ/08/061/444181",
+      "name": "Sampat Khan",
+      "relation": "Father",
+      "relative_name": "Janu Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 73
+    },
+    {
+      "s_no": 301,
+      "epic_voter_id": "RJ/08/061/444176",
+      "name": "Asrafi",
+      "relation": "Husband",
+      "relative_name": "Sampat Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 71
+    },
+    {
+      "s_no": 302,
+      "epic_voter_id": "RJ/08/061/444171",
+      "name": "Nawab Khan",
+      "relation": "Father",
+      "relative_name": "Janu Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 69
+    },
+    {
+      "s_no": 303,
+      "epic_voter_id": "RJ/08/061/444178",
+      "name": "Afsari",
+      "relation": "Husband",
+      "relative_name": "Nawab Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 67
+    },
+    {
+      "s_no": 304,
+      "epic_voter_id": "RJ/08/061/444143",
+      "name": "Islam Khan",
+      "relation": "Father",
+      "relative_name": "Janu Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 61
+    },
+    {
+      "s_no": 305,
+      "epic_voter_id": "RJ/08/061/444115",
+      "name": "Zubeda",
+      "relation": "Husband",
+      "relative_name": "Islam Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 58
+    },
+    {
+      "s_no": 306,
+      "epic_voter_id": "WHH0210799",
+      "name": "Mamuri",
+      "relation": "Husband",
+      "relative_name": "Kamruddin",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 57
+    },
+    {
+      "s_no": 307,
+      "epic_voter_id": "RJ/08/061/444180",
+      "name": "Kursheed Khan",
+      "relation": "Father",
+      "relative_name": "Janu Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 308,
+      "epic_voter_id": "RJ/08/061/444179",
+      "name": "Rasheedan",
+      "relation": "Husband",
+      "relative_name": "Kursheed Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 309,
+      "epic_voter_id": "RJ/08/061/444175",
+      "name": "Ibrahim Khan",
+      "relation": "Father",
+      "relative_name": "Sampat Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 310,
+      "epic_voter_id": "RJ/08/061/444137",
+      "name": "Raheesan",
+      "relation": "Husband",
+      "relative_name": "Ibrahim Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 52
+    },
+    {
+      "s_no": 311,
+      "epic_voter_id": "WHH1542240",
+      "name": "Aabida",
+      "relation": "Husband",
+      "relative_name": "Liyakat Ali",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 312,
+      "epic_voter_id": "WHH1586395",
+      "name": "Naseerat",
+      "relation": "Husband",
+      "relative_name": "Mustak",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 313,
+      "epic_voter_id": "WHH0188615",
+      "name": "Liyakat Ali",
+      "relation": "Father",
+      "relative_name": "Sampat Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 37
+    },
+    {
+      "s_no": 314,
+      "epic_voter_id": "WHH0188607",
+      "name": "Mustak Khan",
+      "relation": "Father",
+      "relative_name": "Islam",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 36
+    },
+    {
+      "s_no": 315,
+      "epic_voter_id": "WHH1221720",
+      "name": "Shakira",
+      "relation": "Husband",
+      "relative_name": "Sarupa Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 36
+    },
+    {
+      "s_no": 316,
+      "epic_voter_id": "WHH0188599",
+      "name": "Arsad Khan",
+      "relation": "Father",
+      "relative_name": "Nawab Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 35
+    },
+    {
+      "s_no": 317,
+      "epic_voter_id": "WHH1537448",
+      "name": "Mubeena",
+      "relation": "Husband",
+      "relative_name": "Arsad Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 34
+    },
+    {
+      "s_no": 318,
+      "epic_voter_id": "WHH0480780",
+      "name": "Jubair Khan",
+      "relation": "Father",
+      "relative_name": "Islam",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 32
+    },
+    {
+      "s_no": 319,
+      "epic_voter_id": "WHH1520683",
+      "name": "Pappi",
+      "relation": "Husband",
+      "relative_name": "Jubair Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 320,
+      "epic_voter_id": "WHH1221753",
+      "name": "Sarupa Khan",
+      "relation": "Mother",
+      "relative_name": "Mamuri",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 321,
+      "epic_voter_id": "WHH0844670",
+      "name": "Jahul Khan",
+      "relation": "Father",
+      "relative_name": "Nawab Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 322,
+      "epic_voter_id": "WHH1730670",
+      "name": "Mubarak Khan",
+      "relation": "Father",
+      "relative_name": "Ibrahim Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 28
+    },
+    {
+      "s_no": 323,
+      "epic_voter_id": "WHH1730688",
+      "name": "Taleem Khan",
+      "relation": "Father",
+      "relative_name": "Ibrahim Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 25
+    },
+    {
+      "s_no": 324,
+      "epic_voter_id": "WHH1682285",
+      "name": "Rahul Khan",
+      "relation": "Father",
+      "relative_name": "Khurshid Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 24
+    },
+    {
+      "s_no": 325,
+      "epic_voter_id": "WHH1713866",
+      "name": "Sakunt",
+      "relation": "Father",
+      "relative_name": "Kamru Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 22
+    },
+    {
+      "s_no": 326,
+      "epic_voter_id": "WHH1682350",
+      "name": "Sohail Khan",
+      "relation": "Father",
+      "relative_name": "Khurshid Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 327,
+      "epic_voter_id": "RJ/08/061/444021",
+      "name": "Rustam Khan",
+      "relation": "Father",
+      "relative_name": "Moti Khan",
+      "house_no": "11",
+      "gender": "Male",
+      "age": 71
+    },
+    {
+      "s_no": 328,
+      "epic_voter_id": "RJ/08/061/444094",
+      "name": "Maujbi",
+      "relation": "Husband",
+      "relative_name": "Rustam Khan",
+      "house_no": "11",
+      "gender": "Female",
+      "age": 67
+    },
+    {
+      "s_no": 329,
+      "epic_voter_id": "RJ/08/061/444098",
+      "name": "Sohrab Khan",
+      "relation": "Father",
+      "relative_name": "Rustam Khan",
+      "house_no": "11",
+      "gender": "Male",
+      "age": 54
+    },
+    {
+      "s_no": 330,
+      "epic_voter_id": "RJ/08/061/444099",
+      "name": "Fajri",
+      "relation": "Husband",
+      "relative_name": "Sohrab Khan",
+      "house_no": "11",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 331,
+      "epic_voter_id": "RJ/08/061/444105",
+      "name": "Subbadeen",
+      "relation": "Father",
+      "relative_name": "Rustam Khan",
+      "house_no": "11",
+      "gender": "Male",
+      "age": 52
+    },
+    {
+      "s_no": 332,
+      "epic_voter_id": "RJ/08/061/444604",
+      "name": "Najeeri",
+      "relation": "Husband",
+      "relative_name": "Subbadeen",
+      "house_no": "11",
+      "gender": "Female",
+      "age": 51
+    },
+    {
+      "s_no": 333,
+      "epic_voter_id": "WHH1674464",
+      "name": "Juned Khan",
+      "relation": "Father",
+      "relative_name": "Sohrab Khan",
+      "house_no": "11",
+      "gender": "Male",
+      "age": 32
+    },
+    {
+      "s_no": 334,
+      "epic_voter_id": "WHH1674498",
+      "name": "Aarif",
+      "relation": "Father",
+      "relative_name": "Sohrab Khan",
+      "house_no": "11",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 335,
+      "epic_voter_id": "WHH1517960",
+      "name": "Tarik Khan",
+      "relation": "Father",
+      "relative_name": "Subbadeen",
+      "house_no": "11",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 336,
+      "epic_voter_id": "RJ/08/061/444005",
+      "name": "Safeda Khan",
+      "relation": "Father",
+      "relative_name": "Moti Khan",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 73
+    },
+    {
+      "s_no": 337,
+      "epic_voter_id": "RJ/08/061/444019",
+      "name": "Manni",
+      "relation": "Husband",
+      "relative_name": "Safeda Khan",
+      "house_no": "12",
+      "gender": "Female",
+      "age": 71
+    },
+    {
+      "s_no": 338,
+      "epic_voter_id": "RJ/08/061/444014",
+      "name": "Samsudeen",
+      "relation": "Father",
+      "relative_name": "Moti Khan",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 61
+    },
+    {
+      "s_no": 339,
+      "epic_voter_id": "RJ/08/061/444006",
+      "name": "Hameedan",
+      "relation": "Husband",
+      "relative_name": "Samsudeen",
+      "house_no": "12",
+      "gender": "Female",
+      "age": 58
+    },
+    {
+      "s_no": 340,
+      "epic_voter_id": "WHH0983957",
+      "name": "Umardeen",
+      "relation": "Father",
+      "relative_name": "Safeda Khan",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 341,
+      "epic_voter_id": "RJ/08/061/444018",
+      "name": "Rati",
+      "relation": "Husband",
+      "relative_name": "Umardeen",
+      "house_no": "12",
+      "gender": "Female",
+      "age": 54
+    },
+    {
+      "s_no": 342,
+      "epic_voter_id": "RJ/08/061/444020",
+      "name": "Sarjeet Khan",
+      "relation": "Father",
+      "relative_name": "Safeda Khan",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 343,
+      "epic_voter_id": "CVS1279405",
+      "name": "Habeeb",
+      "relation": "Father",
+      "relative_name": "Sammu",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 46
+    },
+    {
+      "s_no": 344,
+      "epic_voter_id": "CVS1279413",
+      "name": "Ratiman",
+      "relation": "Husband",
+      "relative_name": "Habeeb",
+      "house_no": "12",
+      "gender": "Female",
+      "age": 44
+    },
+    {
+      "s_no": 345,
+      "epic_voter_id": "CVS1279389",
+      "name": "Deenam",
+      "relation": "Father",
+      "relative_name": "Sammu",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 346,
+      "epic_voter_id": "CVS1279397",
+      "name": "Antim",
+      "relation": "Husband",
+      "relative_name": "Deenam",
+      "house_no": "12",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 347,
+      "epic_voter_id": "WHH0210765",
+      "name": "Jarmeena",
+      "relation": "Husband",
+      "relative_name": "Shaukat",
+      "house_no": "12",
+      "gender": "Female",
+      "age": 40
+    },
+    {
+      "s_no": 348,
+      "epic_voter_id": "WHH0210781",
+      "name": "Sattar",
+      "relation": "Father",
+      "relative_name": "Samad",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 349,
+      "epic_voter_id": "CVS7123870",
+      "name": "Abdul Aziz",
+      "relation": "Father",
+      "relative_name": "Samsudeen",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 37
+    },
+    {
+      "s_no": 350,
+      "epic_voter_id": "WHH0480798",
+      "name": "Mosam Khan",
+      "relation": "Father",
+      "relative_name": "Samsudeen",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 34
+    },
+    {
+      "s_no": 351,
+      "epic_voter_id": "WHH0480806",
+      "name": "Ikramuddin",
+      "relation": "Father",
+      "relative_name": "Samsudeen",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 352,
+      "epic_voter_id": "WHH1509074",
+      "name": "Khanish",
+      "relation": "Father",
+      "relative_name": "Umar Deen",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 24
+    },
+    {
+      "s_no": 353,
+      "epic_voter_id": "WHH1819432",
+      "name": "Manshak Khan",
+      "relation": "Father",
+      "relative_name": "Sarjeet Khan",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 24
+    },
+    {
+      "s_no": 354,
+      "epic_voter_id": "WHH1508803",
+      "name": "Jahari",
+      "relation": "Father",
+      "relative_name": "Umardeen",
+      "house_no": "12",
+      "gender": "Male",
+      "age": 23
+    },
+    {
+      "s_no": 355,
+      "epic_voter_id": "RJ/08/061/444093",
+      "name": "Shahbuddin",
+      "relation": "Father",
+      "relative_name": "Safeda Khan",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 63
+    },
+    {
+      "s_no": 356,
+      "epic_voter_id": "RJ/08/061/444301",
+      "name": "Sahidan",
+      "relation": "Husband",
+      "relative_name": "Shahbuddin",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 61
+    },
+    {
+      "s_no": 357,
+      "epic_voter_id": "RJ/08/061/444113",
+      "name": "Nizamuddin",
+      "relation": "Father",
+      "relative_name": "Safeda Khan",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 61
+    },
+    {
+      "s_no": 358,
+      "epic_voter_id": "RJ/08/061/444327",
+      "name": "Harun Khan",
+      "relation": "Father",
+      "relative_name": "Safeda Khan",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 58
+    },
+    {
+      "s_no": 359,
+      "epic_voter_id": "CVS1591270",
+      "name": "Afrosh",
+      "relation": "Husband",
+      "relative_name": "Nizamuddin",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 58
+    },
+    {
+      "s_no": 360,
+      "epic_voter_id": "RJ/08/061/444017",
+      "name": "Majmooda",
+      "relation": "Husband",
+      "relative_name": "Harun Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 55
+    },
+    {
+      "s_no": 361,
+      "epic_voter_id": "WHH1278860",
+      "name": "Raveena",
+      "relation": "Husband",
+      "relative_name": "Shameem Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 362,
+      "epic_voter_id": "WHH1278886",
+      "name": "Shameem Khan",
+      "relation": "Father",
+      "relative_name": "Rasheed Khan",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 363,
+      "epic_voter_id": "WHH1355437",
+      "name": "Ruksar",
+      "relation": "Husband",
+      "relative_name": "Imran Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 31
+    },
+    {
+      "s_no": 364,
+      "epic_voter_id": "WHH1278852",
+      "name": "Rahul Khan",
+      "relation": "Father",
+      "relative_name": "Rasheed Khan",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 365,
+      "epic_voter_id": "WHH1355452",
+      "name": "Imran Khan",
+      "relation": "Father",
+      "relative_name": "Harun Khan",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 366,
+      "epic_voter_id": "WHH1511765",
+      "name": "Israil Khan",
+      "relation": "Father",
+      "relative_name": "Shahbuddin",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 367,
+      "epic_voter_id": "WHH1278894",
+      "name": "Shakir Khan",
+      "relation": "Father",
+      "relative_name": "Rasheed Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 368,
+      "epic_voter_id": "WHH1730845",
+      "name": "Manisha",
+      "relation": "Husband",
+      "relative_name": "Israil Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 26
+    },
+    {
+      "s_no": 369,
+      "epic_voter_id": "WHH1730829",
+      "name": "Murkida",
+      "relation": "Husband",
+      "relative_name": "Insaaf Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 25
+    },
+    {
+      "s_no": 370,
+      "epic_voter_id": "WHH1511799",
+      "name": "Shahjad",
+      "relation": "Father",
+      "relative_name": "Shahbuddin",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 24
+    },
+    {
+      "s_no": 371,
+      "epic_voter_id": "WHH1521970",
+      "name": "Dija",
+      "relation": "Husband",
+      "relative_name": "Waseem",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 22
+    },
+    {
+      "s_no": 372,
+      "epic_voter_id": "WHH1539386",
+      "name": "Sahil Khan",
+      "relation": "Father",
+      "relative_name": "Rasheed Khan",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 373,
+      "epic_voter_id": "WHH1686195",
+      "name": "Shahrukh",
+      "relation": "Father",
+      "relative_name": "Nizamuddin Khan",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 374,
+      "epic_voter_id": "WHH1730761",
+      "name": "Vakila",
+      "relation": "Father",
+      "relative_name": "Nizamuddin",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 22
+    },
+    {
+      "s_no": 375,
+      "epic_voter_id": "WHH1583582",
+      "name": "Waseem",
+      "relation": "Father",
+      "relative_name": "Harun Khan",
+      "house_no": "13",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 376,
+      "epic_voter_id": "WHH0138180",
+      "name": "Hasanbi",
+      "relation": "Husband",
+      "relative_name": "Ballu Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 108
+    },
+    {
+      "s_no": 377,
+      "epic_voter_id": "RJ/08/061/444338",
+      "name": "Morikham",
+      "relation": "Husband",
+      "relative_name": "Badar Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 72
+    },
+    {
+      "s_no": 378,
+      "epic_voter_id": "RJ/08/061/444336",
+      "name": "Munna Khan",
+      "relation": "Father",
+      "relative_name": "Ballu Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 71
+    },
+    {
+      "s_no": 379,
+      "epic_voter_id": "RJ/08/061/444163",
+      "name": "Sajnavar",
+      "relation": "Husband",
+      "relative_name": "Munna Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 69
+    },
+    {
+      "s_no": 380,
+      "epic_voter_id": "RJ/08/061/444045",
+      "name": "Sadapa Khan",
+      "relation": "Father",
+      "relative_name": "Ballu Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 68
+    },
+    {
+      "s_no": 381,
+      "epic_voter_id": "RJ/08/061/444182",
+      "name": "Sunkahari Khan",
+      "relation": "Father",
+      "relative_name": "Ballu Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 63
+    },
+    {
+      "s_no": 382,
+      "epic_voter_id": "RJ/08/061/444167",
+      "name": "Jabar",
+      "relation": "Husband",
+      "relative_name": "Sunkahari Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 61
+    },
+    {
+      "s_no": 383,
+      "epic_voter_id": "RJ/08/061/444170",
+      "name": "Hakamdeen",
+      "relation": "Father",
+      "relative_name": "Ballu Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 56
+    },
+    {
+      "s_no": 384,
+      "epic_voter_id": "RJ/08/061/444168",
+      "name": "Chahtari",
+      "relation": "Husband",
+      "relative_name": "Hakamdeen",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 385,
+      "epic_voter_id": "RJ/08/061/444355",
+      "name": "Hajar Deen",
+      "relation": "Father",
+      "relative_name": "Badar Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 52
+    },
+    {
+      "s_no": 386,
+      "epic_voter_id": "CVS1279421",
+      "name": "Jafarudeen",
+      "relation": "Father",
+      "relative_name": "Badar Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 46
+    },
+    {
+      "s_no": 387,
+      "epic_voter_id": "CVS1279439",
+      "name": "Sharmeena",
+      "relation": "Husband",
+      "relative_name": "Jafarudeen",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 44
+    },
+    {
+      "s_no": 388,
+      "epic_voter_id": "CVS1279447",
+      "name": "Parmeena",
+      "relation": "Husband",
+      "relative_name": "Hajar Deen",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 44
+    },
+    {
+      "s_no": 389,
+      "epic_voter_id": "CVS1591288",
+      "name": "Liyakat",
+      "relation": "Father",
+      "relative_name": "Samna Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 42
+    },
+    {
+      "s_no": 390,
+      "epic_voter_id": "WHH0660589",
+      "name": "Farmeena",
+      "relation": "Husband",
+      "relative_name": "Mosam Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 40
+    },
+    {
+      "s_no": 391,
+      "epic_voter_id": "WHH0983999",
+      "name": "Raheesan",
+      "relation": "Husband",
+      "relative_name": "Liyakat Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 39
+    },
+    {
+      "s_no": 392,
+      "epic_voter_id": "WHH0660621",
+      "name": "Sahun",
+      "relation": "Mother",
+      "relative_name": "Munna Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 37
+    },
+    {
+      "s_no": 393,
+      "epic_voter_id": "WHH0660597",
+      "name": "Akreena",
+      "relation": "Husband",
+      "relative_name": "Abdul",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 36
+    },
+    {
+      "s_no": 394,
+      "epic_voter_id": "WHH0660639",
+      "name": "Aarif Khan",
+      "relation": "Father",
+      "relative_name": "Sunkari Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 36
+    },
+    {
+      "s_no": 395,
+      "epic_voter_id": "WHH0660548",
+      "name": "Jamsheeda",
+      "relation": "Husband",
+      "relative_name": "Sahun Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 35
+    },
+    {
+      "s_no": 396,
+      "epic_voter_id": "WHH0660670",
+      "name": "Jaikam",
+      "relation": "Mother",
+      "relative_name": "Munna Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 34
+    },
+    {
+      "s_no": 397,
+      "epic_voter_id": "WHH0660605",
+      "name": "Asrafi Bano",
+      "relation": "Husband",
+      "relative_name": "Illi",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 34
+    },
+    {
+      "s_no": 398,
+      "epic_voter_id": "WHH0660613",
+      "name": "Tahira",
+      "relation": "Husband",
+      "relative_name": "Jaikam",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 399,
+      "epic_voter_id": "WHH0660530",
+      "name": "Manisha",
+      "relation": "Husband",
+      "relative_name": "Sunkari Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 400,
+      "epic_voter_id": "WHH0660555",
+      "name": "Rukmeena",
+      "relation": "Husband",
+      "relative_name": "Amjad Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 401,
+      "epic_voter_id": "WHH0660647",
+      "name": "Amjad",
+      "relation": "Mother",
+      "relative_name": "Sunkahari Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 402,
+      "epic_voter_id": "WHH0660563",
+      "name": "Sameena",
+      "relation": "Husband",
+      "relative_name": "Mosam Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 403,
+      "epic_voter_id": "WHH0660662",
+      "name": "Illi",
+      "relation": "Father",
+      "relative_name": "Banne Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 404,
+      "epic_voter_id": "WHH1673995",
+      "name": "Javed Khan",
+      "relation": "Father",
+      "relative_name": "Hakam Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 405,
+      "epic_voter_id": "WHH0660654",
+      "name": "Mosam Deen",
+      "relation": "Mother",
+      "relative_name": "Sanna",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 28
+    },
+    {
+      "s_no": 406,
+      "epic_voter_id": "WHH1673821",
+      "name": "Rabeena",
+      "relation": "Husband",
+      "relative_name": "Javed Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 407,
+      "epic_voter_id": "WHH1683499",
+      "name": "Istak Khan",
+      "relation": "Father",
+      "relative_name": "Hajar Deen Khan",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 24
+    },
+    {
+      "s_no": 408,
+      "epic_voter_id": "WHH1598879",
+      "name": "Sahid",
+      "relation": "Father",
+      "relative_name": "Munna",
+      "house_no": "14",
+      "gender": "Male",
+      "age": 23
+    },
+    {
+      "s_no": 409,
+      "epic_voter_id": "WHH1730811",
+      "name": "Naseema",
+      "relation": "Father",
+      "relative_name": "Liyakat Khan",
+      "house_no": "14",
+      "gender": "Female",
+      "age": 22
+    },
+    {
+      "s_no": 410,
+      "epic_voter_id": "RJ/08/061/444251",
+      "name": "Modli",
+      "relation": "Husband",
+      "relative_name": "Aasreen Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 81
+    },
+    {
+      "s_no": 411,
+      "epic_voter_id": "RJ/08/061/444253",
+      "name": "Atri",
+      "relation": "Husband",
+      "relative_name": "Ismail Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 78
+    },
+    {
+      "s_no": 412,
+      "epic_voter_id": "RJ/08/061/444123",
+      "name": "Chahta Khan",
+      "relation": "Father",
+      "relative_name": "Jassu Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 73
+    },
+    {
+      "s_no": 413,
+      "epic_voter_id": "RJ/08/061/444124",
+      "name": "Zubedi",
+      "relation": "Husband",
+      "relative_name": "Chahta Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 71
+    },
+    {
+      "s_no": 414,
+      "epic_voter_id": "RJ/08/061/444252",
+      "name": "Aashrudeen",
+      "relation": "Father",
+      "relative_name": "Aasreen Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 61
+    },
+    {
+      "s_no": 415,
+      "epic_voter_id": "RJ/08/061/444247",
+      "name": "Samiri",
+      "relation": "Husband",
+      "relative_name": "Aaspadeen",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 59
+    },
+    {
+      "s_no": 416,
+      "epic_voter_id": "RJ/08/061/444274",
+      "name": "Israil Khan",
+      "relation": "Father",
+      "relative_name": "Aasreen Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 58
+    },
+    {
+      "s_no": 417,
+      "epic_voter_id": "RJ/08/061/444258",
+      "name": "Kalu Khan",
+      "relation": "Father",
+      "relative_name": "Ismail Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 57
+    },
+    {
+      "s_no": 418,
+      "epic_voter_id": "RJ/08/061/444248",
+      "name": "Sabjani",
+      "relation": "Husband",
+      "relative_name": "Israil Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 56
+    },
+    {
+      "s_no": 419,
+      "epic_voter_id": "RJ/08/061/444255",
+      "name": "Jarina",
+      "relation": "Husband",
+      "relative_name": "Kalu Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 55
+    },
+    {
+      "s_no": 420,
+      "epic_voter_id": "WHH1278902",
+      "name": "Mauji Khan",
+      "relation": "Father",
+      "relative_name": "Sultan Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 421,
+      "epic_voter_id": "RJ/08/061/444250",
+      "name": "Rajdar Khan",
+      "relation": "Father",
+      "relative_name": "Aasreen Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 52
+    },
+    {
+      "s_no": 422,
+      "epic_voter_id": "CVS1591296",
+      "name": "Amroodi",
+      "relation": "Husband",
+      "relative_name": "Rajdar Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 51
+    },
+    {
+      "s_no": 423,
+      "epic_voter_id": "WHH1278977",
+      "name": "Hanseeran",
+      "relation": "Husband",
+      "relative_name": "Razak",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 45
+    },
+    {
+      "s_no": 424,
+      "epic_voter_id": "CVS1388644",
+      "name": "Aazad Khan",
+      "relation": "Father",
+      "relative_name": "Ismail Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 425,
+      "epic_voter_id": "WHH0039206",
+      "name": "Sahuni",
+      "relation": "Husband",
+      "relative_name": "Aazad Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 426,
+      "epic_voter_id": "WHH0188623",
+      "name": "Sahroon Khan",
+      "relation": "Father",
+      "relative_name": "Aasmudeen",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 40
+    },
+    {
+      "s_no": 427,
+      "epic_voter_id": "WHH0188664",
+      "name": "Dilmayar",
+      "relation": "Father",
+      "relative_name": "Israil",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 40
+    },
+    {
+      "s_no": 428,
+      "epic_voter_id": "WHH0188649",
+      "name": "Ali Mohammad",
+      "relation": "Father",
+      "relative_name": "Israil",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 38
+    },
+    {
+      "s_no": 429,
+      "epic_voter_id": "WHH1278944",
+      "name": "Madfiya",
+      "relation": "Husband",
+      "relative_name": "Majeed Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 430,
+      "epic_voter_id": "WHH0188656",
+      "name": "Ku. Aleeman",
+      "relation": "Father",
+      "relative_name": "Israil",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 36
+    },
+    {
+      "s_no": 431,
+      "epic_voter_id": "WHH0188631",
+      "name": "Aas Mohammad",
+      "relation": "Father",
+      "relative_name": "Chahta Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 35
+    },
+    {
+      "s_no": 432,
+      "epic_voter_id": "WHH1278985",
+      "name": "Shakir Khan",
+      "relation": "Father",
+      "relative_name": "Aas Mohammad",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 35
+    },
+    {
+      "s_no": 433,
+      "epic_voter_id": "WHH1686484",
+      "name": "Sabeela",
+      "relation": "Husband",
+      "relative_name": "Saddam Hussain",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 434,
+      "epic_voter_id": "WHH1278837",
+      "name": "Yunus Khan",
+      "relation": "Father",
+      "relative_name": "Aas Mohammad",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 435,
+      "epic_voter_id": "WHH1686443",
+      "name": "Saddam Hussain",
+      "relation": "Father",
+      "relative_name": "Kallu Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 436,
+      "epic_voter_id": "WHH1819911",
+      "name": "Ruksana",
+      "relation": "Husband",
+      "relative_name": "Ali Mohammad",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 30
+    },
+    {
+      "s_no": 437,
+      "epic_voter_id": "WHH0660688",
+      "name": "Arseeda Bano",
+      "relation": "Husband",
+      "relative_name": "Aas Mohammad",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 438,
+      "epic_voter_id": "WHH1355411",
+      "name": "Sahreena",
+      "relation": "Husband",
+      "relative_name": "Khushi Mohammad",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 439,
+      "epic_voter_id": "WHH1115989",
+      "name": "Khushi Mohammad",
+      "relation": "Father",
+      "relative_name": "Chahta Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 440,
+      "epic_voter_id": "WHH1283324",
+      "name": "Imrana",
+      "relation": "Husband",
+      "relative_name": "Yunus Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 441,
+      "epic_voter_id": "WHH1686385",
+      "name": "Najiya",
+      "relation": "Husband",
+      "relative_name": "Altaf Hussain",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 23
+    },
+    {
+      "s_no": 442,
+      "epic_voter_id": "WHH1720382",
+      "name": "Mohammad Aarif",
+      "relation": "Father",
+      "relative_name": "Rajdar Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 23
+    },
+    {
+      "s_no": 443,
+      "epic_voter_id": "WHH1720390",
+      "name": "Mohammad Tarik",
+      "relation": "Father",
+      "relative_name": "Rajdar Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 444,
+      "epic_voter_id": "WHH1642644",
+      "name": "Mo. Jan Nisar Ahmad",
+      "relation": "Father",
+      "relative_name": "Ali Mohammad",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 445,
+      "epic_voter_id": "WHH1279009",
+      "name": "Munpar Khan",
+      "relation": "Father",
+      "relative_name": "Sadhu Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 53
+    },
+    {
+      "s_no": 446,
+      "epic_voter_id": "WHH1279033",
+      "name": "Raheesan Bano",
+      "relation": "Husband",
+      "relative_name": "Munpar Khan",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 48
+    },
+    {
+      "s_no": 447,
+      "epic_voter_id": "WHH1278969",
+      "name": "Subkadar",
+      "relation": "Father",
+      "relative_name": "Sadhu Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 46
+    },
+    {
+      "s_no": 448,
+      "epic_voter_id": "WHH1278951",
+      "name": "Mamuri",
+      "relation": "Husband",
+      "relative_name": "Subkadar",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 44
+    },
+    {
+      "s_no": 449,
+      "epic_voter_id": "WHH1279025",
+      "name": "Mahreena",
+      "relation": "Husband",
+      "relative_name": "Arshad Khan",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 35
+    },
+    {
+      "s_no": 450,
+      "epic_voter_id": "WHH1279017",
+      "name": "Arsad Khan",
+      "relation": "Father",
+      "relative_name": "Raushan Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 32
+    },
+    {
+      "s_no": 451,
+      "epic_voter_id": "WHH0984021",
+      "name": "Shahrukh Khan",
+      "relation": "Father",
+      "relative_name": "Khamees Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 27
+    },
+    {
+      "s_no": 452,
+      "epic_voter_id": "WHH1730712",
+      "name": "Raybudeen",
+      "relation": "Father",
+      "relative_name": "Munpar Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 26
+    },
+    {
+      "s_no": 453,
+      "epic_voter_id": "WHH1730795",
+      "name": "Rehana",
+      "relation": "Husband",
+      "relative_name": "Raybudeen Khan",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 23
+    },
+    {
+      "s_no": 454,
+      "epic_voter_id": "WHH1730787",
+      "name": "Arseena",
+      "relation": "Husband",
+      "relative_name": "Sajidul",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 21
+    },
+    {
+      "s_no": 455,
+      "epic_voter_id": "WHH1789296",
+      "name": "Aabid",
+      "relation": "Father",
+      "relative_name": "Munpar Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 19
+    },
+    {
+      "s_no": 456,
+      "epic_voter_id": "WHH0984062",
+      "name": "Mubarak Khan",
+      "relation": "Father",
+      "relative_name": "Akhyab Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 28
+    },
+    {
+      "s_no": 457,
+      "epic_voter_id": "WHH0984096",
+      "name": "Sarjeena",
+      "relation": "Husband",
+      "relative_name": "Rashid Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 27
+    },
+    {
+      "s_no": 458,
+      "epic_voter_id": "WHH0777854",
+      "name": "Mohammad Javed Khan",
+      "relation": "Father",
+      "relative_name": "Ismail Khan",
+      "house_no": "26",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 459,
+      "epic_voter_id": "WHH0777862",
+      "name": "Rafsina",
+      "relation": "Husband",
+      "relative_name": "Mohammad Javed",
+      "house_no": "26",
+      "gender": "Female",
+      "age": 30
+    },
+    {
+      "s_no": 460,
+      "epic_voter_id": "WHH0984492",
+      "name": "Sameena",
+      "relation": "Husband",
+      "relative_name": "Arsad Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 461,
+      "epic_voter_id": "WHH0984427",
+      "name": "Sahab Deen",
+      "relation": "Father",
+      "relative_name": "Asad Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 38
+    },
+    {
+      "s_no": 462,
+      "epic_voter_id": "WHH0984468",
+      "name": "Rahasbi",
+      "relation": "Husband",
+      "relative_name": "Sahab Deen",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 36
+    },
+    {
+      "s_no": 463,
+      "epic_voter_id": "WHH0984336",
+      "name": "Iqbal Khan",
+      "relation": "Father",
+      "relative_name": "Nizamuddin",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 35
+    },
+    {
+      "s_no": 464,
+      "epic_voter_id": "WHH0984393",
+      "name": "Sahreena",
+      "relation": "Husband",
+      "relative_name": "Iqbal",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 33
+    },
+    {
+      "s_no": 465,
+      "epic_voter_id": "WHH0984526",
+      "name": "Raheesan",
+      "relation": "Husband",
+      "relative_name": "Shaukeen Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 33
+    },
+    {
+      "s_no": 466,
+      "epic_voter_id": "WHH1483684",
+      "name": "Arsheeda",
+      "relation": "Husband",
+      "relative_name": "Jamshed Khan",
+      "house_no": "677",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 467,
+      "epic_voter_id": "WHH0984195",
+      "name": "Khandoos Khan",
+      "relation": "Father",
+      "relative_name": "Nasir Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 468,
+      "epic_voter_id": "WHH0984369",
+      "name": "Saakhra",
+      "relation": "Husband",
+      "relative_name": "Abbas Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 469,
+      "epic_voter_id": "WHH0984260",
+      "name": "Aarif Khan",
+      "relation": "Father",
+      "relative_name": "Kalu Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 470,
+      "epic_voter_id": "WHH0984237",
+      "name": "Juned Khan",
+      "relation": "Father",
+      "relative_name": "Nasir Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 28
+    },
+    {
+      "s_no": 471,
+      "epic_voter_id": "WHH0984302",
+      "name": "Afsana",
+      "relation": "Father",
+      "relative_name": "Kasam Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 26
+    },
+    {
+      "s_no": 472,
+      "epic_voter_id": "WHH1765486",
+      "name": "Sonu",
+      "relation": "Father",
+      "relative_name": "Sahabdeen",
+      "house_no": "677",
+      "gender": "Female",
+      "age": 19
+    },
+    {
+      "s_no": 473,
+      "epic_voter_id": "WHH1886852",
+      "name": "Nargis Khatun",
+      "relation": "Husband",
+      "relative_name": "Sohail",
+      "house_no": "Bahadurpur Patti",
+      "gender": "Female",
+      "age": 21
+    },
+    {
+      "s_no": 474,
+      "epic_voter_id": "WHH1750256",
+      "name": "Nisha",
+      "relation": "Father",
+      "relative_name": "Jamshed Khan Sahuni",
+      "house_no": "Jodiyawas Bass",
+      "gender": "Female",
+      "age": 21
+    },
+    {
+      "s_no": 475,
+      "epic_voter_id": "WHH2013753",
+      "name": "Anishka",
+      "relation": "Father",
+      "relative_name": "Mauji Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 18
+    },
+    {
+      "s_no": 476,
+      "epic_voter_id": "WHH2034445",
+      "name": "Sabir Khan",
+      "relation": "Father",
+      "relative_name": "Liyakat Ali",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 19
+    },
+    {
+      "s_no": 477,
+      "epic_voter_id": "WHH1706639",
+      "name": "Afsana",
+      "relation": "Husband",
+      "relative_name": "Niyamat Khan",
+      "house_no": "0",
+      "gender": "Female",
+      "age": 31
+    },
+    {
+      "s_no": 478,
+      "epic_voter_id": "WHH1520709",
+      "name": "Niyamat",
+      "relation": "Father",
+      "relative_name": "Pappu",
+      "house_no": "0",
+      "gender": "Male",
+      "age": 25
+    },
+    {
+      "s_no": 479,
+      "epic_voter_id": "WHH1706480",
+      "name": "Faeeman",
+      "relation": "Husband",
+      "relative_name": "Azrudeen",
+      "house_no": "0",
+      "gender": "Female",
+      "age": 25
+    },
+    {
+      "s_no": 480,
+      "epic_voter_id": "WHH1706530",
+      "name": "Najiya",
+      "relation": "Husband",
+      "relative_name": "Shahrukh",
+      "house_no": "0",
+      "gender": "Female",
+      "age": 25
+    },
+    {
+      "s_no": 481,
+      "epic_voter_id": "WHH1526128",
+      "name": "Shahrukh",
+      "relation": "Father",
+      "relative_name": "Razak Khan",
+      "house_no": "0",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 482,
+      "epic_voter_id": "WHH1586965",
+      "name": "Azrudeen",
+      "relation": "Father",
+      "relative_name": "Pappu Khan",
+      "house_no": "0",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 483,
+      "epic_voter_id": "WHH1586981",
+      "name": "Akram Deen",
+      "relation": "Father",
+      "relative_name": "Razak Khan",
+      "house_no": "0",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 484,
+      "epic_voter_id": "WHH1730704",
+      "name": "Arman Khan",
+      "relation": "Father",
+      "relative_name": "Irshad Khan",
+      "house_no": "0",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 485,
+      "epic_voter_id": "WHH1301654",
+      "name": "Bareena",
+      "relation": "Husband",
+      "relative_name": "Sahroon Khan",
+      "house_no": "6",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 486,
+      "epic_voter_id": "WHH1301357",
+      "name": "Sahroon Khan",
+      "relation": "Father",
+      "relative_name": "Shareef Khan",
+      "house_no": "6",
+      "gender": "Male",
+      "age": 27
+    },
+    {
+      "s_no": 487,
+      "epic_voter_id": "WHH0984583",
+      "name": "Mubeena",
+      "relation": "Father",
+      "relative_name": "Ibrahim Khan",
+      "house_no": "10",
+      "gender": "Female",
+      "age": 27
+    },
+    {
+      "s_no": 488,
+      "epic_voter_id": "WHH0984559",
+      "name": "Samukdeen",
+      "relation": "Father",
+      "relative_name": "Islam Khan",
+      "house_no": "10",
+      "gender": "Male",
+      "age": 27
+    },
+    {
+      "s_no": 489,
+      "epic_voter_id": "WHH1278878",
+      "name": "Ruksana",
+      "relation": "Husband",
+      "relative_name": "Rahul Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 490,
+      "epic_voter_id": "WHH1601871",
+      "name": "Namiskina",
+      "relation": "Husband",
+      "relative_name": "Shakir Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 25
+    },
+    {
+      "s_no": 491,
+      "epic_voter_id": "WHH1601012",
+      "name": "Sarmeena",
+      "relation": "Husband",
+      "relative_name": "Sahil Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 22
+    },
+    {
+      "s_no": 492,
+      "epic_voter_id": "WHH1278845",
+      "name": "Jarina",
+      "relation": "Husband",
+      "relative_name": "Mauji Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 493,
+      "epic_voter_id": "WHH1278993",
+      "name": "Majeed Khan",
+      "relation": "Father",
+      "relative_name": "Sadhu Khan",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 494,
+      "epic_voter_id": "WHH1278910",
+      "name": "Shahroona",
+      "relation": "Husband",
+      "relative_name": "Shakir Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 33
+    },
+    {
+      "s_no": 495,
+      "epic_voter_id": "WHH1278928",
+      "name": "Samakhdeen",
+      "relation": "Father",
+      "relative_name": "Aas Mohammad",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 496,
+      "epic_voter_id": "WHH1278936",
+      "name": "Anjum",
+      "relation": "Husband",
+      "relative_name": "Samakhdeen",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 30
+    },
+    {
+      "s_no": 497,
+      "epic_voter_id": "WHH1537463",
+      "name": "Munfeeda",
+      "relation": "Father",
+      "relative_name": "Aas Mohammad",
+      "house_no": "15",
+      "gender": "Male",
+      "age": 28
+    },
+    {
+      "s_no": 498,
+      "epic_voter_id": "WHH1730803",
+      "name": "Munfeeda",
+      "relation": "Husband",
+      "relative_name": "Munfeeda Khan",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 21
+    },
+    {
+      "s_no": 499,
+      "epic_voter_id": "WHH1647486",
+      "name": "Ayesha Aadil",
+      "relation": "Husband",
+      "relative_name": "Dilmayar",
+      "house_no": "15",
+      "gender": "Female",
+      "age": 33
+    },
+    {
+      "s_no": 500,
+      "epic_voter_id": "RJ/08/061/444012",
+      "name": "Moyabla Khan",
+      "relation": "Father",
+      "relative_name": "Samer Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 93
+    },
+    {
+      "s_no": 501,
+      "epic_voter_id": "RJ/08/061/444067",
+      "name": "Jauhari",
+      "relation": "Husband",
+      "relative_name": "Kareem Khan",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 81
+    },
+    {
+      "s_no": 502,
+      "epic_voter_id": "RJ/08/061/444064",
+      "name": "Mangtu Khan",
+      "relation": "Father",
+      "relative_name": "Moyabla Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 65
+    },
+    {
+      "s_no": 503,
+      "epic_voter_id": "RJ/08/061/444069",
+      "name": "Santu Khan",
+      "relation": "Father",
+      "relative_name": "Kareem Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 63
+    },
+    {
+      "s_no": 504,
+      "epic_voter_id": "RJ/08/061/444061",
+      "name": "Amroodi",
+      "relation": "Husband",
+      "relative_name": "Mangtu Khan",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 63
+    },
+    {
+      "s_no": 505,
+      "epic_voter_id": "RJ/08/061/444079",
+      "name": "Hanujan",
+      "relation": "Husband",
+      "relative_name": "Santu Khan",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 61
+    },
+    {
+      "s_no": 506,
+      "epic_voter_id": "RJ/08/061/444068",
+      "name": "Rajdar Khan",
+      "relation": "Father",
+      "relative_name": "Moyabla Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 61
+    },
+    {
+      "s_no": 507,
+      "epic_voter_id": "RJ/08/061/444062",
+      "name": "Atarbi",
+      "relation": "Husband",
+      "relative_name": "Rajdar Khan",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 59
+    },
+    {
+      "s_no": 508,
+      "epic_voter_id": "RJ/08/061/444076",
+      "name": "Kalu Khan",
+      "relation": "Father",
+      "relative_name": "Kareem Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 509,
+      "epic_voter_id": "RJ/08/061/444078",
+      "name": "Jabar",
+      "relation": "Husband",
+      "relative_name": "Kalu Khan",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 510,
+      "epic_voter_id": "CVS1279462",
+      "name": "Raheesan",
+      "relation": "Husband",
+      "relative_name": "Isaak Khan",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 44
+    },
+    {
+      "s_no": 511,
+      "epic_voter_id": "CVS1279454",
+      "name": "Isaak Khan",
+      "relation": "Father",
+      "relative_name": "Mangtu Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 42
+    },
+    {
+      "s_no": 512,
+      "epic_voter_id": "WHH0480871",
+      "name": "Arsad Khan",
+      "relation": "Father",
+      "relative_name": "Santu Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 36
+    },
+    {
+      "s_no": 513,
+      "epic_voter_id": "WHH0480814",
+      "name": "Sahun Khan",
+      "relation": "Father",
+      "relative_name": "Ruddar",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 35
+    },
+    {
+      "s_no": 514,
+      "epic_voter_id": "WHH0480889",
+      "name": "Shaukeen Khan",
+      "relation": "Father",
+      "relative_name": "Santu Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 34
+    },
+    {
+      "s_no": 515,
+      "epic_voter_id": "WHH0480855",
+      "name": "Satam Hussain",
+      "relation": "Father",
+      "relative_name": "Mangtu Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 34
+    },
+    {
+      "s_no": 516,
+      "epic_voter_id": "WHH0574632",
+      "name": "Aleeman",
+      "relation": "Husband",
+      "relative_name": "Sahun",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 34
+    },
+    {
+      "s_no": 517,
+      "epic_voter_id": "WHH0480822",
+      "name": "Jaikam Khan",
+      "relation": "Father",
+      "relative_name": "Rattar",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 33
+    },
+    {
+      "s_no": 518,
+      "epic_voter_id": "WHH0480830",
+      "name": "Jafrida",
+      "relation": "Husband",
+      "relative_name": "Jaikam",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 33
+    },
+    {
+      "s_no": 519,
+      "epic_voter_id": "WHH0480863",
+      "name": "Rabri",
+      "relation": "Father",
+      "relative_name": "Mangtu Khan",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 520,
+      "epic_voter_id": "WHH0480848",
+      "name": "Sahreena",
+      "relation": "Husband",
+      "relative_name": "Aarif Khan",
+      "house_no": "16",
+      "gender": "Female",
+      "age": 31
+    },
+    {
+      "s_no": 521,
+      "epic_voter_id": "WHH1900943",
+      "name": "Aasif Khan",
+      "relation": "Father",
+      "relative_name": "Sahun Khan",
+      "house_no": "16",
+      "gender": "Male",
+      "age": 19
+    },
+    {
+      "s_no": 522,
+      "epic_voter_id": "RJ/08/061/444566",
+      "name": "Jumma Khan",
+      "relation": "Father",
+      "relative_name": "Sitab Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 68
+    },
+    {
+      "s_no": 523,
+      "epic_voter_id": "RJ/08/061/444108",
+      "name": "Kamroovari",
+      "relation": "Husband",
+      "relative_name": "Jumma Khan",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 65
+    },
+    {
+      "s_no": 524,
+      "epic_voter_id": "RJ/08/061/444111",
+      "name": "Kasam Khan",
+      "relation": "Father",
+      "relative_name": "Sitab Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 525,
+      "epic_voter_id": "RJ/08/061/444110",
+      "name": "Sarikham",
+      "relation": "Husband",
+      "relative_name": "Kasam Khan",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 526,
+      "epic_voter_id": "CVS1279470",
+      "name": "Khamees Khan",
+      "relation": "Father",
+      "relative_name": "Sitab Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 43
+    },
+    {
+      "s_no": 527,
+      "epic_voter_id": "CVS1279488",
+      "name": "Sallu",
+      "relation": "Husband",
+      "relative_name": "Khamees Khan",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 43
+    },
+    {
+      "s_no": 528,
+      "epic_voter_id": "CVS1279496",
+      "name": "Raushan Khan",
+      "relation": "Father",
+      "relative_name": "Sitab Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 42
+    },
+    {
+      "s_no": 529,
+      "epic_voter_id": "CVS1279504",
+      "name": "Antim",
+      "relation": "Husband",
+      "relative_name": "Raushan Khan",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 530,
+      "epic_voter_id": "CVS1591742",
+      "name": "Basheer Ahmad",
+      "relation": "Father",
+      "relative_name": "Jumma Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 41
+    },
+    {
+      "s_no": 531,
+      "epic_voter_id": "CVS1591734",
+      "name": "Shareef Khan",
+      "relation": "Father",
+      "relative_name": "Jumma Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 532,
+      "epic_voter_id": "CVS1591759",
+      "name": "Warish Khan",
+      "relation": "Father",
+      "relative_name": "Majeed Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 533,
+      "epic_voter_id": "CVS1591767",
+      "name": "Islami",
+      "relation": "Husband",
+      "relative_name": "Basheer",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 39
+    },
+    {
+      "s_no": 534,
+      "epic_voter_id": "CVS1591775",
+      "name": "Aneesha",
+      "relation": "Husband",
+      "relative_name": "Shareef Khan",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 535,
+      "epic_voter_id": "WHH0553420",
+      "name": "Abbas Khan",
+      "relation": "Father",
+      "relative_name": "Kasam Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 536,
+      "epic_voter_id": "WHH1422419",
+      "name": "Shabana",
+      "relation": "Husband",
+      "relative_name": "Shahrukh",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 26
+    },
+    {
+      "s_no": 537,
+      "epic_voter_id": "WHH1819754",
+      "name": "Warisha Bano",
+      "relation": "Husband",
+      "relative_name": "Aadil",
+      "house_no": "17",
+      "gender": "Female",
+      "age": 23
+    },
+    {
+      "s_no": 538,
+      "epic_voter_id": "WHH1819895",
+      "name": "Aadil",
+      "relation": "Father",
+      "relative_name": "Raushan Khan",
+      "house_no": "17",
+      "gender": "Male",
+      "age": 22
+    },
+    {
+      "s_no": 539,
+      "epic_voter_id": "RJ/08/061/444294",
+      "name": "Mahmood Khan",
+      "relation": "Father",
+      "relative_name": "Kamlu Khan",
+      "house_no": "18",
+      "gender": "Male",
+      "age": 73
+    },
+    {
+      "s_no": 540,
+      "epic_voter_id": "RJ/08/061/444277",
+      "name": "Boymadi",
+      "relation": "Husband",
+      "relative_name": "Mahmood Khan",
+      "house_no": "18",
+      "gender": "Female",
+      "age": 71
+    },
+    {
+      "s_no": 541,
+      "epic_voter_id": "RJ/08/061/444279",
+      "name": "Mangal Khan",
+      "relation": "Father",
+      "relative_name": "Mahmood Khan",
+      "house_no": "18",
+      "gender": "Male",
+      "age": 55
+    },
+    {
+      "s_no": 542,
+      "epic_voter_id": "RJ/08/061/444278",
+      "name": "Mahmoodi",
+      "relation": "Husband",
+      "relative_name": "Mangal Khan",
+      "house_no": "18",
+      "gender": "Female",
+      "age": 53
+    },
+    {
+      "s_no": 543,
+      "epic_voter_id": "WHH1521954",
+      "name": "Usman Khan",
+      "relation": "Father",
+      "relative_name": "Mangal Khan",
+      "house_no": "18",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 544,
+      "epic_voter_id": "WHH0660944",
+      "name": "Mosam Khan",
+      "relation": "Mother",
+      "relative_name": "Mahmood Khan",
+      "house_no": "18",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 545,
+      "epic_voter_id": "WHH0660951",
+      "name": "Namesar Khan",
+      "relation": "Mother",
+      "relative_name": "Mangal Khan",
+      "house_no": "18",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 546,
+      "epic_voter_id": "RJ/08/061/444043",
+      "name": "Majeed Khan",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 73
+    },
+    {
+      "s_no": 547,
+      "epic_voter_id": "RJ/08/061/444157",
+      "name": "Basri",
+      "relation": "Husband",
+      "relative_name": "Majeed Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 71
+    },
+    {
+      "s_no": 548,
+      "epic_voter_id": "RJ/08/061/444015",
+      "name": "Azim Khan",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 71
+    },
+    {
+      "s_no": 549,
+      "epic_voter_id": "RJ/08/061/444448",
+      "name": "Nijari",
+      "relation": "Husband",
+      "relative_name": "Azim Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 69
+    },
+    {
+      "s_no": 550,
+      "epic_voter_id": "RJ/08/061/444298",
+      "name": "Kalu Khan",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 68
+    },
+    {
+      "s_no": 551,
+      "epic_voter_id": "RJ/08/061/444162",
+      "name": "Asari",
+      "relation": "Husband",
+      "relative_name": "Kalu Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 65
+    },
+    {
+      "s_no": 552,
+      "epic_voter_id": "RJ/08/061/444158",
+      "name": "Sikka Khan",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 63
+    },
+    {
+      "s_no": 553,
+      "epic_voter_id": "RJ/08/061/444156",
+      "name": "Raheesan",
+      "relation": "Husband",
+      "relative_name": "Sikka Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 54
+    },
+    {
+      "s_no": 554,
+      "epic_voter_id": "RJ/08/061/444044",
+      "name": "Akhyab Khan",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 54
+    },
+    {
+      "s_no": 555,
+      "epic_voter_id": "RJ/08/061/444576",
+      "name": "Atziya",
+      "relation": "Husband",
+      "relative_name": "Akhyab Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 52
+    },
+    {
+      "s_no": 556,
+      "epic_voter_id": "RJ/08/061/444084",
+      "name": "Aazad Khan",
+      "relation": "Father",
+      "relative_name": "Chav Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 51
+    },
+    {
+      "s_no": 557,
+      "epic_voter_id": "CVS1591726",
+      "name": "Janri",
+      "relation": "Husband",
+      "relative_name": "Aazad Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 43
+    },
+    {
+      "s_no": 558,
+      "epic_voter_id": "WHH1521962",
+      "name": "Jubair Khan",
+      "relation": "Father",
+      "relative_name": "Azim Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 34
+    },
+    {
+      "s_no": 559,
+      "epic_voter_id": "WHH1522127",
+      "name": "Irfan Khan",
+      "relation": "Father",
+      "relative_name": "Nizamuddin",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 31
+    },
+    {
+      "s_no": 560,
+      "epic_voter_id": "WHH1598515",
+      "name": "Akramdeen",
+      "relation": "Father",
+      "relative_name": "Kalu Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 561,
+      "epic_voter_id": "WHH0660696",
+      "name": "Rasmeena",
+      "relation": "Husband",
+      "relative_name": "Jubair Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 562,
+      "epic_voter_id": "WHH0660704",
+      "name": "Farmeena",
+      "relation": "Husband",
+      "relative_name": "Waris Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 29
+    },
+    {
+      "s_no": 563,
+      "epic_voter_id": "WHH0660969",
+      "name": "Rahul Khan",
+      "relation": "Mother",
+      "relative_name": "Sikka Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 564,
+      "epic_voter_id": "WHH0984617",
+      "name": "Rasheed Khan",
+      "relation": "Father",
+      "relative_name": "Azim Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 28
+    },
+    {
+      "s_no": 565,
+      "epic_voter_id": "WHH1522101",
+      "name": "Rehana",
+      "relation": "Husband",
+      "relative_name": "Rahul Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 27
+    },
+    {
+      "s_no": 566,
+      "epic_voter_id": "WHH1537885",
+      "name": "Munfeeda",
+      "relation": "Husband",
+      "relative_name": "Sahun Khan",
+      "house_no": "20",
+      "gender": "Female",
+      "age": 27
+    },
+    {
+      "s_no": 567,
+      "epic_voter_id": "WHH1721125",
+      "name": "Sabir Khan",
+      "relation": "Father",
+      "relative_name": "Sikka Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 21
+    },
+    {
+      "s_no": 568,
+      "epic_voter_id": "WHH1859750",
+      "name": "Sajid Khan",
+      "relation": "Father",
+      "relative_name": "Aazad Khan",
+      "house_no": "20",
+      "gender": "Male",
+      "age": 20
+    },
+    {
+      "s_no": 569,
+      "epic_voter_id": "WHH1876150",
+      "name": "Rohit Saini",
+      "relation": "Father",
+      "relative_name": "Ranjeet Saini",
+      "house_no": "177",
+      "gender": "Male",
+      "age": 19
+    },
+    {
+      "s_no": 570,
+      "epic_voter_id": "WHH1432988",
+      "name": "Kavita Kumari",
+      "relation": "Husband",
+      "relative_name": "Hari Singh",
+      "house_no": "224",
+      "gender": "Female",
+      "age": 27
+    },
+    {
+      "s_no": 571,
+      "epic_voter_id": "WHH0984948",
+      "name": "Pappu Khan",
+      "relation": "Father",
+      "relative_name": "Chand Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 50
+    },
+    {
+      "s_no": 572,
+      "epic_voter_id": "WHH0984971",
+      "name": "Jamila",
+      "relation": "Husband",
+      "relative_name": "Pappu Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 48
+    },
+    {
+      "s_no": 573,
+      "epic_voter_id": "WHH0985002",
+      "name": "Razak Khan",
+      "relation": "Father",
+      "relative_name": "Chand Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 47
+    },
+    {
+      "s_no": 574,
+      "epic_voter_id": "WHH0985069",
+      "name": "Jamaluddin",
+      "relation": "Father",
+      "relative_name": "Chand Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 45
+    },
+    {
+      "s_no": 575,
+      "epic_voter_id": "WHH0985093",
+      "name": "Hanparo",
+      "relation": "Husband",
+      "relative_name": "Jamaluddin",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 42
+    },
+    {
+      "s_no": 576,
+      "epic_voter_id": "WHH0985127",
+      "name": "Jakir Khan",
+      "relation": "Father",
+      "relative_name": "Chandar Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 42
+    },
+    {
+      "s_no": 577,
+      "epic_voter_id": "WHH0984773",
+      "name": "Rehana",
+      "relation": "Husband",
+      "relative_name": "Sahroon Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 41
+    },
+    {
+      "s_no": 578,
+      "epic_voter_id": "WHH0985036",
+      "name": "Sanjeeda",
+      "relation": "Husband",
+      "relative_name": "Jakir Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 41
+    },
+    {
+      "s_no": 579,
+      "epic_voter_id": "WHH0985184",
+      "name": "Sahuni",
+      "relation": "Husband",
+      "relative_name": "Jamshed Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 40
+    },
+    {
+      "s_no": 580,
+      "epic_voter_id": "WHH0984641",
+      "name": "Irshad Khan",
+      "relation": "Father",
+      "relative_name": "Shahbuddin",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 581,
+      "epic_voter_id": "WHH0985150",
+      "name": "Jamshed Khan",
+      "relation": "Father",
+      "relative_name": "Safeda Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 39
+    },
+    {
+      "s_no": 582,
+      "epic_voter_id": "WHH0985218",
+      "name": "Rasheed Khan",
+      "relation": "Father",
+      "relative_name": "Safeda Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 38
+    },
+    {
+      "s_no": 583,
+      "epic_voter_id": "WHH0985242",
+      "name": "Islami",
+      "relation": "Husband",
+      "relative_name": "Rasheed Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 38
+    },
+    {
+      "s_no": 584,
+      "epic_voter_id": "WHH0984674",
+      "name": "Imrana",
+      "relation": "Husband",
+      "relative_name": "Irshad Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 37
+    },
+    {
+      "s_no": 585,
+      "epic_voter_id": "WHH0985283",
+      "name": "Farukh",
+      "relation": "Father",
+      "relative_name": "Safeda Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 36
+    },
+    {
+      "s_no": 586,
+      "epic_voter_id": "WHH0984740",
+      "name": "Rabeena",
+      "relation": "Husband",
+      "relative_name": "Aashif Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 35
+    },
+    {
+      "s_no": 587,
+      "epic_voter_id": "WHH0985317",
+      "name": "Jubeda",
+      "relation": "Husband",
+      "relative_name": "Farukh Khan",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 34
+    },
+    {
+      "s_no": 588,
+      "epic_voter_id": "WHH0984716",
+      "name": "Shaukeen Khan",
+      "relation": "Father",
+      "relative_name": "Aashpadeen",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 33
+    },
+    {
+      "s_no": 589,
+      "epic_voter_id": "WHH0481143",
+      "name": "Ramchand",
+      "relation": "Father",
+      "relative_name": "Laxmanram",
+      "house_no": "368",
+      "gender": "Male",
+      "age": 32
+    },
+    {
+      "s_no": 590,
+      "epic_voter_id": "WHH0481150",
+      "name": "Ladki",
+      "relation": "Husband",
+      "relative_name": "Ramchand",
+      "house_no": "368",
+      "gender": "Female",
+      "age": 32
+    },
+    {
+      "s_no": 591,
+      "epic_voter_id": "WHH0984906",
+      "name": "Sahun Khan",
+      "relation": "Father",
+      "relative_name": "Sikka Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 30
+    },
+    {
+      "s_no": 592,
+      "epic_voter_id": "WHH0984849",
+      "name": "Ansar Khan",
+      "relation": "Father",
+      "relative_name": "Kalu Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 593,
+      "epic_voter_id": "WHH0984872",
+      "name": "Shakir Khan",
+      "relation": "Father",
+      "relative_name": "Kalu Khan",
+      "house_no": "-",
+      "gender": "Male",
+      "age": 29
+    },
+    {
+      "s_no": 594,
+      "epic_voter_id": "WHH0984807",
+      "name": "Sukla",
+      "relation": "Husband",
+      "relative_name": "Aashpadeen",
+      "house_no": "-",
+      "gender": "Female",
+      "age": 28
+    },
+    {
+      "s_no": 595,
+      "epic_voter_id": "WHH1760511",
+      "name": "Anjum",
+      "relation": "Father",
+      "relative_name": "Jamshed Khan",
+      "house_no": "368",
+      "gender": "Female",
+      "age": 19
+    },
+    {
+      "s_no": 596,
+      "epic_voter_id": "WHH1958560",
+      "name": "Imrana",
+      "relation": "Husband",
+      "relative_name": "Shahjad Khan",
+      "house_no": "13",
+      "gender": "Female",
+      "age": 22
+    },
+    {
+      "s_no": 597,
+      "epic_voter_id": "WHH2026540",
+      "name": "Mohsin Khan",
+      "relation": "Father",
+      "relative_name": "Irshad Khan",
+      "house_no": "368",
+      "gender": "Male",
+      "age": 18
+    }
+  ]
+}

@@ -1,0 +1,5416 @@
+{
+  "election_authority": "State Election Commission, Rajasthan",
+  "municipality": "Bahadurpur",
+  "assembly_constituency": {
+    "number": 65,
+    "name": "Alwar Rural"
+  },
+  "ward": {
+    "ward_no": 13,
+    "part_no": 1
+  },
+  "tehsil": "Alwar",
+  "district": "Alwar, Rajasthan",
+  "area_village": "Entire Revenue Village Ranikheda",
+  "polling_station": "13 - Govt. Upper Primary School Ranikheda, Room No. 1",
+  "revision_year": 2026,
+  "qualifying_date": "01-01-2026",
+  "total_voters": {
+    "total": 539,
+    "male": 285,
+    "female": 254,
+    "third_gender": 0
+  },
+  "voters": [
+    {
+      "S.No.": "1",
+      "EPIC No.": "WHH1264738",
+      "Voter Name": "Kanta Devi",
+      "Relation Type": "Husband",
+      "Relative Name": "Anil Kumar",
+      "House No.": "0",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "2",
+      "EPIC No.": "WHH1264753",
+      "Voter Name": "Irsana Bano",
+      "Relation Type": "Father",
+      "Relative Name": "Subedeen",
+      "House No.": "0",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "3",
+      "EPIC No.": "RJ/08/061/459531",
+      "Voter Name": "Ameer",
+      "Relation Type": "Father",
+      "Relative Name": "Mandarukhan",
+      "House No.": "1",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "4",
+      "EPIC No.": "RJ/08/061/459242",
+      "Voter Name": "Raseedan",
+      "Relation Type": "Husband",
+      "Relative Name": "Ameer",
+      "House No.": "1",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "5",
+      "EPIC No.": "WHH1279090",
+      "Voter Name": "Rahamdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Sami Khan",
+      "House No.": "1",
+      "Age": "47",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "6",
+      "EPIC No.": "WHH1279074",
+      "Voter Name": "Saidan",
+      "Relation Type": "Husband",
+      "Relative Name": "Rahamdeen",
+      "House No.": "1",
+      "Age": "44",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "7",
+      "EPIC No.": "WHH1357490",
+      "Voter Name": "Magtoo",
+      "Relation Type": "Father",
+      "Relative Name": "Imam",
+      "House No.": "1",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "8",
+      "EPIC No.": "WHH1357474",
+      "Voter Name": "Varisa",
+      "Relation Type": "Husband",
+      "Relative Name": "Mangtoo Khan",
+      "House No.": "1",
+      "Age": "39",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "9",
+      "EPIC No.": "WHH0004333",
+      "Voter Name": "Hameed",
+      "Relation Type": "Father",
+      "Relative Name": "Madrukhan",
+      "House No.": "1",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "10",
+      "EPIC No.": "WHH0436048",
+      "Voter Name": "Sabeela",
+      "Relation Type": "Husband",
+      "Relative Name": "Nawab Khan",
+      "House No.": "1",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "11",
+      "EPIC No.": "WHH1357482",
+      "Voter Name": "Sahyad",
+      "Relation Type": "Father",
+      "Relative Name": "Imam Kha",
+      "House No.": "1",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "12",
+      "EPIC No.": "WHH1157171",
+      "Voter Name": "Saddam Mew",
+      "Relation Type": "Father",
+      "Relative Name": "Aamir Khan",
+      "House No.": "1",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "13",
+      "EPIC No.": "WHH1358985",
+      "Voter Name": "Apseena",
+      "Relation Type": "Husband",
+      "Relative Name": "Shahzad",
+      "House No.": "1",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "14",
+      "EPIC No.": "WHH0989947",
+      "Voter Name": "Aabtaab",
+      "Relation Type": "Father",
+      "Relative Name": "Ameer Khan",
+      "House No.": "1",
+      "Age": "28",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "15",
+      "EPIC No.": "WHH1507250",
+      "Voter Name": "Chandni",
+      "Relation Type": "Husband",
+      "Relative Name": "Sanjay",
+      "House No.": "1",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "16",
+      "EPIC No.": "WHH1164367",
+      "Voter Name": "Shamshu",
+      "Relation Type": "Father",
+      "Relative Name": "Aamir Kha",
+      "House No.": "1",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "17",
+      "EPIC No.": "WHH1619824",
+      "Voter Name": "Jitendra Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Phool Singh",
+      "House No.": "1",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "18",
+      "EPIC No.": "WHH1499094",
+      "Voter Name": "Natwar Singh Gurjar",
+      "Relation Type": "Father",
+      "Relative Name": "Nihal Singh",
+      "House No.": "1",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "19",
+      "EPIC No.": "WHH1536200",
+      "Voter Name": "Hasim",
+      "Relation Type": "Father",
+      "Relative Name": "Tayyab Khan",
+      "House No.": "1",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "20",
+      "EPIC No.": "WHH1610930",
+      "Voter Name": "Mohar Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Ramesh Chand",
+      "House No.": "1",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "21",
+      "EPIC No.": "WHH1679836",
+      "Voter Name": "Dilruba",
+      "Relation Type": "Other",
+      "Relative Name": "Rahmu",
+      "House No.": "1",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "22",
+      "EPIC No.": "WHH1679901",
+      "Voter Name": "Aasip Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Sumer Khan",
+      "House No.": "1",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "23",
+      "EPIC No.": "WHH1679935",
+      "Voter Name": "Aarstun",
+      "Relation Type": "Husband",
+      "Relative Name": "Mosamdeen",
+      "House No.": "1",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "24",
+      "EPIC No.": "WHH1483528",
+      "Voter Name": "Kareena",
+      "Relation Type": "Husband",
+      "Relative Name": "Vishal Kumar",
+      "House No.": "1",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "25",
+      "EPIC No.": "WHH1506484",
+      "Voter Name": "Manoj Kasana",
+      "Relation Type": "Father",
+      "Relative Name": "Ratan Lal",
+      "House No.": "1",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "26",
+      "EPIC No.": "WHH1887959",
+      "Voter Name": "Noor Nisha",
+      "Relation Type": "Husband",
+      "Relative Name": "Samsu",
+      "House No.": "1",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "27",
+      "EPIC No.": "WHH1698406",
+      "Voter Name": "Shoaib Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Khurshid Khan",
+      "House No.": "1",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "28",
+      "EPIC No.": "WHH0250977",
+      "Voter Name": "Ramsingh",
+      "Relation Type": "Father",
+      "Relative Name": "Gokulchand",
+      "House No.": "1 Ka",
+      "Age": "71",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "29",
+      "EPIC No.": "WHH0250969",
+      "Voter Name": "Kailashi",
+      "Relation Type": "Husband",
+      "Relative Name": "Ramsingh",
+      "House No.": "1 Ka",
+      "Age": "69",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "30",
+      "EPIC No.": "WHH0376699",
+      "Voter Name": "Vijay Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Ramsingh",
+      "House No.": "1 Ka",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "31",
+      "EPIC No.": "WHH0376707",
+      "Voter Name": "Hansraj",
+      "Relation Type": "Father",
+      "Relative Name": "Ramsingh",
+      "House No.": "1 Ka",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "32",
+      "EPIC No.": "WHH0574921",
+      "Voter Name": "Vimla",
+      "Relation Type": "Husband",
+      "Relative Name": "Hansraj",
+      "House No.": "1 Ka",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "33",
+      "EPIC No.": "WHH0376715",
+      "Voter Name": "Kamal",
+      "Relation Type": "Husband",
+      "Relative Name": "Vijay Singh",
+      "House No.": "1 Ka",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "34",
+      "EPIC No.": "WHH0436022",
+      "Voter Name": "Satveer",
+      "Relation Type": "Father",
+      "Relative Name": "Ramsingh",
+      "House No.": "1 Ka",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "35",
+      "EPIC No.": "WHH0436030",
+      "Voter Name": "Krishna",
+      "Relation Type": "Husband",
+      "Relative Name": "Satveer",
+      "House No.": "1 Ka",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "36",
+      "EPIC No.": "WHH1812635",
+      "Voter Name": "Zinat",
+      "Relation Type": "Husband",
+      "Relative Name": "Hashim Khan",
+      "House No.": "1 Ranikheda",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "37",
+      "EPIC No.": "RJ/08/061/459215",
+      "Voter Name": "Roopukhan",
+      "Relation Type": "Father",
+      "Relative Name": "Aleemo",
+      "House No.": "2",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "38",
+      "EPIC No.": "RJ/08/061/459204",
+      "Voter Name": "Baksi",
+      "Relation Type": "Husband",
+      "Relative Name": "Roopu",
+      "House No.": "2",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "39",
+      "EPIC No.": "CVS1283225",
+      "Voter Name": "Sapat",
+      "Relation Type": "Father",
+      "Relative Name": "Roopu",
+      "House No.": "2",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "40",
+      "EPIC No.": "WHH0321646",
+      "Voter Name": "Zuber Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Roopu Khan",
+      "House No.": "2",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "41",
+      "EPIC No.": "WHH0321653",
+      "Voter Name": "Zubeda",
+      "Relation Type": "Husband",
+      "Relative Name": "Sapat Khan",
+      "House No.": "2",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "42",
+      "EPIC No.": "WHH0321687",
+      "Voter Name": "Naseebi",
+      "Relation Type": "Husband",
+      "Relative Name": "Zuber Khan",
+      "House No.": "2",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "43",
+      "EPIC No.": "WHH0612937",
+      "Voter Name": "Arif Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Bagsingh",
+      "House No.": "2",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "44",
+      "EPIC No.": "WHH1536283",
+      "Voter Name": "Haakeel",
+      "Relation Type": "Other",
+      "Relative Name": "Mujeeban",
+      "House No.": "2",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "45",
+      "EPIC No.": "WHH1712298",
+      "Voter Name": "Firdos",
+      "Relation Type": "Father",
+      "Relative Name": "Sapat",
+      "House No.": "2",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "46",
+      "EPIC No.": "WHH1873892",
+      "Voter Name": "Mansira Ka",
+      "Relation Type": "Husband",
+      "Relative Name": "Arif Khan",
+      "House No.": "2 Ranikheda",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "47",
+      "EPIC No.": "RJ/08/061/459205",
+      "Voter Name": "Jetuni",
+      "Relation Type": "Husband",
+      "Relative Name": "Bagsingh",
+      "House No.": "3",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "48",
+      "EPIC No.": "CVS1283233",
+      "Voter Name": "Subedeen",
+      "Relation Type": "Father",
+      "Relative Name": "Bagsingh",
+      "House No.": "3",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "49",
+      "EPIC No.": "WHH0060152",
+      "Voter Name": "Farmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Subedeen",
+      "House No.": "3",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "50",
+      "EPIC No.": "WHH1483049",
+      "Voter Name": "Rafeeq",
+      "Relation Type": "Father",
+      "Relative Name": "Sumer Khan",
+      "House No.": "3",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "51",
+      "EPIC No.": "RJ/08/061/459168",
+      "Voter Name": "Sahab Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Buddhu",
+      "House No.": "4",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "52",
+      "EPIC No.": "CVS1352541",
+      "Voter Name": "Mohammad Haneef",
+      "Relation Type": "Father",
+      "Relative Name": "Sahab Khan",
+      "House No.": "4",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "53",
+      "EPIC No.": "CVS1352558",
+      "Voter Name": "Suntee",
+      "Relation Type": "Husband",
+      "Relative Name": "Mohammad Haneef",
+      "House No.": "4",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "54",
+      "EPIC No.": "WHH1264704",
+      "Voter Name": "Rabeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Akbar Khan",
+      "House No.": "4",
+      "Age": "37",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "55",
+      "EPIC No.": "WHH0394049",
+      "Voter Name": "Akbari",
+      "Relation Type": "Husband",
+      "Relative Name": "Tayyab Khan",
+      "House No.": "4",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "56",
+      "EPIC No.": "WHH0004358",
+      "Voter Name": "Tayyab Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Sahab Khan",
+      "House No.": "4",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "57",
+      "EPIC No.": "RJ/08/061/459263",
+      "Voter Name": "Sampatram",
+      "Relation Type": "Father",
+      "Relative Name": "Ramsahay",
+      "House No.": "5",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "58",
+      "EPIC No.": "RJ/08/061/459206",
+      "Voter Name": "Kela Bai",
+      "Relation Type": "Husband",
+      "Relative Name": "Sampat",
+      "House No.": "5",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "59",
+      "EPIC No.": "CVS1352566",
+      "Voter Name": "Lakhmi Chand",
+      "Relation Type": "Father",
+      "Relative Name": "Sampat",
+      "House No.": "5",
+      "Age": "46",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "60",
+      "EPIC No.": "CVS1352574",
+      "Voter Name": "Beena",
+      "Relation Type": "Husband",
+      "Relative Name": "Lakhmi Chand",
+      "House No.": "5",
+      "Age": "44",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "61",
+      "EPIC No.": "WHH0321679",
+      "Voter Name": "Mukesh Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Sampat Ram",
+      "House No.": "5",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "62",
+      "EPIC No.": "WHH0394056",
+      "Voter Name": "Lalita Bai",
+      "Relation Type": "Husband",
+      "Relative Name": "Mukesh Kumar",
+      "House No.": "5",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "63",
+      "EPIC No.": "WHH1484112",
+      "Voter Name": "Vishal Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Lakhmi Chand",
+      "House No.": "5",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "64",
+      "EPIC No.": "RJ/08/061/459192",
+      "Voter Name": "Kistoori",
+      "Relation Type": "Husband",
+      "Relative Name": "Bambooram",
+      "House No.": "6",
+      "Age": "76",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "65",
+      "EPIC No.": "RJ/08/061/459448",
+      "Voter Name": "Ratan Lal",
+      "Relation Type": "Father",
+      "Relative Name": "Gokul Chand",
+      "House No.": "6",
+      "Age": "72",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "66",
+      "EPIC No.": "RJ/08/061/459495",
+      "Voter Name": "Dholi",
+      "Relation Type": "Husband",
+      "Relative Name": "Ratan",
+      "House No.": "6",
+      "Age": "70",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "67",
+      "EPIC No.": "RJ/08/061/459044",
+      "Voter Name": "Ramesh Chand",
+      "Relation Type": "Father",
+      "Relative Name": "Bambooram",
+      "House No.": "6",
+      "Age": "51",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "68",
+      "EPIC No.": "CVS1352582",
+      "Voter Name": "Premlata",
+      "Relation Type": "Husband",
+      "Relative Name": "Ramesh Chand",
+      "House No.": "6",
+      "Age": "47",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "69",
+      "EPIC No.": "WHH0087288",
+      "Voter Name": "Babulal",
+      "Relation Type": "Father",
+      "Relative Name": "Bambooram",
+      "House No.": "6",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "70",
+      "EPIC No.": "WHH0087296",
+      "Voter Name": "Dhanna Bai",
+      "Relation Type": "Husband",
+      "Relative Name": "Babulal",
+      "House No.": "6",
+      "Age": "37",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "71",
+      "EPIC No.": "WHH0394064",
+      "Voter Name": "Virendra Kasana",
+      "Relation Type": "Father",
+      "Relative Name": "Ratan Lal",
+      "House No.": "6",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "72",
+      "EPIC No.": "WHH0778092",
+      "Voter Name": "Babita",
+      "Relation Type": "Husband",
+      "Relative Name": "Manoj",
+      "House No.": "6",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "73",
+      "EPIC No.": "WHH0778100",
+      "Voter Name": "Asha Devi",
+      "Relation Type": "Husband",
+      "Relative Name": "Virendra",
+      "House No.": "6",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "74",
+      "EPIC No.": "RJ/08/061/459224",
+      "Voter Name": "Resham",
+      "Relation Type": "Husband",
+      "Relative Name": "Sundar",
+      "House No.": "7",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "75",
+      "EPIC No.": "CVS1283241",
+      "Voter Name": "Phool Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Sundar Lal",
+      "House No.": "7",
+      "Age": "46",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "76",
+      "EPIC No.": "CVS1283258",
+      "Voter Name": "Sunita Devi",
+      "Relation Type": "Husband",
+      "Relative Name": "Phool Singh",
+      "House No.": "7",
+      "Age": "45",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "77",
+      "EPIC No.": "WHH0060160",
+      "Voter Name": "Rajkumar",
+      "Relation Type": "Father",
+      "Relative Name": "Sundar Lal",
+      "House No.": "7",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "78",
+      "EPIC No.": "WHH0228247",
+      "Voter Name": "Sitaram",
+      "Relation Type": "Father",
+      "Relative Name": "Sundar Lal",
+      "House No.": "7",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "79",
+      "EPIC No.": "WHH0060178",
+      "Voter Name": "Sharda Devi",
+      "Relation Type": "Husband",
+      "Relative Name": "Raj Kumar",
+      "House No.": "7",
+      "Age": "38",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "80",
+      "EPIC No.": "WHH0436055",
+      "Voter Name": "Lalita",
+      "Relation Type": "Husband",
+      "Relative Name": "Sitaram",
+      "House No.": "7",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "81",
+      "EPIC No.": "RJ/08/061/459491",
+      "Voter Name": "Poonee",
+      "Relation Type": "Husband",
+      "Relative Name": "Chhotaram",
+      "House No.": "8",
+      "Age": "73",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "82",
+      "EPIC No.": "WHH1769207",
+      "Voter Name": "Devisahay",
+      "Relation Type": "Father",
+      "Relative Name": "Kishori Lal",
+      "House No.": "8",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "83",
+      "EPIC No.": "RJ/08/061/459561",
+      "Voter Name": "Partap",
+      "Relation Type": "Father",
+      "Relative Name": "Chhotaram",
+      "House No.": "8",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "84",
+      "EPIC No.": "WHH1769199",
+      "Voter Name": "Bhagwani",
+      "Relation Type": "Husband",
+      "Relative Name": "Devisahay",
+      "House No.": "8",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "85",
+      "EPIC No.": "RJ/08/061/459560",
+      "Voter Name": "Neeraj",
+      "Relation Type": "Husband",
+      "Relative Name": "Partap",
+      "House No.": "8",
+      "Age": "56",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "86",
+      "EPIC No.": "RJ/08/061/459312",
+      "Voter Name": "Babulal",
+      "Relation Type": "Father",
+      "Relative Name": "Chhotaram",
+      "House No.": "8",
+      "Age": "54",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "87",
+      "EPIC No.": "WHH0990002",
+      "Voter Name": "Geeta",
+      "Relation Type": "Husband",
+      "Relative Name": "Babulal",
+      "House No.": "8",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "88",
+      "EPIC No.": "WHH0623140",
+      "Voter Name": "Anil",
+      "Relation Type": "Father",
+      "Relative Name": "Devi Sahay",
+      "House No.": "8",
+      "Age": "33",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "89",
+      "EPIC No.": "WHH0553685",
+      "Voter Name": "Nirmala",
+      "Relation Type": "Husband",
+      "Relative Name": "Sonaram",
+      "House No.": "8",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "90",
+      "EPIC No.": "RJ/08/061/459394",
+      "Voter Name": "Jagan",
+      "Relation Type": "Father",
+      "Relative Name": "Babari",
+      "House No.": "9",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "91",
+      "EPIC No.": "CVS1352608",
+      "Voter Name": "Gyana",
+      "Relation Type": "Husband",
+      "Relative Name": "Jagan",
+      "House No.": "9",
+      "Age": "71",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "92",
+      "EPIC No.": "RJ/08/061/459311",
+      "Voter Name": "Barfi",
+      "Relation Type": "Husband",
+      "Relative Name": "Sukhram",
+      "House No.": "9",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "93",
+      "EPIC No.": "RJ/08/061/459602",
+      "Voter Name": "Mayaram",
+      "Relation Type": "Father",
+      "Relative Name": "Babari",
+      "House No.": "9",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "94",
+      "EPIC No.": "CVS1352616",
+      "Voter Name": "Kala",
+      "Relation Type": "Husband",
+      "Relative Name": "Nandram",
+      "House No.": "9",
+      "Age": "55",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "95",
+      "EPIC No.": "RJ/08/061/459555",
+      "Voter Name": "Totaram",
+      "Relation Type": "Father",
+      "Relative Name": "Babari",
+      "House No.": "9",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "96",
+      "EPIC No.": "RJ/08/061/459001",
+      "Voter Name": "Dhaniram",
+      "Relation Type": "Father",
+      "Relative Name": "Kishori Lal",
+      "House No.": "9",
+      "Age": "50",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "97",
+      "EPIC No.": "CVS1352590",
+      "Voter Name": "Sunita",
+      "Relation Type": "Husband",
+      "Relative Name": "Dhanniram",
+      "House No.": "9",
+      "Age": "47",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "98",
+      "EPIC No.": "WHH0750430",
+      "Voter Name": "Dharamveer",
+      "Relation Type": "Father",
+      "Relative Name": "Mayaram",
+      "House No.": "9",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "99",
+      "EPIC No.": "WHH0394072",
+      "Voter Name": "Sube Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Mayaram",
+      "House No.": "9",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "100",
+      "EPIC No.": "WHH1116011",
+      "Voter Name": "Babita",
+      "Relation Type": "Husband",
+      "Relative Name": "Dharamveer",
+      "House No.": "9",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "101",
+      "EPIC No.": "WHH0862953",
+      "Voter Name": "Mukesh",
+      "Relation Type": "Father",
+      "Relative Name": "Sarjeet",
+      "House No.": "9",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "102",
+      "EPIC No.": "WHH0663161",
+      "Voter Name": "Sarjeet",
+      "Relation Type": "Father",
+      "Relative Name": "Bhooroo",
+      "House No.": "9",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "103",
+      "EPIC No.": "WHH0862961",
+      "Voter Name": "Ajeet Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Barfi",
+      "House No.": "9",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "104",
+      "EPIC No.": "WHH1863992",
+      "Voter Name": "Dharmi",
+      "Relation Type": "Father",
+      "Relative Name": "Nandram",
+      "House No.": "9",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "105",
+      "EPIC No.": "WHH1860725",
+      "Voter Name": "Kamal Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Dhani Ram",
+      "House No.": "9",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "106",
+      "EPIC No.": "RJ/08/061/459600",
+      "Voter Name": "Hari Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Gokulchand",
+      "House No.": "10",
+      "Age": "78",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "107",
+      "EPIC No.": "RJ/08/061/459492",
+      "Voter Name": "Imarti",
+      "Relation Type": "Husband",
+      "Relative Name": "Hari Singh",
+      "House No.": "10",
+      "Age": "77",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "108",
+      "EPIC No.": "RJ/08/061/459143",
+      "Voter Name": "Surjo Bai",
+      "Relation Type": "Husband",
+      "Relative Name": "Ramchandra",
+      "House No.": "10",
+      "Age": "65",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "109",
+      "EPIC No.": "RJ/08/061/459506",
+      "Voter Name": "Bane Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Hari Singh",
+      "House No.": "10",
+      "Age": "56",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "110",
+      "EPIC No.": "RJ/08/061/459556",
+      "Voter Name": "Kesanta",
+      "Relation Type": "Husband",
+      "Relative Name": "Bane Singh",
+      "House No.": "10",
+      "Age": "55",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "111",
+      "EPIC No.": "CVS1365857",
+      "Voter Name": "Mahendra",
+      "Relation Type": "Father",
+      "Relative Name": "Ramchand",
+      "House No.": "10",
+      "Age": "46",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "112",
+      "EPIC No.": "WHH0449256",
+      "Voter Name": "Ben Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Hari Singh",
+      "House No.": "10",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "113",
+      "EPIC No.": "CVS1365659",
+      "Voter Name": "Beerbatti",
+      "Relation Type": "Husband",
+      "Relative Name": "Ben Singh",
+      "House No.": "10",
+      "Age": "43",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "114",
+      "EPIC No.": "CVS1283274",
+      "Voter Name": "Dharm Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Hari Singh",
+      "House No.": "10",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "115",
+      "EPIC No.": "WHH0004366",
+      "Voter Name": "Lalaram",
+      "Relation Type": "Father",
+      "Relative Name": "Ramchand",
+      "House No.": "10",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "116",
+      "EPIC No.": "CVS1593474",
+      "Voter Name": "Rekha",
+      "Relation Type": "Husband",
+      "Relative Name": "Dharm Singh",
+      "House No.": "10",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "117",
+      "EPIC No.": "WHH0376723",
+      "Voter Name": "Phoolbai",
+      "Relation Type": "Husband",
+      "Relative Name": "Lalaram",
+      "House No.": "10",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "118",
+      "EPIC No.": "CVS7147572",
+      "Voter Name": "Ramesh Kasana",
+      "Relation Type": "Father",
+      "Relative Name": "Hari Singh",
+      "House No.": "10",
+      "Age": "40",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "119",
+      "EPIC No.": "WHH0814475",
+      "Voter Name": "Krishna",
+      "Relation Type": "Husband",
+      "Relative Name": "Mahendra",
+      "House No.": "10",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "120",
+      "EPIC No.": "CVS1605286",
+      "Voter Name": "Siyaram",
+      "Relation Type": "Father",
+      "Relative Name": "Shri Ram Chandra",
+      "House No.": "10",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "121",
+      "EPIC No.": "CVS7147580",
+      "Voter Name": "Rajbatti",
+      "Relation Type": "Husband",
+      "Relative Name": "Ramesh Kasana",
+      "House No.": "10",
+      "Age": "39",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "122",
+      "EPIC No.": "WHH1624238",
+      "Voter Name": "Sunita",
+      "Relation Type": "Other",
+      "Relative Name": "Bane Singh",
+      "House No.": "10",
+      "Age": "39",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "123",
+      "EPIC No.": "WHH0087304",
+      "Voter Name": "Balram",
+      "Relation Type": "Father",
+      "Relative Name": "Ramchandra",
+      "House No.": "10",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "124",
+      "EPIC No.": "WHH0991448",
+      "Voter Name": "Sanjida",
+      "Relation Type": "Husband",
+      "Relative Name": "Fajrudeen",
+      "House No.": "-",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "125",
+      "EPIC No.": "WHH0663179",
+      "Voter Name": "Anita Bai",
+      "Relation Type": "Husband",
+      "Relative Name": "Balram",
+      "House No.": "10",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "126",
+      "EPIC No.": "WHH0991463",
+      "Voter Name": "Munfed Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Himmat Khan",
+      "House No.": "-",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "127",
+      "EPIC No.": "WHH0991539",
+      "Voter Name": "Mubarik",
+      "Relation Type": "Father",
+      "Relative Name": "Kamrudeen",
+      "House No.": "-",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "128",
+      "EPIC No.": "WHH0991372",
+      "Voter Name": "Ruksina",
+      "Relation Type": "Husband",
+      "Relative Name": "Aslam",
+      "House No.": "-",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "129",
+      "EPIC No.": "WHH0991497",
+      "Voter Name": "Subedeen",
+      "Relation Type": "Father",
+      "Relative Name": "Nabi Khan",
+      "House No.": "-",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "130",
+      "EPIC No.": "WHH1573039",
+      "Voter Name": "Mubeena Khan",
+      "Relation Type": "Husband",
+      "Relative Name": "Rahul Khan",
+      "House No.": "10",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "131",
+      "EPIC No.": "WHH0991406",
+      "Voter Name": "Sube Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Bane Singh",
+      "House No.": "-",
+      "Age": "28",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "132",
+      "EPIC No.": "WHH0814483",
+      "Voter Name": "Rajesh",
+      "Relation Type": "Father",
+      "Relative Name": "Ramchander",
+      "House No.": "10",
+      "Age": "28",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "133",
+      "EPIC No.": "WHH0990135",
+      "Voter Name": "Kavita Kumari",
+      "Relation Type": "Husband",
+      "Relative Name": "Rajesh",
+      "House No.": "10",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "134",
+      "EPIC No.": "WHH0990069",
+      "Voter Name": "Shyam Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Banne Singh",
+      "House No.": "10",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "135",
+      "EPIC No.": "WHH1817980",
+      "Voter Name": "Sachin Kasna",
+      "Relation Type": "Father",
+      "Relative Name": "Bain Singh",
+      "House No.": "10 Ranikheda",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "136",
+      "EPIC No.": "WHH1812593",
+      "Voter Name": "Ekta Kumari",
+      "Relation Type": "Husband",
+      "Relative Name": "Sube Singh",
+      "House No.": "10 Ranikheda",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "137",
+      "EPIC No.": "WHH1817964",
+      "Voter Name": "Lakhan Kasna",
+      "Relation Type": "Father",
+      "Relative Name": "Dharm Singh",
+      "House No.": "10 Ranikheda",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "138",
+      "EPIC No.": "RJ/08/061/459336",
+      "Voter Name": "Leelaram",
+      "Relation Type": "Father",
+      "Relative Name": "Kishanchand",
+      "House No.": "11",
+      "Age": "93",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "139",
+      "EPIC No.": "RJ/08/061/459603",
+      "Voter Name": "Kishore",
+      "Relation Type": "Father",
+      "Relative Name": "Leelaram",
+      "House No.": "11",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "140",
+      "EPIC No.": "RJ/08/061/459601",
+      "Voter Name": "Hansa",
+      "Relation Type": "Husband",
+      "Relative Name": "Kishore",
+      "House No.": "11",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "141",
+      "EPIC No.": "RJ/08/061/459382",
+      "Voter Name": "Hari",
+      "Relation Type": "Father",
+      "Relative Name": "Leelaram",
+      "House No.": "11",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "142",
+      "EPIC No.": "CVS1283282",
+      "Voter Name": "Soopeda",
+      "Relation Type": "Husband",
+      "Relative Name": "Hari",
+      "House No.": "11",
+      "Age": "57",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "143",
+      "EPIC No.": "WHH1866003",
+      "Voter Name": "Devendra Gurjar",
+      "Relation Type": "Father",
+      "Relative Name": "Kishore Gurjar",
+      "House No.": "11",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "144",
+      "EPIC No.": "WHH1828771",
+      "Voter Name": "Mahesh Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Hari Singh",
+      "House No.": "11 Ranikheda",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "145",
+      "EPIC No.": "RJ/08/061/459490",
+      "Voter Name": "Anandi",
+      "Relation Type": "Husband",
+      "Relative Name": "Jalsingh",
+      "House No.": "12",
+      "Age": "88",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "146",
+      "EPIC No.": "RJ/08/061/459577",
+      "Voter Name": "Jenam",
+      "Relation Type": "Husband",
+      "Relative Name": "Asarkhan",
+      "House No.": "12",
+      "Age": "65",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "147",
+      "EPIC No.": "RJ/08/061/459381",
+      "Voter Name": "Lahari",
+      "Relation Type": "Father",
+      "Relative Name": "Jalsingh",
+      "House No.": "12",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "148",
+      "EPIC No.": "RJ/08/061/459378",
+      "Voter Name": "Sajna",
+      "Relation Type": "Husband",
+      "Relative Name": "Lahari",
+      "House No.": "12",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "149",
+      "EPIC No.": "WHH1769181",
+      "Voter Name": "Bimla",
+      "Relation Type": "Husband",
+      "Relative Name": "Roshanlal",
+      "House No.": "12",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "150",
+      "EPIC No.": "WHH1766989",
+      "Voter Name": "Saroj",
+      "Relation Type": "Husband",
+      "Relative Name": "Imrat",
+      "House No.": "12",
+      "Age": "60",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "151",
+      "EPIC No.": "RJ/08/061/459594",
+      "Voter Name": "Roshan",
+      "Relation Type": "Father",
+      "Relative Name": "Jalsingh",
+      "House No.": "12",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "152",
+      "EPIC No.": "RJ/08061//459502",
+      "Voter Name": "Imrat",
+      "Relation Type": "Father",
+      "Relative Name": "Jalsingh",
+      "House No.": "12",
+      "Age": "56",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "153",
+      "EPIC No.": "RJ/08061//459308",
+      "Voter Name": "Akbarkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Asarkhan",
+      "House No.": "12",
+      "Age": "51",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "154",
+      "EPIC No.": "CVS1605617",
+      "Voter Name": "Umardeen",
+      "Relation Type": "Father",
+      "Relative Name": "Niwaju",
+      "House No.": "12",
+      "Age": "49",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "155",
+      "EPIC No.": "WHH0087346",
+      "Voter Name": "Sagrudeen",
+      "Relation Type": "Father",
+      "Relative Name": "Asar Khan",
+      "House No.": "12",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "156",
+      "EPIC No.": "WHH0096834",
+      "Voter Name": "Hukam Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Jal Singh",
+      "House No.": "12",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "157",
+      "EPIC No.": "WHH0087312",
+      "Voter Name": "Fajrudeen",
+      "Relation Type": "Father",
+      "Relative Name": "Asarkhan",
+      "House No.": "12",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "158",
+      "EPIC No.": "CVS7147390",
+      "Voter Name": "Sakina",
+      "Relation Type": "Husband",
+      "Relative Name": "Akbar Khan",
+      "House No.": "12",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "159",
+      "EPIC No.": "CVS1593615",
+      "Voter Name": "Rama Bai",
+      "Relation Type": "Husband",
+      "Relative Name": "Hukam Singh",
+      "House No.": "12",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "160",
+      "EPIC No.": "WHH0436063",
+      "Voter Name": "Rajeev",
+      "Relation Type": "Father",
+      "Relative Name": "Jal Singh",
+      "House No.": "12",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "161",
+      "EPIC No.": "WHH0321661",
+      "Voter Name": "Amjad Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Asar Khan",
+      "House No.": "12",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "162",
+      "EPIC No.": "WHH1279082",
+      "Voter Name": "Sahida",
+      "Relation Type": "Husband",
+      "Relative Name": "Amjad Khan",
+      "House No.": "12",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "163",
+      "EPIC No.": "WHH1264787",
+      "Voter Name": "Avadhesh",
+      "Relation Type": "Father",
+      "Relative Name": "Imrat",
+      "House No.": "12",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "164",
+      "EPIC No.": "WHH0990176",
+      "Voter Name": "Nitesh",
+      "Relation Type": "Father",
+      "Relative Name": "Roshan",
+      "House No.": "12",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "165",
+      "EPIC No.": "WHH1312206",
+      "Voter Name": "Sharukh",
+      "Relation Type": "Father",
+      "Relative Name": "Asroo Kha",
+      "House No.": "12",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "166",
+      "EPIC No.": "WHH1312222",
+      "Voter Name": "Mousami Bano",
+      "Relation Type": "Father",
+      "Relative Name": "Sharukh Khan",
+      "House No.": "12",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "167",
+      "EPIC No.": "WHH1833888",
+      "Voter Name": "Mithlesh",
+      "Relation Type": "Husband",
+      "Relative Name": "Nitesh Kumar",
+      "House No.": "12",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "168",
+      "EPIC No.": "WHH1777671",
+      "Voter Name": "Devendra",
+      "Relation Type": "Father",
+      "Relative Name": "Imrat Lal",
+      "House No.": "12",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "169",
+      "EPIC No.": "RJ/08/061/459547",
+      "Voter Name": "Hardayal",
+      "Relation Type": "Father",
+      "Relative Name": "Chhutanram",
+      "House No.": "13",
+      "Age": "83",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "170",
+      "EPIC No.": "RJ/08061//459352",
+      "Voter Name": "Niwajkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Kanhaiyakhan",
+      "House No.": "13",
+      "Age": "71",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "171",
+      "EPIC No.": "RJ/08/061/459398",
+      "Voter Name": "Ramjani",
+      "Relation Type": "Husband",
+      "Relative Name": "Niwajkhan",
+      "House No.": "13",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "172",
+      "EPIC No.": "RJ/08/061/459544",
+      "Voter Name": "Nihal Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Hardayal",
+      "House No.": "13",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "173",
+      "EPIC No.": "RJ/08/061/459380",
+      "Voter Name": "Mewa",
+      "Relation Type": "Husband",
+      "Relative Name": "Nihal Singh",
+      "House No.": "13",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "174",
+      "EPIC No.": "RJ/08/061/459550",
+      "Voter Name": "Dayaram",
+      "Relation Type": "Father",
+      "Relative Name": "Hardayal",
+      "House No.": "13",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "175",
+      "EPIC No.": "RJ/08/061/459379",
+      "Voter Name": "Phool",
+      "Relation Type": "Husband",
+      "Relative Name": "Dayaram",
+      "House No.": "13",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "176",
+      "EPIC No.": "WHH0096842",
+      "Voter Name": "Eeda",
+      "Relation Type": "Husband",
+      "Relative Name": "Asroo Khan",
+      "House No.": "13",
+      "Age": "38",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "177",
+      "EPIC No.": "CVS7147499",
+      "Voter Name": "Asroo Kha",
+      "Relation Type": "Father",
+      "Relative Name": "Niwaj",
+      "House No.": "13",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "178",
+      "EPIC No.": "WHH0478339",
+      "Voter Name": "Manju",
+      "Relation Type": "Father",
+      "Relative Name": "Nihal Singh",
+      "House No.": "13",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "179",
+      "EPIC No.": "WHH0478347",
+      "Voter Name": "Mithlesh",
+      "Relation Type": "Father",
+      "Relative Name": "Nihal Singh",
+      "House No.": "13",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "180",
+      "EPIC No.": "WHH1155480",
+      "Voter Name": "Dinesh Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Daya Ram Gurjar",
+      "House No.": "13",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "181",
+      "EPIC No.": "WHH0990226",
+      "Voter Name": "Kavita",
+      "Relation Type": "Father",
+      "Relative Name": "Nihal Singh",
+      "House No.": "13",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "182",
+      "EPIC No.": "WHH1264845",
+      "Voter Name": "Ravi Kumar Gurjar",
+      "Relation Type": "Father",
+      "Relative Name": "Dayaram",
+      "House No.": "13",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "183",
+      "EPIC No.": "WHH1875343",
+      "Voter Name": "Varsha Gurjar",
+      "Relation Type": "Husband",
+      "Relative Name": "Rahul Gurjar",
+      "House No.": "13",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "184",
+      "EPIC No.": "WHH1875574",
+      "Voter Name": "Rahul Gurjar",
+      "Relation Type": "Father",
+      "Relative Name": "Dayaram",
+      "House No.": "13",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "185",
+      "EPIC No.": "WHH1815273",
+      "Voter Name": "Ajaroo Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Asroo Khan",
+      "House No.": "13 Ranikheda",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "186",
+      "EPIC No.": "WHH1815547",
+      "Voter Name": "Jamshida",
+      "Relation Type": "Husband",
+      "Relative Name": "Ajaroo Khan",
+      "House No.": "13 Ranikheda",
+      "Age": "20",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "187",
+      "EPIC No.": "WHH1264779",
+      "Voter Name": "Ram Dayal",
+      "Relation Type": "Father",
+      "Relative Name": "Shadi",
+      "House No.": "14",
+      "Age": "82",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "188",
+      "EPIC No.": "RJ/08/061/459714",
+      "Voter Name": "Dulleram",
+      "Relation Type": "Father",
+      "Relative Name": "Chhuttanlal",
+      "House No.": "14",
+      "Age": "72",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "189",
+      "EPIC No.": "CVS1352632",
+      "Voter Name": "Panchi",
+      "Relation Type": "Husband",
+      "Relative Name": "Dulleram",
+      "House No.": "14",
+      "Age": "70",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "190",
+      "EPIC No.": "WHH0096859",
+      "Voter Name": "Sharda Kumari",
+      "Relation Type": "Husband",
+      "Relative Name": "Rajesh",
+      "House No.": "14",
+      "Age": "39",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "191",
+      "EPIC No.": "WHH1204429",
+      "Voter Name": "Sahun Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Israeel Khan",
+      "House No.": "14",
+      "Age": "33",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "192",
+      "EPIC No.": "WHH0623157",
+      "Voter Name": "Sharmila",
+      "Relation Type": "Husband",
+      "Relative Name": "Rajendra",
+      "House No.": "14",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "193",
+      "EPIC No.": "CVS7147598",
+      "Voter Name": "Rajesh Gurjar",
+      "Relation Type": "Father",
+      "Relative Name": "Dulhe Ram",
+      "House No.": "14",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "194",
+      "EPIC No.": "WHH0990283",
+      "Voter Name": "Rajkumar",
+      "Relation Type": "Father",
+      "Relative Name": "Doolheram",
+      "House No.": "14",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "195",
+      "EPIC No.": "WHH0478354",
+      "Voter Name": "Rajendra",
+      "Relation Type": "Father",
+      "Relative Name": "Dulhe Ram",
+      "House No.": "14",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "196",
+      "EPIC No.": "WHH1264795",
+      "Voter Name": "Farmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Sahun Khan",
+      "House No.": "14",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "197",
+      "EPIC No.": "WHH1264878",
+      "Voter Name": "Anita Kumari",
+      "Relation Type": "Husband",
+      "Relative Name": "Raj Kumar",
+      "House No.": "14",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "198",
+      "EPIC No.": "RJ/08/061/459546",
+      "Voter Name": "Nandlal",
+      "Relation Type": "Father",
+      "Relative Name": "Prabhati",
+      "House No.": "15",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "199",
+      "EPIC No.": "RJ/08/061/459376",
+      "Voter Name": "Batan",
+      "Relation Type": "Husband",
+      "Relative Name": "Nandlal",
+      "House No.": "15",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "200",
+      "EPIC No.": "RJ/08/061/459145",
+      "Voter Name": "Nandlal",
+      "Relation Type": "Father",
+      "Relative Name": "Kishanlal",
+      "House No.": "15",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "201",
+      "EPIC No.": "RJ/08/061/459155",
+      "Voter Name": "Misro",
+      "Relation Type": "Husband",
+      "Relative Name": "Suraj",
+      "House No.": "15",
+      "Age": "50",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "202",
+      "EPIC No.": "RJ/08/061/459549",
+      "Voter Name": "Suraj",
+      "Relation Type": "Father",
+      "Relative Name": "Kishanlal",
+      "House No.": "15",
+      "Age": "49",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "203",
+      "EPIC No.": "WHH1264944",
+      "Voter Name": "Sunil",
+      "Relation Type": "Father",
+      "Relative Name": "Nandlal",
+      "House No.": "15",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "204",
+      "EPIC No.": "WHH1671700",
+      "Voter Name": "Raju",
+      "Relation Type": "Father",
+      "Relative Name": "Suraj",
+      "House No.": "15",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "205",
+      "EPIC No.": "WHH1856186",
+      "Voter Name": "Pooja",
+      "Relation Type": "Husband",
+      "Relative Name": "Raju",
+      "House No.": "15",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "206",
+      "EPIC No.": "WHH1671593",
+      "Voter Name": "Sachin",
+      "Relation Type": "Father",
+      "Relative Name": "Suraj",
+      "House No.": "15",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "207",
+      "EPIC No.": "WHH1856194",
+      "Voter Name": "Pinki",
+      "Relation Type": "Husband",
+      "Relative Name": "Sachin",
+      "House No.": "15",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "208",
+      "EPIC No.": "RJ/08061//459384",
+      "Voter Name": "Jagdish",
+      "Relation Type": "Father",
+      "Relative Name": "Prabhati",
+      "House No.": "16",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "209",
+      "EPIC No.": "RJ/08061//459375",
+      "Voter Name": "Bholi",
+      "Relation Type": "Husband",
+      "Relative Name": "Jagdish",
+      "House No.": "16",
+      "Age": "57",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "210",
+      "EPIC No.": "WHH0087320",
+      "Voter Name": "Sahun Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Mamu Khan",
+      "House No.": "16",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "211",
+      "EPIC No.": "WHH0436071",
+      "Voter Name": "Dhauli",
+      "Relation Type": "Husband",
+      "Relative Name": "Sahun",
+      "House No.": "16",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "212",
+      "EPIC No.": "RJ/08/061/459392",
+      "Voter Name": "Shyodayal",
+      "Relation Type": "Father",
+      "Relative Name": "Parbhati",
+      "House No.": "17",
+      "Age": "78",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "213",
+      "EPIC No.": "CVS1365634",
+      "Voter Name": "Bato",
+      "Relation Type": "Husband",
+      "Relative Name": "Shyodayal",
+      "House No.": "17",
+      "Age": "73",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "214",
+      "EPIC No.": "RJ/08/061/459387",
+      "Voter Name": "Harban",
+      "Relation Type": "Father",
+      "Relative Name": "Shyodayal",
+      "House No.": "17",
+      "Age": "57",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "215",
+      "EPIC No.": "RJ/08/061/459553",
+      "Voter Name": "Krishna",
+      "Relation Type": "Husband",
+      "Relative Name": "Harban",
+      "House No.": "17",
+      "Age": "56",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "216",
+      "EPIC No.": "RJ/08/061/459408",
+      "Voter Name": "Mehmood Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Mamurakhan",
+      "House No.": "17",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "217",
+      "EPIC No.": "RJ/08/061/459399",
+      "Voter Name": "Noorjahan",
+      "Relation Type": "Husband",
+      "Relative Name": "Mehmood",
+      "House No.": "17",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "218",
+      "EPIC No.": "WHH0096867",
+      "Voter Name": "Shriram",
+      "Relation Type": "Father",
+      "Relative Name": "Shyodayal",
+      "House No.": "17",
+      "Age": "51",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "219",
+      "EPIC No.": "WHH0096875",
+      "Voter Name": "Suman Kumari",
+      "Relation Type": "Husband",
+      "Relative Name": "Shriram",
+      "House No.": "17",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "220",
+      "EPIC No.": "WHH0814491",
+      "Voter Name": "Misrupi",
+      "Relation Type": "Husband",
+      "Relative Name": "Liyakat",
+      "House No.": "17",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "221",
+      "EPIC No.": "WHH0814509",
+      "Voter Name": "Liyakat",
+      "Relation Type": "Father",
+      "Relative Name": "Mehmood Khan",
+      "House No.": "17",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "222",
+      "EPIC No.": "WHH0990341",
+      "Voter Name": "Akhtar Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Mehmood Khan",
+      "House No.": "17",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "223",
+      "EPIC No.": "WHH1313626",
+      "Voter Name": "Apseena",
+      "Relation Type": "Husband",
+      "Relative Name": "Akhtar Khan",
+      "House No.": "17",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "224",
+      "EPIC No.": "RJ/08/061/459338",
+      "Voter Name": "Gurdayal",
+      "Relation Type": "Father",
+      "Relative Name": "Chhunlal",
+      "House No.": "18",
+      "Age": "93",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "225",
+      "EPIC No.": "RJ/08061//459159",
+      "Voter Name": "Mohammadi",
+      "Relation Type": "Husband",
+      "Relative Name": "Suleman",
+      "House No.": "18",
+      "Age": "73",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "226",
+      "EPIC No.": "RJ/08/061/459134",
+      "Voter Name": "Kalu",
+      "Relation Type": "Father",
+      "Relative Name": "Suleman",
+      "House No.": "18",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "227",
+      "EPIC No.": "WHH0376731",
+      "Voter Name": "Memuna",
+      "Relation Type": "Husband",
+      "Relative Name": "Kalu",
+      "House No.": "18",
+      "Age": "55",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "228",
+      "EPIC No.": "RJ/08/061/459406",
+      "Voter Name": "Subhan",
+      "Relation Type": "Father",
+      "Relative Name": "Suleman",
+      "House No.": "18",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "229",
+      "EPIC No.": "CVS1593490",
+      "Voter Name": "Rihana",
+      "Relation Type": "Husband",
+      "Relative Name": "Subhan",
+      "House No.": "18",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "230",
+      "EPIC No.": "RJ/08/061/459592",
+      "Voter Name": "Babli",
+      "Relation Type": "Husband",
+      "Relative Name": "Madanlal",
+      "House No.": "18",
+      "Age": "52",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "231",
+      "EPIC No.": "CVS1593573",
+      "Voter Name": "Haneef",
+      "Relation Type": "Father",
+      "Relative Name": "Suleman",
+      "House No.": "18",
+      "Age": "40",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "232",
+      "EPIC No.": "CVS7147507",
+      "Voter Name": "Farmeena",
+      "Relation Type": "Father",
+      "Relative Name": "Hanif Khan",
+      "House No.": "18",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "233",
+      "EPIC No.": "WHH0663187",
+      "Voter Name": "Subedeen",
+      "Relation Type": "Father",
+      "Relative Name": "Kalu",
+      "House No.": "18",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "234",
+      "EPIC No.": "WHH0778118",
+      "Voter Name": "Afsina",
+      "Relation Type": "Husband",
+      "Relative Name": "Subedeen",
+      "House No.": "18",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "235",
+      "EPIC No.": "WHH1810886",
+      "Voter Name": "Pooja",
+      "Relation Type": "Husband",
+      "Relative Name": "Shyam Singh",
+      "House No.": "18 Ranikheda",
+      "Age": "19",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "236",
+      "EPIC No.": "RJ/08/061/459116",
+      "Voter Name": "Muneerkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Raheemkhan",
+      "House No.": "19",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "237",
+      "EPIC No.": "RJ/08061//459557",
+      "Voter Name": "Fateh Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Gokulchand",
+      "House No.": "19",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "238",
+      "EPIC No.": "RJ/08/061/459494",
+      "Voter Name": "Moti",
+      "Relation Type": "Husband",
+      "Relative Name": "Fateh Singh",
+      "House No.": "19",
+      "Age": "66",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "239",
+      "EPIC No.": "RJ/08/061/459140",
+      "Voter Name": "Jetuni",
+      "Relation Type": "Husband",
+      "Relative Name": "Muneerkhan",
+      "House No.": "19",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "240",
+      "EPIC No.": "CVS1283308",
+      "Voter Name": "Karn Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Fateh Singh",
+      "House No.": "19",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "241",
+      "EPIC No.": "CVS1593482",
+      "Voter Name": "Kripa",
+      "Relation Type": "Husband",
+      "Relative Name": "Karn Singh",
+      "House No.": "19",
+      "Age": "43",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "242",
+      "EPIC No.": "WHH0990416",
+      "Voter Name": "Shivcharan",
+      "Relation Type": "Father",
+      "Relative Name": "Fateh Singh",
+      "House No.": "19",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "243",
+      "EPIC No.": "WHH0087338",
+      "Voter Name": "Jakamdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Muneer",
+      "House No.": "19",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "244",
+      "EPIC No.": "WHH0087353",
+      "Voter Name": "Nijari",
+      "Relation Type": "Husband",
+      "Relative Name": "Jakamdeen",
+      "House No.": "19",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "245",
+      "EPIC No.": "WHH0778126",
+      "Voter Name": "Harjyani",
+      "Relation Type": "Husband",
+      "Relative Name": "Shiv Charan",
+      "House No.": "19",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "246",
+      "EPIC No.": "WHH0394080",
+      "Voter Name": "Charan Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Fateh Singh",
+      "House No.": "19",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "247",
+      "EPIC No.": "WHH1264829",
+      "Voter Name": "Suman",
+      "Relation Type": "Husband",
+      "Relative Name": "Charan Singh",
+      "House No.": "19",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "248",
+      "EPIC No.": "WHH1619006",
+      "Voter Name": "Munesh Kumari Gurjar",
+      "Relation Type": "Husband",
+      "Relative Name": "Kripa Devi",
+      "House No.": "19",
+      "Age": "24",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "249",
+      "EPIC No.": "WHH1618990",
+      "Voter Name": "Surendra Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Karn Singh",
+      "House No.": "19",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "250",
+      "EPIC No.": "RJ/08/061/459104",
+      "Voter Name": "Leelaram",
+      "Relation Type": "Father",
+      "Relative Name": "Chhitariya",
+      "House No.": "20",
+      "Age": "88",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "251",
+      "EPIC No.": "RJ/08/061/459136",
+      "Voter Name": "Maanbhari",
+      "Relation Type": "Husband",
+      "Relative Name": "Leelaram",
+      "House No.": "20",
+      "Age": "83",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "252",
+      "EPIC No.": "RJ/08/061/459426",
+      "Voter Name": "Lakhoo",
+      "Relation Type": "Father",
+      "Relative Name": "Jahangirakhan",
+      "House No.": "20",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "253",
+      "EPIC No.": "RJ/08/061/459135",
+      "Voter Name": "Chetram",
+      "Relation Type": "Father",
+      "Relative Name": "Leelaram",
+      "House No.": "20",
+      "Age": "56",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "254",
+      "EPIC No.": "WHH0453563",
+      "Voter Name": "Sahsoo",
+      "Relation Type": "Husband",
+      "Relative Name": "Lakhoo",
+      "House No.": "20",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "255",
+      "EPIC No.": "RJ/08/061/459139",
+      "Voter Name": "Shakuntala",
+      "Relation Type": "Husband",
+      "Relative Name": "Chetram",
+      "House No.": "20",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "256",
+      "EPIC No.": "WHH1264803",
+      "Voter Name": "Rabeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Amjad Khan",
+      "House No.": "20",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "257",
+      "EPIC No.": "WHH0814517",
+      "Voter Name": "Amjad",
+      "Relation Type": "Father",
+      "Relative Name": "Lakkhoo Khan",
+      "House No.": "20",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "258",
+      "EPIC No.": "WHH1711720",
+      "Voter Name": "Sahil",
+      "Relation Type": "Father",
+      "Relative Name": "Isab",
+      "House No.": "20",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "259",
+      "EPIC No.": "RJ/08/061/459292",
+      "Voter Name": "Sumerkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Jahangirakhan",
+      "House No.": "21",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "260",
+      "EPIC No.": "RJ/08061//459583",
+      "Voter Name": "Dhoopan",
+      "Relation Type": "Husband",
+      "Relative Name": "Sumerkhan",
+      "House No.": "21",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "261",
+      "EPIC No.": "WHH0814525",
+      "Voter Name": "Rafeeq Mohd",
+      "Relation Type": "Father",
+      "Relative Name": "Sumer Khan",
+      "House No.": "21",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "262",
+      "EPIC No.": "WHH0990465",
+      "Voter Name": "Ruksina",
+      "Relation Type": "Husband",
+      "Relative Name": "Rafeeq",
+      "House No.": "21",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "263",
+      "EPIC No.": "RJ/08061//459409",
+      "Voter Name": "Subhani",
+      "Relation Type": "Husband",
+      "Relative Name": "Lallukhan",
+      "House No.": "22",
+      "Age": "71",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "264",
+      "EPIC No.": "RJ/08/061/459427",
+      "Voter Name": "Aas Mohammad",
+      "Relation Type": "Father",
+      "Relative Name": "Lallukhan",
+      "House No.": "22",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "265",
+      "EPIC No.": "CVS1352665",
+      "Voter Name": "Fatuni",
+      "Relation Type": "Husband",
+      "Relative Name": "Aas Mohammad",
+      "House No.": "22",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "266",
+      "EPIC No.": "WHH0394098",
+      "Voter Name": "Fakru",
+      "Relation Type": "Father",
+      "Relative Name": "Lallu Khan",
+      "House No.": "22",
+      "Age": "46",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "267",
+      "EPIC No.": "WHH0189498",
+      "Voter Name": "Jummi",
+      "Relation Type": "Husband",
+      "Relative Name": "Fakru",
+      "House No.": "22",
+      "Age": "44",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "268",
+      "EPIC No.": "WHH0189514",
+      "Voter Name": "Sakoon",
+      "Relation Type": "Father",
+      "Relative Name": "Lallukhan",
+      "House No.": "22",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "269",
+      "EPIC No.": "WHH0189506",
+      "Voter Name": "Kashmiri",
+      "Relation Type": "Husband",
+      "Relative Name": "Sakoon",
+      "House No.": "22",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "270",
+      "EPIC No.": "WHH1853779",
+      "Voter Name": "Irsad",
+      "Relation Type": "Father",
+      "Relative Name": "Aas Mohammad",
+      "House No.": "22 Ranikheda",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "271",
+      "EPIC No.": "RJ/08/061/459004",
+      "Voter Name": "Sapikhan",
+      "Relation Type": "Father",
+      "Relative Name": "Sarsamal",
+      "House No.": "23",
+      "Age": "56",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "272",
+      "EPIC No.": "RJ/08/061/459425",
+      "Voter Name": "Subhankhan",
+      "Relation Type": "Father",
+      "Relative Name": "Sarsamal",
+      "House No.": "23",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "273",
+      "EPIC No.": "WHH1312115",
+      "Voter Name": "Rihana",
+      "Relation Type": "Husband",
+      "Relative Name": "Sappi Khan",
+      "House No.": "23",
+      "Age": "48",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "274",
+      "EPIC No.": "WHH0087361",
+      "Voter Name": "Naseem Bano",
+      "Relation Type": "Husband",
+      "Relative Name": "Suban Khan",
+      "House No.": "23",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "275",
+      "EPIC No.": "RJ/08/061/459283",
+      "Voter Name": "Joommi",
+      "Relation Type": "Husband",
+      "Relative Name": "Hasamal",
+      "House No.": "24",
+      "Age": "88",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "276",
+      "EPIC No.": "RJ/08/061/459003",
+      "Voter Name": "Rahmudeen",
+      "Relation Type": "Father",
+      "Relative Name": "Hasamal",
+      "House No.": "24",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "277",
+      "EPIC No.": "RJ/08/061/459281",
+      "Voter Name": "Kashmiri",
+      "Relation Type": "Husband",
+      "Relative Name": "Rahmudeen",
+      "House No.": "24",
+      "Age": "55",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "278",
+      "EPIC No.": "WHH0087387",
+      "Voter Name": "Zuber Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Rahmudeen",
+      "House No.": "24",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "279",
+      "EPIC No.": "WHH0087379",
+      "Voter Name": "Harun",
+      "Relation Type": "Father",
+      "Relative Name": "Hasamal",
+      "House No.": "24",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "280",
+      "EPIC No.": "WHH0189522",
+      "Voter Name": "Shehnaz",
+      "Relation Type": "Husband",
+      "Relative Name": "Harun",
+      "House No.": "24",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "281",
+      "EPIC No.": "WHH0778134",
+      "Voter Name": "Sameena",
+      "Relation Type": "Husband",
+      "Relative Name": "Zuber Khan",
+      "House No.": "24",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "282",
+      "EPIC No.": "WHH0778142",
+      "Voter Name": "Shaukeen",
+      "Relation Type": "Father",
+      "Relative Name": "Rahmudeen",
+      "House No.": "24",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "283",
+      "EPIC No.": "WHH0778159",
+      "Voter Name": "Rasmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Shaukeen",
+      "House No.": "24",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "284",
+      "EPIC No.": "WHH0778167",
+      "Voter Name": "Sharuk",
+      "Relation Type": "Father",
+      "Relative Name": "Ramudeen",
+      "House No.": "24",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "285",
+      "EPIC No.": "WHH0990523",
+      "Voter Name": "Basmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Sharuk",
+      "House No.": "24",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "286",
+      "EPIC No.": "WHH0990572",
+      "Voter Name": "Aneesh",
+      "Relation Type": "Father",
+      "Relative Name": "Rahmudeen",
+      "House No.": "24",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "287",
+      "EPIC No.": "WHH0189530",
+      "Voter Name": "Idrees",
+      "Relation Type": "Father",
+      "Relative Name": "Jabrakhan",
+      "House No.": "25",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "288",
+      "EPIC No.": "WHH0228288",
+      "Voter Name": "Farookh",
+      "Relation Type": "Father",
+      "Relative Name": "Jabrakhan",
+      "House No.": "25",
+      "Age": "34",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "289",
+      "EPIC No.": "WHH0750448",
+      "Voter Name": "Ayesha",
+      "Relation Type": "Husband",
+      "Relative Name": "Idrees",
+      "House No.": "25",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "290",
+      "EPIC No.": "WHH0750455",
+      "Voter Name": "Basmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Farookh",
+      "House No.": "25",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "291",
+      "EPIC No.": "WHH0814541",
+      "Voter Name": "Aakir",
+      "Relation Type": "Father",
+      "Relative Name": "Jabra Khan",
+      "House No.": "25",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "292",
+      "EPIC No.": "WHH1264712",
+      "Voter Name": "Farmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Aakir Khan",
+      "House No.": "25",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "293",
+      "EPIC No.": "RJ/08/061/459431",
+      "Voter Name": "Hari Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Kalakhan",
+      "House No.": "26",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "294",
+      "EPIC No.": "RJ/08061//459429",
+      "Voter Name": "Jameela",
+      "Relation Type": "Husband",
+      "Relative Name": "Hari Singh",
+      "House No.": "26",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "295",
+      "EPIC No.": "CVS1352673",
+      "Voter Name": "Kashamdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Hari Singh",
+      "House No.": "26",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "296",
+      "EPIC No.": "CVS1593565",
+      "Voter Name": "Jakardeen",
+      "Relation Type": "Father",
+      "Relative Name": "Hari Singh",
+      "House No.": "26",
+      "Age": "40",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "297",
+      "EPIC No.": "WHH0087411",
+      "Voter Name": "Jaikamdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Hari Singh",
+      "House No.": "26",
+      "Age": "37",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "298",
+      "EPIC No.": "WHH0814558",
+      "Voter Name": "Guddi",
+      "Relation Type": "Husband",
+      "Relative Name": "Jakardeen",
+      "House No.": "26",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "299",
+      "EPIC No.": "WHH0623173",
+      "Voter Name": "Sakeela",
+      "Relation Type": "Husband",
+      "Relative Name": "Kasam Deen",
+      "House No.": "26",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "300",
+      "EPIC No.": "WHH0750463",
+      "Voter Name": "Bilkisa",
+      "Relation Type": "Husband",
+      "Relative Name": "Jaikamdeen",
+      "House No.": "26",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "301",
+      "EPIC No.": "WHH0814566",
+      "Voter Name": "Mausamdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Hari Singh",
+      "House No.": "26",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "302",
+      "EPIC No.": "CVS1283316",
+      "Voter Name": "Kalu",
+      "Relation Type": "Father",
+      "Relative Name": "Peerakhan",
+      "House No.": "27",
+      "Age": "48",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "303",
+      "EPIC No.": "RJ/08/061/459720",
+      "Voter Name": "Ibrahim",
+      "Relation Type": "Father",
+      "Relative Name": "Peerakhan",
+      "House No.": "28",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "304",
+      "EPIC No.": "RJ/08/061/459718",
+      "Voter Name": "Zarina",
+      "Relation Type": "Husband",
+      "Relative Name": "Ibrahim",
+      "House No.": "28",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "305",
+      "EPIC No.": "WHH0612986",
+      "Voter Name": "Ameena",
+      "Relation Type": "Husband",
+      "Relative Name": "Saddam",
+      "House No.": "28",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "306",
+      "EPIC No.": "WHH0478362",
+      "Voter Name": "Saddam",
+      "Relation Type": "Father",
+      "Relative Name": "Ibrahim",
+      "House No.": "28",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "307",
+      "EPIC No.": "WHH0251041",
+      "Voter Name": "Aseenakhan",
+      "Relation Type": "Father",
+      "Relative Name": "Suleman",
+      "House No.": "29",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "308",
+      "EPIC No.": "WHH0990614",
+      "Voter Name": "Hajra",
+      "Relation Type": "Husband",
+      "Relative Name": "Aseenkhan",
+      "House No.": "29",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "309",
+      "EPIC No.": "WHH0394106",
+      "Voter Name": "Arif Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Aseen Khan",
+      "House No.": "29",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "310",
+      "EPIC No.": "WHH0587600",
+      "Voter Name": "Basmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Arif Khan",
+      "House No.": "29",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "311",
+      "EPIC No.": "WHH1313659",
+      "Voter Name": "Sakutan",
+      "Relation Type": "Husband",
+      "Relative Name": "Ajaroo",
+      "House No.": "29",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "312",
+      "EPIC No.": "WHH1313618",
+      "Voter Name": "Mujeeban",
+      "Relation Type": "Husband",
+      "Relative Name": "Hakeel Khan",
+      "House No.": "29",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "313",
+      "EPIC No.": "WHH0990671",
+      "Voter Name": "Ajaroo",
+      "Relation Type": "Father",
+      "Relative Name": "Aseen",
+      "House No.": "29",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "314",
+      "EPIC No.": "WHH0189555",
+      "Voter Name": "Samaydeen",
+      "Relation Type": "Father",
+      "Relative Name": "Imamkhan",
+      "House No.": "30",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "315",
+      "EPIC No.": "WHH0189548",
+      "Voter Name": "Aneesa",
+      "Relation Type": "Husband",
+      "Relative Name": "Samaydeen",
+      "House No.": "30",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "316",
+      "EPIC No.": "RJ/08/061/459589",
+      "Voter Name": "Jetuni",
+      "Relation Type": "Husband",
+      "Relative Name": "Rujdarkhan",
+      "House No.": "32",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "317",
+      "EPIC No.": "RJ/08/061/459590",
+      "Voter Name": "Kamrudeen",
+      "Relation Type": "Father",
+      "Relative Name": "Mammukhan",
+      "House No.": "32",
+      "Age": "51",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "318",
+      "EPIC No.": "RJ/08/061/459732",
+      "Voter Name": "Vatuni",
+      "Relation Type": "Husband",
+      "Relative Name": "Kamroo",
+      "House No.": "32",
+      "Age": "48",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "319",
+      "EPIC No.": "WHH0814574",
+      "Voter Name": "Sakeela",
+      "Relation Type": "Husband",
+      "Relative Name": "Munfed",
+      "House No.": "32",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "320",
+      "EPIC No.": "WHH0478370",
+      "Voter Name": "Munfed",
+      "Relation Type": "Father",
+      "Relative Name": "Rujdar",
+      "House No.": "32",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "321",
+      "EPIC No.": "WHH1264886",
+      "Voter Name": "Sahina",
+      "Relation Type": "Husband",
+      "Relative Name": "Mubarik Khan",
+      "House No.": "32",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "322",
+      "EPIC No.": "RJ/08/061/459411",
+      "Voter Name": "Chandukhan",
+      "Relation Type": "Father",
+      "Relative Name": "Raheemkhan",
+      "House No.": "33",
+      "Age": "83",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "323",
+      "EPIC No.": "RJ/08/061/459284",
+      "Voter Name": "Jummi",
+      "Relation Type": "Husband",
+      "Relative Name": "Chandukhan",
+      "House No.": "33",
+      "Age": "81",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "324",
+      "EPIC No.": "RJ/08/061/459422",
+      "Voter Name": "Kamrudeen",
+      "Relation Type": "Father",
+      "Relative Name": "Chandukhan",
+      "House No.": "33",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "325",
+      "EPIC No.": "RJ/08/061/459280",
+      "Voter Name": "Bassi",
+      "Relation Type": "Husband",
+      "Relative Name": "Kamrudeen",
+      "House No.": "33",
+      "Age": "57",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "326",
+      "EPIC No.": "CVS1593508",
+      "Voter Name": "Tayyab Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Chandukhan",
+      "House No.": "33",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "327",
+      "EPIC No.": "WHH0990721",
+      "Voter Name": "Haseena",
+      "Relation Type": "Husband",
+      "Relative Name": "Tayyab Khan",
+      "House No.": "33",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "328",
+      "EPIC No.": "WHH0478388",
+      "Voter Name": "Nasrudeen",
+      "Relation Type": "Father",
+      "Relative Name": "Kamrudeen",
+      "House No.": "33",
+      "Age": "34",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "329",
+      "EPIC No.": "WHH0189563",
+      "Voter Name": "Saddam Hussain",
+      "Relation Type": "Father",
+      "Relative Name": "Kamruddeen",
+      "House No.": "33",
+      "Age": "34",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "330",
+      "EPIC No.": "WHH0778175",
+      "Voter Name": "Amrudi",
+      "Relation Type": "Husband",
+      "Relative Name": "Saddam",
+      "House No.": "33",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "331",
+      "EPIC No.": "WHH0478396",
+      "Voter Name": "Kashmiri",
+      "Relation Type": "Husband",
+      "Relative Name": "Nasrudeen",
+      "House No.": "33",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "332",
+      "EPIC No.": "WHH1312131",
+      "Voter Name": "Sharukh Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Kamruddeen",
+      "House No.": "33",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "333",
+      "EPIC No.": "WHH1688241",
+      "Voter Name": "Roshni Bano",
+      "Relation Type": "Husband",
+      "Relative Name": "Shahrukh Khan",
+      "House No.": "33",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "334",
+      "EPIC No.": "RJ/08061/459307",
+      "Voter Name": "Navikhan",
+      "Relation Type": "Father",
+      "Relative Name": "Surjankhan",
+      "House No.": "34",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "335",
+      "EPIC No.": "RJ/08/061/459305",
+      "Voter Name": "Hajra",
+      "Relation Type": "Husband",
+      "Relative Name": "Navikhan",
+      "House No.": "34",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "336",
+      "EPIC No.": "RJ/08061//459404",
+      "Voter Name": "Habeebkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Dhamman",
+      "House No.": "35",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "337",
+      "EPIC No.": "RJ/08/061/459285",
+      "Voter Name": "Hajra",
+      "Relation Type": "Husband",
+      "Relative Name": "Habeebkhan",
+      "House No.": "35",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "338",
+      "EPIC No.": "WHH0360354",
+      "Voter Name": "Irfan Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Habeeb Khan",
+      "House No.": "35",
+      "Age": "37",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "339",
+      "EPIC No.": "WHH0587618",
+      "Voter Name": "Arshida",
+      "Relation Type": "Husband",
+      "Relative Name": "Irfan Khan",
+      "House No.": "35",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "340",
+      "EPIC No.": "WHH0478404",
+      "Voter Name": "Arif",
+      "Relation Type": "Father",
+      "Relative Name": "Habeeb Khan",
+      "House No.": "35",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "341",
+      "EPIC No.": "RJ/08061//459282",
+      "Voter Name": "Eesal",
+      "Relation Type": "Husband",
+      "Relative Name": "Hurmatkhan",
+      "House No.": "36",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "342",
+      "EPIC No.": "CVS1605641",
+      "Voter Name": "Ameen",
+      "Relation Type": "Father",
+      "Relative Name": "Hurmat",
+      "House No.": "36",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "343",
+      "EPIC No.": "CVS1605724",
+      "Voter Name": "Sharmina",
+      "Relation Type": "Husband",
+      "Relative Name": "Ameen",
+      "House No.": "36",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "344",
+      "EPIC No.": "WHH0251140",
+      "Voter Name": "Hakam",
+      "Relation Type": "Father",
+      "Relative Name": "Hurmat",
+      "House No.": "36",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "345",
+      "EPIC No.": "WHH0814582",
+      "Voter Name": "Rubina",
+      "Relation Type": "Husband",
+      "Relative Name": "Hakamdeen",
+      "House No.": "36",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "346",
+      "EPIC No.": "WHH0478412",
+      "Voter Name": "Aasamdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Hurmat",
+      "House No.": "36",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "347",
+      "EPIC No.": "WHH0750471",
+      "Voter Name": "Shaakamdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Hurmat Khan",
+      "House No.": "36",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "348",
+      "EPIC No.": "WHH1204437",
+      "Voter Name": "Varisa",
+      "Relation Type": "Husband",
+      "Relative Name": "Saakamdeen",
+      "House No.": "36",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "349",
+      "EPIC No.": "RJ/08/061/459203",
+      "Voter Name": "Jaathi",
+      "Relation Type": "Husband",
+      "Relative Name": "Asrookhan",
+      "House No.": "37",
+      "Age": "56",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "350",
+      "EPIC No.": "CVS1605096",
+      "Voter Name": "Hakim Deen",
+      "Relation Type": "Father",
+      "Relative Name": "Asar Khan",
+      "House No.": "37",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "351",
+      "EPIC No.": "WHH0436089",
+      "Voter Name": "Ruksina",
+      "Relation Type": "Husband",
+      "Relative Name": "Hakamdeen",
+      "House No.": "37",
+      "Age": "37",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "352",
+      "EPIC No.": "WHH0612945",
+      "Voter Name": "Jafarudeen",
+      "Relation Type": "Father",
+      "Relative Name": "Asrookhan",
+      "House No.": "37",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "353",
+      "EPIC No.": "WHH0862979",
+      "Voter Name": "Miskina",
+      "Relation Type": "Husband",
+      "Relative Name": "Jafarudeen",
+      "House No.": "37",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "354",
+      "EPIC No.": "WHH1892371",
+      "Voter Name": "Parvez Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Hakam Deen",
+      "House No.": "37",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "355",
+      "EPIC No.": "RJ/08/061/459302",
+      "Voter Name": "Sampatkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Siggookhan",
+      "House No.": "38",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "356",
+      "EPIC No.": "RJ/08/061/459301",
+      "Voter Name": "Joohari",
+      "Relation Type": "Husband",
+      "Relative Name": "Sampatkhan",
+      "House No.": "38",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "357",
+      "EPIC No.": "CVS1283332",
+      "Voter Name": "Aas Mohammad",
+      "Relation Type": "Father",
+      "Relative Name": "Sampatkhan",
+      "House No.": "38",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "358",
+      "EPIC No.": "CVS1283340",
+      "Voter Name": "Rashmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Aas Mohammad",
+      "House No.": "38",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "359",
+      "EPIC No.": "WHH0436097",
+      "Voter Name": "Farmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Kasam",
+      "House No.": "38",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "360",
+      "EPIC No.": "WHH0321638",
+      "Voter Name": "Kasam Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Sampat",
+      "House No.": "38",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "361",
+      "EPIC No.": "WHH0394114",
+      "Voter Name": "Akramdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Sampat Khan",
+      "House No.": "38",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "362",
+      "EPIC No.": "WHH1685031",
+      "Voter Name": "Tahseena",
+      "Relation Type": "Husband",
+      "Relative Name": "Akram Deen",
+      "House No.": "38",
+      "Age": "24",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "363",
+      "EPIC No.": "RJ/08/061/459420",
+      "Voter Name": "Fajroo Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Dhoopu",
+      "House No.": "39",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "364",
+      "EPIC No.": "RJ/08/061/459186",
+      "Voter Name": "Janni",
+      "Relation Type": "Husband",
+      "Relative Name": "Fajroo",
+      "House No.": "39",
+      "Age": "71",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "365",
+      "EPIC No.": "RJ/08/061/459410",
+      "Voter Name": "Kalukhan",
+      "Relation Type": "Father",
+      "Relative Name": "Fajroo",
+      "House No.": "39",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "366",
+      "EPIC No.": "RJ/08061//459185",
+      "Voter Name": "Memuna",
+      "Relation Type": "Husband",
+      "Relative Name": "Kalukhan",
+      "House No.": "39",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "367",
+      "EPIC No.": "CVS1593524",
+      "Voter Name": "Haneefkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Fajroo",
+      "House No.": "39",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "368",
+      "EPIC No.": "CVS1283357",
+      "Voter Name": "Sarjeetkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Fajrookhan",
+      "House No.": "39",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "369",
+      "EPIC No.": "WHH0623165",
+      "Voter Name": "Saimoona",
+      "Relation Type": "Husband",
+      "Relative Name": "Sarjeet Khan",
+      "House No.": "39",
+      "Age": "44",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "370",
+      "EPIC No.": "WHH0004382",
+      "Voter Name": "Rihana",
+      "Relation Type": "Husband",
+      "Relative Name": "Haneefkhan",
+      "House No.": "39",
+      "Age": "42",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "371",
+      "EPIC No.": "WHH0087395",
+      "Voter Name": "Shaukeen Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Fajroo Khan",
+      "House No.": "39",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "372",
+      "EPIC No.": "WHH0553677",
+      "Voter Name": "Mohammad Iqbal",
+      "Relation Type": "Father",
+      "Relative Name": "Kalu Khan",
+      "House No.": "39",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "373",
+      "EPIC No.": "WHH1157148",
+      "Voter Name": "Sanjida",
+      "Relation Type": "Husband",
+      "Relative Name": "Shaukeen Khan",
+      "House No.": "39",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "374",
+      "EPIC No.": "WHH1155506",
+      "Voter Name": "Taleem",
+      "Relation Type": "Father",
+      "Relative Name": "Sarjeet",
+      "House No.": "39",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "375",
+      "EPIC No.": "RJ/08/061/459733",
+      "Voter Name": "Buddhukhan",
+      "Relation Type": "Father",
+      "Relative Name": "Arjankhan",
+      "House No.": "40",
+      "Age": "83",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "376",
+      "EPIC No.": "RJ/08/061/459180",
+      "Voter Name": "Sameeri",
+      "Relation Type": "Husband",
+      "Relative Name": "Buddhukhan",
+      "House No.": "40",
+      "Age": "78",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "377",
+      "EPIC No.": "RJ/08/061/459369",
+      "Voter Name": "Mohar Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Arjankhan",
+      "House No.": "40",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "378",
+      "EPIC No.": "RJ/08/061/459184",
+      "Voter Name": "Sumari",
+      "Relation Type": "Husband",
+      "Relative Name": "Mohar Singh",
+      "House No.": "40",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "379",
+      "EPIC No.": "RJ/08061//459183",
+      "Voter Name": "Isaakkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Buddhukhan",
+      "House No.": "40",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "380",
+      "EPIC No.": "CVS1365915",
+      "Voter Name": "Bhoorekhan",
+      "Relation Type": "Father",
+      "Relative Name": "Buddhukhan",
+      "House No.": "40",
+      "Age": "56",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "381",
+      "EPIC No.": "CVS1593532",
+      "Voter Name": "Zarina",
+      "Relation Type": "Husband",
+      "Relative Name": "Bhoorekhan",
+      "House No.": "40",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "382",
+      "EPIC No.": "RJ/08/061/459182",
+      "Voter Name": "Fajari",
+      "Relation Type": "Husband",
+      "Relative Name": "Isaakkhan",
+      "House No.": "40",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "383",
+      "EPIC No.": "CVS1283373",
+      "Voter Name": "Rujdar",
+      "Relation Type": "Father",
+      "Relative Name": "Buddhukhan",
+      "House No.": "40",
+      "Age": "46",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "384",
+      "EPIC No.": "CVS1283381",
+      "Voter Name": "Ameenkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Mohar Singh",
+      "House No.": "40",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "385",
+      "EPIC No.": "CVS1593540",
+      "Voter Name": "Sayra",
+      "Relation Type": "Husband",
+      "Relative Name": "Ameen",
+      "House No.": "40",
+      "Age": "43",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "386",
+      "EPIC No.": "WHH0805135",
+      "Voter Name": "Arshida",
+      "Relation Type": "Husband",
+      "Relative Name": "Rujdar",
+      "House No.": "40",
+      "Age": "42",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "387",
+      "EPIC No.": "WHH0436105",
+      "Voter Name": "Dhauli",
+      "Relation Type": "Husband",
+      "Relative Name": "Mubeen",
+      "House No.": "40",
+      "Age": "38",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "388",
+      "EPIC No.": "CVS7147325",
+      "Voter Name": "Mubeen",
+      "Relation Type": "Father",
+      "Relative Name": "Mohar Singh",
+      "House No.": "40",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "389",
+      "EPIC No.": "WHH0436113",
+      "Voter Name": "Maksooda",
+      "Relation Type": "Husband",
+      "Relative Name": "Razzaq",
+      "House No.": "40",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "390",
+      "EPIC No.": "WHH0814590",
+      "Voter Name": "Sahun Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Isaak Khan",
+      "House No.": "40",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "391",
+      "EPIC No.": "WHH1264860",
+      "Voter Name": "Arshida",
+      "Relation Type": "Husband",
+      "Relative Name": "Sahun Khan",
+      "House No.": "40",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "392",
+      "EPIC No.": "WHH1892348",
+      "Voter Name": "Tahira",
+      "Relation Type": "Other",
+      "Relative Name": "Bhure Khan",
+      "House No.": "40",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "393",
+      "EPIC No.": "WHH1892454",
+      "Voter Name": "Sahil",
+      "Relation Type": "Father",
+      "Relative Name": "Bhure Khan",
+      "House No.": "40",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "394",
+      "EPIC No.": "WHH1863802",
+      "Voter Name": "Razzaq Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Mohar Singh",
+      "House No.": "40 R",
+      "Age": "37",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "395",
+      "EPIC No.": "RJ/08/061/459271",
+      "Voter Name": "Shammikhan",
+      "Relation Type": "Father",
+      "Relative Name": "Habbukhan",
+      "House No.": "41",
+      "Age": "66",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "396",
+      "EPIC No.": "RJ/08061//459421",
+      "Voter Name": "Kamalkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Habbukhan",
+      "House No.": "41",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "397",
+      "EPIC No.": "RJ/08/061/459207",
+      "Voter Name": "Rahmani",
+      "Relation Type": "Husband",
+      "Relative Name": "Kamalkhan",
+      "House No.": "41",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "398",
+      "EPIC No.": "RJ/08/061/459419",
+      "Voter Name": "Ismalkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Habbukhan",
+      "House No.": "41",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "399",
+      "EPIC No.": "RJ/08061//459216",
+      "Voter Name": "Asari",
+      "Relation Type": "Husband",
+      "Relative Name": "Ismalkhan",
+      "House No.": "41",
+      "Age": "55",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "400",
+      "EPIC No.": "CVS1283399",
+      "Voter Name": "Jameel Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Shammi Khan",
+      "House No.": "41",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "401",
+      "EPIC No.": "CVS1283407",
+      "Voter Name": "Tahir Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Kamalkhan",
+      "House No.": "41",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "402",
+      "EPIC No.": "CVS1283415",
+      "Voter Name": "Apsana",
+      "Relation Type": "Husband",
+      "Relative Name": "Tahir Khan",
+      "House No.": "41",
+      "Age": "42",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "403",
+      "EPIC No.": "CVS7147317",
+      "Voter Name": "Iliyas",
+      "Relation Type": "Father",
+      "Relative Name": "Kamal Khan",
+      "House No.": "41",
+      "Age": "40",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "404",
+      "EPIC No.": "WHH0990770",
+      "Voter Name": "Bhinta",
+      "Relation Type": "Husband",
+      "Relative Name": "Iliyas",
+      "House No.": "41",
+      "Age": "38",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "405",
+      "EPIC No.": "WHH0478420",
+      "Voter Name": "Teetu Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Shameer Khan",
+      "House No.": "41",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "406",
+      "EPIC No.": "WHH0478446",
+      "Voter Name": "Anees",
+      "Relation Type": "Father",
+      "Relative Name": "Ismail Khan",
+      "House No.": "41",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "407",
+      "EPIC No.": "WHH0990820",
+      "Voter Name": "Batuni",
+      "Relation Type": "Husband",
+      "Relative Name": "Teetu Khan",
+      "House No.": "41",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "408",
+      "EPIC No.": "WHH0478438",
+      "Voter Name": "Faruk",
+      "Relation Type": "Father",
+      "Relative Name": "Shammi Khan",
+      "House No.": "41",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "409",
+      "EPIC No.": "WHH0553719",
+      "Voter Name": "Zubaida",
+      "Relation Type": "Husband",
+      "Relative Name": "Faruk",
+      "House No.": "41",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "410",
+      "EPIC No.": "WHH0394122",
+      "Voter Name": "Mushtaq Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Kamal Khan",
+      "House No.": "41",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "411",
+      "EPIC No.": "WHH0663203",
+      "Voter Name": "Saharuna",
+      "Relation Type": "Husband",
+      "Relative Name": "Anees",
+      "House No.": "41",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "412",
+      "EPIC No.": "WHH0663195",
+      "Voter Name": "Vakeel",
+      "Relation Type": "Father",
+      "Relative Name": "Ismail",
+      "House No.": "41",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "413",
+      "EPIC No.": "WHH1264720",
+      "Voter Name": "Shabana",
+      "Relation Type": "Father",
+      "Relative Name": "Ismal Khan",
+      "House No.": "41",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "414",
+      "EPIC No.": "WHH1710607",
+      "Voter Name": "Afseen",
+      "Relation Type": "Father",
+      "Relative Name": "Shammi Khan",
+      "House No.": "41",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "415",
+      "EPIC No.": "RJ/08/061/459331",
+      "Voter Name": "Esabkhan",
+      "Relation Type": "Father",
+      "Relative Name": "Surjan",
+      "House No.": "42",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "416",
+      "EPIC No.": "RJ/08/061/459173",
+      "Voter Name": "Janati",
+      "Relation Type": "Husband",
+      "Relative Name": "Esabkhan",
+      "House No.": "42",
+      "Age": "57",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "417",
+      "EPIC No.": "RJ/08/061/459226",
+      "Voter Name": "Nurdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Surjankhan",
+      "House No.": "42",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "418",
+      "EPIC No.": "RJ/08/061/459523",
+      "Voter Name": "Husaini",
+      "Relation Type": "Husband",
+      "Relative Name": "Nurdeen",
+      "House No.": "42",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "419",
+      "EPIC No.": "WHH0436121",
+      "Voter Name": "Mosam",
+      "Relation Type": "Father",
+      "Relative Name": "Esab Khan",
+      "House No.": "42",
+      "Age": "33",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "420",
+      "EPIC No.": "WHH0553693",
+      "Voter Name": "Basmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Mosam",
+      "House No.": "42",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "421",
+      "EPIC No.": "WHH0436139",
+      "Voter Name": "Irfan",
+      "Relation Type": "Father",
+      "Relative Name": "Esab Khan",
+      "House No.": "42",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "422",
+      "EPIC No.": "WHH0436147",
+      "Voter Name": "Rubina",
+      "Relation Type": "Husband",
+      "Relative Name": "Irfan",
+      "House No.": "42",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "423",
+      "EPIC No.": "WHH1687995",
+      "Voter Name": "Sahina",
+      "Relation Type": "Mother",
+      "Relative Name": "Jetuni",
+      "House No.": "42",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "424",
+      "EPIC No.": "WHH1892447",
+      "Voter Name": "Rahul",
+      "Relation Type": "Father",
+      "Relative Name": "Noor Deen",
+      "House No.": "42",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "425",
+      "EPIC No.": "WHH1687961",
+      "Voter Name": "Rahul Khan",
+      "Relation Type": "Mother",
+      "Relative Name": "Jetuni",
+      "House No.": "42",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "426",
+      "EPIC No.": "RJ/08/061/459222",
+      "Voter Name": "Tofi",
+      "Relation Type": "Husband",
+      "Relative Name": "Mormal Khan",
+      "House No.": "43",
+      "Age": "71",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "427",
+      "EPIC No.": "CVS1283423",
+      "Voter Name": "Khurshid Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Mormal Khan",
+      "House No.": "43",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "428",
+      "EPIC No.": "CVS1352681",
+      "Voter Name": "Sayrabano",
+      "Relation Type": "Husband",
+      "Relative Name": "Khurshid Khan",
+      "House No.": "43",
+      "Age": "42",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "429",
+      "EPIC No.": "WHH0321620",
+      "Voter Name": "Majlis Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Mormal",
+      "House No.": "43",
+      "Age": "37",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "430",
+      "EPIC No.": "WHH1264852",
+      "Voter Name": "Barfeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Majlis",
+      "House No.": "43",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "431",
+      "EPIC No.": "WHH0612952",
+      "Voter Name": "Munfed",
+      "Relation Type": "Father",
+      "Relative Name": "Mormal",
+      "House No.": "43",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "432",
+      "EPIC No.": "WHH1312263",
+      "Voter Name": "Nasir Hussain",
+      "Relation Type": "Father",
+      "Relative Name": "Khurshid Khan",
+      "House No.": "43",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "433",
+      "EPIC No.": "RJ/08/061/459219",
+      "Voter Name": "Mamoori",
+      "Relation Type": "Husband",
+      "Relative Name": "Vadan Singh",
+      "House No.": "44",
+      "Age": "59",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "434",
+      "EPIC No.": "WHH0990911",
+      "Voter Name": "Usmani",
+      "Relation Type": "Husband",
+      "Relative Name": "Vakar",
+      "House No.": "44",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "435",
+      "EPIC No.": "WHH0990861",
+      "Voter Name": "Vakar",
+      "Relation Type": "Father",
+      "Relative Name": "Badan Singh",
+      "House No.": "44",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "436",
+      "EPIC No.": "WHH1679760",
+      "Voter Name": "Sahil",
+      "Relation Type": "Mother",
+      "Relative Name": "Eesal",
+      "House No.": "44",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "437",
+      "EPIC No.": "RJ/08061//459254",
+      "Voter Name": "Lallukhan",
+      "Relation Type": "Father",
+      "Relative Name": "Badhakhan",
+      "House No.": "45",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "438",
+      "EPIC No.": "WHH0189571",
+      "Voter Name": "Ati Mohammad",
+      "Relation Type": "Father",
+      "Relative Name": "Lallukhan",
+      "House No.": "45",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "439",
+      "EPIC No.": "WHH0663211",
+      "Voter Name": "Miskina",
+      "Relation Type": "Husband",
+      "Relative Name": "Ati Mohammad",
+      "House No.": "45",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "440",
+      "EPIC No.": "RJ/08061//459295",
+      "Voter Name": "Himmat Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Mamman Khan",
+      "House No.": "46",
+      "Age": "72",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "441",
+      "EPIC No.": "RJ/08/061/459729",
+      "Voter Name": "Nuriya",
+      "Relation Type": "Husband",
+      "Relative Name": "Himmatkhan",
+      "House No.": "46",
+      "Age": "71",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "442",
+      "EPIC No.": "CVS1283449",
+      "Voter Name": "Farmeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Khurshid",
+      "House No.": "46",
+      "Age": "45",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "443",
+      "EPIC No.": "CVS1283456",
+      "Voter Name": "Jamshed Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Himmat Khan",
+      "House No.": "46",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "444",
+      "EPIC No.": "CVS7147564",
+      "Voter Name": "Mubeen",
+      "Relation Type": "Father",
+      "Relative Name": "Himmat Khan",
+      "House No.": "46",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "445",
+      "EPIC No.": "WHH0004390",
+      "Voter Name": "Mubeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Jamshed Khan",
+      "House No.": "46",
+      "Age": "38",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "446",
+      "EPIC No.": "WHH0321711",
+      "Voter Name": "Baskar",
+      "Relation Type": "Husband",
+      "Relative Name": "Mubeen",
+      "House No.": "46",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "447",
+      "EPIC No.": "WHH0814608",
+      "Voter Name": "Sunfed",
+      "Relation Type": "Father",
+      "Relative Name": "Liyakat",
+      "House No.": "46",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "448",
+      "EPIC No.": "WHH1313634",
+      "Voter Name": "Arshida",
+      "Relation Type": "Husband",
+      "Relative Name": "Munfed Khan",
+      "House No.": "46",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "449",
+      "EPIC No.": "WHH1358993",
+      "Voter Name": "Jitendra",
+      "Relation Type": "Father",
+      "Relative Name": "Prakash Chand",
+      "House No.": "46",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "450",
+      "EPIC No.": "WHH1711977",
+      "Voter Name": "Nusrat Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Jamshed",
+      "House No.": "46",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "451",
+      "EPIC No.": "WHH1313675",
+      "Voter Name": "Umardeen",
+      "Relation Type": "Father",
+      "Relative Name": "Shadi",
+      "House No.": "47",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "452",
+      "EPIC No.": "WHH0436154",
+      "Voter Name": "Arseeda",
+      "Relation Type": "Husband",
+      "Relative Name": "Haneef",
+      "House No.": "47",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "453",
+      "EPIC No.": "WHH0189589",
+      "Voter Name": "Sonaram",
+      "Relation Type": "Father",
+      "Relative Name": "Devisahay",
+      "House No.": "47",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "454",
+      "EPIC No.": "WHH1822642",
+      "Voter Name": "Asipe Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Hanif Kha",
+      "House No.": "47 Ranikheda",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "455",
+      "EPIC No.": "RJ/08/061/459202",
+      "Voter Name": "Mihiri",
+      "Relation Type": "Husband",
+      "Relative Name": "Bane Singh",
+      "House No.": "48",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "456",
+      "EPIC No.": "CVS1283480",
+      "Voter Name": "Sahabdeen",
+      "Relation Type": "Father",
+      "Relative Name": "Bane Singh",
+      "House No.": "48",
+      "Age": "47",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "457",
+      "EPIC No.": "CVS1352699",
+      "Voter Name": "Harun Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Bane Singh",
+      "House No.": "48",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "458",
+      "EPIC No.": "CVS1352707",
+      "Voter Name": "Zarina",
+      "Relation Type": "Husband",
+      "Relative Name": "Harun Khan",
+      "House No.": "48",
+      "Age": "43",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "459",
+      "EPIC No.": "WHH0004408",
+      "Voter Name": "Sahun Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Bane Singh",
+      "House No.": "48",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "460",
+      "EPIC No.": "WHH0814616",
+      "Voter Name": "Nasree",
+      "Relation Type": "Husband",
+      "Relative Name": "Sahun Khan",
+      "House No.": "48",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "461",
+      "EPIC No.": "WHH0750489",
+      "Voter Name": "Akbar",
+      "Relation Type": "Father",
+      "Relative Name": "Bane Singh",
+      "House No.": "48",
+      "Age": "33",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "462",
+      "EPIC No.": "WHH0478453",
+      "Voter Name": "Aktar",
+      "Relation Type": "Father",
+      "Relative Name": "Ban Singh",
+      "House No.": "48",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "463",
+      "EPIC No.": "WHH0612978",
+      "Voter Name": "Raveena",
+      "Relation Type": "Husband",
+      "Relative Name": "Akhtar",
+      "House No.": "48",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "464",
+      "EPIC No.": "WHH0991018",
+      "Voter Name": "Rahul Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Bane Singh",
+      "House No.": "48",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "465",
+      "EPIC No.": "RJ/08/061/459290",
+      "Voter Name": "Nurmohammad",
+      "Relation Type": "Father",
+      "Relative Name": "Aleemokhan",
+      "House No.": "49",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "466",
+      "EPIC No.": "RJ/08/061/459424",
+      "Voter Name": "Baskar",
+      "Relation Type": "Husband",
+      "Relative Name": "Nurmohammad",
+      "House No.": "49",
+      "Age": "55",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "467",
+      "EPIC No.": "WHH0321612",
+      "Voter Name": "Sahrun Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Noor Mohd",
+      "House No.": "49",
+      "Age": "33",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "468",
+      "EPIC No.": "WHH1164326",
+      "Voter Name": "Haneefi",
+      "Relation Type": "Husband",
+      "Relative Name": "Sahrun",
+      "House No.": "49",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "469",
+      "EPIC No.": "RJ/08/061/459428",
+      "Voter Name": "Hukma",
+      "Relation Type": "Father",
+      "Relative Name": "Gadarkhan",
+      "House No.": "50",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "470",
+      "EPIC No.": "RJ/08/061/459748",
+      "Voter Name": "Sameena",
+      "Relation Type": "Husband",
+      "Relative Name": "Hukmakhan",
+      "House No.": "50",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "471",
+      "EPIC No.": "RJ/08/061/459330",
+      "Voter Name": "Hansakhan",
+      "Relation Type": "Father",
+      "Relative Name": "Gadadkhan",
+      "House No.": "50",
+      "Age": "52",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "472",
+      "EPIC No.": "WHH0663237",
+      "Voter Name": "Sanji",
+      "Relation Type": "Husband",
+      "Relative Name": "Hansa Khan",
+      "House No.": "50",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "473",
+      "EPIC No.": "WHH1312156",
+      "Voter Name": "Jahul Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Hukma",
+      "House No.": "50",
+      "Age": "28",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "474",
+      "EPIC No.": "WHH0991059",
+      "Voter Name": "Shabana",
+      "Relation Type": "Father",
+      "Relative Name": "Younis Khan",
+      "House No.": "50",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "475",
+      "EPIC No.": "WHH0991083",
+      "Voter Name": "Younis",
+      "Relation Type": "Father",
+      "Relative Name": "Hukma",
+      "House No.": "50",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "476",
+      "EPIC No.": "WHH1312172",
+      "Voter Name": "Naseeba",
+      "Relation Type": "Husband",
+      "Relative Name": "Jahul Khan",
+      "House No.": "50",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "477",
+      "EPIC No.": "WHH1691187",
+      "Voter Name": "Jeetram",
+      "Relation Type": "Father",
+      "Relative Name": "Babulal",
+      "House No.": "50",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "478",
+      "EPIC No.": "WHH0228262",
+      "Voter Name": "Jagdish",
+      "Relation Type": "Father",
+      "Relative Name": "Tilokaram",
+      "House No.": "51",
+      "Age": "46",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "479",
+      "EPIC No.": "CVS1283506",
+      "Voter Name": "Kamlesh",
+      "Relation Type": "Husband",
+      "Relative Name": "Jagdish",
+      "House No.": "51",
+      "Age": "44",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "480",
+      "EPIC No.": "WHH1264837",
+      "Voter Name": "Hemant Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Jagdish",
+      "House No.": "51",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "481",
+      "EPIC No.": "RJ/08/061/459151",
+      "Voter Name": "Prakash",
+      "Relation Type": "Father",
+      "Relative Name": "Tiloka",
+      "House No.": "52",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "482",
+      "EPIC No.": "WHH1723493",
+      "Voter Name": "Bala Kumari",
+      "Relation Type": "Husband",
+      "Relative Name": "Rinku",
+      "House No.": "52",
+      "Age": "24",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "483",
+      "EPIC No.": "WHH1686757",
+      "Voter Name": "Rinku",
+      "Relation Type": "Father",
+      "Relative Name": "Babu Lal",
+      "House No.": "52",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "484",
+      "EPIC No.": "WHH0663245",
+      "Voter Name": "Sapat Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Nablu Khan",
+      "House No.": "53",
+      "Age": "56",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "485",
+      "EPIC No.": "WHH0663252",
+      "Voter Name": "Kashmira",
+      "Relation Type": "Husband",
+      "Relative Name": "Sapat Khan",
+      "House No.": "53",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "486",
+      "EPIC No.": "WHH1679513",
+      "Voter Name": "Aneesha",
+      "Relation Type": "Other",
+      "Relative Name": "Sapat Ban",
+      "House No.": "53",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "487",
+      "EPIC No.": "WHH1697093",
+      "Voter Name": "Barkat Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Sapat Khan",
+      "House No.": "53",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "488",
+      "EPIC No.": "WHH0321695",
+      "Voter Name": "Rukmudeen",
+      "Relation Type": "Father",
+      "Relative Name": "Nablu Khan",
+      "House No.": "54",
+      "Age": "49",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "489",
+      "EPIC No.": "WHH0321703",
+      "Voter Name": "Khurshida",
+      "Relation Type": "Husband",
+      "Relative Name": "Rukmudeen",
+      "House No.": "54",
+      "Age": "47",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "490",
+      "EPIC No.": "WHH1846245",
+      "Voter Name": "Sharmina Khan",
+      "Relation Type": "Husband",
+      "Relative Name": "Nasir Hussain",
+      "House No.": "54",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "491",
+      "EPIC No.": "WHH0251082",
+      "Voter Name": "Mitrukhan",
+      "Relation Type": "Father",
+      "Relative Name": "Navlukhan",
+      "House No.": "55",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "492",
+      "EPIC No.": "WHH0251090",
+      "Voter Name": "Mohammadi",
+      "Relation Type": "Husband",
+      "Relative Name": "Mitrukhan",
+      "House No.": "55",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "493",
+      "EPIC No.": "WHH1709526",
+      "Voter Name": "Nafeesa",
+      "Relation Type": "Father",
+      "Relative Name": "Minnu Khan",
+      "House No.": "55",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "494",
+      "EPIC No.": "WHH1709864",
+      "Voter Name": "Tasleem Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Minnu Khan",
+      "House No.": "55",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "495",
+      "EPIC No.": "WHH1709427",
+      "Voter Name": "Ayesha",
+      "Relation Type": "Husband",
+      "Relative Name": "Meenu Khan",
+      "House No.": "55",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "496",
+      "EPIC No.": "RJ/08/061/459244",
+      "Voter Name": "Anama",
+      "Relation Type": "Husband",
+      "Relative Name": "Mangal",
+      "House No.": "100",
+      "Age": "83",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "497",
+      "EPIC No.": "RJ/08/061/459124",
+      "Voter Name": "Shyamlal",
+      "Relation Type": "Father",
+      "Relative Name": "Mangal",
+      "House No.": "100",
+      "Age": "52",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "498",
+      "EPIC No.": "WHH0376756",
+      "Voter Name": "Santa",
+      "Relation Type": "Husband",
+      "Relative Name": "Shyamlal",
+      "House No.": "100",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "499",
+      "EPIC No.": "CVS1283514",
+      "Voter Name": "Ben Singh",
+      "Relation Type": "Father",
+      "Relative Name": "Mangal",
+      "House No.": "100",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "500",
+      "EPIC No.": "WHH0004416",
+      "Voter Name": "Maya",
+      "Relation Type": "Husband",
+      "Relative Name": "Bane Singh",
+      "House No.": "100",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "501",
+      "EPIC No.": "WHH0991166",
+      "Voter Name": "Rakesh Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Shyamlal",
+      "House No.": "100",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "502",
+      "EPIC No.": "CVS1593581",
+      "Voter Name": "Shanti",
+      "Relation Type": "Husband",
+      "Relative Name": "Budhan",
+      "House No.": "101",
+      "Age": "81",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "503",
+      "EPIC No.": "WHH0228270",
+      "Voter Name": "Raghuveer",
+      "Relation Type": "Father",
+      "Relative Name": "Budhan",
+      "House No.": "101",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "504",
+      "EPIC No.": "WHH0251066",
+      "Voter Name": "Sarla",
+      "Relation Type": "Husband",
+      "Relative Name": "Raghuveer",
+      "House No.": "101",
+      "Age": "38",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "505",
+      "EPIC No.": "RJ/08/061/459131",
+      "Voter Name": "Ramlal",
+      "Relation Type": "Father",
+      "Relative Name": "Ramdhan",
+      "House No.": "102",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "506",
+      "EPIC No.": "RJ/08061//459156",
+      "Voter Name": "Meera",
+      "Relation Type": "Husband",
+      "Relative Name": "Ramlal",
+      "House No.": "102",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "507",
+      "EPIC No.": "WHH1734599",
+      "Voter Name": "Neelam",
+      "Relation Type": "Husband",
+      "Relative Name": "Babulal",
+      "House No.": "102",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "508",
+      "EPIC No.": "WHH1737030",
+      "Voter Name": "Babu Lal",
+      "Relation Type": "Father",
+      "Relative Name": "Ramdhan",
+      "House No.": "102",
+      "Age": "51",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "509",
+      "EPIC No.": "WHH1674381",
+      "Voter Name": "Meera",
+      "Relation Type": "Husband",
+      "Relative Name": "Jitendra",
+      "House No.": "104",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "510",
+      "EPIC No.": "WHH1833813",
+      "Voter Name": "Lokesh Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Raghuveer",
+      "House No.": "104",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "511",
+      "EPIC No.": "WHH0991281",
+      "Voter Name": "Mubeen",
+      "Relation Type": "Father",
+      "Relative Name": "Nablu",
+      "House No.": "-",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "512",
+      "EPIC No.": "WHH0991315",
+      "Voter Name": "Maksudhan",
+      "Relation Type": "Husband",
+      "Relative Name": "Mubeen",
+      "House No.": "-",
+      "Age": "37",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "513",
+      "EPIC No.": "WHH0991265",
+      "Voter Name": "Guddi",
+      "Relation Type": "Husband",
+      "Relative Name": "Siyaram",
+      "House No.": "-",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "514",
+      "EPIC No.": "WHH0991208",
+      "Voter Name": "Arfeena",
+      "Relation Type": "Husband",
+      "Relative Name": "Aasamdeen",
+      "House No.": "-",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "515",
+      "EPIC No.": "WHH0991232",
+      "Voter Name": "Raveena",
+      "Relation Type": "Husband",
+      "Relative Name": "Mushtaq",
+      "House No.": "-",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "516",
+      "EPIC No.": "WHH0991349",
+      "Voter Name": "Aslam",
+      "Relation Type": "Father",
+      "Relative Name": "Meenu",
+      "House No.": "-",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "517",
+      "EPIC No.": "WHH1264811",
+      "Voter Name": "Kamlesh",
+      "Relation Type": "Husband",
+      "Relative Name": "Ravi Kumar",
+      "House No.": "131",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "518",
+      "EPIC No.": "WHH1799857",
+      "Voter Name": "Rajveer Kasana",
+      "Relation Type": "Father",
+      "Relative Name": "Bain Singh",
+      "House No.": "House 10",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "519",
+      "EPIC No.": "WHH1506468",
+      "Voter Name": "Sanjay",
+      "Relation Type": "Father",
+      "Relative Name": "Madan Lal",
+      "House No.": "Ranikheda",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "520",
+      "EPIC No.": "WHH1416312",
+      "Voter Name": "Mukesh Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Jagan Singh",
+      "House No.": "Ranikheda",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "521",
+      "EPIC No.": "WHH1916683",
+      "Voter Name": "Sahil Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Mohammad Haneef",
+      "House No.": "4",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "522",
+      "EPIC No.": "WHH1916766",
+      "Voter Name": "Azeem Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Iliyas",
+      "House No.": "41",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "523",
+      "EPIC No.": "WHH1916857",
+      "Voter Name": "Mohammad Kaif",
+      "Relation Type": "Father",
+      "Relative Name": "Harun",
+      "House No.": "24",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "524",
+      "EPIC No.": "WHH1917194",
+      "Voter Name": "Taufeeq",
+      "Relation Type": "Father",
+      "Relative Name": "Mubeen Khan",
+      "House No.": "40",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "525",
+      "EPIC No.": "WHH1925122",
+      "Voter Name": "Nafeesa",
+      "Relation Type": "Husband",
+      "Relative Name": "Sattar",
+      "House No.": "22",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "526",
+      "EPIC No.": "WHH1931005",
+      "Voter Name": "Gautam",
+      "Relation Type": "Father",
+      "Relative Name": "Lakhmi Chand",
+      "House No.": "5",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "527",
+      "EPIC No.": "WHH1933597",
+      "Voter Name": "Jamshed",
+      "Relation Type": "Father",
+      "Relative Name": "Kalu Khan",
+      "House No.": "27",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "528",
+      "EPIC No.": "WHH1934728",
+      "Voter Name": "Varisha",
+      "Relation Type": "Husband",
+      "Relative Name": "Vakeel",
+      "House No.": "41",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "529",
+      "EPIC No.": "WHH1948652",
+      "Voter Name": "Sattar",
+      "Relation Type": "Father",
+      "Relative Name": "Aas Mohammad",
+      "House No.": "22",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "530",
+      "EPIC No.": "WHH1951722",
+      "Voter Name": "Sanjida",
+      "Relation Type": "Husband",
+      "Relative Name": "Arif Khan",
+      "House No.": "35",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "531",
+      "EPIC No.": "WHH1955129",
+      "Voter Name": "Rajni",
+      "Relation Type": "Husband",
+      "Relative Name": "Kamal Singh",
+      "House No.": "9",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "532",
+      "EPIC No.": "WHH2024784",
+      "Voter Name": "Sekul Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Kalu Khan",
+      "House No.": "27",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "533",
+      "EPIC No.": "WHH2031458",
+      "Voter Name": "Rajendra Kumar",
+      "Relation Type": "Father",
+      "Relative Name": "Babu Lal Jatav",
+      "House No.": "6",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "534",
+      "EPIC No.": "WHH2032449",
+      "Voter Name": "Hansira",
+      "Relation Type": "Father",
+      "Relative Name": "Jamshed Khan",
+      "House No.": "27",
+      "Age": "24",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "535",
+      "EPIC No.": "WHH2033991",
+      "Voter Name": "Mohammad Kaif",
+      "Relation Type": "Father",
+      "Relative Name": "Tahir Khan",
+      "House No.": "41",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "536",
+      "EPIC No.": "WHH2028611",
+      "Voter Name": "Rahul Khan",
+      "Relation Type": "Father",
+      "Relative Name": "Ameen Khan",
+      "House No.": "40",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "537",
+      "EPIC No.": "WHH2029916",
+      "Voter Name": "Lalchand",
+      "Relation Type": "Father",
+      "Relative Name": "Ramesh Chand",
+      "House No.": "6",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "S.No.": "538",
+      "EPIC No.": "WHH2041838",
+      "Voter Name": "Priyanka Kumari",
+      "Relation Type": "Husband",
+      "Relative Name": "Jitendra Kumar",
+      "House No.": "1",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "S.No.": "539",
+      "EPIC No.": "WHH2043016",
+      "Voter Name": "Zaiboona",
+      "Relation Type": "Husband",
+      "Relative Name": "Sahil",
+      "House No.": "20",
+      "Age": "19",
+      "Gender": "Female"
+    }
+  ]
+}

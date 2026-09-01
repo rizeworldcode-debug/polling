@@ -1,0 +1,5389 @@
+{
+  "General_Information": {
+    "Authority": "State Election Commission, Rajasthan",
+    "Electoral_Roll": "Municipal Election Electoral Roll, 2026",
+    "Name_of_Municipality": "Bahadurpur",
+    "Assembly_Constituency_No_and_Name": "65 - Alwar Rural",
+    "Ward_No": "9",
+    "Tehsil_District": "Alwar, Rajasthan",
+    "Revision_Details": {
+      "Revision_Type": "Intensive Revision",
+      "Year": "2026",
+      "Qualifying_Date": "01-01-2026",
+      "Publication_Date": "24-03-2026"
+    },
+    "Part_No": "1",
+    "Ward_Area_Boundary": "Main Village Peelwa up to Radhe Baniya's shop, Deewano ka Baas, Bhure Khan ka Baas, Kharetiya ka Baas, Natto ka Mohalla, up to Naiyo ka Baas, Ameena ki Dhani and Khasra No. 449 to 1200 to 1210 to 1252 to 678 to 623",
+    "Polling_Station_No_and_Address": "9 - Government Upper Primary School Peelwa, Room No. 2",
+    "Summary_of_Voters": {
+      "Starting_Serial_No": 1,
+      "Ending_Serial_No": 536,
+      "Male": 269,
+      "Female": 267,
+      "Third_Gender": 0,
+      "Total_Voters": 536
+    }
+  },
+  "Voters": [
+    {
+      "Serial_No": "1",
+      "EPIC_ID": "RJ/08/061/429142",
+      "Name": "Phool Chand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kahooraam",
+      "House_No": "27",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "2",
+      "EPIC_ID": "WHH1372424",
+      "Name": "Ishwar",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Phool Chand",
+      "House_No": "27",
+      "Age": "71",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "3",
+      "EPIC_ID": "WHH0477737",
+      "Name": "Sunita",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Neeraj Kumar",
+      "House_No": "27",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "4",
+      "EPIC_ID": "RJ/08/061/429378",
+      "Name": "Amar Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kahooraam",
+      "House_No": "28",
+      "Age": "67",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "5",
+      "EPIC_ID": "WHH1372408",
+      "Name": "Mindro Devi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Amar Singh",
+      "House_No": "28",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "6",
+      "EPIC_ID": "WHH0815308",
+      "Name": "Vikram Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Amar Singh",
+      "House_No": "28",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "7",
+      "EPIC_ID": "WHH1784289",
+      "Name": "Anju Bala Od",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Vikram Singh",
+      "House_No": "28",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "8",
+      "EPIC_ID": "RJ/08/061/429218",
+      "Name": "Usha Devi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ram Singh",
+      "House_No": "29",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "9",
+      "EPIC_ID": "WHH1784370",
+      "Name": "Vaishali",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ram Singh",
+      "House_No": "29",
+      "Age": "19",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "10",
+      "EPIC_ID": "RJ/08/061/429602",
+      "Name": "Manohar Lal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kahooraam",
+      "House_No": "30",
+      "Age": "59",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "11",
+      "EPIC_ID": "CVS1350651",
+      "Name": "Shamli",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Manohar Lal",
+      "House_No": "30",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "12",
+      "EPIC_ID": "WHH1143635",
+      "Name": "Pawan Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Manohar Lal",
+      "House_No": "30",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "13",
+      "EPIC_ID": "WHH1407139",
+      "Name": "Karan Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Manohar Lal",
+      "House_No": "30",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "14",
+      "EPIC_ID": "RJ/08/061/429729",
+      "Name": "Saleemi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Subhan Khan",
+      "House_No": "32",
+      "Age": "78",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "15",
+      "EPIC_ID": "WHH0060202",
+      "Name": "Arsad Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Subhan Khan",
+      "House_No": "32",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "16",
+      "EPIC_ID": "WHH0554543",
+      "Name": "Saddam Hussain",
+      "Relation_Type": "Father",
+      "Relative_Name": "Subhan Khan",
+      "House_No": "32",
+      "Age": "34",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "17",
+      "EPIC_ID": "WHH0554550",
+      "Name": "Haruni",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Arshad",
+      "House_No": "32",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "18",
+      "EPIC_ID": "WHH0587782",
+      "Name": "Wareesha",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Saddam Hussain",
+      "House_No": "32",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "19",
+      "EPIC_ID": "WHH0664714",
+      "Name": "Taseem Mohammad Meo",
+      "Relation_Type": "Father",
+      "Relative_Name": "Subhan Khan Meo",
+      "House_No": "32",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "20",
+      "EPIC_ID": "WHH0845065",
+      "Name": "Nareesha",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Taseem Mohammad",
+      "House_No": "32",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "21",
+      "EPIC_ID": "CVS1392711",
+      "Name": "Kamru",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gena Khan",
+      "House_No": "33",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "22",
+      "EPIC_ID": "WHH0060194",
+      "Name": "Sarmeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Kamru",
+      "House_No": "33",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "23",
+      "EPIC_ID": "RJ/08/061/429733",
+      "Name": "Ishak",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gena Khan",
+      "House_No": "34",
+      "Age": "65",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "24",
+      "EPIC_ID": "RJ/08/061/429808",
+      "Name": "Sariyam",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ishak",
+      "House_No": "34",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "25",
+      "EPIC_ID": "WHH1012269",
+      "Name": "Jamsheeda",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rashid Khan",
+      "House_No": "34",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "26",
+      "EPIC_ID": "WHH1007384",
+      "Name": "Rashid Ali",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ishak Khan",
+      "House_No": "34",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "27",
+      "EPIC_ID": "WHH1673987",
+      "Name": "Mahroona",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sajid Khan",
+      "House_No": "34",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "28",
+      "EPIC_ID": "WHH1407253",
+      "Name": "Sajid Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ishak",
+      "House_No": "34",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "29",
+      "EPIC_ID": "WHH1673896",
+      "Name": "Sakir Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ishak Khan",
+      "House_No": "34",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "30",
+      "EPIC_ID": "RJ/08/061/429522",
+      "Name": "Islam",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gena Khan",
+      "House_No": "35",
+      "Age": "62",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "31",
+      "EPIC_ID": "RJ/08/061/429929",
+      "Name": "Mariyam",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Islam",
+      "House_No": "35",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "32",
+      "EPIC_ID": "WHH0477745",
+      "Name": "Aalam Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Islam Khan",
+      "House_No": "35",
+      "Age": "33",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "33",
+      "EPIC_ID": "WHH0395145",
+      "Name": "Umshed Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Islam",
+      "House_No": "35",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "34",
+      "EPIC_ID": "WHH0587774",
+      "Name": "Jamsheeda",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Aalam Khan",
+      "House_No": "35",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "35",
+      "EPIC_ID": "WHH0664722",
+      "Name": "Meman",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Umshed",
+      "House_No": "35",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "36",
+      "EPIC_ID": "WHH0664730",
+      "Name": "Aes Mohammad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Islam",
+      "House_No": "35",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "37",
+      "EPIC_ID": "WHH0845073",
+      "Name": "Miskina",
+      "Relation_Type": "Husband",
+      "Relative_Name": "S Mohammad",
+      "House_No": "35",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "38",
+      "EPIC_ID": "WHH1007442",
+      "Name": "Mubarik",
+      "Relation_Type": "Father",
+      "Relative_Name": "Islam",
+      "House_No": "35",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "39",
+      "EPIC_ID": "WHH1007491",
+      "Name": "Sakunat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mubarik",
+      "House_No": "35",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "40",
+      "EPIC_ID": "CVS1275130",
+      "Name": "Ilyas Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Munshi Khan",
+      "House_No": "36",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "41",
+      "EPIC_ID": "CVS1275148",
+      "Name": "Raheesan",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ilyas Khan",
+      "House_No": "36",
+      "Age": "43",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "42",
+      "EPIC_ID": "WHH1784313",
+      "Name": "Farin",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ilyas Khan",
+      "House_No": "36",
+      "Age": "19",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "43",
+      "EPIC_ID": "WHH1775352",
+      "Name": "Isab Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ameen Khan",
+      "House_No": "37",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "44",
+      "EPIC_ID": "RJ/08/061/429568",
+      "Name": "Aamini",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Isab Khan",
+      "House_No": "37",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "45",
+      "EPIC_ID": "WHH0554121",
+      "Name": "Juber Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Eesab Khan",
+      "House_No": "37",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "46",
+      "EPIC_ID": "WHH0554303",
+      "Name": "Kallu Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Eesab Khan",
+      "House_No": "37",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "47",
+      "EPIC_ID": "WHH0623355",
+      "Name": "Sarmeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Juber",
+      "House_No": "37",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "48",
+      "EPIC_ID": "WHH0845081",
+      "Name": "Jamshed Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Eesab Khan",
+      "House_No": "37",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "49",
+      "EPIC_ID": "WHH1010982",
+      "Name": "Mainsari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Kallu Khan",
+      "House_No": "37",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "50",
+      "EPIC_ID": "WHH1531789",
+      "Name": "Mistara",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jamshed Khan",
+      "House_No": "37",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "51",
+      "EPIC_ID": "RJ/08/061/429732",
+      "Name": "Chand Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Eedu Khan",
+      "House_No": "38",
+      "Age": "52",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "52",
+      "EPIC_ID": "CVS1350396",
+      "Name": "Chandu",
+      "Relation_Type": "Father",
+      "Relative_Name": "Eedu Khan",
+      "House_No": "38",
+      "Age": "48",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "53",
+      "EPIC_ID": "CVS1350404",
+      "Name": "Nasari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Chandu Khan",
+      "House_No": "38",
+      "Age": "47",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "54",
+      "EPIC_ID": "WHH0477752",
+      "Name": "Raveesan",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Chand Khan",
+      "House_No": "38",
+      "Age": "46",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "55",
+      "EPIC_ID": "WHH1629112",
+      "Name": "Mumtaz",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Subedeen",
+      "House_No": "38",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "56",
+      "EPIC_ID": "WHH1397603",
+      "Name": "Subedeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Chandu Khan",
+      "House_No": "38",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "57",
+      "EPIC_ID": "RJ/08/061/429521",
+      "Name": "Mauj Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ameen Khan",
+      "House_No": "42",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "58",
+      "EPIC_ID": "WHH1372515",
+      "Name": "Jannati",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mauj Khan",
+      "House_No": "42",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "59",
+      "EPIC_ID": "WHH0436337",
+      "Name": "Mubeen Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mauj Khan",
+      "House_No": "42",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "60",
+      "EPIC_ID": "WHH0538090",
+      "Name": "Nusrat",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mubeen Khan",
+      "House_No": "42",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "61",
+      "EPIC_ID": "WHH0436436",
+      "Name": "Mufik Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mauj Khan",
+      "House_No": "42",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "62",
+      "EPIC_ID": "WHH0554147",
+      "Name": "Shabnam",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mufik Khan",
+      "House_No": "42",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "63",
+      "EPIC_ID": "WHH1173103",
+      "Name": "Rafeeq Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Moj Khan",
+      "House_No": "42",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "64",
+      "EPIC_ID": "RJ/08/061429414/",
+      "Name": "Indrapal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ramji",
+      "House_No": "60",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "65",
+      "EPIC_ID": "RJ/08/061/429413",
+      "Name": "Sunita",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Indrapal",
+      "House_No": "60",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "66",
+      "EPIC_ID": "WHH0323220",
+      "Name": "Tipu",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ramji",
+      "House_No": "60",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "67",
+      "EPIC_ID": "WHH0323238",
+      "Name": "Dilwar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ramji",
+      "House_No": "60",
+      "Age": "37",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "68",
+      "EPIC_ID": "WHH0554261",
+      "Name": "Babita",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Dilwar",
+      "House_No": "60",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "69",
+      "EPIC_ID": "WHH0778712",
+      "Name": "Rakam Bai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Tipu",
+      "House_No": "60",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "70",
+      "EPIC_ID": "WHH0778720",
+      "Name": "Jitendra Prasad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ramji",
+      "House_No": "60",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "71",
+      "EPIC_ID": "WHH0815332",
+      "Name": "Ganga",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jitendra Prasad",
+      "House_No": "60",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "72",
+      "EPIC_ID": "WHH1172733",
+      "Name": "Parveen",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jeevan",
+      "House_No": "60",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "73",
+      "EPIC_ID": "WHH1007608",
+      "Name": "Jeevan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Indrapal",
+      "House_No": "60",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "74",
+      "EPIC_ID": "WHH1173400",
+      "Name": "Vinod Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ramji Nat",
+      "House_No": "60",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "75",
+      "EPIC_ID": "WHH1869403",
+      "Name": "Samli",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Yogendra Nat",
+      "House_No": "60",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "76",
+      "EPIC_ID": "WHH1460039",
+      "Name": "Krishna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Vinod",
+      "House_No": "60",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "77",
+      "EPIC_ID": "WHH1783851",
+      "Name": "Khemchand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ramji",
+      "House_No": "60",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "78",
+      "EPIC_ID": "WHH1862028",
+      "Name": "Rajendra Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Inderpal",
+      "House_No": "60",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "79",
+      "EPIC_ID": "WHH1882943",
+      "Name": "Yogendra Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Indrapal",
+      "House_No": "60",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "80",
+      "EPIC_ID": "RJ/08/061/429157",
+      "Name": "Nugti",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Manohar Lal",
+      "House_No": "61",
+      "Age": "73",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "81",
+      "EPIC_ID": "RJ/08/061/429158",
+      "Name": "Tara Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Manohar Lal",
+      "House_No": "61",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "82",
+      "EPIC_ID": "RJ/08/061/429164",
+      "Name": "Tara Bai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Tara Singh",
+      "House_No": "61",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "83",
+      "EPIC_ID": "RJ/08/061/429249",
+      "Name": "Tara Chand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Manohar Lal",
+      "House_No": "61",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "84",
+      "EPIC_ID": "RJ/08/061/429165",
+      "Name": "Rajwati",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Tara Chand",
+      "House_No": "61",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "85",
+      "EPIC_ID": "RJ/08/061429166/",
+      "Name": "Santosh",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rangeel Singh",
+      "House_No": "61",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "86",
+      "EPIC_ID": "WHH0323154",
+      "Name": "Rangeela",
+      "Relation_Type": "Father",
+      "Relative_Name": "Manohar Lal",
+      "House_No": "61",
+      "Age": "51",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "87",
+      "EPIC_ID": "WHH0140046",
+      "Name": "Roomal Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Manohar Lal",
+      "House_No": "61",
+      "Age": "41",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "88",
+      "EPIC_ID": "WHH0140053",
+      "Name": "Sajna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Roomal Singh",
+      "House_No": "61",
+      "Age": "37",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "89",
+      "EPIC_ID": "WHH0140061",
+      "Name": "Mukat Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Manohari",
+      "House_No": "61",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "90",
+      "EPIC_ID": "WHH0554436",
+      "Name": "Vimlesh",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mukat Singh",
+      "House_No": "61",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "91",
+      "EPIC_ID": "WHH0778738",
+      "Name": "Dharmpal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Tara Chand",
+      "House_No": "61",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "92",
+      "EPIC_ID": "WHH1011261",
+      "Name": "Pooja",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jagmal",
+      "House_No": "61",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "93",
+      "EPIC_ID": "WHH1279124",
+      "Name": "Seema",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jagat Singh",
+      "House_No": "61",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "94",
+      "EPIC_ID": "WHH1007699",
+      "Name": "Rinku",
+      "Relation_Type": "Father",
+      "Relative_Name": "Rangeela",
+      "House_No": "61",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "95",
+      "EPIC_ID": "WHH1464957",
+      "Name": "Roshni",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Lokesh",
+      "House_No": "61",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "96",
+      "EPIC_ID": "WHH1007806",
+      "Name": "Jagmal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Tara Singh",
+      "House_No": "61",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "97",
+      "EPIC_ID": "WHH1007749",
+      "Name": "Jagat Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Tara Chand",
+      "House_No": "61",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "98",
+      "EPIC_ID": "WHH1554682",
+      "Name": "Khushboo",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Satveer",
+      "House_No": "61",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "99",
+      "EPIC_ID": "WHH1784248",
+      "Name": "Sridevi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Dharmpal",
+      "House_No": "61",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "100",
+      "EPIC_ID": "WHH1898873",
+      "Name": "Rahul Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Tara Singh",
+      "House_No": "61",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "101",
+      "EPIC_ID": "WHH1397694",
+      "Name": "Satveer",
+      "Relation_Type": "Father",
+      "Relative_Name": "Tara Chand",
+      "House_No": "61",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "102",
+      "EPIC_ID": "WHH1784263",
+      "Name": "Lokesh Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Tara Chand",
+      "House_No": "61",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "103",
+      "EPIC_ID": "CVS1350750",
+      "Name": "Vijay Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sant Lal",
+      "House_No": "62",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "104",
+      "EPIC_ID": "WHH1372481",
+      "Name": "Kailash Devi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Vijay Singh",
+      "House_No": "62",
+      "Age": "65",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "105",
+      "EPIC_ID": "CVS7146632",
+      "Name": "Surendra Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Vijay Kumar",
+      "House_No": "62",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "106",
+      "EPIC_ID": "WHH0815340",
+      "Name": "Anita",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Surendra Kumar",
+      "House_No": "62",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "107",
+      "EPIC_ID": "WHH1007863",
+      "Name": "Arjun Lal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Vijay Singh",
+      "House_No": "62",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "108",
+      "EPIC_ID": "WHH1260520",
+      "Name": "Neemo Bai",
+      "Relation_Type": "Father",
+      "Relative_Name": "Arjun Singh",
+      "House_No": "62",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "109",
+      "EPIC_ID": "WHH0228320",
+      "Name": "Tej Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sant Lal",
+      "House_No": "63",
+      "Age": "52",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "110",
+      "EPIC_ID": "CVS1350768",
+      "Name": "Asha Rani",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Tej Singh",
+      "House_No": "63",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "111",
+      "EPIC_ID": "WHH0778746",
+      "Name": "Ravi Kumar Rajput",
+      "Relation_Type": "Father",
+      "Relative_Name": "Tej Singh Rajput",
+      "House_No": "63",
+      "Age": "28",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "112",
+      "EPIC_ID": "RJ/08/061/429171",
+      "Name": "Patram",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kamal Singh",
+      "House_No": "64",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "113",
+      "EPIC_ID": "WHH0554410",
+      "Name": "Dharmpal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Patram",
+      "House_No": "64",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "114",
+      "EPIC_ID": "WHH0554428",
+      "Name": "Rakhi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Dharmpal",
+      "House_No": "64",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "115",
+      "EPIC_ID": "WHH0815365",
+      "Name": "Rampal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Patram",
+      "House_No": "64",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "116",
+      "EPIC_ID": "WHH0815357",
+      "Name": "Deepa",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rampal",
+      "House_No": "64",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "117",
+      "EPIC_ID": "WHH0139956",
+      "Name": "Vijendra",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bharat Lal",
+      "House_No": "65",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "118",
+      "EPIC_ID": "RJ/08/061/429240",
+      "Name": "Atarbai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Vijendra",
+      "House_No": "65",
+      "Age": "52",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "119",
+      "EPIC_ID": "WHH1832500",
+      "Name": "Raj Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bharat Lal",
+      "House_No": "65",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "120",
+      "EPIC_ID": "WHH1832518",
+      "Name": "Saroj",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Raj Kumar",
+      "House_No": "65",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "121",
+      "EPIC_ID": "WHH1011899",
+      "Name": "Anjani",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ram Singh Nat",
+      "House_No": "65",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "122",
+      "EPIC_ID": "WHH1279108",
+      "Name": "Dhara Bai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Manish",
+      "House_No": "65",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "123",
+      "EPIC_ID": "WHH0863100",
+      "Name": "Ram Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Vijendra",
+      "House_No": "65",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "124",
+      "EPIC_ID": "WHH1898899",
+      "Name": "Manish Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bijender Nat",
+      "House_No": "65",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "125",
+      "EPIC_ID": "WHH1832526",
+      "Name": "Sandeep",
+      "Relation_Type": "Father",
+      "Relative_Name": "Rajkumar",
+      "House_No": "65",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "126",
+      "EPIC_ID": "WHH1890037",
+      "Name": "Parima",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sandeep",
+      "House_No": "65",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "127",
+      "EPIC_ID": "WHH1782465",
+      "Name": "Sandeep",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mahesh",
+      "House_No": "65",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "128",
+      "EPIC_ID": "WHH1832534",
+      "Name": "Sumit",
+      "Relation_Type": "Father",
+      "Relative_Name": "Rajkumar",
+      "House_No": "65",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "129",
+      "EPIC_ID": "RJ/08/061/429194",
+      "Name": "Suresh Chand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jai Singh",
+      "House_No": "66",
+      "Age": "52",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "130",
+      "EPIC_ID": "RJ/08/061/429195",
+      "Name": "Janta",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Suresh Chand",
+      "House_No": "66",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "131",
+      "EPIC_ID": "WHH0815373",
+      "Name": "Seema",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Shankar Das",
+      "House_No": "66",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "132",
+      "EPIC_ID": "WHH0554402",
+      "Name": "Shankar Das",
+      "Relation_Type": "Father",
+      "Relative_Name": "Suresh",
+      "House_No": "66",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "133",
+      "EPIC_ID": "WHH0815381",
+      "Name": "Deepak",
+      "Relation_Type": "Father",
+      "Relative_Name": "Suresh",
+      "House_No": "66",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "134",
+      "EPIC_ID": "WHH1011303",
+      "Name": "Kavita",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Deepak",
+      "House_No": "66",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "135",
+      "EPIC_ID": "RJ/08/061/429250",
+      "Name": "Ramesh Chand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Wazir Chand",
+      "House_No": "67",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "136",
+      "EPIC_ID": "RJ/08/061/429241",
+      "Name": "Turbeni",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ramesh Chand",
+      "House_No": "67",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "137",
+      "EPIC_ID": "WHH0815399",
+      "Name": "Rakhi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sarju Singh",
+      "House_No": "67",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "138",
+      "EPIC_ID": "WHH0322891",
+      "Name": "Deshraj",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ramesh",
+      "House_No": "67",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "139",
+      "EPIC_ID": "WHH0395186",
+      "Name": "Rajesh Bai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Deshraj",
+      "House_No": "67",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "140",
+      "EPIC_ID": "WHH1007913",
+      "Name": "Anjana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rajpal",
+      "House_No": "67",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "141",
+      "EPIC_ID": "WHH1007954",
+      "Name": "Rajpal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ramesh",
+      "House_No": "67",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "142",
+      "EPIC_ID": "RJ/08/061/429255",
+      "Name": "Hukam Chand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sujaan",
+      "House_No": "68",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "143",
+      "EPIC_ID": "WHH1245521",
+      "Name": "Surjan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sujaan",
+      "House_No": "68",
+      "Age": "52",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "144",
+      "EPIC_ID": "RJ/08/061/429244",
+      "Name": "Meera",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Hukam Chand",
+      "House_No": "68",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "145",
+      "EPIC_ID": "WHH0623363",
+      "Name": "Krishna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Surjan",
+      "House_No": "68",
+      "Age": "42",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "146",
+      "EPIC_ID": "WHH0815407",
+      "Name": "Sarju Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sujaan",
+      "House_No": "68",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "147",
+      "EPIC_ID": "RJ/08/061/429189",
+      "Name": "Kartar Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jai Singh",
+      "House_No": "69",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "148",
+      "EPIC_ID": "RJ/08/061/429190",
+      "Name": "Meera",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Kartar Singh",
+      "House_No": "69",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "149",
+      "EPIC_ID": "WHH1187822",
+      "Name": "Krishna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Naresh Kumar",
+      "House_No": "69",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "150",
+      "EPIC_ID": "WHH0395194",
+      "Name": "Naresh Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kartar Singh",
+      "House_No": "69",
+      "Age": "34",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "151",
+      "EPIC_ID": "WHH0395202",
+      "Name": "Ajeet Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kartar Singh",
+      "House_No": "69",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "152",
+      "EPIC_ID": "WHH0746081",
+      "Name": "Manjo",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ajeet",
+      "House_No": "69",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "153",
+      "EPIC_ID": "WHH1194463",
+      "Name": "Rani",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Vishnu",
+      "House_No": "69",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "154",
+      "EPIC_ID": "WHH1194489",
+      "Name": "Shalma",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Banar Singh",
+      "House_No": "69",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "155",
+      "EPIC_ID": "WHH1008051",
+      "Name": "Banar Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kartar Singh",
+      "House_No": "69",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "156",
+      "EPIC_ID": "WHH1008002",
+      "Name": "Vishnu",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kartar Singh",
+      "House_No": "69",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "157",
+      "EPIC_ID": "RJ/08/061/429340",
+      "Name": "Krishna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Deewan Chand",
+      "House_No": "70",
+      "Age": "93",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "158",
+      "EPIC_ID": "CVS1128545",
+      "Name": "Bansi Lal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deewan Chand",
+      "House_No": "70",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "159",
+      "EPIC_ID": "WHH0323121",
+      "Name": "Kamla Devi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Bansi Lal",
+      "House_No": "70",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "160",
+      "EPIC_ID": "WHH0322958",
+      "Name": "Kaushalya Kumari",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deewan Chand",
+      "House_No": "70",
+      "Age": "47",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "161",
+      "EPIC_ID": "CVS1275312",
+      "Name": "Rajesh Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deewan Chand",
+      "House_No": "70",
+      "Age": "46",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "162",
+      "EPIC_ID": "CVS1605385",
+      "Name": "Anita Devi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rajesh Kumar",
+      "House_No": "70",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "163",
+      "EPIC_ID": "WHH0664748",
+      "Name": "Pawan Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bansi Lal",
+      "House_No": "70",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "164",
+      "EPIC_ID": "CVS1275338",
+      "Name": "Subhash Chand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deewan Chand",
+      "House_No": "71",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "165",
+      "EPIC_ID": "RJ/08/061/429344",
+      "Name": "Vimla Devi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Subhash Singh",
+      "House_No": "71",
+      "Age": "57",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "166",
+      "EPIC_ID": "WHH0322941",
+      "Name": "Ajay Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Subhash Chand",
+      "House_No": "71",
+      "Age": "34",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "167",
+      "EPIC_ID": "WHH1012319",
+      "Name": "Meena Kumari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ajay Kumar",
+      "House_No": "71",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "168",
+      "EPIC_ID": "WHH0664755",
+      "Name": "Vijay Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Subhash Chand",
+      "House_No": "71",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "169",
+      "EPIC_ID": "WHH0322917",
+      "Name": "Guddi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Om Prakash",
+      "House_No": "72",
+      "Age": "72",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "170",
+      "EPIC_ID": "RJ/08061//429770",
+      "Name": "Dharam Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bhagwan Das",
+      "House_No": "73",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "171",
+      "EPIC_ID": "RJ/08/061/429339",
+      "Name": "Seeta Bai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Dharm Singh",
+      "House_No": "73",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "172",
+      "EPIC_ID": "CVS1605443",
+      "Name": "Satish Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Dharm Singh",
+      "House_No": "73",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "173",
+      "EPIC_ID": "RJ/08/061/429258",
+      "Name": "Harnam",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mohar Singh",
+      "House_No": "74",
+      "Age": "88",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "174",
+      "EPIC_ID": "RJ/08/061/429246",
+      "Name": "Kamla",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Harnam Singh",
+      "House_No": "74",
+      "Age": "83",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "175",
+      "EPIC_ID": "RJ/08/061/429245",
+      "Name": "Sontara",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sultan",
+      "House_No": "74",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "176",
+      "EPIC_ID": "WHH0322974",
+      "Name": "Braj Lal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Harnam",
+      "House_No": "74",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "177",
+      "EPIC_ID": "WHH0322982",
+      "Name": "Braj Mohan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Harnam",
+      "House_No": "74",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "178",
+      "EPIC_ID": "WHH0004580",
+      "Name": "Sanjay",
+      "Relation_Type": "Father",
+      "Relative_Name": "Harnam",
+      "House_No": "74",
+      "Age": "41",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "179",
+      "EPIC_ID": "WHH0004598",
+      "Name": "Balo",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sanjay",
+      "House_No": "74",
+      "Age": "39",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "180",
+      "EPIC_ID": "WHH0554329",
+      "Name": "Jeevan Bai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Brij Mohan",
+      "House_No": "74",
+      "Age": "39",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "181",
+      "EPIC_ID": "WHH0554337",
+      "Name": "Saraswati",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Braj Lal",
+      "House_No": "74",
+      "Age": "38",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "182",
+      "EPIC_ID": "WHH0815415",
+      "Name": "Pravesh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sultan Singh",
+      "House_No": "74",
+      "Age": "33",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "183",
+      "EPIC_ID": "WHH0554345",
+      "Name": "Basant",
+      "Relation_Type": "Father",
+      "Relative_Name": "Harnam",
+      "House_No": "74",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "184",
+      "EPIC_ID": "WHH0554311",
+      "Name": "Ganga",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Basant",
+      "House_No": "74",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "185",
+      "EPIC_ID": "WHH0815423",
+      "Name": "Bharti",
+      "Relation_Type": "Other",
+      "Relative_Name": "Pravesh",
+      "House_No": "74",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "186",
+      "EPIC_ID": "WHH1010115",
+      "Name": "Dilip",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sultan",
+      "House_No": "74",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "187",
+      "EPIC_ID": "RJ/08/061/429324",
+      "Name": "Prakash",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kishan Lal",
+      "House_No": "75",
+      "Age": "72",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "188",
+      "EPIC_ID": "RJ/08061//429331",
+      "Name": "Firago",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Prakash",
+      "House_No": "75",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "189",
+      "EPIC_ID": "RJ/08/061/429260",
+      "Name": "Ramchand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kishan Lal",
+      "House_No": "75",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "190",
+      "EPIC_ID": "RJ/08/061/429247",
+      "Name": "Ashok Bai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ram Chandra",
+      "House_No": "75",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "191",
+      "EPIC_ID": "WHH0845131",
+      "Name": "Nirjana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Dinesh Kumar",
+      "House_No": "75",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "192",
+      "EPIC_ID": "WHH1784198",
+      "Name": "Sona",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Subhash",
+      "House_No": "75",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "193",
+      "EPIC_ID": "WHH0845149",
+      "Name": "Rajnandani",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Hemraj",
+      "House_No": "75",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "194",
+      "EPIC_ID": "WHH0845156",
+      "Name": "Dinesh Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Prakash Chand",
+      "House_No": "75",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "195",
+      "EPIC_ID": "WHH0845164",
+      "Name": "Hemraj",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ram Chandra",
+      "House_No": "75",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "196",
+      "EPIC_ID": "WHH1226281",
+      "Name": "Subhash",
+      "Relation_Type": "Father",
+      "Relative_Name": "Prakash",
+      "House_No": "75",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "197",
+      "EPIC_ID": "WHH1869072",
+      "Name": "Bindiya",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Kanhaiya",
+      "House_No": "75",
+      "Age": "20",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "198",
+      "EPIC_ID": "WHH1900919",
+      "Name": "Kanhaiya",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ramchandra",
+      "House_No": "75",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "199",
+      "EPIC_ID": "WHH0139964",
+      "Name": "Sant Lal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ratan Lal",
+      "House_No": "76",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "200",
+      "EPIC_ID": "RJ/08/061/429923",
+      "Name": "Sahabju",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sant Lal",
+      "House_No": "76",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "201",
+      "EPIC_ID": "WHH0004606",
+      "Name": "Kalicharan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sant Lal",
+      "House_No": "76",
+      "Age": "48",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "202",
+      "EPIC_ID": "WHH0004614",
+      "Name": "Jeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Kalicharan",
+      "House_No": "76",
+      "Age": "46",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "203",
+      "EPIC_ID": "WHH0097501",
+      "Name": "Dharmveer",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sant Lal",
+      "House_No": "76",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "204",
+      "EPIC_ID": "CVS1605518",
+      "Name": "Biram Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ratan Lal",
+      "House_No": "76",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "205",
+      "EPIC_ID": "WHH0436410",
+      "Name": "Rajeshwari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Biram Singh",
+      "House_No": "76",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "206",
+      "EPIC_ID": "CVS1605476",
+      "Name": "Mukesh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ratan Lal",
+      "House_No": "76",
+      "Age": "40",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "207",
+      "EPIC_ID": "CVS1605484",
+      "Name": "Suleshna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mukesh",
+      "House_No": "76",
+      "Age": "39",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "208",
+      "EPIC_ID": "WHH0778761",
+      "Name": "Viranta",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Dharmveer",
+      "House_No": "76",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "209",
+      "EPIC_ID": "WHH0664763",
+      "Name": "Mahesh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sant Lal",
+      "House_No": "76",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "210",
+      "EPIC_ID": "WHH0725630",
+      "Name": "Ganga",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mahesh",
+      "House_No": "76",
+      "Age": "28",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "211",
+      "EPIC_ID": "WHH1832476",
+      "Name": "Deepak",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sant Lal",
+      "House_No": "76",
+      "Age": "28",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "212",
+      "EPIC_ID": "WHH1397710",
+      "Name": "Sanjana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rajababu",
+      "House_No": "76",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "213",
+      "EPIC_ID": "WHH1832492",
+      "Name": "Sanjana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rajababu",
+      "House_No": "76",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "214",
+      "EPIC_ID": "WHH1397736",
+      "Name": "Rajababu",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kalicharan",
+      "House_No": "76",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "215",
+      "EPIC_ID": "WHH1832484",
+      "Name": "Nandani Kumari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Deepak",
+      "House_No": "76",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "216",
+      "EPIC_ID": "WHH1842756",
+      "Name": "Anjana",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mukesh",
+      "House_No": "76",
+      "Age": "19",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "217",
+      "EPIC_ID": "RJ/08/061/429101",
+      "Name": "Narayan Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kanwarpal",
+      "House_No": "77",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "218",
+      "EPIC_ID": "WHH0140079",
+      "Name": "Manju",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kunwarpal",
+      "House_No": "77",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "219",
+      "EPIC_ID": "WHH0538108",
+      "Name": "Rajni",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Manju",
+      "House_No": "77",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "220",
+      "EPIC_ID": "WHH0477778",
+      "Name": "Rajkumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Narayan Singh",
+      "House_No": "77",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "221",
+      "EPIC_ID": "WHH0477794",
+      "Name": "Reshma",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Raj Kumar",
+      "House_No": "77",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "222",
+      "EPIC_ID": "WHH0863126",
+      "Name": "Lalita",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Manoj Kumar",
+      "House_No": "77",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "223",
+      "EPIC_ID": "WHH0863118",
+      "Name": "Manoj Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Narayan Singh",
+      "House_No": "77",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "224",
+      "EPIC_ID": "WHH1187871",
+      "Name": "Akash Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Narayan Nat",
+      "House_No": "77",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "225",
+      "EPIC_ID": "CVS1605351",
+      "Name": "Bhikhari",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gopal",
+      "House_No": "78",
+      "Age": "82",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "226",
+      "EPIC_ID": "RJ/08/061/429920",
+      "Name": "Vidya",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Bhikhari",
+      "House_No": "78",
+      "Age": "73",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "227",
+      "EPIC_ID": "WHH0004622",
+      "Name": "Jagdish",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bhikhari",
+      "House_No": "78",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "228",
+      "EPIC_ID": "WHH0863134",
+      "Name": "Laxmi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mithun Kumar",
+      "House_No": "78",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "229",
+      "EPIC_ID": "WHH1832559",
+      "Name": "Anjali",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Prahlad",
+      "House_No": "78",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "230",
+      "EPIC_ID": "WHH0613497",
+      "Name": "Sulochna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jagdish",
+      "House_No": "78",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "231",
+      "EPIC_ID": "WHH1832542",
+      "Name": "Prahlad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jagdish",
+      "House_No": "78",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "232",
+      "EPIC_ID": "WHH0746099",
+      "Name": "Anno",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Anil Kumar",
+      "House_No": "78",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "233",
+      "EPIC_ID": "WHH0664771",
+      "Name": "Anil",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bhikhari Nat",
+      "House_No": "78",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "234",
+      "EPIC_ID": "WHH0395210",
+      "Name": "Mithun Kumar Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bhikhari",
+      "House_No": "78",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "235",
+      "EPIC_ID": "WHH1012046",
+      "Name": "Manoj Kumar Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jagdish Prasad",
+      "House_No": "78",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "236",
+      "EPIC_ID": "WHH1458777",
+      "Name": "Bindiya",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Manoj Kumar Nat",
+      "House_No": "78",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "237",
+      "EPIC_ID": "RJ/08061//429263",
+      "Name": "Deewan Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gopal Singh Nat",
+      "House_No": "79",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "238",
+      "EPIC_ID": "RJ/08/061/429254",
+      "Name": "Sunita",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Deewan Singh",
+      "House_No": "79",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "239",
+      "EPIC_ID": "WHH0323337",
+      "Name": "Mamchand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deewan Singh",
+      "House_No": "79",
+      "Age": "38",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "240",
+      "EPIC_ID": "WHH0323345",
+      "Name": "Raju",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deewan Singh",
+      "House_No": "79",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "241",
+      "EPIC_ID": "WHH0613570",
+      "Name": "Aarti",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mamchand",
+      "House_No": "79",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "242",
+      "EPIC_ID": "WHH0664789",
+      "Name": "Rajkumari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Raju",
+      "House_No": "79",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "243",
+      "EPIC_ID": "WHH1011337",
+      "Name": "Munesh",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Arjun",
+      "House_No": "79",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "244",
+      "EPIC_ID": "WHH0863142",
+      "Name": "Arjun Singh Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deewan Singh",
+      "House_No": "79",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "245",
+      "EPIC_ID": "WHH1700855",
+      "Name": "Jeenu",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Karan Nat",
+      "House_No": "79",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "246",
+      "EPIC_ID": "WHH1681899",
+      "Name": "Karan Nat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Raju",
+      "House_No": "79",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "247",
+      "EPIC_ID": "CVS1275379",
+      "Name": "Hajra",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jormal",
+      "House_No": "80",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "248",
+      "EPIC_ID": "CVS1605757",
+      "Name": "Nawab",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jormal",
+      "House_No": "80",
+      "Age": "52",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "249",
+      "EPIC_ID": "CVS1275387",
+      "Name": "Haruni",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Nawab Khan",
+      "House_No": "80",
+      "Age": "48",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "250",
+      "EPIC_ID": "CVS1605740",
+      "Name": "Ruddar Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jormal",
+      "House_No": "80",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "251",
+      "EPIC_ID": "WHH0190314",
+      "Name": "Rateeman",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ruddar",
+      "House_No": "80",
+      "Age": "42",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "252",
+      "EPIC_ID": "WHH0323105",
+      "Name": "Jakir Hussain",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jormal",
+      "House_No": "80",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "253",
+      "EPIC_ID": "WHH0323113",
+      "Name": "Hakiman",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jakir Hussain",
+      "House_No": "80",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "254",
+      "EPIC_ID": "WHH1622844",
+      "Name": "Anjeela",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sahil Khan",
+      "House_No": "80",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "255",
+      "EPIC_ID": "WHH1737162",
+      "Name": "Sahil",
+      "Relation_Type": "Father",
+      "Relative_Name": "Nawab Khan",
+      "House_No": "80",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "256",
+      "EPIC_ID": "WHH1619535",
+      "Name": "Aakeel Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ruddar Khan",
+      "House_No": "80",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "257",
+      "EPIC_ID": "WHH1622703",
+      "Name": "Arman",
+      "Relation_Type": "Father",
+      "Relative_Name": "Nawab Khan",
+      "House_No": "80",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "258",
+      "EPIC_ID": "WHH1194539",
+      "Name": "Juber Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Juhur Khan",
+      "House_No": "81",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "259",
+      "EPIC_ID": "WHH1011105",
+      "Name": "Rahul Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Juhur Khan",
+      "House_No": "81",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "260",
+      "EPIC_ID": "RJ/08061//429599",
+      "Name": "Fatuni",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sherdeen",
+      "House_No": "82",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "261",
+      "EPIC_ID": "WHH0157826",
+      "Name": "Jamshed Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sherdeen",
+      "House_No": "82",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "262",
+      "EPIC_ID": "WHH0190322",
+      "Name": "Shareefan",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jamshed",
+      "House_No": "82",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "263",
+      "EPIC_ID": "WHH0323006",
+      "Name": "Mehboob",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sherdeen",
+      "House_No": "82",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "264",
+      "EPIC_ID": "WHH1010586",
+      "Name": "Anisha",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Irfan",
+      "House_No": "82",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "265",
+      "EPIC_ID": "WHH0613588",
+      "Name": "Sahina",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mehboob",
+      "House_No": "82",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "266",
+      "EPIC_ID": "WHH0778779",
+      "Name": "Tahir Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sherdeen",
+      "House_No": "82",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "267",
+      "EPIC_ID": "WHH0725648",
+      "Name": "Irfandeed Meo",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sherdeen Meo",
+      "House_No": "82",
+      "Age": "28",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "268",
+      "EPIC_ID": "WHH1008143",
+      "Name": "Wareesha Bano",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Tahir Khan",
+      "House_No": "82",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "269",
+      "EPIC_ID": "RJ/08/061/429806",
+      "Name": "Asgari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Juhur Khan",
+      "House_No": "83",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "270",
+      "EPIC_ID": "WHH0190330",
+      "Name": "Fakhruddin",
+      "Relation_Type": "Father",
+      "Relative_Name": "Juhuruddin",
+      "House_No": "83",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "271",
+      "EPIC_ID": "WHH0664797",
+      "Name": "Manisha",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Fakhruddin",
+      "House_No": "83",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "272",
+      "EPIC_ID": "WHH1548155",
+      "Name": "Ashru",
+      "Relation_Type": "Father",
+      "Relative_Name": "Juhuru Khan",
+      "House_No": "83",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "273",
+      "EPIC_ID": "RJ/08/061/429266",
+      "Name": "Sodan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Harmukh",
+      "House_No": "88",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "274",
+      "EPIC_ID": "RJ/08/061/429268",
+      "Name": "Ashok Bai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sodan",
+      "House_No": "88",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "275",
+      "EPIC_ID": "WHH1834696",
+      "Name": "Karan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sodan",
+      "House_No": "88",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "276",
+      "EPIC_ID": "WHH1834670",
+      "Name": "Deepak",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sodan",
+      "House_No": "88",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "277",
+      "EPIC_ID": "RJ/08/061/429264",
+      "Name": "Mahaveer",
+      "Relation_Type": "Father",
+      "Relative_Name": "Harmukh",
+      "House_No": "89",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "278",
+      "EPIC_ID": "RJ/08061//429269",
+      "Name": "Rajwati",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mahaveer",
+      "House_No": "89",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "279",
+      "EPIC_ID": "RJ/08061//429281",
+      "Name": "Gom Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kamal Singh",
+      "House_No": "90",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "280",
+      "EPIC_ID": "WHH0613505",
+      "Name": "Babli",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Gom Singh",
+      "House_No": "90",
+      "Age": "57",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "281",
+      "EPIC_ID": "WHH1158237",
+      "Name": "Kapil",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gom Singh",
+      "House_No": "90",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "282",
+      "EPIC_ID": "WHH1397777",
+      "Name": "Sonam",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Kapil",
+      "House_No": "90",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "283",
+      "EPIC_ID": "RJ/08/061/429282",
+      "Name": "Hardas",
+      "Relation_Type": "Father",
+      "Relative_Name": "Meharban Singh",
+      "House_No": "91",
+      "Age": "59",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "284",
+      "EPIC_ID": "RJ/08/061/429274",
+      "Name": "Vijendri",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Hardas",
+      "House_No": "91",
+      "Age": "57",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "285",
+      "EPIC_ID": "RJ/08/061/429283",
+      "Name": "Shyam Lal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Meharban Singh",
+      "House_No": "91",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "286",
+      "EPIC_ID": "RJ/08/061/429273",
+      "Name": "Kesbai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Shyam Lal",
+      "House_No": "91",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "287",
+      "EPIC_ID": "WHH0554170",
+      "Name": "Govind",
+      "Relation_Type": "Father",
+      "Relative_Name": "Meharban",
+      "House_No": "91",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "288",
+      "EPIC_ID": "WHH0554188",
+      "Name": "Sajna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Govind",
+      "House_No": "91",
+      "Age": "37",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "289",
+      "EPIC_ID": "WHH1010255",
+      "Name": "Kajal",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Dinesh",
+      "House_No": "91",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "290",
+      "EPIC_ID": "WHH1008390",
+      "Name": "Dinesh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Hardas",
+      "House_No": "91",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "291",
+      "EPIC_ID": "WHH1008341",
+      "Name": "Shankar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Shyam Lal",
+      "House_No": "91",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "292",
+      "EPIC_ID": "WHH1008457",
+      "Name": "Roopa",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Shankar",
+      "House_No": "91",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "293",
+      "EPIC_ID": "WHH1682558",
+      "Name": "Lakhan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Govind",
+      "House_No": "91",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "294",
+      "EPIC_ID": "WHH1892298",
+      "Name": "Nisha",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Lakhan",
+      "House_No": "91",
+      "Age": "24",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "295",
+      "EPIC_ID": "WHH1891209",
+      "Name": "Arjun",
+      "Relation_Type": "Father",
+      "Relative_Name": "Govind",
+      "House_No": "91",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "296",
+      "EPIC_ID": "CVS1275429",
+      "Name": "Pratap",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ganpat",
+      "House_No": "97",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "297",
+      "EPIC_ID": "CVS1275437",
+      "Name": "Kesanta",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Pratap",
+      "House_No": "97",
+      "Age": "42",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "298",
+      "EPIC_ID": "WHH0190371",
+      "Name": "Radhe Shyam",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ganpat",
+      "House_No": "97",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "299",
+      "EPIC_ID": "WHH0323311",
+      "Name": "Sharda",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Radhe Shyam",
+      "House_No": "97",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "300",
+      "EPIC_ID": "WHH0395236",
+      "Name": "Rajendra",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ganpat",
+      "House_No": "97",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "301",
+      "EPIC_ID": "WHH0554196",
+      "Name": "Suman",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rajendra",
+      "House_No": "97",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "302",
+      "EPIC_ID": "WHH0815456",
+      "Name": "Pintu Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ganpat Singh",
+      "House_No": "97",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "303",
+      "EPIC_ID": "WHH1011436",
+      "Name": "Seema",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Pintu",
+      "House_No": "97",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "304",
+      "EPIC_ID": "WHH1568518",
+      "Name": "Neetu Kumar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Pratap",
+      "House_No": "97",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "305",
+      "EPIC_ID": "WHH1891191",
+      "Name": "Suhani",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Neetu Kumar",
+      "House_No": "97",
+      "Age": "19",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "306",
+      "EPIC_ID": "CVS1350859",
+      "Name": "Raji",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Vikram Singh",
+      "House_No": "98",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "307",
+      "EPIC_ID": "WHH0436360",
+      "Name": "Sube Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Vikram",
+      "House_No": "98",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "308",
+      "EPIC_ID": "WHH0815464",
+      "Name": "Roshni",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sube Singh",
+      "House_No": "98",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "309",
+      "EPIC_ID": "WHH0778787",
+      "Name": "Nem Singh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Vikram Singh",
+      "House_No": "98",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "310",
+      "EPIC_ID": "WHH1008523",
+      "Name": "Sadhna",
+      "Relation_Type": "Father",
+      "Relative_Name": "Nem Singh",
+      "House_No": "98",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "311",
+      "EPIC_ID": "RJ/08/061/429221",
+      "Name": "Sahjo",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jalesh",
+      "House_No": "99",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "312",
+      "EPIC_ID": "WHH0004663",
+      "Name": "Amar Chand",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jalesh",
+      "House_No": "99",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "313",
+      "EPIC_ID": "WHH0097519",
+      "Name": "Rissa Bai",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Amar Chand",
+      "House_No": "99",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "314",
+      "EPIC_ID": "WHH1784230",
+      "Name": "Sita",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Arun",
+      "House_No": "99",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "315",
+      "EPIC_ID": "WHH1681717",
+      "Name": "Saxena",
+      "Relation_Type": "Father",
+      "Relative_Name": "Amar Chand",
+      "House_No": "99",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "316",
+      "EPIC_ID": "WHH1681725",
+      "Name": "Arun",
+      "Relation_Type": "Father",
+      "Relative_Name": "Amar Chand",
+      "House_No": "99",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "317",
+      "EPIC_ID": "RJ/08/061/429519",
+      "Name": "Isab Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Fajru",
+      "House_No": "130",
+      "Age": "60",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "318",
+      "EPIC_ID": "RJ/08/061/429508",
+      "Name": "Jarluna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Isab Khan",
+      "House_No": "130",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "319",
+      "EPIC_ID": "WHH1372309",
+      "Name": "Mor Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Fajru Khan",
+      "House_No": "130",
+      "Age": "48",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "320",
+      "EPIC_ID": "CVS1275700",
+      "Name": "Jaibuna",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mormal",
+      "House_No": "130",
+      "Age": "46",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "321",
+      "EPIC_ID": "CVS1605294",
+      "Name": "Ilyas Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Fajru Khan",
+      "House_No": "130",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "322",
+      "EPIC_ID": "CVS1275718",
+      "Name": "Akhtar Salatun",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ilyas Khan",
+      "House_No": "130",
+      "Age": "43",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "323",
+      "EPIC_ID": "WHH0395319",
+      "Name": "Irfan Ali",
+      "Relation_Type": "Father",
+      "Relative_Name": "Eesab Khan",
+      "House_No": "130",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "324",
+      "EPIC_ID": "WHH1010677",
+      "Name": "Ruksana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Irfan",
+      "House_No": "130",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "325",
+      "EPIC_ID": "WHH1010735",
+      "Name": "Mohammad Shabbir Nai",
+      "Relation_Type": "Father",
+      "Relative_Name": "Eesab Nai",
+      "House_No": "130",
+      "Age": "29",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "326",
+      "EPIC_ID": "WHH1009166",
+      "Name": "Jamshed Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Eesab Khan",
+      "House_No": "130",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "327",
+      "EPIC_ID": "RJ/08061//429978",
+      "Name": "Aas Mohammad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gafoor Khan",
+      "House_No": "131",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "328",
+      "EPIC_ID": "CVS1351006",
+      "Name": "Jamila",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Aas Mohammad",
+      "House_No": "131",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "329",
+      "EPIC_ID": "CVS1351014",
+      "Name": "Ishak Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gafoor",
+      "House_No": "131",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "330",
+      "EPIC_ID": "CVS1351022",
+      "Name": "Dholi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ishak Khan",
+      "House_No": "131",
+      "Age": "57",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "331",
+      "EPIC_ID": "RJ/08/061/429488",
+      "Name": "Harun",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gafoor Khan",
+      "House_No": "131",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "332",
+      "EPIC_ID": "WHH1720374",
+      "Name": "Kamruddin",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gafoor",
+      "House_No": "131",
+      "Age": "54",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "333",
+      "EPIC_ID": "CVS1128560",
+      "Name": "Mariyam",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Kamruddin",
+      "House_No": "131",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "334",
+      "EPIC_ID": "CVS1605534",
+      "Name": "Zareena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Harun",
+      "House_No": "131",
+      "Age": "53",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "335",
+      "EPIC_ID": "WHH1871888",
+      "Name": "Anisha",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Shakeel",
+      "House_No": "131",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "336",
+      "EPIC_ID": "WHH1009232",
+      "Name": "Sajid Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kamru Deen",
+      "House_No": "131",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "337",
+      "EPIC_ID": "WHH1158286",
+      "Name": "Sahil Mohammad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sahab Khan",
+      "House_No": "131",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "338",
+      "EPIC_ID": "WHH1406891",
+      "Name": "Rahul",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sahab Khan",
+      "House_No": "131",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "339",
+      "EPIC_ID": "WHH1619337",
+      "Name": "Nazrana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sahil Mohammad",
+      "House_No": "131",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "340",
+      "EPIC_ID": "WHH1584382",
+      "Name": "Shakeel",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ishak Khan",
+      "House_No": "131",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "341",
+      "EPIC_ID": "CVS1351030",
+      "Name": "Fareeda",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sahab Khan",
+      "House_No": "132",
+      "Age": "51",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "342",
+      "EPIC_ID": "RJ/08/061/429668",
+      "Name": "Sahab Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gafoor Khan",
+      "House_No": "132",
+      "Age": "51",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "343",
+      "EPIC_ID": "RJ/08/061/429786",
+      "Name": "Noor Deen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Shakoor Khan",
+      "House_No": "133",
+      "Age": "71",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "344",
+      "EPIC_ID": "RJ/08/061/429492",
+      "Name": "Haseena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Noor Deen",
+      "House_No": "133",
+      "Age": "68",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "345",
+      "EPIC_ID": "WHH1486117",
+      "Name": "Jakar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Nooruddin",
+      "House_No": "133",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "346",
+      "EPIC_ID": "CVS1605542",
+      "Name": "Naseebeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jakar",
+      "House_No": "133",
+      "Age": "42",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "347",
+      "EPIC_ID": "WHH0004689",
+      "Name": "Mausam",
+      "Relation_Type": "Father",
+      "Relative_Name": "Noor Deen",
+      "House_No": "133",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "348",
+      "EPIC_ID": "WHH0004697",
+      "Name": "Rehana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mausam",
+      "House_No": "133",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "349",
+      "EPIC_ID": "WHH0322867",
+      "Name": "Juber Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Noor Deen",
+      "House_No": "133",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "350",
+      "EPIC_ID": "WHH0322875",
+      "Name": "Sahina",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Juber Khan",
+      "House_No": "133",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "351",
+      "EPIC_ID": "RJ/08/061/429797",
+      "Name": "Kammu Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Shakoor Khan",
+      "House_No": "134",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "352",
+      "EPIC_ID": "CVS1275734",
+      "Name": "Akbari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Kammu Khan",
+      "House_No": "134",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "353",
+      "EPIC_ID": "WHH0623397",
+      "Name": "Mubeen Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kamru Khan",
+      "House_No": "134",
+      "Age": "30",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "354",
+      "EPIC_ID": "WHH1268101",
+      "Name": "Subeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mubeen",
+      "House_No": "134",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "355",
+      "EPIC_ID": "WHH1009380",
+      "Name": "Samaydeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Kammu Khan",
+      "House_No": "134",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "356",
+      "EPIC_ID": "RJ/08/061/429460",
+      "Name": "Rahmani",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Yasin Khan",
+      "House_No": "135",
+      "Age": "78",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "357",
+      "EPIC_ID": "CVS1275742",
+      "Name": "Akbar Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Aaseen Khan",
+      "House_No": "135",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "358",
+      "EPIC_ID": "CVS1275759",
+      "Name": "Islami",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Akbar Khan",
+      "House_No": "135",
+      "Age": "43",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "359",
+      "EPIC_ID": "CVS1275767",
+      "Name": "Liyakat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Aaseen Khan",
+      "House_No": "135",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "360",
+      "EPIC_ID": "CVS1275775",
+      "Name": "Usmani",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Liyakat",
+      "House_No": "135",
+      "Age": "42",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "361",
+      "EPIC_ID": "WHH0395327",
+      "Name": "Fajar Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Aaseen Khan",
+      "House_No": "135",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "362",
+      "EPIC_ID": "WHH0323097",
+      "Name": "Jamaluddin",
+      "Relation_Type": "Father",
+      "Relative_Name": "Aaseen Khan",
+      "House_No": "135",
+      "Age": "34",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "363",
+      "EPIC_ID": "WHH0395335",
+      "Name": "Rehana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Fajar Khan",
+      "House_No": "135",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "364",
+      "EPIC_ID": "WHH0554204",
+      "Name": "Asmeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jamaluddin",
+      "House_No": "135",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "365",
+      "EPIC_ID": "WHH1541952",
+      "Name": "Aneesa",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Aadil Khan",
+      "House_No": "135",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "366",
+      "EPIC_ID": "WHH1624014",
+      "Name": "Nasir Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Akbar Khan",
+      "House_No": "135",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "367",
+      "EPIC_ID": "WHH1531805",
+      "Name": "Mumtaz",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ramzan",
+      "House_No": "135",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "368",
+      "EPIC_ID": "WHH1572494",
+      "Name": "Aadil",
+      "Relation_Type": "Father",
+      "Relative_Name": "Liyakat",
+      "House_No": "135",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "369",
+      "EPIC_ID": "WHH1839331",
+      "Name": "Asmeena",
+      "Relation_Type": "Father",
+      "Relative_Name": "Fakhruddin",
+      "House_No": "135",
+      "Age": "20",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "370",
+      "EPIC_ID": "WHH1854355",
+      "Name": "Ramzan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Liyakat",
+      "House_No": "135",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "371",
+      "EPIC_ID": "RJ/08/061/429463",
+      "Name": "Baseeri",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sardar Mohammad",
+      "House_No": "136",
+      "Age": "73",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "372",
+      "EPIC_ID": "WHH0228338",
+      "Name": "Fakhruddin",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sardar Khan",
+      "House_No": "136",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "373",
+      "EPIC_ID": "WHH0097527",
+      "Name": "Jakardeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sardar Khan",
+      "House_No": "136",
+      "Age": "42",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "374",
+      "EPIC_ID": "WHH0004705",
+      "Name": "Raheeshan",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Fakhruddin",
+      "House_No": "136",
+      "Age": "41",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "375",
+      "EPIC_ID": "WHH0228353",
+      "Name": "Hajra",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jakardeen",
+      "House_No": "136",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "376",
+      "EPIC_ID": "WHH0004713",
+      "Name": "Jafaruddin",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sardar Khan",
+      "House_No": "136",
+      "Age": "40",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "377",
+      "EPIC_ID": "WHH0228346",
+      "Name": "Sareena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jafaruddin",
+      "House_No": "136",
+      "Age": "39",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "378",
+      "EPIC_ID": "WHH1851575",
+      "Name": "Sakunat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Fakhruddin",
+      "House_No": "136",
+      "Age": "19",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "379",
+      "EPIC_ID": "RJ/08/061/429299",
+      "Name": "Mariyam",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bhure Khan",
+      "House_No": "137",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "380",
+      "EPIC_ID": "RJ/08061//429296",
+      "Name": "Babar Ali",
+      "Relation_Type": "Father",
+      "Relative_Name": "Yasin Khan",
+      "House_No": "137",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "381",
+      "EPIC_ID": "RJ/08/061/429465",
+      "Name": "Misrupi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Babar Ali",
+      "House_No": "137",
+      "Age": "60",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "382",
+      "EPIC_ID": "WHH0863217",
+      "Name": "Miskina",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ajaruddin",
+      "House_No": "137",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "383",
+      "EPIC_ID": "WHH1397959",
+      "Name": "Basmeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Imran Khan",
+      "House_No": "137",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "384",
+      "EPIC_ID": "WHH1839307",
+      "Name": "Shabnam",
+      "Relation_Type": "Father",
+      "Relative_Name": "Babar Ali",
+      "House_No": "137",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "385",
+      "EPIC_ID": "WHH0863191",
+      "Name": "Ajaruddin",
+      "Relation_Type": "Father",
+      "Relative_Name": "Babar Ali",
+      "House_No": "137",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "386",
+      "EPIC_ID": "WHH1397983",
+      "Name": "Imran Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Babar Ali",
+      "House_No": "137",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "387",
+      "EPIC_ID": "RJ/08/061/429294",
+      "Name": "Wali Mohammad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Yasin Khan",
+      "House_No": "138",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "388",
+      "EPIC_ID": "RJ/08/061/429639",
+      "Name": "Islami",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Wali Mohammad",
+      "House_No": "138",
+      "Age": "65",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "389",
+      "EPIC_ID": "WHH1372390",
+      "Name": "Ibrahim",
+      "Relation_Type": "Father",
+      "Relative_Name": "Aaseen Khan",
+      "House_No": "138",
+      "Age": "63",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "390",
+      "EPIC_ID": "RJ/08/061/429464",
+      "Name": "Hameedi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ibrahim",
+      "House_No": "138",
+      "Age": "61",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "391",
+      "EPIC_ID": "WHH0140194",
+      "Name": "Aslam Ali",
+      "Relation_Type": "Father",
+      "Relative_Name": "Wali Mohammad",
+      "House_No": "138",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "392",
+      "EPIC_ID": "WHH0395343",
+      "Name": "Saddam Hussain",
+      "Relation_Type": "Father",
+      "Relative_Name": "Wali Mohammad",
+      "House_No": "138",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "393",
+      "EPIC_ID": "WHH1619998",
+      "Name": "Arsheeda",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Aslam Ali",
+      "House_No": "138",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "394",
+      "EPIC_ID": "WHH1011063",
+      "Name": "Aasma",
+      "Relation_Type": "Father",
+      "Relative_Name": "Wali Mohammad",
+      "House_No": "138",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "395",
+      "EPIC_ID": "WHH1223668",
+      "Name": "Waseem Akram",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ibrahim",
+      "House_No": "138",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "396",
+      "EPIC_ID": "WHH1620012",
+      "Name": "Sabana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Saddam Hussain",
+      "House_No": "138",
+      "Age": "24",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "397",
+      "EPIC_ID": "WHH1619527",
+      "Name": "Jaheer Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ibrahim Khan",
+      "House_No": "138",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "398",
+      "EPIC_ID": "WHH1839356",
+      "Name": "Sakila",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Waseem Akram",
+      "House_No": "138",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "399",
+      "EPIC_ID": "WHH1866813",
+      "Name": "Barkat Ali",
+      "Relation_Type": "Father",
+      "Relative_Name": "Yasin Khan",
+      "House_No": "139",
+      "Age": "59",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "400",
+      "EPIC_ID": "WHH1866821",
+      "Name": "Deenbi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Barkat Ali",
+      "House_No": "139",
+      "Age": "56",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "401",
+      "EPIC_ID": "WHH1009448",
+      "Name": "Anisha",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sahun",
+      "House_No": "139",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "402",
+      "EPIC_ID": "WHH1012103",
+      "Name": "Sahun",
+      "Relation_Type": "Father",
+      "Relative_Name": "Barkat Ali",
+      "House_No": "139",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "403",
+      "EPIC_ID": "WHH1296789",
+      "Name": "Ruksina",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Kasamdeen",
+      "House_No": "139",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "404",
+      "EPIC_ID": "WHH1296763",
+      "Name": "Kasamdeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Barkat Ali",
+      "House_No": "139",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "405",
+      "EPIC_ID": "RJ/08061//429517",
+      "Name": "Deen Mohammad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Hurmat Khan",
+      "House_No": "140",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "406",
+      "EPIC_ID": "RJ/08/061/429509",
+      "Name": "Atari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Deen Mohammad",
+      "House_No": "140",
+      "Age": "71",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "407",
+      "EPIC_ID": "RJ/08/061/429755",
+      "Name": "Abdul Majeed",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deen Mohammad",
+      "House_No": "140",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "408",
+      "EPIC_ID": "RJ/08/061/429510",
+      "Name": "Fajari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Abdul Majeed",
+      "House_No": "140",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "409",
+      "EPIC_ID": "RJ/08/061429511/",
+      "Name": "Khursheed Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deen Mohammad",
+      "House_No": "140",
+      "Age": "55",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "410",
+      "EPIC_ID": "RJ/08/061/429780",
+      "Name": "Maujam",
+      "Relation_Type": "Father",
+      "Relative_Name": "Khursheed",
+      "House_No": "140",
+      "Age": "53",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "411",
+      "EPIC_ID": "WHH1010529",
+      "Name": "Rukaiyya",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Juber",
+      "House_No": "140",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "412",
+      "EPIC_ID": "WHH1009935",
+      "Name": "Sahroona",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Tareef",
+      "House_No": "140",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "413",
+      "EPIC_ID": "WHH0664870",
+      "Name": "Juber Khan Meo",
+      "Relation_Type": "Father",
+      "Relative_Name": "Deen Mohammad",
+      "House_No": "140",
+      "Age": "28",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "414",
+      "EPIC_ID": "WHH1009521",
+      "Name": "Tareef",
+      "Relation_Type": "Father",
+      "Relative_Name": "Khursheed",
+      "House_No": "140",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "415",
+      "EPIC_ID": "WHH1664598",
+      "Name": "Sakira",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Liyakat",
+      "House_No": "140",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "416",
+      "EPIC_ID": "WHH1143668",
+      "Name": "Liyakat Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Khursheed Khan",
+      "House_No": "140",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "417",
+      "EPIC_ID": "WHH1664374",
+      "Name": "Maneesa",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Taleem Khan",
+      "House_No": "140",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "418",
+      "EPIC_ID": "WHH1735000",
+      "Name": "Laiba",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jamshed",
+      "House_No": "140",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "419",
+      "EPIC_ID": "WHH1397371",
+      "Name": "Aarif",
+      "Relation_Type": "Father",
+      "Relative_Name": "Abdul Khan",
+      "House_No": "140",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "420",
+      "EPIC_ID": "WHH1397421",
+      "Name": "Taleem Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Khursheed Khan",
+      "House_No": "140",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "421",
+      "EPIC_ID": "WHH1565803",
+      "Name": "Zainul Aabdeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Khursheed",
+      "House_No": "140",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "422",
+      "EPIC_ID": "WHH1572445",
+      "Name": "Jamshed",
+      "Relation_Type": "Father",
+      "Relative_Name": "Abdul Majeed",
+      "House_No": "140",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "423",
+      "EPIC_ID": "WHH1734938",
+      "Name": "Tabassum",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Aarif Khan",
+      "House_No": "140",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "424",
+      "EPIC_ID": "RJ/08/061/429512",
+      "Name": "Sardar Mohammad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Hurmat Khan",
+      "House_No": "141",
+      "Age": "71",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "425",
+      "EPIC_ID": "RJ/08/061/429513",
+      "Name": "Sunerbi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sardar Mohammad",
+      "House_No": "141",
+      "Age": "65",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "426",
+      "EPIC_ID": "WHH0746107",
+      "Name": "Akbari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mohd. Usman",
+      "House_No": "141",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "427",
+      "EPIC_ID": "WHH1715994",
+      "Name": "Rooksina",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sahid Khan",
+      "House_No": "141",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "428",
+      "EPIC_ID": "WHH1010065",
+      "Name": "Afeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sakir",
+      "House_No": "141",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "429",
+      "EPIC_ID": "WHH1009588",
+      "Name": "Sakir Ali",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sardar Mohammad",
+      "House_No": "141",
+      "Age": "26",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "430",
+      "EPIC_ID": "WHH0554360",
+      "Name": "Shamsudeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Hurmat Khan",
+      "House_No": "142",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "431",
+      "EPIC_ID": "RJ/08/061/429514",
+      "Name": "Dholi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Shamsudeen",
+      "House_No": "142",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "432",
+      "EPIC_ID": "WHH0323295",
+      "Name": "Mustak",
+      "Relation_Type": "Father",
+      "Relative_Name": "Shamsudeen",
+      "House_No": "142",
+      "Age": "34",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "433",
+      "EPIC_ID": "WHH0664888",
+      "Name": "Sanjeeda",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mustak",
+      "House_No": "142",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "434",
+      "EPIC_ID": "WHH1397405",
+      "Name": "Firdaus Khan",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Juned Khan",
+      "House_No": "142",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "435",
+      "EPIC_ID": "WHH1296805",
+      "Name": "Juned Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Shamsuddin",
+      "House_No": "142",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "436",
+      "EPIC_ID": "RJ/08/061/429515",
+      "Name": "Mohammad Akbar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Hurmat Khan",
+      "House_No": "143",
+      "Age": "65",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "437",
+      "EPIC_ID": "WHH0664896",
+      "Name": "Ashfak Mohammad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Akbar Khan",
+      "House_No": "143",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "438",
+      "EPIC_ID": "WHH1397355",
+      "Name": "Zeenat Bano",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ashfak Mohammad",
+      "House_No": "143",
+      "Age": "29",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "439",
+      "EPIC_ID": "WHH1397363",
+      "Name": "Meenat",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rizwan",
+      "House_No": "143",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "440",
+      "EPIC_ID": "WHH1198019",
+      "Name": "Mohammad Rizwan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mohammad Akbar",
+      "House_No": "143",
+      "Age": "25",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "441",
+      "EPIC_ID": "WHH1296821",
+      "Name": "Mohammad Rafeeq",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mohammad Akbar",
+      "House_No": "143",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "442",
+      "EPIC_ID": "RJ/08/061/429070",
+      "Name": "Sahab Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Hurmat Khan",
+      "House_No": "144",
+      "Age": "61",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "443",
+      "EPIC_ID": "RJ/08/061/429071",
+      "Name": "Sayra",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sahab Khan",
+      "House_No": "144",
+      "Age": "58",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "444",
+      "EPIC_ID": "WHH0725689",
+      "Name": "Sameena Bano",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Shakeel Khan",
+      "House_No": "144",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "445",
+      "EPIC_ID": "WHH1647577",
+      "Name": "Arsheeda",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Azruddin",
+      "House_No": "144",
+      "Age": "28",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "446",
+      "EPIC_ID": "WHH0845040",
+      "Name": "Shakeel Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sahab Khan",
+      "House_No": "144",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "447",
+      "EPIC_ID": "WHH1694389",
+      "Name": "Shabana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Imran",
+      "House_No": "144",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "448",
+      "EPIC_ID": "WHH1296847",
+      "Name": "Ajaruddin",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sahab Khan",
+      "House_No": "144",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "449",
+      "EPIC_ID": "WHH1397397",
+      "Name": "Imran",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sahab Khan",
+      "House_No": "144",
+      "Age": "24",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "450",
+      "EPIC_ID": "WHH1754548",
+      "Name": "Javed Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sahab Khan",
+      "House_No": "144",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "451",
+      "EPIC_ID": "RJ/08/061/429293",
+      "Name": "Jumme Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gabdu Khan",
+      "House_No": "145",
+      "Age": "73",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "452",
+      "EPIC_ID": "RJ/08/061/429225",
+      "Name": "Hurmati",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jumme Khan",
+      "House_No": "145",
+      "Age": "71",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "453",
+      "EPIC_ID": "CVS1275783",
+      "Name": "Rahees",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jumme Khan",
+      "House_No": "145",
+      "Age": "48",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "454",
+      "EPIC_ID": "WHH0323055",
+      "Name": "Ateeman",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rahees Khan",
+      "House_No": "145",
+      "Age": "45",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "455",
+      "EPIC_ID": "CVS1351071",
+      "Name": "Mormal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jumme Khan",
+      "House_No": "145",
+      "Age": "44",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "456",
+      "EPIC_ID": "WHH0554246",
+      "Name": "Barfeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mormal",
+      "House_No": "145",
+      "Age": "37",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "457",
+      "EPIC_ID": "WHH0323071",
+      "Name": "Subbu Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jumme Khan",
+      "House_No": "145",
+      "Age": "34",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "458",
+      "EPIC_ID": "WHH0323063",
+      "Name": "Astoona",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Subbu Khan",
+      "House_No": "145",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "459",
+      "EPIC_ID": "WHH0815274",
+      "Name": "Noorjahan",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Saddam Hussain",
+      "House_No": "145",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "460",
+      "EPIC_ID": "WHH0613539",
+      "Name": "Saddam Hussain",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jumme Khan",
+      "House_No": "145",
+      "Age": "31",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "461",
+      "EPIC_ID": "WHH0863209",
+      "Name": "Santar Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jumme Khan",
+      "House_No": "145",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "462",
+      "EPIC_ID": "WHH1840958",
+      "Name": "Basgari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sattar Khan",
+      "House_No": "145",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "463",
+      "EPIC_ID": "RJ/08/061/429290",
+      "Name": "Sufeda",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gabdu",
+      "House_No": "146",
+      "Age": "83",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "464",
+      "EPIC_ID": "RJ/08061//429500",
+      "Name": "Aas Mohammad",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sufeda",
+      "House_No": "146",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "465",
+      "EPIC_ID": "WHH0395350",
+      "Name": "Sarjeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Aas Mohammad",
+      "House_No": "146",
+      "Age": "54",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "466",
+      "EPIC_ID": "WHH1012152",
+      "Name": "Najma",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ajmudeen",
+      "House_No": "146",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "467",
+      "EPIC_ID": "WHH1397611",
+      "Name": "Ajyudeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Aasudeen",
+      "House_No": "146",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "468",
+      "EPIC_ID": "WHH1840222",
+      "Name": "Sameena Bano",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Saleem",
+      "House_No": "146",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "469",
+      "EPIC_ID": "WHH1584317",
+      "Name": "Saleem",
+      "Relation_Type": "Father",
+      "Relative_Name": "Aas Mohammad",
+      "House_No": "146",
+      "Age": "21",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "470",
+      "EPIC_ID": "WHH1840172",
+      "Name": "Jilsana",
+      "Relation_Type": "Father",
+      "Relative_Name": "Aas Mohammad",
+      "House_No": "146",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "471",
+      "EPIC_ID": "RJ/08/061/429291",
+      "Name": "Shyokat",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gabdu",
+      "House_No": "147",
+      "Age": "75",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "472",
+      "EPIC_ID": "WHH0323048",
+      "Name": "Rakkhi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Shyokat",
+      "House_No": "147",
+      "Age": "72",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "473",
+      "EPIC_ID": "RJ/08/061/429782",
+      "Name": "Umardeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Shyokat",
+      "House_No": "147",
+      "Age": "58",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "474",
+      "EPIC_ID": "CVS1351097",
+      "Name": "Rooksina",
+      "Relation_Type": "Father",
+      "Relative_Name": "Umardeen",
+      "House_No": "147",
+      "Age": "55",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "475",
+      "EPIC_ID": "CVS1275791",
+      "Name": "Fakhruddin",
+      "Relation_Type": "Father",
+      "Relative_Name": "Saukat Khan",
+      "House_No": "147",
+      "Age": "45",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "476",
+      "EPIC_ID": "CVS1351089",
+      "Name": "Rukmeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Fakhruddin",
+      "House_No": "147",
+      "Age": "43",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "477",
+      "EPIC_ID": "WHH0140202",
+      "Name": "Sahun",
+      "Relation_Type": "Father",
+      "Relative_Name": "Shaukat",
+      "House_No": "147",
+      "Age": "35",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "478",
+      "EPIC_ID": "WHH0140210",
+      "Name": "Fatma",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sahun Khan",
+      "House_No": "147",
+      "Age": "35",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "479",
+      "EPIC_ID": "WHH1629179",
+      "Name": "Hanseera",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Shaukeen Khan",
+      "House_No": "147",
+      "Age": "25",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "480",
+      "EPIC_ID": "WHH1397702",
+      "Name": "Sokeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Umardeen",
+      "House_No": "147",
+      "Age": "23",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "481",
+      "EPIC_ID": "WHH1629088",
+      "Name": "Rokin Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Umardeen",
+      "House_No": "147",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "482",
+      "EPIC_ID": "RJ/08/061/429292",
+      "Name": "Mannu Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Gabdu Khan",
+      "House_No": "148",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "483",
+      "EPIC_ID": "RJ/08/061/429300",
+      "Name": "Rahmati",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Maakhan",
+      "House_No": "148",
+      "Age": "63",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "484",
+      "EPIC_ID": "CVS7146939",
+      "Name": "Ilyas Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mannu Khan",
+      "House_No": "148",
+      "Age": "37",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "485",
+      "EPIC_ID": "CVS7146947",
+      "Name": "Ajmeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ilyas",
+      "House_No": "148",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "486",
+      "EPIC_ID": "WHH0815282",
+      "Name": "Sabeela",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mubeen Khan",
+      "House_No": "148",
+      "Age": "32",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "487",
+      "EPIC_ID": "WHH0395368",
+      "Name": "Jaikam",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mannu Khan",
+      "House_No": "148",
+      "Age": "32",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "488",
+      "EPIC_ID": "WHH0575076",
+      "Name": "Arfeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Jaikam",
+      "House_No": "148",
+      "Age": "31",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "489",
+      "EPIC_ID": "WHH1009745",
+      "Name": "Mubeen",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mannu Khan",
+      "House_No": "148",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "490",
+      "EPIC_ID": "CVS1275825",
+      "Name": "Chaw Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Luhada Khan",
+      "House_No": "151",
+      "Age": "68",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "491",
+      "EPIC_ID": "CVS1275841",
+      "Name": "Israil",
+      "Relation_Type": "Father",
+      "Relative_Name": "Chaw Khan",
+      "House_No": "151",
+      "Age": "46",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "492",
+      "EPIC_ID": "CVS1275858",
+      "Name": "Akhtari",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Israil",
+      "House_No": "151",
+      "Age": "44",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "493",
+      "EPIC_ID": "CVS1275866",
+      "Name": "Abbal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Chaw Khan",
+      "House_No": "151",
+      "Age": "43",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "494",
+      "EPIC_ID": "CVS7147135",
+      "Name": "Mausami",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Abbal",
+      "House_No": "151",
+      "Age": "40",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "495",
+      "EPIC_ID": "WHH0097543",
+      "Name": "Arshad Ayyub",
+      "Relation_Type": "Father",
+      "Relative_Name": "Chaw Khan",
+      "House_No": "151",
+      "Age": "39",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "496",
+      "EPIC_ID": "CVS7147127",
+      "Name": "Farmeena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Arsad Ayyub",
+      "House_No": "151",
+      "Age": "37",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "497",
+      "EPIC_ID": "WHH0097535",
+      "Name": "Nijjam Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Chaw Khan",
+      "House_No": "151",
+      "Age": "36",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "498",
+      "EPIC_ID": "WHH0395376",
+      "Name": "Miskina",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Nijjam Khan",
+      "House_No": "151",
+      "Age": "34",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "499",
+      "EPIC_ID": "WHH1626910",
+      "Name": "Shabnam",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Wajid Khan",
+      "House_No": "151",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "500",
+      "EPIC_ID": "WHH1626944",
+      "Name": "Wajid Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Arsad",
+      "House_No": "151",
+      "Age": "22",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "501",
+      "EPIC_ID": "WHH1010784",
+      "Name": "Husaini",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sher Mohammad",
+      "House_No": "-",
+      "Age": "80",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "502",
+      "EPIC_ID": "WHH1010479",
+      "Name": "Shashi",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Satish",
+      "House_No": "-",
+      "Age": "33",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "503",
+      "EPIC_ID": "WHH1009802",
+      "Name": "Sajid Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Subbudeen",
+      "House_No": "152",
+      "Age": "27",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "504",
+      "EPIC_ID": "WHH1009869",
+      "Name": "Arsheeda",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Sajid Khan",
+      "House_No": "152",
+      "Age": "27",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "505",
+      "EPIC_ID": "WHH1904275",
+      "Name": "Jyoti",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Saxena",
+      "House_No": "99",
+      "Age": "18",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "506",
+      "EPIC_ID": "WHH1905322",
+      "Name": "Saki",
+      "Relation_Type": "Father",
+      "Relative_Name": "Amar Chand",
+      "House_No": "99",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "507",
+      "EPIC_ID": "WHH1905108",
+      "Name": "Suman",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Badal",
+      "House_No": "68",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "508",
+      "EPIC_ID": "WHH1905116",
+      "Name": "Badal",
+      "Relation_Type": "Father",
+      "Relative_Name": "Hukamchand",
+      "House_No": "68",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "509",
+      "EPIC_ID": "WHH1906940",
+      "Name": "Aasif Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jafaruddin",
+      "House_No": "136",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "510",
+      "EPIC_ID": "WHH1906957",
+      "Name": "Muskan Bano",
+      "Relation_Type": "Father",
+      "Relative_Name": "Jakardeen",
+      "House_No": "136",
+      "Age": "18",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "511",
+      "EPIC_ID": "WHH1906965",
+      "Name": "Sahid Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ishak Khan",
+      "House_No": "131",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "512",
+      "EPIC_ID": "WHH1906973",
+      "Name": "Imrana",
+      "Relation_Type": "Father",
+      "Relative_Name": "Aas Mohammad",
+      "House_No": "146",
+      "Age": "18",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "513",
+      "EPIC_ID": "WHH1906981",
+      "Name": "Poonam",
+      "Relation_Type": "Father",
+      "Relative_Name": "Mukesh",
+      "House_No": "76",
+      "Age": "18",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "514",
+      "EPIC_ID": "WHH1925973",
+      "Name": "Sanjana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rahul Nat",
+      "House_No": "61",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "515",
+      "EPIC_ID": "WHH1928993",
+      "Name": "Chandni",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rinku",
+      "House_No": "61",
+      "Age": "30",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "516",
+      "EPIC_ID": "WHH1940774",
+      "Name": "Asha",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Shyam Sundar",
+      "House_No": "91",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "517",
+      "EPIC_ID": "WHH1946706",
+      "Name": "Shyam Sundar",
+      "Relation_Type": "Father",
+      "Relative_Name": "Hardas Nat",
+      "House_No": "91",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "518",
+      "EPIC_ID": "WHH1949999",
+      "Name": "Akram",
+      "Relation_Type": "Father",
+      "Relative_Name": "Israil",
+      "House_No": "151",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "519",
+      "EPIC_ID": "WHH1956572",
+      "Name": "Archana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Vijay Kumar",
+      "House_No": "71",
+      "Age": "18",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "520",
+      "EPIC_ID": "WHH1956713",
+      "Name": "Salo",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Akash Nat",
+      "House_No": "77",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "521",
+      "EPIC_ID": "WHH1956895",
+      "Name": "Lalita",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Govinda",
+      "House_No": "76",
+      "Age": "21",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "522",
+      "EPIC_ID": "WHH1969476",
+      "Name": "Sonu Khorwal",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Pawan Kumar",
+      "House_No": "30",
+      "Age": "26",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "523",
+      "EPIC_ID": "WHH1986165",
+      "Name": "Musreena",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Ashru",
+      "House_No": "83",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "524",
+      "EPIC_ID": "WHH1990639",
+      "Name": "Khairuna Nisha",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mustak Khan",
+      "House_No": "145",
+      "Age": "18",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "525",
+      "EPIC_ID": "WHH1991975",
+      "Name": "Hulliman",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Rafeeq Khan",
+      "House_No": "42",
+      "Age": "20",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "526",
+      "EPIC_ID": "WHH1994680",
+      "Name": "Beena Mahawar",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Pawan Kumar",
+      "House_No": "70",
+      "Age": "36",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "527",
+      "EPIC_ID": "WHH2005650",
+      "Name": "Urmila",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Arjun",
+      "House_No": "91",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "528",
+      "EPIC_ID": "WHH2023679",
+      "Name": "Shiva",
+      "Relation_Type": "Father",
+      "Relative_Name": "Sanjay",
+      "House_No": "74",
+      "Age": "19",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "529",
+      "EPIC_ID": "WHH2026185",
+      "Name": "Mustak Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Rahees Khan",
+      "House_No": "145",
+      "Age": "18",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "530",
+      "EPIC_ID": "WHH2031276",
+      "Name": "Neha",
+      "Relation_Type": "Father",
+      "Relative_Name": "Bansi Lal",
+      "House_No": "70",
+      "Age": "18",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "531",
+      "EPIC_ID": "WHH1903996",
+      "Name": "Jilsana",
+      "Relation_Type": "Father",
+      "Relative_Name": "Fakhruddin",
+      "House_No": "136",
+      "Age": "20",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "532",
+      "EPIC_ID": "WHH1904028",
+      "Name": "Wajida",
+      "Relation_Type": "Father",
+      "Relative_Name": "Arsad",
+      "House_No": "151",
+      "Age": "18",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "533",
+      "EPIC_ID": "WHH1904010",
+      "Name": "Aneesh",
+      "Relation_Type": "Father",
+      "Relative_Name": "Ishak Mohammad",
+      "House_No": "131",
+      "Age": "20",
+      "Gender": "Male"
+    },
+    {
+      "Serial_No": "534",
+      "EPIC_ID": "WHH1903988",
+      "Name": "Nijrana",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Arman",
+      "House_No": "80",
+      "Age": "22",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "535",
+      "EPIC_ID": "WHH1904036",
+      "Name": "Priyanka Yadav",
+      "Relation_Type": "Husband",
+      "Relative_Name": "Mukul Yadav",
+      "House_No": "4",
+      "Age": "23",
+      "Gender": "Female"
+    },
+    {
+      "Serial_No": "536",
+      "EPIC_ID": "WHH1904044",
+      "Name": "Shahrukh Khan",
+      "Relation_Type": "Father",
+      "Relative_Name": "Harun Khan",
+      "House_No": "131",
+      "Age": "19",
+      "Gender": "Male"
+    }
+  ]
+}
