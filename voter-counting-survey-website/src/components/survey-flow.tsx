@@ -112,8 +112,8 @@ type ChairmanOption = {
 };
 
 const chairmanOptions: ChairmanOption[] = [
-  { name: "Vikas", party: "BJP", descHi: "विकास - BJP पार्टी", descEn: "Vikas - BJP Party" },
-  { name: "Devender", party: "Congress", descHi: "देवेन्द्र - Congress पार्टी", descEn: "Devender - Congress Party" },
+  { name: "BJP Candidate", party: "BJP", descHi: "BJP प्रत्याशी", descEn: "BJP Candidate" },
+  { name: "Congress Candidate", party: "Congress", descHi: "Congress प्रत्याशी", descEn: "Congress Candidate" },
 ];
 
 type ApiResponse = {
@@ -683,11 +683,11 @@ export function SurveyFlow() {
             const wardBjpCandidate = getBjpCandidateForWard(formData.wardNumber);
             const wardCongressCandidate = getCongressCandidateForWard(formData.wardNumber);
 
-            const bjpCandidateName = wardBjpCandidate?.nameEn || "Vikas";
-            const bjpCandidateNameHi = wardBjpCandidate?.nameHi || "विकास";
+            const bjpCandidateName = wardBjpCandidate?.nameEn || "BJP Candidate";
+            const bjpCandidateNameHi = wardBjpCandidate?.nameHi || "BJP प्रत्याशी";
 
-            const congressCandidateName = wardCongressCandidate?.nameEn || "Devender";
-            const congressCandidateNameHi = wardCongressCandidate?.nameHi || "देवेन्द्र";
+            const congressCandidateName = wardCongressCandidate?.nameEn || "Congress Candidate";
+            const congressCandidateNameHi = wardCongressCandidate?.nameHi || "Congress प्रत्याशी";
 
             const wardNumFormatted = String(formData.wardNumber).padStart(2, "0");
 
@@ -697,20 +697,20 @@ export function SurveyFlow() {
                 party: "BJP",
                 descHi: wardBjpCandidate
                   ? `${bjpCandidateNameHi} - BJP प्रत्याशी (वार्ड ${wardNumFormatted} - ${wardBjpCandidate.categoryHi})`
-                  : `विकास - BJP पार्टी`,
+                  : `BJP प्रत्याशी`,
                 descEn: wardBjpCandidate
                   ? `${bjpCandidateName} - BJP Candidate (Ward ${wardNumFormatted} - ${wardBjpCandidate.categoryEn})`
-                  : `Vikas - BJP Party`,
+                  : `BJP Candidate`,
               },
               {
                 name: congressCandidateName,
                 party: "Congress",
                 descHi: wardCongressCandidate
                   ? `${congressCandidateNameHi} - Congress प्रत्याशी (वार्ड ${wardNumFormatted} - ${wardCongressCandidate.categoryHi})`
-                  : `देवेन्द्र - Congress पार्टी`,
+                  : `Congress प्रत्याशी`,
                 descEn: wardCongressCandidate
                   ? `${congressCandidateName} - Congress Candidate (Ward ${wardNumFormatted} - ${wardCongressCandidate.categoryEn})`
-                  : `Devender - Congress Party`,
+                  : `Congress Candidate`,
               },
             ];
 

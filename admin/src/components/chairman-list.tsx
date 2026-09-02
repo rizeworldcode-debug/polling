@@ -119,8 +119,8 @@ export function ChairmanList({
 
   const getChairmanPartyLogo = (name?: string) => {
     if (!name) return "Others";
-    if (isCongressCandidate(name) || name === "Devender") return "Congress";
-    if (isBjpCandidate(name) || name === "Vikas") return "BJP";
+    if (isCongressCandidate(name)) return "Congress";
+    if (isBjpCandidate(name)) return "BJP";
     return "Others";
   };
 
