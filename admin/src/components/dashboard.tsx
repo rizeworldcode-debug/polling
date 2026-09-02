@@ -187,18 +187,11 @@ export function Dashboard({ voters, onPartyCardClick, onDelete, lang }: Dashboar
   const bjpDash = bjpVal > 0 ? Math.max(0, bjpLen - 3) : 0;
   const congressDash = congressVal > 0 ? Math.max(0, congressLen - 3) : 0;
   const othersDash = othersVal > 0 ? Math.max(0, othersLen - 3) : 0;
-  const votedVotersCount = wardVoters.filter((voter) => {
-    return voters.some((response) => {
-      if (String(response.wardNumber) !== String(selectedWard)) return false;
-      const norm = (str: string = "") => str.trim().toLowerCase().replace(/\s+/g, " ");
-      if (voter.epicNumber && response.epicNumber && norm(voter.epicNumber) === norm(response.epicNumber)) {
-        return true;
-      }
-      const matchName = norm(response.voterName) === norm(voter.voterName);
-      const matchFather = norm(response.fatherName) === norm(voter.relativeName);
-      return matchName && matchFather;
-    });
-  }).length;
+  const wardResponses = voters.filter(
+    (r) => parseInt(String(r.wardNumber), 10) === parseInt(String(selectedWard), 10)
+  );
+
+  const votedVotersCount = wardResponses.length;
 
   return (
     <div style={{ paddingBottom: "40px" }}>
@@ -483,6 +476,63 @@ export function Dashboard({ voters, onPartyCardClick, onDelete, lang }: Dashboar
               </span>
             </div>
           </div>
+          {/* Submitted Votes in this Selected Ward */}
+          {wardResponses.length > 0 && (
+            <div style={{ padding: "16px", borderBottom: "1px solid var(--line)", background: "#f8fafc" }}>
+              <h4 style={{ margin: "0 0 12px 0", fontSize: "14px", fontWeight: 700, color: "var(--navy)", display: "flex", alignItems: "center", gap: "6px" }}>
+                <span>🗳️</span>
+                {lang === "hi" ? `वार्ड ${selectedWard} में दर्ज किए गए उत्तर/मत (${wardResponses.length})` : `Submitted Votes in Ward ${selectedWard} (${wardResponses.length})`}
+              </h4>
+              <div className="table-responsive">
+                <table className="data-table">
+                  <thead>
+                    <tr>
+                      <th>{t.thVoter}</th>
+                      <th>{t.thFather}</th>
+                      <th>Mobile</th>
+                      <th>{t.thChoice}</th>
+                      <th>{lang === "hi" ? "चेयरमैन प्रत्याशी" : "Chairman Candidate"}</th>
+                      <th style={{ textAlign: "right" }}>{t.thActions}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {wardResponses.map((r) => (
+                      <tr key={r.id}>
+                        <td style={{ fontWeight: 700 }}>
+                          {lang === "hi" ? transliterateNameToHindi(r.voterName) : ensureEnglish(r.voterName)}
+                        </td>
+                        <td>
+                          {lang === "hi" ? transliterateNameToHindi(r.fatherName) : ensureEnglish(r.fatherName)}
+                        </td>
+                        <td>{r.mobileNumber}</td>
+                        <td>
+                          <span className={`badge ${r.selectedOption.toLowerCase()}`} style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                            <PartyLogo option={r.selectedOption} size={20} />
+                            {r.selectedOption}
+                          </span>
+                        </td>
+                        <td style={{ fontWeight: 600 }}>
+                          {r.selectedChairman ? (lang === "hi" ? transliterateNameToHindi(r.selectedChairman) : ensureEnglish(r.selectedChairman)) : "-"}
+                        </td>
+                        <td style={{ textAlign: "right" }}>
+                          <button
+                            className="btn-secondary btn-danger"
+                            style={{ padding: "4px 8px", fontSize: "11px", fontWeight: 600, display: "inline-flex", alignItems: "center", gap: "4px" }}
+                            onClick={() => onDelete(r.id)}
+                            title={t.btnDelete}
+                          >
+                            <Trash2 size={12} />
+                            {t.btnDelete}
+                          </button>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
           {isLoadingWardVoters ? (
             <div style={{ color: "var(--muted)", padding: "32px 0", textAlign: "center", fontSize: "14px" }}>
               {lang === "hi" ? "मतदाता सूची लोड हो रही है..." : "Loading voter list..."}
@@ -507,16 +557,27 @@ export function Dashboard({ voters, onPartyCardClick, onDelete, lang }: Dashboar
                 </thead>
                 <tbody>
                   {wardVoters.map((voter) => {
-                    // Match with survey submissions
-                    const matchedResponse = voters.find((response) => {
-                      if (String(response.wardNumber) !== String(selectedWard)) return false;
-                      const norm = (str: string = "") => str.trim().toLowerCase().replace(/\s+/g, " ");
-                      if (voter.epicNumber && response.epicNumber && norm(voter.epicNumber) === norm(response.epicNumber)) {
+                    const normName = (str: string = "") =>
+                      str
+                        .toLowerCase()
+                        .replace(/^(shri|smt|ku|dr|mr|mrs|shrimati|श्री|श्रीमती)\s+/i, "")
+                        .replace(/[\s\.\,\_\-\/]+/g, " ")
+                        .trim();
+
+                    const matchedResponse = wardResponses.find((response) => {
+                      if (voter.serialNumber && response.serialNumber && Number(voter.serialNumber) === Number(response.serialNumber)) {
                         return true;
                       }
-                      const matchName = norm(response.voterName) === norm(voter.voterName);
-                      const matchFather = norm(response.fatherName) === norm(voter.relativeName);
-                      return matchName && matchFather;
+                      if (voter.epicNumber && response.epicNumber && normName(voter.epicNumber) === normName(response.epicNumber)) {
+                        return true;
+                      }
+                      const rV = normName(response.voterName);
+                      const vV = normName(voter.voterName);
+                      const rF = normName(response.fatherName);
+                      const vF = normName(voter.relativeName);
+                      const matchVoter = rV === vV || rV.includes(vV) || vV.includes(rV);
+                      const matchFather = rF === vF || rF.includes(vF) || vF.includes(rF) || !rF || !vF;
+                      return matchVoter && matchFather;
                     });
 
                     return (

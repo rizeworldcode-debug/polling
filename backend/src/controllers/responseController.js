@@ -35,8 +35,35 @@ const createResponse = async (req, res) => {
       return res.status(400).json({ error: "All fields are required" });
     }
 
+    // Check for duplicate response
+    const norm = (str) =>
+      (str || "")
+        .trim()
+        .toLowerCase()
+        .replace(/^(shri|smt|ku|dr|mr|mrs|shrimati|श्री|श्रीमती)\s+/i, "")
+        .replace(/[\s\.\,\_\-\/]+/g, "")
+        .replace(/[^a-z0-9\u0900-\u097F]/gi, "");
+
+    const normV = norm(voterName);
+
+    const allResponses = await Response.find({});
+    const isDuplicate = allResponses.some((r) => {
+      if (mobileNumber && r.mobileNumber && String(r.mobileNumber).trim() === String(mobileNumber).trim()) {
+        return true;
+      }
+      if (epicNumber && r.epicNumber && String(r.epicNumber).trim().toLowerCase() === String(epicNumber).trim().toLowerCase()) {
+        return true;
+      }
+      const rV = norm(r.voterName);
+      return normV && rV === normV;
+    });
+
+    if (isDuplicate) {
+      return res.status(400).json({ error: "यह नाम या संबंधी का नाम पहले ही अपना वोट/उत्तर दर्ज कर चुका है।" });
+    }
+
     const newResponse = new Response({
-      wardNumber,
+      wardNumber: String(wardNumber),
       voterName,
       fatherName,
       mobileNumber,

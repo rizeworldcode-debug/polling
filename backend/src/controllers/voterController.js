@@ -71,7 +71,7 @@ function translateHindiToEnglish(text) {
 
 const verifyVoter = async (req, res) => {
   try {
-    const { voterName, fatherName, wardNumber } = req.body;
+    const { voterName, fatherName, wardNumber, mobileNumber } = req.body;
 
     if (!wardNumber) {
       return res.status(400).json({ valid: false, message: "wardNumber is required" });
@@ -84,39 +84,61 @@ const verifyVoter = async (req, res) => {
     const englishVoterName = translateHindiToEnglish(voterName);
     const englishFatherName = translateHindiToEnglish(fatherName);
 
+    const norm = (str) =>
+      (str || "")
+        .trim()
+        .toLowerCase()
+        .replace(/^(shri|smt|ku|dr|mr|mrs|shrimati|श्री|श्रीमती)\s+/i, "")
+        .replace(/[\s\.\,\_\-\/]+/g, "")
+        .replace(/[^a-z0-9\u0900-\u097F]/gi, "");
+
+    const normVoter = norm(voterName);
+    const normFather = norm(fatherName);
+    const normEngVoter = norm(englishVoterName);
+    const normEngFather = norm(englishFatherName);
+
+    // Fetch all existing survey responses across database
+    const allResponses = await Response.find({});
+
+    const existingResponse = allResponses.find((r) => {
+      // 1. Mobile number match
+      if (mobileNumber && r.mobileNumber && String(r.mobileNumber).trim() === String(mobileNumber).trim()) {
+        return true;
+      }
+
+      const rVoter = norm(r.voterName);
+      const rFather = norm(r.fatherName);
+
+      // 2. Voter Name match (Hindi or English)
+      const isVoterNameMatch = (normVoter && rVoter === normVoter) || (normEngVoter && rVoter === normEngVoter);
+
+      // 3. Father/Relative Name match (Hindi or English)
+      const isFatherNameMatch = (normFather && rFather === normFather) || (normEngFather && rFather === normEngFather);
+
+      // If voter name matches or father name matches with same voter
+      return isVoterNameMatch || (isVoterNameMatch && isFatherNameMatch);
+    });
+
+    if (existingResponse) {
+      return res.json({
+        valid: false,
+        message: "यह नाम या संबंधी का नाम पहले ही अपना वोट/उत्तर दर्ज कर चुका है।",
+      });
+    }
+
     // Optional lookup to attach voter list details if matching record exists
     let voter = null;
     try {
       voter = await Voter.findOne({
         wardNumber: String(wardNumber),
-        voterName: { $regex: new RegExp("^" + englishVoterName.trim().replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + "$", "i") },
-        relativeName: { $regex: new RegExp("^" + englishFatherName.trim().replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + "$", "i") }
+        voterName: { $regex: new RegExp("^" + englishVoterName.trim().replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + "$", "i") },
+        relativeName: { $regex: new RegExp("^" + englishFatherName.trim().replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + "$", "i") },
       });
     } catch (dbErr) {
       console.warn("Voter DB lookup warning:", dbErr);
     }
 
-    if (voter) {
-      // Check if this voter has already submitted a response
-      const existingResponse = await Response.findOne({
-        wardNumber: String(wardNumber),
-        voterName: { $regex: new RegExp("^" + englishVoterName.trim().replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + "$", "i") },
-        fatherName: { $regex: new RegExp("^" + englishFatherName.trim().replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + "$", "i") }
-      });
-
-      if (existingResponse) {
-        return res.json({ 
-          valid: false, 
-          message: "आप पहले ही अपना उत्तर दर्ज कर चुके हैं।" 
-        });
-      }
-
-      return res.json({ valid: true, voter });
-    }
-
-    // Name and Relative Name do not need to match voter list DB.
-    // Ward selection is sufficient.
-    return res.json({ valid: true, voter: null });
+    return res.json({ valid: true, voter });
   } catch (error) {
     console.error("Voter Verification Error:", error);
     res.status(500).json({ valid: false, message: "Verification failed on server side" });
