@@ -45,6 +45,7 @@ const createResponse = async (req, res) => {
         .replace(/[^a-z0-9\u0900-\u097F]/gi, "");
 
     const normV = norm(voterName);
+    const normF = norm(fatherName);
 
     const allResponses = await Response.find({});
     const isDuplicate = allResponses.some((r) => {
@@ -55,7 +56,12 @@ const createResponse = async (req, res) => {
         return true;
       }
       const rV = norm(r.voterName);
-      return normV && rV === normV;
+      const rF = norm(r.fatherName);
+
+      const isVoterMatch = normV && (rV === normV || rF === normV);
+      const isFatherMatch = normF && (rV === normF || rF === normF);
+
+      return isVoterMatch || isFatherMatch;
     });
 
     if (isDuplicate) {

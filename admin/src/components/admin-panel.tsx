@@ -481,7 +481,7 @@ export function AdminPanel() {
                 onClick={() => { window.location.hash = "chairman"; }}
               >
                 <Award size={18} />
-                {lang === "hi" ? "चेयरमैन प्राथमिकता" : "Chairman Preferences"}
+                {lang === "hi" ? "पार्षद प्राथमिकता" : "Parsad Preferences"}
               </button>
               <button className="nav-item nav-item-logout" onClick={handleLogout} style={{ marginTop: "16px" }}>
                 <LogOut size={18} />
@@ -497,7 +497,7 @@ export function AdminPanel() {
             <h1>
               {currentTab === "dashboard" && t.performanceDashboard}
               {currentTab === "submissions" && t.submissionsListTitle}
-              {currentTab === "chairman" && (lang === "hi" ? "चेयरमैन मत रिपोर्ट सूची" : "Chairman Submissions Log")}
+              {currentTab === "chairman" && (lang === "hi" ? "पार्षद मत रिपोर्ट सूची" : "Parsad Submissions Log")}
             </h1>
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
               <div className="user-profile">

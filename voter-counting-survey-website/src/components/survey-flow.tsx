@@ -1,37 +1,24 @@
-"use client";
+import { useState, useEffect, useRef, FormEvent } from "react";
+import { Globe, UserRound, UsersRound, Phone, MapPin, Check, ArrowRight, ArrowLeft, LoaderCircle } from "lucide-react";
+import { wards, formatWard } from "../data/wards";
+import { translations } from "../data/translations";
+import { getParsadCandidatesForWard, ParsadCandidate } from "../data/parsadCandidates";
+import { transliterateNameToHindi } from "../lib/transliterate";
+import { API_BASE_URL } from "../config/apiConfig";
 
-import {
-  ArrowLeft,
-  ArrowRight,
-  BadgeCheck,
-  Check,
-  ChevronDown,
-  CircleCheck,
-  ClipboardCheck,
-  LockKeyhole,
-  LoaderCircle,
-  MapPin,
-  Phone,
-  ShieldCheck,
-  Sparkles,
-  UserRound,
-  UsersRound,
-} from "lucide-react";
-import { FormEvent, useState, useEffect, useRef } from "react";
-import { formatWard, wards } from "@/data/wards";
-import {
-  normalizeSurveyInput,
-  SurveyErrors,
-  SurveyFormData,
-  SurveyOption,
-  surveyOptions,
-  validateSurveyDetails,
-} from "@/lib/survey";
-import { translations } from "@/data/translations";
-import { transliterateNameToHindi } from "@/lib/transliterate";
-import { bjpCandidates, getBjpCandidateForWard } from "@/data/bjpCandidates";
-import { congressCandidates, getCongressCandidateForWard } from "@/data/congressCandidates";
-import { API_BASE_URL } from "@/config/apiConfig";
+export type SurveyOption = "BJP" | "Congress" | "Others";
+
+export type SurveyFormData = {
+  wardNumber: string;
+  voterName: string;
+  fatherName: string;
+  mobileNumber: string;
+  address: string;
+  candidateName: string;
+};
+
+export type SurveyField = keyof SurveyFormData;
+export type SurveyErrors = Partial<Record<SurveyField | "selectedOption" | "selectedChairman" | "form", string>>;
 
 const errorTranslationMap = {
   "Please select your ward and area.": "wardError",
@@ -44,6 +31,7 @@ const errorTranslationMap = {
   "Please enter a valid address (at least 3 characters).": "addressValidError",
   "Please select one option.": "optionError",
   "Please select a chairman.": "chairmanError",
+  "Please select a Parsad candidate.": "chairmanError",
   "दर्ज किया गया नाम और पिता का नाम इस वार्ड की मतदाता सूची से मेल नहीं खाता है।": "formError",
   "आप पहले ही अपना उत्तर दर्ज कर चुके हैं।": "duplicateError",
   "सत्यापन (Verification) के दौरान कोई त्रुटि हुई। कृपया पुनः प्रयास करें या Internet connection चेक करें।": "connectionError",
@@ -59,7 +47,7 @@ function getTranslatedError(err: string | undefined, lang: "hi" | "en") {
   return err;
 }
 
-type Stage = "details" | "choice" | "chairman" | "success";
+type Stage = "details" | "parsad" | "success";
 
 function PartyLogo({ option, size = 20 }: { option: string; size?: number }) {
   if (option === "BJP") {
@@ -104,24 +92,6 @@ function PartyLogo({ option, size = 20 }: { option: string; size?: number }) {
   );
 }
 
-type ChairmanOption = {
-  name: string;
-  party: string;
-  descHi: string;
-  descEn: string;
-};
-
-const chairmanOptions: ChairmanOption[] = [
-  { name: "BJP Candidate", party: "BJP", descHi: "BJP प्रत्याशी", descEn: "BJP Candidate" },
-  { name: "Congress Candidate", party: "Congress", descHi: "Congress प्रत्याशी", descEn: "Congress Candidate" },
-];
-
-type ApiResponse = {
-  ok?: boolean;
-  message?: string;
-  errors?: SurveyErrors;
-};
-
 const initialFormData: SurveyFormData = {
   wardNumber: "",
   voterName: "",
@@ -131,11 +101,13 @@ const initialFormData: SurveyFormData = {
   candidateName: "",
 };
 
-const optionDescriptions: Record<SurveyOption, string> = {
-  BJP: "Select this option for BJP",
-  Congress: "Select this option for Congress",
-  Others: "Select for any other preference",
-};
+function FieldError({ id, message, centered = false }: { id: string; message: string; centered?: boolean }) {
+  return (
+    <span id={id} className={`field-error ${centered ? "is-centered" : ""}`} role="alert">
+      {message}
+    </span>
+  );
+}
 
 function CustomWardSelect({
   value,
@@ -203,6 +175,67 @@ function CustomWardSelect({
   );
 }
 
+function ChevronDown({ className, size, ...props }: { className?: string; size?: number; [key: string]: any }) {
+  return (
+    <svg className={className} width={size || 24} height={size || 24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="m6 9 6 6 6-6"/>
+    </svg>
+  );
+}
+
+function validateSurveyDetails(data: SurveyFormData): SurveyErrors {
+  const detailErrors: SurveyErrors = {};
+  const wardNum = Number(data.wardNumber);
+
+  const cleanName = (text: string, maxLength: number) => {
+    if (typeof text !== "string") return "";
+    return text
+      .normalize("NFKC")
+      .replace(/[\u0000-\u001F\u007F]/g, "")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, maxLength);
+  };
+
+  const nameFormatRegex = /^[\p{L}\p{M}][\p{L}\p{M}\s.'’-]*$/u;
+  const indianMobileRegex = /^[6-9]\d{9}$/;
+
+  const cleanedVoterName = cleanName(data.voterName, 80);
+  const cleanedFatherName = cleanName(data.fatherName, 80);
+  const cleanedMobileNumber = cleanName(data.mobileNumber, 15).replace(/\s/g, "");
+  const cleanedAddress = cleanName(data.address, 200);
+
+  if (!wards.some((w) => w.wardNumber === wardNum)) {
+    detailErrors.wardNumber = "Please select your ward and area.";
+  }
+
+  if (!cleanedVoterName) {
+    detailErrors.voterName = "Please enter the voter name.";
+  } else if (cleanedVoterName.length < 2 || !nameFormatRegex.test(cleanedVoterName)) {
+    detailErrors.voterName = "Enter a valid name using letters, spaces, dots or hyphens.";
+  }
+
+  if (!cleanedFatherName) {
+    detailErrors.fatherName = "Please enter the relative's name.";
+  } else if (cleanedFatherName.length < 2 || !nameFormatRegex.test(cleanedFatherName)) {
+    detailErrors.fatherName = "Enter a valid name using letters, spaces, dots or hyphens.";
+  }
+
+  if (!cleanedMobileNumber) {
+    detailErrors.mobileNumber = "Please enter the mobile number.";
+  } else if (!indianMobileRegex.test(cleanedMobileNumber)) {
+    detailErrors.mobileNumber = "Enter a valid 10-digit mobile number.";
+  }
+
+  if (!cleanedAddress) {
+    detailErrors.address = "Please enter the address.";
+  } else if (cleanedAddress.length < 3) {
+    detailErrors.address = "Please enter a valid address (at least 3 characters).";
+  }
+
+  return detailErrors;
+}
+
 export function SurveyFlow() {
   const [stage, setStage] = useState<Stage>("details");
   const [formData, setFormData] = useState<SurveyFormData>(initialFormData);
@@ -219,32 +252,23 @@ export function SurveyFlow() {
     gender?: string;
   } | null>(null);
   const isVerifiedRef = useRef(false);
-  const [lang] = useState<"hi" | "en">("en");
+  const [lang, setLang] = useState<"hi" | "en">("hi");
 
   const t = translations[lang];
 
-  // Sync stage with URL Hash for browser back/next navigation support
+  // Sync stage with URL Hash
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace("#", "");
-      if (hash === "choice") {
+      if (hash === "parsad" || hash === "choice") {
         if (isVerifiedRef.current || verifiedVoterDetails) {
-          setStage("choice");
+          setStage("parsad");
           window.scrollTo({ top: 0, behavior: "smooth" });
-        } else {
-          window.location.hash = "details";
-        }
-      } else if (hash === "chairman") {
-        if ((isVerifiedRef.current || verifiedVoterDetails) && selectedOption) {
-          setStage("chairman");
-          window.scrollTo({ top: 0, behavior: "smooth" });
-        } else if (isVerifiedRef.current || verifiedVoterDetails) {
-          window.location.hash = "choice";
         } else {
           window.location.hash = "details";
         }
       } else if (hash === "success") {
-        if ((isVerifiedRef.current || verifiedVoterDetails) && selectedOption && selectedChairman) {
+        if ((isVerifiedRef.current || verifiedVoterDetails) && selectedChairman) {
           setStage("success");
           window.scrollTo({ top: 0, behavior: "smooth" });
         } else {
@@ -261,13 +285,10 @@ export function SurveyFlow() {
 
     window.addEventListener("hashchange", handleHashChange);
 
-    // Initial check on mount
     const initialHash = window.location.hash.replace("#", "");
-    if (initialHash === "choice" && (isVerifiedRef.current || verifiedVoterDetails)) {
-      setStage("choice");
-    } else if (initialHash === "chairman" && (isVerifiedRef.current || verifiedVoterDetails) && selectedOption) {
-      setStage("chairman");
-    } else if (initialHash === "success" && (isVerifiedRef.current || verifiedVoterDetails) && selectedOption && selectedChairman) {
+    if ((initialHash === "parsad" || initialHash === "choice") && (isVerifiedRef.current || verifiedVoterDetails)) {
+      setStage("parsad");
+    } else if (initialHash === "success" && (isVerifiedRef.current || verifiedVoterDetails) && selectedChairman) {
       setStage("success");
     } else {
       setStage("details");
@@ -321,6 +342,7 @@ export function SurveyFlow() {
           voterName: formData.voterName,
           fatherName: formData.fatherName,
           wardNumber: formData.wardNumber,
+          mobileNumber: formData.mobileNumber,
         }),
       });
 
@@ -338,12 +360,12 @@ export function SurveyFlow() {
           age: result.voter?.age,
           gender: result.voter?.gender,
         });
-        setStage("choice");
-        window.location.hash = "choice";
+        setStage("parsad");
+        window.location.hash = "parsad";
       } else {
         setErrors((current) => ({
           ...current,
-          form: result.message || "दर्ज किया गया नाम और पिता का नाम इस वार्ड की मतदाता सूची से मेल नहीं खाता है।",
+          form: result.message || "यह नाम या संबंधी का नाम पहले ही अपना वोट/उत्तर दर्ज कर चुका है।",
         }));
       }
     } catch (e) {
@@ -357,33 +379,10 @@ export function SurveyFlow() {
     }
   }
 
-  function handleChoiceNext(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    if (!selectedOption) {
-      setErrors({ selectedOption: "Please select one option." });
-      return;
-    }
-    setErrors({});
-
-    const wardBjpCandidate = getBjpCandidateForWard(formData.wardNumber);
-    const wardCongressCandidate = getCongressCandidateForWard(formData.wardNumber);
-
-    if (selectedOption === "BJP") {
-      setSelectedChairman(wardBjpCandidate?.nameEn || "BJP Candidate");
-    } else if (selectedOption === "Congress") {
-      setSelectedChairman(wardCongressCandidate?.nameEn || "Congress Candidate");
-    } else if (!selectedChairman) {
-      setSelectedChairman(null);
-    }
-
-    setStage("chairman");
-    window.location.hash = "chairman";
-  }
-
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!selectedChairman) {
-      setErrors({ selectedChairman: "Please select a chairman." });
+      setErrors({ selectedChairman: "Please select a Parsad candidate." });
       return;
     }
 
@@ -391,8 +390,7 @@ export function SurveyFlow() {
     setErrors({});
 
     try {
-      // Simulate network request
-      await new Promise((resolve) => setTimeout(resolve, 800));
+      await new Promise((resolve) => setTimeout(resolve, 600));
 
       const newResponse = {
         id: Date.now().toString(),
@@ -401,8 +399,8 @@ export function SurveyFlow() {
         fatherName: lang === "hi" ? transliterateNameToHindi(formData.fatherName) : formData.fatherName,
         mobileNumber: formData.mobileNumber,
         address: lang === "hi" ? transliterateNameToHindi(formData.address) : formData.address,
-        candidateName: lang === "hi" ? transliterateNameToHindi(formData.candidateName) : formData.candidateName,
-        selectedOption: selectedOption,
+        candidateName: selectedChairman,
+        selectedOption: selectedOption || "BJP",
         selectedChairman: selectedChairman,
         timestamp: new Date().toISOString(),
         serialNumber: verifiedVoterDetails?.serialNumber,
@@ -411,8 +409,7 @@ export function SurveyFlow() {
         age: verifiedVoterDetails?.age,
         gender: verifiedVoterDetails?.gender,
       };
-      
-      // Save to local shared API server
+
       try {
         await fetch(`${API_BASE_URL}/api/responses`, {
           method: "POST",
@@ -425,12 +422,12 @@ export function SurveyFlow() {
         console.error("Local API server error, falling back to localStorage", apiError);
       }
 
-      // Also save to localStorage as fallback
       const existing = localStorage.getItem("community_survey_responses");
       const list = existing ? JSON.parse(existing) : [];
       list.push(newResponse);
       localStorage.setItem("community_survey_responses", JSON.stringify(list));
 
+      setStage("success");
       window.location.hash = "success";
     } catch {
       setErrors({ form: "A connection error occurred. Please try again." });
@@ -450,13 +447,39 @@ export function SurveyFlow() {
     window.location.hash = "details";
   }
 
-  const stepNumber = stage === "details" ? 1 : stage === "choice" ? 2 : 3;
-  const totalSteps = 3;
+  const stepNumber = stage === "details" ? 1 : 2;
+  const totalSteps = 2;
 
   return (
     <section className="survey-card single-panel" aria-label="Community voter counting survey">
-      <div className="election-header-banner">
-        <h1 className="election-header-title">Bahadurpur parsad election</h1>
+      <div className="election-header-banner" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "10px", padding: "14px 20px" }}>
+        <h1 className="election-header-title" style={{ margin: 0 }}>
+          {lang === "hi" ? "बहादुरपुर पार्षद चुनाव सर्वे" : "Bahadurpur Parsad Election Survey"}
+        </h1>
+        <button
+          type="button"
+          className="lang-toggle-btn"
+          onClick={() => setLang((prev) => (prev === "hi" ? "en" : "hi"))}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "6px",
+            padding: "6px 14px",
+            fontSize: "13px",
+            fontWeight: 700,
+            borderRadius: "20px",
+            border: "1px solid rgba(255, 255, 255, 0.4)",
+            background: "rgba(255, 255, 255, 0.95)",
+            color: "#0f172a",
+            cursor: "pointer",
+            boxShadow: "0 2px 6px rgba(0,0,0,0.15)",
+            transition: "all 0.2s ease"
+          }}
+          title={lang === "hi" ? "Switch to English" : "हिंदी में बदलें"}
+        >
+          <Globe size={16} color="#dc2626" />
+          <span>{lang === "hi" ? "English" : "हिंदी"}</span>
+        </button>
       </div>
 
       <div className="form-panel">
@@ -467,7 +490,7 @@ export function SurveyFlow() {
               <strong>{stepNumber} {t.of} {totalSteps}</strong>
             </div>
             <div className="progress-track" aria-hidden="true">
-              <span style={{ width: stage === "details" ? "33%" : stage === "choice" ? "66%" : "100%" }} />
+              <span style={{ width: stage === "details" ? "50%" : "100%" }} />
             </div>
           </div>
         )}
@@ -575,8 +598,6 @@ export function SurveyFlow() {
                 {errors.address && <FieldError id="address-error" message={getTranslatedError(errors.address, lang)} />}
               </div>
 
-
-
               {errors.form && <div className="form-error" role="alert">{getTranslatedError(errors.form, lang)}</div>}
 
               <button className="primary-button" type="submit" disabled={isValidating}>
@@ -595,142 +616,8 @@ export function SurveyFlow() {
             </form>
           )}
 
-          {stage === "choice" && (
-            <form className="stage stage-choice" onSubmit={handleChoiceNext} noValidate>
-              <button
-                className="back-button"
-                type="button"
-                onClick={() => {
-                  setErrors({});
-                  window.location.hash = "details";
-                }}
-              >
-                <ArrowLeft size={17} aria-hidden="true" />
-                {t.backBtn}
-              </button>
-
-              {formData.voterName && (
-                <div style={{ fontSize: "13px", fontWeight: 700, color: "var(--navy)", marginBottom: "16px", background: "#f1f5f9", padding: "8px 12px", borderRadius: "8px", border: "1px solid var(--border)", display: "inline-flex", alignItems: "center", gap: "6px" }}>
-                  <span>👤</span>
-                  <span>
-                    {lang === "hi" 
-                      ? `मतदाता: ${transliterateNameToHindi(formData.voterName)}` 
-                      : `Voter: ${formData.voterName}`}
-                  </span>
-                </div>
-              )}
-
-              <div className="stage-heading choice-heading">
-                <span className="step-chip">{t.step} 02</span>
-                <h2>{t.selectOption}</h2>
-                <p>{t.selectOptionDesc}</p>
-              </div>
-
-              <div
-                className="option-list"
-                role="radiogroup"
-                aria-label="Survey options"
-                aria-describedby={errors.selectedOption ? "selectedOption-error" : undefined}
-              >
-                {surveyOptions.map((option, index) => {
-                  const isSelected = selectedOption === option;
-                  const desc = option === "BJP" ? t.bjpDesc : option === "Congress" ? t.congressDesc : t.othersDesc;
-                  return (
-                    <button
-                      key={option}
-                      type="button"
-                      className={`option-card ${isSelected ? "is-selected" : ""}`}
-                      role="radio"
-                      aria-checked={isSelected}
-                      onClick={() => {
-                        setSelectedOption(option);
-                        setErrors((current) => ({ ...current, selectedOption: undefined, form: undefined }));
-                      }}
-                    >
-                      <span className="option-index">0{index + 1}</span>
-                      <span className="option-copy">
-                        <span style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                          <PartyLogo option={option} size={32} />
-                          <strong>{option}</strong>
-                        </span>
-                        <small>{desc}</small>
-                      </span>
-                      <span className="radio-indicator" aria-hidden="true">
-                        {isSelected && <Check size={16} strokeWidth={3} />}
-                      </span>
-                    </button>
-                  );
-                })}
-              </div>
-
-              <div className="field-group" style={{ marginTop: "24px" }}>
-                <label htmlFor="candidateName">{t.candidateLabel}</label>
-                <div className={`input-shell ${errors.candidateName ? "has-error" : ""}`}>
-                  <UserRound size={19} aria-hidden="true" />
-                  <input
-                    id="candidateName"
-                    name="candidateName"
-                    type="text"
-                    placeholder={t.candidatePlaceholder}
-                    value={formData.candidateName}
-                    onChange={(event) => updateField("candidateName", event.target.value)}
-                    maxLength={80}
-                    autoComplete="off"
-                    aria-invalid={Boolean(errors.candidateName)}
-                    aria-describedby={errors.candidateName ? "candidateName-error" : undefined}
-                  />
-                </div>
-                {errors.candidateName && <FieldError id="candidateName-error" message={getTranslatedError(errors.candidateName, lang)} />}
-              </div>
-
-              {errors.selectedOption && (
-                <FieldError id="selectedOption-error" message={getTranslatedError(errors.selectedOption, lang)} centered />
-              )}
-              {errors.form && <div className="form-error" role="alert">{getTranslatedError(errors.form, lang)}</div>}
-
-              <button className="primary-button" type="submit" disabled={!selectedOption}>
-                <span>{t.nextBtn}</span>
-                <ArrowRight size={19} strokeWidth={2.2} aria-hidden="true" />
-              </button>
-            </form>
-          )}
-
-          {stage === "chairman" && (() => {
-            const wardBjpCandidate = getBjpCandidateForWard(formData.wardNumber);
-            const wardCongressCandidate = getCongressCandidateForWard(formData.wardNumber);
-
-            const bjpCandidateName = wardBjpCandidate?.nameEn || "BJP Candidate";
-            const bjpCandidateNameHi = wardBjpCandidate?.nameHi || "BJP प्रत्याशी";
-
-            const congressCandidateName = wardCongressCandidate?.nameEn || "Congress Candidate";
-            const congressCandidateNameHi = wardCongressCandidate?.nameHi || "Congress प्रत्याशी";
-
-            const wardNumFormatted = String(formData.wardNumber).padStart(2, "0");
-
-            const allChairmanOptions: ChairmanOption[] = [
-              {
-                name: bjpCandidateName,
-                party: "BJP",
-                descHi: wardBjpCandidate
-                  ? `${bjpCandidateNameHi} - BJP प्रत्याशी (वार्ड ${wardNumFormatted} - ${wardBjpCandidate.categoryHi})`
-                  : `BJP प्रत्याशी (वार्ड ${wardNumFormatted})`,
-                descEn: wardBjpCandidate
-                  ? `${bjpCandidateName} - BJP Candidate (Ward ${wardNumFormatted} - ${wardBjpCandidate.categoryEn})`
-                  : `BJP Candidate (Ward ${wardNumFormatted})`,
-              },
-              {
-                name: congressCandidateName,
-                party: "Congress",
-                descHi: wardCongressCandidate
-                  ? `${congressCandidateNameHi} - Congress प्रत्याशी (वार्ड ${wardNumFormatted} - ${wardCongressCandidate.categoryHi})`
-                  : `Congress प्रत्याशी (वार्ड ${wardNumFormatted})`,
-                descEn: wardCongressCandidate
-                  ? `${congressCandidateName} - Congress Candidate (Ward ${wardNumFormatted} - ${wardCongressCandidate.categoryEn})`
-                  : `Congress Candidate (Ward ${wardNumFormatted})`,
-              },
-            ];
-
-            const activeChairmanOptions = allChairmanOptions;
+          {stage === "parsad" && (() => {
+            const wardCandidates = getParsadCandidatesForWard(formData.wardNumber);
 
             return (
               <form className="stage stage-choice" onSubmit={handleSubmit} noValidate>
@@ -739,11 +626,12 @@ export function SurveyFlow() {
                   type="button"
                   onClick={() => {
                     setErrors({});
-                    window.location.hash = "choice";
+                    setStage("details");
+                    window.location.hash = "details";
                   }}
                 >
                   <ArrowLeft size={17} aria-hidden="true" />
-                  {lang === "hi" ? "पार्टी विकल्प पर वापस जाएँ" : "Back to party preference"}
+                  {t.backBtn}
                 </button>
 
                 {formData.voterName && (
@@ -758,7 +646,7 @@ export function SurveyFlow() {
                 )}
 
                 <div className="stage-heading choice-heading">
-                  <span className="step-chip">{t.step} 03</span>
+                  <span className="step-chip">{t.step} 02</span>
                   <h2>{t.selectChairman}</h2>
                   <p>{t.selectChairmanDesc}</p>
                 </div>
@@ -766,34 +654,32 @@ export function SurveyFlow() {
                 <div
                   className="option-list"
                   role="radiogroup"
-                  aria-label="Chairman options"
+                  aria-label="Parsad candidate options"
                   aria-describedby={errors.selectedChairman ? "selectedChairman-error" : undefined}
                 >
-                  {activeChairmanOptions.map((chairman, index) => {
-                    const isSelected = selectedChairman === chairman.name;
-                    const desc = lang === "hi" ? chairman.descHi : chairman.descEn;
-                    const displayName = chairman.party === "BJP" && wardBjpCandidate
-                      ? (lang === "hi" ? wardBjpCandidate.nameHi : wardBjpCandidate.nameEn)
-                      : chairman.party === "Congress" && wardCongressCandidate
-                      ? (lang === "hi" ? wardCongressCandidate.nameHi : wardCongressCandidate.nameEn)
-                      : (lang === "hi" ? transliterateNameToHindi(chairman.name) : chairman.name);
+                  {wardCandidates.map((parsad, index) => {
+                    const displayName = lang === "hi" ? parsad.nameHi : parsad.nameEn;
+                    const isSelected = selectedChairman === parsad.nameEn || selectedChairman === parsad.nameHi;
+                    const desc = lang === "hi" ? (parsad.partyNameHi || parsad.party) : (parsad.partyNameEn || parsad.party);
 
                     return (
                       <button
-                        key={chairman.name}
+                        key={parsad.id || index}
                         type="button"
                         className={`option-card ${isSelected ? "is-selected" : ""}`}
                         role="radio"
                         aria-checked={isSelected}
                         onClick={() => {
-                          setSelectedChairman(chairman.name);
-                          setErrors((current) => ({ ...current, selectedChairman: undefined, form: undefined }));
+                          setSelectedOption(parsad.party as SurveyOption);
+                          setSelectedChairman(parsad.nameEn);
+                          updateField("candidateName", parsad.nameEn);
+                          setErrors((current) => ({ ...current, selectedChairman: undefined, selectedOption: undefined, form: undefined }));
                         }}
                       >
                         <span className="option-index">0{index + 1}</span>
                         <span className="option-copy">
                           <span style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                            <PartyLogo option={chairman.party} size={32} />
+                            <PartyLogo option={parsad.party} size={32} />
                             <strong>{displayName}</strong>
                           </span>
                           <small>{desc}</small>
@@ -820,59 +706,41 @@ export function SurveyFlow() {
                   ) : (
                     <>
                       <span>{t.submitBtn}</span>
-                      <CircleCheck size={19} aria-hidden="true" />
+                      <Check size={19} strokeWidth={2.5} aria-hidden="true" />
                     </>
                   )}
                 </button>
-
-                <p className="consent-copy">
-                  {t.consentText}
-                </p>
               </form>
             );
           })()}
 
           {stage === "success" && (
-            <div className="stage success-stage" role="status" aria-live="polite">
-              <div className="success-mark" aria-hidden="true">
-                <span className="success-ring" />
-                <Check size={38} strokeWidth={2.6} />
+            <div className="stage stage-success">
+              <div className="success-badge" aria-hidden="true">
+                <Check size={36} strokeWidth={2.8} />
               </div>
-              <span className="success-kicker">{lang === "hi" ? "उत्तर दर्ज किया गया" : "Response recorded"}</span>
               <h2>{t.successMsg}</h2>
               <p>{t.recordedMsg}</p>
-              {selectedOption && (
-                <div className="selected-choice-badge" style={{ display: "inline-flex", alignItems: "center", gap: "10px" }}>
-                  {t.selectedChoice}: <PartyLogo option={selectedOption} size={24} /> <strong>{selectedOption}</strong>
+
+              <div className="summary-box">
+                <div className="summary-item">
+                  <span className="summary-label">{t.selectedChairmanChoice}</span>
+                  <span className="summary-value" style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                    {selectedOption && <PartyLogo option={selectedOption} size={22} />}
+                    {selectedChairman ? (lang === "hi" ? transliterateNameToHindi(selectedChairman) : selectedChairman) : "-"}
+                  </span>
                 </div>
-              )}
-              {selectedChairman && (
-                <div className="selected-choice-badge" style={{ marginTop: "8px" }}>
-                  {t.selectedChairmanChoice}: <strong>{selectedChairman}</strong>
-                </div>
-              )}
-              <div className="success-privacy">
-                <LockKeyhole size={17} aria-hidden="true" />
-                {t.privacyText}
               </div>
+
+              <p className="privacy-note">{t.privacyText}</p>
+
               <button className="secondary-button" type="button" onClick={resetSurvey}>
                 {t.anotherResponseBtn}
-                <ArrowRight size={18} aria-hidden="true" />
               </button>
             </div>
           )}
         </div>
-
       </div>
     </section>
-  );
-}
-
-function FieldError({ id, message, centered = false }: { id: string; message: string; centered?: boolean }) {
-  return (
-    <p id={id} className={`field-error ${centered ? "is-centered" : ""}`} role="alert">
-      <span aria-hidden="true">!</span>
-      {message}
-    </p>
   );
 }

@@ -127,7 +127,7 @@ export function ChairmanList({
   return (
     <div className="card">
       <div className="card-header">
-        <h3>{lang === "hi" ? "चेयरमैन मत सूची" : "Chairman Voting Logs"}</h3>
+        <h3>{lang === "hi" ? "पार्षद मत सूची" : "Parsad Voting Logs"}</h3>
       </div>
 
       {/* Toolbar / Search & Filter */}
@@ -174,7 +174,7 @@ export function ChairmanList({
             setCurrentPage(1);
           }}
         >
-          <option value="">{lang === "hi" ? "सभी चेयरमैन" : "All Chairmen"}</option>
+          <option value="">{lang === "hi" ? "सभी पार्षद" : "All Parsad Candidates"}</option>
           {chairmanDropdownOptions.map((name) => (
             <option key={name} value={name}>
               {lang === "hi" ? transliterateNameToHindi(name) : ensureEnglish(name)}
@@ -194,8 +194,8 @@ export function ChairmanList({
             <thead>
               <tr>
                 <th>{t.thVoter}</th>
-                <th>{lang === "hi" ? "चेयरमैन का नाम" : "Chairman Name"}</th>
-                <th>{lang === "hi" ? "चेयरमैन की पार्टी" : "Chairman Party"}</th>
+                <th>{lang === "hi" ? "पार्षद का नाम" : "Parsad Name"}</th>
+                <th>{lang === "hi" ? "पार्षद की पार्टी" : "Parsad Party"}</th>
               </tr>
             </thead>
             <tbody>

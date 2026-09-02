@@ -52,7 +52,7 @@ export const translations = {
     thMobile: "Mobile Number",
     thAddress: "Address",
     thCandidate: "Candidate",
-    thChairman: "Chairman",
+    thChairman: "Parsad",
     thChoice: "Choice",
     thTime: "Time",
     thActions: "Actions",

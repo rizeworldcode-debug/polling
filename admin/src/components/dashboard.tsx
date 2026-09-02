@@ -491,7 +491,7 @@ export function Dashboard({ voters, onPartyCardClick, onDelete, lang }: Dashboar
                       <th>{t.thFather}</th>
                       <th>Mobile</th>
                       <th>{t.thChoice}</th>
-                      <th>{lang === "hi" ? "चेयरमैन प्रत्याशी" : "Chairman Candidate"}</th>
+                      <th>{lang === "hi" ? "पार्षद प्रत्याशी" : "Parsad Candidate"}</th>
                       <th style={{ textAlign: "right" }}>{t.thActions}</th>
                     </tr>
                   </thead>

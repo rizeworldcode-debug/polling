@@ -7,6 +7,7 @@ const connectDB = require("./src/config/db");
 const responseRoutes = require("./src/routes/responseRoutes");
 const voterRoutes = require("./src/routes/voterRoutes");
 const adminRoutes = require("./src/routes/adminRoutes");
+const candidateRoutes = require("./src/routes/candidateRoutes");
 
 // Connect to MongoDB
 connectDB();
@@ -28,6 +29,7 @@ app.use(cookieParser());
 app.use("/api/responses", responseRoutes);
 app.use("/api/voters", voterRoutes);
 app.use("/api/admin", adminRoutes);
+app.use("/api/candidates", candidateRoutes);
 
 // Fallback Route
 app.use((req, res, next) => {

@@ -109,14 +109,15 @@ const verifyVoter = async (req, res) => {
       const rVoter = norm(r.voterName);
       const rFather = norm(r.fatherName);
 
-      // 2. Voter Name match (Hindi or English)
-      const isVoterNameMatch = (normVoter && rVoter === normVoter) || (normEngVoter && rVoter === normEngVoter);
+      // 2. Check if entering voterName matches ANY existing voterName OR fatherName
+      const isVoterMatch = (normVoter && (rVoter === normVoter || rFather === normVoter)) ||
+                           (normEngVoter && (rVoter === normEngVoter || rFather === normEngVoter));
 
-      // 3. Father/Relative Name match (Hindi or English)
-      const isFatherNameMatch = (normFather && rFather === normFather) || (normEngFather && rFather === normEngFather);
+      // 3. Check if entering fatherName matches ANY existing voterName OR fatherName
+      const isFatherMatch = (normFather && (rVoter === normFather || rFather === normFather)) ||
+                            (normEngFather && (rVoter === normEngFather || rFather === normEngFather));
 
-      // If voter name matches or father name matches with same voter
-      return isVoterNameMatch || (isVoterNameMatch && isFatherNameMatch);
+      return isVoterMatch || isFatherMatch;
     });
 
     if (existingResponse) {

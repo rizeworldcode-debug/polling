@@ -3,9 +3,9 @@
 :root {
   --ink: #0f172a;
   --muted: #475569;
-  --navy: #0a3a6b;
-  --navy-dark: #072a4e;
-  --navy-soft: #eef5fc;
+  --navy: #dc2626;
+  --navy-dark: #991b1b;
+  --navy-soft: #fef2f2;
   --saffron: #e65100;
   --saffron-hover: #cf4700;
   --error: #b5473f;
@@ -824,13 +824,13 @@ button {
   width: 100%;
   margin-top: 3px;
   color: white;
-  background: linear-gradient(135deg, #0a3a6b, #072545);
-  box-shadow: 0 10px 24px rgba(10, 58, 107, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  box-shadow: 0 10px 24px rgba(220, 38, 38, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .primary-button:hover:not(:disabled) {
-  background: linear-gradient(135deg, #0d4680, #09315b);
-  box-shadow: 0 13px 28px rgba(10, 58, 107, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  box-shadow: 0 13px 28px rgba(220, 38, 38, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
   transform: translateY(-2px);
 }
 
