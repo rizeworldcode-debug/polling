@@ -282,6 +282,10 @@ export function SurveyFlow() {
   function updateField(field: keyof SurveyFormData, value: string) {
     setFormData((current) => ({ ...current, [field]: value }));
     setErrors((current) => ({ ...current, [field]: undefined, form: undefined }));
+    if (field === "wardNumber") {
+      setSelectedChairman(null);
+      setSelectedOption(null);
+    }
   }
 
   function focusFirstError(nextErrors: SurveyErrors) {
@@ -360,6 +364,18 @@ export function SurveyFlow() {
       return;
     }
     setErrors({});
+
+    const wardBjpCandidate = getBjpCandidateForWard(formData.wardNumber);
+    const wardCongressCandidate = getCongressCandidateForWard(formData.wardNumber);
+
+    if (selectedOption === "BJP") {
+      setSelectedChairman(wardBjpCandidate?.nameEn || "BJP Candidate");
+    } else if (selectedOption === "Congress") {
+      setSelectedChairman(wardCongressCandidate?.nameEn || "Congress Candidate");
+    } else if (!selectedChairman) {
+      setSelectedChairman(null);
+    }
+
     setStage("chairman");
     window.location.hash = "chairman";
   }
@@ -691,28 +707,30 @@ export function SurveyFlow() {
 
             const wardNumFormatted = String(formData.wardNumber).padStart(2, "0");
 
-            const activeChairmanOptions: ChairmanOption[] = [
+            const allChairmanOptions: ChairmanOption[] = [
               {
                 name: bjpCandidateName,
                 party: "BJP",
                 descHi: wardBjpCandidate
                   ? `${bjpCandidateNameHi} - BJP प्रत्याशी (वार्ड ${wardNumFormatted} - ${wardBjpCandidate.categoryHi})`
-                  : `BJP प्रत्याशी`,
+                  : `BJP प्रत्याशी (वार्ड ${wardNumFormatted})`,
                 descEn: wardBjpCandidate
                   ? `${bjpCandidateName} - BJP Candidate (Ward ${wardNumFormatted} - ${wardBjpCandidate.categoryEn})`
-                  : `BJP Candidate`,
+                  : `BJP Candidate (Ward ${wardNumFormatted})`,
               },
               {
                 name: congressCandidateName,
                 party: "Congress",
                 descHi: wardCongressCandidate
                   ? `${congressCandidateNameHi} - Congress प्रत्याशी (वार्ड ${wardNumFormatted} - ${wardCongressCandidate.categoryHi})`
-                  : `Congress प्रत्याशी`,
+                  : `Congress प्रत्याशी (वार्ड ${wardNumFormatted})`,
                 descEn: wardCongressCandidate
                   ? `${congressCandidateName} - Congress Candidate (Ward ${wardNumFormatted} - ${wardCongressCandidate.categoryEn})`
-                  : `Congress Candidate`,
+                  : `Congress Candidate (Ward ${wardNumFormatted})`,
               },
             ];
+
+            const activeChairmanOptions = allChairmanOptions;
 
             return (
               <form className="stage stage-choice" onSubmit={handleSubmit} noValidate>
