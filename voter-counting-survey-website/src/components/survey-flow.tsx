@@ -12,6 +12,7 @@ export type SurveyFormData = {
   wardNumber: string;
   voterName: string;
   fatherName: string;
+  relationType: "father" | "husband";
   mobileNumber: string;
   address: string;
   candidateName: string;
@@ -32,19 +33,20 @@ const errorTranslationMap = {
   "Please select one option.": "optionError",
   "Please select a chairman.": "chairmanError",
   "Please select a Parsad candidate.": "chairmanError",
-  "दर्ज किया गया नाम और पिता का नाम इस वार्ड की मतदाता सूची से मेल नहीं खाता है।": "formError",
-  "आप पहले ही अपना उत्तर दर्ज कर चुके हैं।": "duplicateError",
-  "सत्यापन (Verification) के दौरान कोई त्रुटि हुई। कृपया पुनः प्रयास करें या Internet connection चेक करें।": "connectionError",
+  "Entered name and relative's name do not match the voter list for this ward.": "formError",
+  "You have already recorded your vote.": "duplicateError",
+  "An error occurred during verification. Please try again or check internet connection.": "connectionError",
+  "Verification failed on server side. Please try again.": "serverError",
   "A connection error occurred. Please try again.": "submitFailError",
 };
 
-function getTranslatedError(err: string | undefined, lang: "hi" | "en") {
-  if (!err) return "";
-  const key = errorTranslationMap[err as keyof typeof errorTranslationMap];
-  if (key) {
-    return translations[lang][key as keyof typeof translations["hi"]];
+function getTranslatedError(rawMsg: string | undefined, lang: "en" | "hi"): string {
+  if (!rawMsg) return "";
+  const key = errorTranslationMap[rawMsg as keyof typeof errorTranslationMap];
+  if (key && translations[lang] && (translations[lang] as any)[key]) {
+    return (translations[lang] as any)[key];
   }
-  return err;
+  return rawMsg;
 }
 
 type Stage = "details" | "parsad" | "success";
@@ -96,6 +98,7 @@ const initialFormData: SurveyFormData = {
   wardNumber: "",
   voterName: "",
   fatherName: "",
+  relationType: "father",
   mobileNumber: "",
   address: "",
   candidateName: "",
@@ -397,6 +400,7 @@ export function SurveyFlow() {
         wardNumber: formData.wardNumber,
         voterName: lang === "hi" ? transliterateNameToHindi(formData.voterName) : formData.voterName,
         fatherName: lang === "hi" ? transliterateNameToHindi(formData.fatherName) : formData.fatherName,
+        relationType: formData.relationType || "father",
         mobileNumber: formData.mobileNumber,
         address: lang === "hi" ? transliterateNameToHindi(formData.address) : formData.address,
         candidateName: selectedChairman,
@@ -538,14 +542,54 @@ export function SurveyFlow() {
                 </div>
 
                 <div className="field-group">
-                  <label htmlFor="fatherName">{t.fatherName}</label>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "7px", flexWrap: "wrap", gap: "4px" }}>
+                    <label htmlFor="fatherName" style={{ margin: 0 }}>
+                      {formData.relationType === "father" ? (lang === "hi" ? "पिता का नाम" : "Father Name") : (lang === "hi" ? "पति का नाम" : "Husband Name")}
+                    </label>
+                    <div style={{ display: "inline-flex", background: "#e2e8f0", borderRadius: "20px", padding: "2px" }}>
+                      <button
+                        type="button"
+                        onClick={() => updateField("relationType", "father")}
+                        style={{
+                          padding: "3px 10px",
+                          fontSize: "10.5px",
+                          fontWeight: 700,
+                          borderRadius: "18px",
+                          border: 0,
+                          cursor: "pointer",
+                          background: formData.relationType === "father" ? "#dc2626" : "transparent",
+                          color: formData.relationType === "father" ? "#ffffff" : "#475569",
+                          transition: "all 0.15s ease"
+                        }}
+                      >
+                        {lang === "hi" ? "पिता (Father)" : "Father"}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => updateField("relationType", "husband")}
+                        style={{
+                          padding: "3px 10px",
+                          fontSize: "10.5px",
+                          fontWeight: 700,
+                          borderRadius: "18px",
+                          border: 0,
+                          cursor: "pointer",
+                          background: formData.relationType === "husband" ? "#dc2626" : "transparent",
+                          color: formData.relationType === "husband" ? "#ffffff" : "#475569",
+                          transition: "all 0.15s ease"
+                        }}
+                      >
+                        {lang === "hi" ? "पति (Husband)" : "Husband"}
+                      </button>
+                    </div>
+                  </div>
                   <div className={`input-shell ${errors.fatherName ? "has-error" : ""}`}>
                     <UsersRound size={19} aria-hidden="true" />
                     <input
                       id="fatherName"
                       name="fatherName"
                       type="text"
-                      placeholder={t.fatherNamePlaceholder}
+                      placeholder={formData.relationType === "father" ? (lang === "hi" ? "पिता का नाम दर्ज करें" : "Enter father's name") : (lang === "hi" ? "पति का नाम दर्ज करें" : "Enter husband's name")}
                       value={formData.fatherName}
                       onChange={(event) => updateField("fatherName", event.target.value)}
                       maxLength={80}

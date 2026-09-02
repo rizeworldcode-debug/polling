@@ -215,11 +215,11 @@ button {
 .survey-area {
   display: flex;
   width: 100%;
-  max-width: 540px;
+  max-width: 680px;
   align-items: center;
   justify-content: center;
   margin: 0 auto !important;
-  padding: 0;
+  padding: 0 16px;
   box-sizing: border-box;
 }
 
@@ -1205,22 +1205,22 @@ button {
 
 @media (max-width: 640px) {
   .site-shell {
-    padding: 96px 20px 24px;
+    padding: 24px 16px 24px;
     width: 100%;
   }
 
   .survey-area {
-    width: 280px !important;
-    max-width: 280px !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   .survey-card {
-    width: 280px !important;
+    width: 100% !important;
     height: auto !important;
     min-height: auto !important;
     max-height: none !important;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
   }
 
   .progress-wrap {

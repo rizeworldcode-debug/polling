@@ -216,9 +216,12 @@ export function SubmissionsList({
                       </div>
                     )}
                   </td>
-                  <td data-label={lang === "hi" ? "संबंधी का नाम" : "Relative Name"}>
-                    <div>
-                      {lang === "hi" ? transliterateNameToHindi(v.fatherName) : ensureEnglish(v.fatherName)}
+                  <td data-label={lang === "hi" ? "पिता/पति का नाम" : "Father/Husband Name"}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                      <span style={{ fontSize: "10px", fontWeight: 700, padding: "2px 6px", borderRadius: "4px", background: v.relationType === "husband" ? "#fef2f2" : "#f1f5f9", color: v.relationType === "husband" ? "#dc2626" : "#475569", border: "1px solid rgba(0,0,0,0.08)", flexShrink: 0 }}>
+                        {v.relationType === "husband" ? (lang === "hi" ? "पति" : "W/O") : (lang === "hi" ? "पिता" : "S/O")}
+                      </span>
+                      <span>{lang === "hi" ? transliterateNameToHindi(v.fatherName) : ensureEnglish(v.fatherName)}</span>
                     </div>
                   </td>
                   <td data-label={lang === "hi" ? "मोबाइल" : "Mobile"} style={{ fontFamily: "monospace" }}>{v.mobileNumber}</td>

@@ -14,6 +14,11 @@ const responseSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    relationType: {
+      type: String,
+      enum: ["father", "husband"],
+      default: "father",
+    },
     mobileNumber: {
       type: String,
       required: true,

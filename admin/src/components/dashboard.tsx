@@ -63,6 +63,7 @@ export type VoterResponse = {
   wardNumber: string;
   voterName: string;
   fatherName: string;
+  relationType?: "father" | "husband";
   mobileNumber: string;
   address?: string;
   candidateName?: string;
@@ -502,6 +503,9 @@ export function Dashboard({ voters, onPartyCardClick, onDelete, lang }: Dashboar
                           {lang === "hi" ? transliterateNameToHindi(r.voterName) : ensureEnglish(r.voterName)}
                         </td>
                         <td>
+                          <span style={{ fontSize: "10px", fontWeight: 700, padding: "2px 6px", borderRadius: "4px", background: r.relationType === "husband" ? "#fef2f2" : "#f1f5f9", color: r.relationType === "husband" ? "#dc2626" : "#475569", marginRight: "6px", border: "1px solid rgba(0,0,0,0.08)" }}>
+                            {r.relationType === "husband" ? (lang === "hi" ? "पति" : "W/O") : (lang === "hi" ? "पिता" : "S/O")}
+                          </span>
                           {lang === "hi" ? transliterateNameToHindi(r.fatherName) : ensureEnglish(r.fatherName)}
                         </td>
                         <td>{r.mobileNumber}</td>
