@@ -16,26 +16,26 @@ export const wards: Ward[] = [
     "category": "OBC.women"
   },
   { "wardNumber": 3, "areaName": "Jat Baas Mohalla Choudhary, Patti Pahadi Pahadi Kund, Koyla Ki Pahadi", "category": "GEN" },
-  { "wardNumber": 4, "areaName": "Ramjidas Ka Johra, Ambedkar Circle, Patti Khatikani School to Govardhan House, Bahadurpur Patti (Mata House to Raghuvir Saini House)", "category": "GEN" },
-  { "wardNumber": 5, "areaName": "Anand Saini House to Golata Mata, Ranjeet Ka Bas, Bandhawali Kothi, Khatikani Bas, Bara Talab, Koyla Ki Pahadi, Eidgah, G.S.S. Bahadurpur to Ambedkar Circle", "category": "GEN" },
+  { "wardNumber": 4, "areaName": "Ramjidas Ka Johra, Ambedkar Circle, Patti Khatikani School to Govardhan House, Bahadurpur Patti (Mata House to Raghuvir Saini House)", "category": "SC.women" },
+  { "wardNumber": 5, "areaName": "Anand Saini House to Golata Mata, Ranjeet Ka Bas, Bandhawali Kothi, Khatikani Bas, Bara Talab, Koyla Ki Pahadi, Eidgah, G.S.S. Bahadurpur to Ambedkar Circle", "category": "OBC" },
   { "wardNumber": 6, "areaName": "From the house of Ramdas via Brick Kiln Road to Bhajeda Road, Jumma Ki Dhani, Munshi Ki Dhani, upto Sainthli Road, south part of Karoli Bagh to Peelwa Road upto the water tank", "category": "GEN" },
-  { "wardNumber": 7, "areaName": "Mundiya Kheda, Pathwari Talab Basti, Bhadkoliya Baas, Peelwa Road", "category": "GEN" },
-  { "wardNumber": 8, "areaName": "Mandapya Khera, Government Upper Primary School Area", "category": "GEN" },
+  { "wardNumber": 7, "areaName": "Mundiya Kheda, Pathwari Talab Basti, Bhadkoliya Baas, Peelwa Road", "category": "SC.women" },
+  { "wardNumber": 8, "areaName": "Mandapya Khera, Government Upper Primary School Area", "category": "SC" },
   { "wardNumber": 9, "areaName": "Peelwa Main Village, Radhe Baniya Shop, Deewano ka Bas, Bhure Khan ka Bas, Kharetiya ka Bas, Natto ka Mohalla, Naiyo ka Bas, Ameena ki Dhani", "category": "GEN" },
   { "wardNumber": 10, "areaName": "Main Village (Rani Kheda, Badani), Od Rajput Bas (Bhajeda), Gurjar Mohalla (Bhajeda)", "category": "GEN" },
-  { "wardNumber": 11, "areaName": "Od Rajput Bas (Bhajeda), Gurjar Mohalla (Bhajeda), Near Panchayat Bhawan (Bhajeda), Ambedkar Bas (Bhajeda), Paltu Bas (Bhajeda)", "category": "GEN" },
-  { "wardNumber": 12, "areaName": "Od Rajput Bas, Gurjar Mohalla, Near Panchayat Bhawan, Paltu Bas, Bodhadi Bas, Rathi Bas, Bawariya Bas", "category": "GEN" },
-  { "wardNumber": 13, "areaName": "Entire Revenue Village Ranikheda", "category": "GEN" },
+  { "wardNumber": 11, "areaName": "Od Rajput Bas (Bhajeda), Gurjar Mohalla (Bhajeda), Near Panchayat Bhawan (Bhajeda), Ambedkar Bas (Bhajeda), Paltu Bas (Bhajeda)", "category": "OBC.women" },
+  { "wardNumber": 12, "areaName": "Od Rajput Bas, Gurjar Mohalla, Near Panchayat Bhawan, Paltu Bas, Bodhadi Bas, Rathi Bas, Bawariya Bas", "category": "SC" },
+  { "wardNumber": 13, "areaName": "Entire Revenue Village Ranikheda", "category": "GEN.women" },
   { "wardNumber": 14, "areaName": "Entire Revenue Village Sotka", "category": "GEN" },
   { "wardNumber": 15, "areaName": "Dalbasiya, Ramgadiyon Ki Dhani, Gyasi Ka Bas, Mangtoo Ki Dhani, Ramsarni Ki Dhani", "category": "GEN" },
   { "wardNumber": 16, "areaName": "Rakesh Ki Dhani, Shamshan Ghat, Naya Bas, Mohalla Ki Dhani, Sardar Patti, Kailash Yadav House, Ahirawati, Purana Ward, Koyla Ki Pahadi, Idgah", "category": "GEN" },
-  { "wardNumber": 17, "areaName": "Near Bade Mandir, Khatiwada, Behind Fort, Khanzadwadi, Ambedkar Basti, Near Shimbhu Floor Mill, Near Gurudwara, Panda Wadi, Sukka Wadi, Mandi Diwada", "category": "GEN" },
-  { "wardNumber": 18, "areaName": "Below Fort, Teela Upar Patti Katla, Bhure Khan Ka Bas, Ambedkar Basti, Near Gokalnath Gulati, Near Bade Mandir, Near Gurudwara, Mohalla Mandi Diwada, Near Shiv Temple, Near Johadi Mill, Main Bazar, Near Old Hospital, Jogi Mohalla, Opposite Tehsil, Fakirwadi, Sunarwadi, Sukka Wadi", "category": "GEN" },
-  { "wardNumber": 19, "areaName": "Ahir Wadi, Hasmat Ka Bas, Jogiwala Well, Below Fort, Gauri Temple, Near Jay National School, Khatikwadi, Khatiwada, Near Bade Mandir, Jat Bas Mohalla Chaudhary, P Pahadi Pahadi Area, Near Old Hospital, Sunarwadi, Thakar Wadi", "category": "GEN" },
-  { "wardNumber": 20, "areaName": "Ahir Wadi, Hasmat Ka Bas, Below Fort, Teela Upar Patti Katla, Bhoore Khan Ka Bas, Behind Fort, Khanzadwadi, Ambedkar Basti, Near Gurudwara, Fakirwadi", "category": "GEN" },
-  { "wardNumber": 21, "areaName": "Below Fort, Khatiwada, Teela Upar Patti Katla, Dangara Ka Bas, Kairawali P Katla, Sukka Wadi, Sunarwadi, Thakar Wadi", "category": "GEN" },
+  { "wardNumber": 17, "areaName": "Near Bade Mandir, Khatiwada, Behind Fort, Khanzadwadi, Ambedkar Basti, Near Shimbhu Floor Mill, Near Gurudwara, Panda Wadi, Sukka Wadi, Mandi Diwada", "category": "SC" },
+  { "wardNumber": 18, "areaName": "Below Fort, Teela Upar Patti Katla, Bhure Khan Ka Bas, Ambedkar Basti, Near Gokalnath Gulati, Near Bade Mandir, Near Gurudwara, Mohalla Mandi Diwada, Near Shiv Temple, Near Johadi Mill, Main Bazar, Near Old Hospital, Jogi Mohalla, Opposite Tehsil, Fakirwadi, Sunarwadi, Sukka Wadi", "category": "OBC" },
+  { "wardNumber": 19, "areaName": "Ahir Wadi, Hasmat Ka Bas, Jogiwala Well, Below Fort, Gauri Temple, Near Jay National School, Khatikwadi, Khatiwada, Near Bade Mandir, Jat Bas Mohalla Chaudhary, P Pahadi Pahadi Area, Near Old Hospital, Sunarwadi, Thakar Wadi", "category": "OBC" },
+  { "wardNumber": 20, "areaName": "Ahir Wadi, Hasmat Ka Bas, Below Fort, Teela Upar Patti Katla, Bhoore Khan Ka Bas, Behind Fort, Khanzadwadi, Ambedkar Basti, Near Gurudwara, Fakirwadi", "category": "GEN.women" },
+  { "wardNumber": 21, "areaName": "Below Fort, Khatiwada, Teela Upar Patti Katla, Dangara Ka Bas, Kairawali P Katla, Sukka Wadi, Sunarwadi, Thakar Wadi", "category": "GEN.women" },
   { "wardNumber": 22, "areaName": "Below Fort, Khatiwada, Near Bade Mandir, Teela Upar Patti Katla, Mohalla Mandi Diwada, Near Shiv Temple, Near Johadi Mill, Main Bazar, Jogi Mohalla, In Front of Tehsil, Ambedkar Mohalla", "category": "GEN" },
-  { "wardNumber": 23, "areaName": "Ramgarh Road, Sampat Ahir Well, Below Fort, Gauri Temple, Khatiwada, Teela Upar Patti Katla, Kairawali P Katla, Near Old Hospital, Jogi Mohalla, In Front of Tehsil", "category": "GEN" },
+  { "wardNumber": 23, "areaName": "Ramgarh Road, Sampat Ahir Well, Below Fort, Gauri Temple, Khatiwada, Teela Upar Patti Katla, Kairawali P Katla, Near Old Hospital, Jogi Mohalla, In Front of Tehsil", "category": "GEN.women" },
   { "wardNumber": 24, "areaName": "Ahir Wadi, Khatiwada, Near Bade Mandir, Teela Upar Patti Katla, Dangara Ka Bas, Kairawali P Katla", "category": "GEN" },
   { "wardNumber": 25, "areaName": "Mohalla Mandi Diwada, Near Johadi Mill, Sikhon Ka Bas (Kazakpur), Meo Basti (Kazakpur), Main Basti (Naharpur), Hujra Ka Bas (Naharpur), Kumharon Ka Mohalla (Naharpur), Nokhon Ka Bas (Naharpur), Sukka Wadi", "category": "GEN" }
 ];
@@ -72,10 +72,10 @@ const categoryTranslations: Record<string, { en: string; hi: string }> = {
   "GEN.Women": { en: "GEN (Women)", hi: "सामान्य (महिला)" },
   "GEN.women": { en: "GEN (Women)", hi: "सामान्य (महिला)" },
   "OBC.women": { en: "OBC (Women)", hi: "ओ.बी.सी. (महिला)" },
-  "GEN": { en: "GEN (General)", hi: "सामान्य (मुक्त)" },
+  "GEN": { en: "GEN", hi: "सामान्य" },
   "SC.women": { en: "SC (Women)", hi: "अनुसूचित जाति (महिला)" },
-  "OBC": { en: "OBC", hi: "ओ.बी.सी. (मुक्त)" },
-  "SC": { en: "SC", hi: "अनुसूचित जाति (मुक्त)" }
+  "OBC": { en: "OBC", hi: "ओ.बी.सी." },
+  "SC": { en: "SC", hi: "अनुसूचित जाति" }
 };
 
 export function getWardCategoryLabel(category: string, lang: "en" | "hi" = "en") {
@@ -88,13 +88,10 @@ export function getWardCategoryLabel(category: string, lang: "en" | "hi" = "en")
 }
 
 export function formatWard(ward: Ward, lang: "en" | "hi" = "en") {
-  const areaName = lang === "hi" && hindiWardAreas[ward.wardNumber] 
-    ? hindiWardAreas[ward.wardNumber] 
-    : ward.areaName;
   const catLabel = getWardCategoryLabel(ward.category, lang);
   return lang === "hi"
-    ? `वार्ड ${String(ward.wardNumber).padStart(2, "0")} (${catLabel}) — ${areaName}`
-    : `Ward ${String(ward.wardNumber).padStart(2, "0")} (${catLabel}) — ${areaName}`;
+    ? `वार्ड ${String(ward.wardNumber).padStart(2, "0")} (${catLabel})`
+    : `Ward ${String(ward.wardNumber).padStart(2, "0")} (${catLabel})`;
 }
 
 export function getWardAreaName(wardNumber: number | string, lang: "en" | "hi" = "en") {
