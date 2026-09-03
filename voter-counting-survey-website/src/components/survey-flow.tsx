@@ -334,6 +334,39 @@ export function SurveyFlow() {
       return;
     }
 
+    // Check localStorage fallback for duplicate voterName + fatherName
+    const normStr = (str: string) =>
+      (str || "")
+        .trim()
+        .toLowerCase()
+        .replace(/^(shri|smt|ku|dr|mr|mrs|shrimati|श्री|श्रीमती)\s+/i, "")
+        .replace(/[\s\.\,\_\-\/]+/g, "")
+        .replace(/[^a-z0-9\u0900-\u097F]/gi, "");
+
+    const normV = normStr(formData.voterName);
+    const normF = normStr(formData.fatherName);
+
+    const localResponsesStr = localStorage.getItem("community_survey_responses");
+    if (localResponsesStr && normV && normF) {
+      try {
+        const localResponses = JSON.parse(localResponsesStr);
+        const isLocalDuplicate = localResponses.some((r: any) => {
+          const rV = normStr(r.voterName);
+          const rF = normStr(r.fatherName);
+          return rV && rF && rV === normV && rF === normF;
+        });
+        if (isLocalDuplicate) {
+          setErrors((current) => ({
+            ...current,
+            form: "यह मतदाता पहले ही अपना वोट/उत्तर दर्ज कर चुका है।",
+          }));
+          return;
+        }
+      } catch (err) {
+        console.error("Local responses parse error", err);
+      }
+    }
+
     setIsValidating(true);
     try {
       const response = await fetch(`${API_BASE_URL}/api/voters/verify`, {
@@ -368,7 +401,7 @@ export function SurveyFlow() {
       } else {
         setErrors((current) => ({
           ...current,
-          form: result.message || "यह नाम या संबंधी का नाम पहले ही अपना वोट/उत्तर दर्ज कर चुका है।",
+          form: result.message || "यह मतदाता पहले ही अपना वोट/उत्तर दर्ज कर चुका है।",
         }));
       }
     } catch (e) {

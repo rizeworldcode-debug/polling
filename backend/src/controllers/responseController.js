@@ -50,23 +50,24 @@ const createResponse = async (req, res) => {
 
     const allResponses = await Response.find({});
     const isDuplicate = allResponses.some((r) => {
-      if (mobileNumber && r.mobileNumber && String(r.mobileNumber).trim() === String(mobileNumber).trim()) {
-        return true;
-      }
-      if (epicNumber && r.epicNumber && String(r.epicNumber).trim().toLowerCase() === String(epicNumber).trim().toLowerCase()) {
+      const inputEpic = (epicNumber || "").trim().toLowerCase();
+      const rEpic = (r.epicNumber || "").trim().toLowerCase();
+      if (inputEpic && rEpic && inputEpic === rEpic) {
         return true;
       }
       const rV = norm(r.voterName);
       const rF = norm(r.fatherName);
 
-      const isVoterMatch = normV && (rV === normV || rF === normV);
-      const isFatherMatch = normF && (rV === normF || rF === normF);
+      if (!rV || !rF || !normV || !normF) return false;
 
-      return isVoterMatch || isFatherMatch;
+      const isVoterMatch = normV === rV;
+      const isFatherMatch = normF === rF;
+
+      return isVoterMatch && isFatherMatch;
     });
 
     if (isDuplicate) {
-      return res.status(400).json({ error: "यह नाम या संबंधी का नाम पहले ही अपना वोट/उत्तर दर्ज कर चुका है।" });
+      return res.status(400).json({ error: "यह मतदाता पहले ही अपना वोट/उत्तर दर्ज कर चुका है।" });
     }
 
     const newResponse = new Response({

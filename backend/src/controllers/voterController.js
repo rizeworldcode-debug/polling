@@ -101,29 +101,32 @@ const verifyVoter = async (req, res) => {
     const allResponses = await Response.find({});
 
     const existingResponse = allResponses.find((r) => {
-      // 1. Mobile number match
-      if (mobileNumber && r.mobileNumber && String(r.mobileNumber).trim() === String(mobileNumber).trim()) {
+      // 1. EPIC number match (if epicNumber provided)
+      const inputEpic = (req.body.epicNumber || "").trim().toLowerCase();
+      const rEpic = (r.epicNumber || "").trim().toLowerCase();
+      if (inputEpic && rEpic && inputEpic === rEpic) {
         return true;
       }
 
       const rVoter = norm(r.voterName);
       const rFather = norm(r.fatherName);
 
-      // 2. Check if entering voterName matches ANY existing voterName OR fatherName
-      const isVoterMatch = (normVoter && (rVoter === normVoter || rFather === normVoter)) ||
-                           (normEngVoter && (rVoter === normEngVoter || rFather === normEngVoter));
+      if (!rVoter || !rFather) return false;
 
-      // 3. Check if entering fatherName matches ANY existing voterName OR fatherName
-      const isFatherMatch = (normFather && (rVoter === normFather || rFather === normFather)) ||
-                            (normEngFather && (rVoter === normEngFather || rFather === normEngFather));
+      // 2. Both voterName AND fatherName must match
+      const isVoterMatch = (normVoter && rVoter === normVoter) ||
+                           (normEngVoter && rVoter === normEngVoter);
 
-      return isVoterMatch || isFatherMatch;
+      const isFatherMatch = (normFather && rFather === normFather) ||
+                            (normEngFather && rFather === normEngFather);
+
+      return isVoterMatch && isFatherMatch;
     });
 
     if (existingResponse) {
       return res.json({
         valid: false,
-        message: "यह नाम या संबंधी का नाम पहले ही अपना वोट/उत्तर दर्ज कर चुका है।",
+        message: "यह मतदाता पहले ही अपना वोट/उत्तर दर्ज कर चुका है।",
       });
     }
 
