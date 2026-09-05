@@ -68,6 +68,7 @@ export function SubmissionsList({
   const [search, setSearch] = useState(initialSearch || "");
   const [wardFilter, setWardFilter] = useState("");
   const [choiceFilter, setChoiceFilter] = useState(initialChoiceFilter);
+  const [chairmanFilter, setChairmanFilter] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
@@ -88,11 +89,13 @@ export function SubmissionsList({
       (v.epicNumber && v.epicNumber.toLowerCase().includes(search.toLowerCase())) ||
       (v.address && v.address.toLowerCase().includes(search.toLowerCase())) ||
       (v.candidateName && v.candidateName.toLowerCase().includes(search.toLowerCase())) ||
-      (v.selectedChairman && v.selectedChairman.toLowerCase().includes(search.toLowerCase()));
+      (v.selectedChairman && v.selectedChairman.toLowerCase().includes(search.toLowerCase())) ||
+      (v.chairmanParty && v.chairmanParty.toLowerCase().includes(search.toLowerCase()));
     const matchesWard = wardFilter === "" || v.wardNumber === wardFilter;
     const matchesChoice = choiceFilter === "" || v.selectedOption === choiceFilter;
+    const matchesChairman = chairmanFilter === "" || v.chairmanParty === chairmanFilter;
 
-    return matchesSearch && matchesWard && matchesChoice;
+    return matchesSearch && matchesWard && matchesChoice && matchesChairman;
   });
 
   // Extract unique wards for filters
@@ -166,10 +169,23 @@ export function SubmissionsList({
             setCurrentPage(1);
           }}
         >
-          <option value="">{t.allPreferences}</option>
+          <option value="">{lang === "hi" ? "पार्षद पार्टी फ़िल्टर" : "Parsad Party Filter"}</option>
           <option value="BJP">BJP</option>
           <option value="Congress">Congress</option>
           <option value="Others">Others</option>
+        </select>
+
+        <select
+          className="filter-select"
+          value={chairmanFilter}
+          onChange={(e) => {
+            setChairmanFilter(e.target.value);
+            setCurrentPage(1);
+          }}
+        >
+          <option value="">{lang === "hi" ? "सभी चेयरमैन पसंद" : "All Chairman Choice"}</option>
+          <option value="BJP">{lang === "hi" ? "चेयरमैन: BJP" : "Chairman: BJP"}</option>
+          <option value="Congress">{lang === "hi" ? "चेयरमैन: Congress" : "Chairman: Congress"}</option>
         </select>
       </div>
 
@@ -189,6 +205,7 @@ export function SubmissionsList({
                 <th>{t.thMobile}</th>
                 <th>{t.thAddress}</th>
                 <th>{t.thCandidate}</th>
+                <th>{lang === "hi" ? "चेयरमैन पसंद" : "Chairman Choice"}</th>
                 <th>{t.thChoice}</th>
                 <th>{t.thTime}</th>
                 <th style={{ textAlign: "right" }}>{t.thActions}</th>
@@ -234,6 +251,16 @@ export function SubmissionsList({
                     )}
                   </td>
                   <td data-label={lang === "hi" ? "प्रत्याशी" : "Candidate"}>{v.candidateName ? (lang === "hi" ? transliterateNameToHindi(v.candidateName) : ensureEnglish(v.candidateName)) : "—"}</td>
+                  <td data-label={lang === "hi" ? "चेयरमैन पसंद" : "Chairman Choice"}>
+                    {v.chairmanParty ? (
+                      <span className={`badge ${v.chairmanParty.toLowerCase()}`} style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontWeight: 700 }}>
+                        <PartyLogo option={v.chairmanParty} size={20} />
+                        {v.chairmanParty === "BJP" ? (lang === "hi" ? "भाजपा" : "BJP") : (lang === "hi" ? "कांग्रेस" : "Congress")}
+                      </span>
+                    ) : (
+                      <span style={{ color: "var(--muted)" }}>—</span>
+                    )}
+                  </td>
                   <td data-label={lang === "hi" ? "पसंद" : "Choice"}>
                     <span className={`badge ${v.selectedOption.toLowerCase()}`} style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
                       <PartyLogo option={v.selectedOption} size={22} />

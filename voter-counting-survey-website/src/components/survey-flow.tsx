@@ -49,7 +49,7 @@ function getTranslatedError(rawMsg: string | undefined, lang: "en" | "hi"): stri
   return rawMsg;
 }
 
-type Stage = "details" | "parsad" | "success";
+type Stage = "details" | "parsad" | "chairman" | "success";
 
 function PartyLogo({ option, size = 20 }: { option: string; size?: number }) {
   if (option === "BJP") {
@@ -244,6 +244,7 @@ export function SurveyFlow() {
   const [formData, setFormData] = useState<SurveyFormData>(initialFormData);
   const [selectedOption, setSelectedOption] = useState<SurveyOption | null>(null);
   const [selectedChairman, setSelectedChairman] = useState<string | null>(null);
+  const [chairmanParty, setChairmanParty] = useState<"BJP" | "Congress" | null>(null);
   const [errors, setErrors] = useState<SurveyErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isValidating, setIsValidating] = useState(false);
@@ -270,8 +271,15 @@ export function SurveyFlow() {
         } else {
           window.location.hash = "details";
         }
-      } else if (hash === "success") {
+      } else if (hash === "chairman") {
         if ((isVerifiedRef.current || verifiedVoterDetails) && selectedChairman) {
+          setStage("chairman");
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        } else {
+          window.location.hash = "details";
+        }
+      } else if (hash === "success") {
+        if ((isVerifiedRef.current || verifiedVoterDetails) && selectedChairman && chairmanParty) {
           setStage("success");
           window.scrollTo({ top: 0, behavior: "smooth" });
         } else {
@@ -291,7 +299,9 @@ export function SurveyFlow() {
     const initialHash = window.location.hash.replace("#", "");
     if ((initialHash === "parsad" || initialHash === "choice") && (isVerifiedRef.current || verifiedVoterDetails)) {
       setStage("parsad");
-    } else if (initialHash === "success" && (isVerifiedRef.current || verifiedVoterDetails) && selectedChairman) {
+    } else if (initialHash === "chairman" && (isVerifiedRef.current || verifiedVoterDetails) && selectedChairman) {
+      setStage("chairman");
+    } else if (initialHash === "success" && (isVerifiedRef.current || verifiedVoterDetails) && selectedChairman && chairmanParty) {
       setStage("success");
     } else {
       setStage("details");
@@ -301,7 +311,7 @@ export function SurveyFlow() {
     }
 
     return () => window.removeEventListener("hashchange", handleHashChange);
-  }, [verifiedVoterDetails, selectedOption, selectedChairman]);
+  }, [verifiedVoterDetails, selectedOption, selectedChairman, chairmanParty]);
 
   function updateField(field: keyof SurveyFormData, value: string) {
     setFormData((current) => ({ ...current, [field]: value }));
@@ -309,6 +319,7 @@ export function SurveyFlow() {
     if (field === "wardNumber") {
       setSelectedChairman(null);
       setSelectedOption(null);
+      setChairmanParty(null);
     }
   }
 
@@ -415,10 +426,21 @@ export function SurveyFlow() {
     }
   }
 
-  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  function handleParsadNext(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!selectedChairman) {
       setErrors({ selectedChairman: "Please select a Parsad candidate." });
+      return;
+    }
+    setErrors({});
+    setStage("chairman");
+    window.location.hash = "chairman";
+  }
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (!chairmanParty) {
+      setErrors({ selectedChairman: (t as any).selectChairmanPartyError || "Please select a Chairman option." });
       return;
     }
 
@@ -427,6 +449,10 @@ export function SurveyFlow() {
 
     try {
       await new Promise((resolve) => setTimeout(resolve, 600));
+
+      const chairmanCandidateName = chairmanParty === "BJP" 
+        ? (lang === "hi" ? "BJP अध्यक्ष प्रत्याशी" : "BJP Chairman Candidate")
+        : (lang === "hi" ? "Congress अध्यक्ष प्रत्याशी" : "Congress Chairman Candidate");
 
       const newResponse = {
         id: Date.now().toString(),
@@ -439,6 +465,8 @@ export function SurveyFlow() {
         candidateName: selectedChairman,
         selectedOption: selectedOption || "BJP",
         selectedChairman: selectedChairman,
+        chairmanParty: chairmanParty,
+        chairmanCandidate: chairmanCandidateName,
         timestamp: new Date().toISOString(),
         serialNumber: verifiedVoterDetails?.serialNumber,
         epicNumber: verifiedVoterDetails?.epicNumber,
@@ -478,14 +506,15 @@ export function SurveyFlow() {
     setFormData(initialFormData);
     setSelectedOption(null);
     setSelectedChairman(null);
+    setChairmanParty(null);
     setVerifiedVoterDetails(null);
     setErrors({});
     setStage("details");
     window.location.hash = "details";
   }
 
-  const stepNumber = stage === "details" ? 1 : 2;
-  const totalSteps = 2;
+  const stepNumber = stage === "details" ? 1 : stage === "parsad" ? 2 : 3;
+  const totalSteps = 3;
 
   return (
     <section className="survey-card single-panel" aria-label="Community voter counting survey">
@@ -527,7 +556,7 @@ export function SurveyFlow() {
               <strong>{stepNumber} {t.of} {totalSteps}</strong>
             </div>
             <div className="progress-track" aria-hidden="true">
-              <span style={{ width: stage === "details" ? "50%" : "100%" }} />
+              <span style={{ width: stage === "details" ? "33.33%" : stage === "parsad" ? "66.66%" : "100%" }} />
             </div>
           </div>
         )}
@@ -697,7 +726,7 @@ export function SurveyFlow() {
             const wardCandidates = getParsadCandidatesForWard(formData.wardNumber);
 
             return (
-              <form className="stage stage-choice" onSubmit={handleSubmit} noValidate>
+              <form className="stage stage-choice" onSubmit={handleParsadNext} noValidate>
                 <button
                   className="back-button"
                   type="button"
@@ -711,21 +740,38 @@ export function SurveyFlow() {
                   {t.backBtn}
                 </button>
 
-                {formData.voterName && (
-                  <div style={{ fontSize: "13px", fontWeight: 700, color: "var(--navy)", marginBottom: "16px", background: "#f1f5f9", padding: "8px 12px", borderRadius: "8px", border: "1px solid var(--border)", display: "inline-flex", alignItems: "center", gap: "6px" }}>
-                    <span>👤</span>
-                    <span>
-                      {lang === "hi" 
-                        ? `मतदाता: ${transliterateNameToHindi(formData.voterName)}` 
-                        : `Voter: ${formData.voterName}`}
-                    </span>
-                  </div>
-                )}
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "16px" }}>
+                  {formData.wardNumber && (
+                    <div style={{ fontSize: "13.5px", fontWeight: 700, color: "#1e3a8a", background: "#dbeafe", padding: "8px 14px", borderRadius: "8px", border: "1px solid #bfdbfe", display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                      <span>📍</span>
+                      <span>
+                        {lang === "hi" 
+                          ? `चयनित वार्ड: वार्ड ${String(formData.wardNumber).padStart(2, "0")}` 
+                          : `Selected Ward: Ward ${String(formData.wardNumber).padStart(2, "0")}`}
+                      </span>
+                    </div>
+                  )}
+
+                  {formData.voterName && (
+                    <div style={{ fontSize: "13.5px", fontWeight: 700, color: "var(--navy)", background: "#f1f5f9", padding: "8px 14px", borderRadius: "8px", border: "1px solid var(--border)", display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                      <span>👤</span>
+                      <span>
+                        {lang === "hi" 
+                          ? `मतदाता: ${transliterateNameToHindi(formData.voterName)}` 
+                          : `Voter: ${formData.voterName}`}
+                      </span>
+                    </div>
+                  )}
+                </div>
 
                 <div className="stage-heading choice-heading">
                   <span className="step-chip">{t.step} 02</span>
                   <h2>{t.selectChairman}</h2>
-                  <p>{t.selectChairmanDesc}</p>
+                  <p>
+                    {lang === "hi"
+                      ? `वार्ड ${String(formData.wardNumber).padStart(2, "0")} के लिए कृपया अपना पार्षद प्रत्याशी चुनें`
+                      : `Please select Parsad Candidate for Ward ${String(formData.wardNumber).padStart(2, "0")}`}
+                  </p>
                 </div>
 
                 <div
@@ -760,6 +806,11 @@ export function SurveyFlow() {
                             <strong>{displayName}</strong>
                           </span>
                           <small>{desc}</small>
+                          {parsad.symbol && (
+                            <small style={{ color: "#2563eb", fontWeight: 600, marginTop: "2px", display: "block" }}>
+                              {lang === "hi" ? `चुनाव चिह्न: ${parsad.symbol}` : `Symbol: ${parsad.symbol}`}
+                            </small>
+                          )}
                         </span>
                         <span className="radio-indicator" aria-hidden="true">
                           {isSelected && <Check size={16} strokeWidth={3} />}
@@ -774,22 +825,141 @@ export function SurveyFlow() {
                 )}
                 {errors.form && <div className="form-error" role="alert">{getTranslatedError(errors.form, lang)}</div>}
 
-                <button className="primary-button" type="submit" disabled={!selectedChairman || isSubmitting}>
-                  {isSubmitting ? (
-                    <>
-                      <LoaderCircle className="spinner" size={19} aria-hidden="true" />
-                      <span>{t.submittingBtn}</span>
-                    </>
-                  ) : (
-                    <>
-                      <span>{t.submitBtn}</span>
-                      <Check size={19} strokeWidth={2.5} aria-hidden="true" />
-                    </>
-                  )}
+                <button className="primary-button" type="submit" disabled={!selectedChairman}>
+                  <span>{t.nextBtn}</span>
+                  <ArrowRight size={19} strokeWidth={2.2} aria-hidden="true" />
                 </button>
               </form>
             );
           })()}
+
+          {stage === "chairman" && (
+            <form className="stage stage-choice" onSubmit={handleSubmit} noValidate>
+              <button
+                className="back-button"
+                type="button"
+                onClick={() => {
+                  setErrors({});
+                  setStage("parsad");
+                  window.location.hash = "parsad";
+                }}
+              >
+                <ArrowLeft size={17} aria-hidden="true" />
+                {(t as any).backToParsadBtn || t.backBtn}
+              </button>
+
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "16px" }}>
+                {formData.wardNumber && (
+                  <div style={{ fontSize: "13.5px", fontWeight: 700, color: "#1e3a8a", background: "#dbeafe", padding: "8px 14px", borderRadius: "8px", border: "1px solid #bfdbfe", display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                    <span>📍</span>
+                    <span>
+                      {lang === "hi" 
+                        ? `वार्ड: ${String(formData.wardNumber).padStart(2, "0")}` 
+                        : `Ward: ${String(formData.wardNumber).padStart(2, "0")}`}
+                    </span>
+                  </div>
+                )}
+
+                {selectedChairman && (
+                  <div style={{ fontSize: "13.5px", fontWeight: 700, color: "#065f46", background: "#d1fae5", padding: "8px 14px", borderRadius: "8px", border: "1px solid #a7f3d0", display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                    <span>🤝</span>
+                    <span>
+                      {lang === "hi" 
+                        ? `पार्षद प्रत्याशी: ${transliterateNameToHindi(selectedChairman)}` 
+                        : `Parsad: ${selectedChairman}`}
+                    </span>
+                  </div>
+                )}
+              </div>
+
+              <div className="stage-heading choice-heading">
+                <span className="step-chip">{t.step} 03</span>
+                <h2>{(t as any).selectChairmanTitle || "अध्यक्ष/चेयरमैन पद प्रत्याशी का चयन करें"}</h2>
+                <p>{(t as any).selectChairmanSub || "नगर पालिका अध्यक्ष पद हेतु अपनी पसंद का चुनाव करें"}</p>
+              </div>
+
+              <div
+                className="option-list"
+                role="radiogroup"
+                aria-label="Chairman options"
+              >
+                <button
+                  type="button"
+                  className={`option-card ${chairmanParty === "BJP" ? "is-selected" : ""}`}
+                  role="radio"
+                  aria-checked={chairmanParty === "BJP"}
+                  onClick={() => {
+                    setChairmanParty("BJP");
+                    setErrors((current) => ({ ...current, selectedChairman: undefined, form: undefined }));
+                  }}
+                  style={{ borderLeft: chairmanParty === "BJP" ? "6px solid #f97316" : undefined }}
+                >
+                  <span className="option-index">01</span>
+                  <span className="option-copy">
+                    <span style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                      <PartyLogo option="BJP" size={36} />
+                      <strong style={{ fontSize: "17px", color: "#1e293b" }}>
+                        {(t as any).bjpChairmanTitle || "भारतीय जनता पार्टी (BJP)"}
+                      </strong>
+                    </span>
+                    <small style={{ fontSize: "13px", marginTop: "4px", color: "#475569" }}>
+                      {(t as any).bjpChairmanDesc || "अध्यक्ष पद प्रत्याशी - भाजपा (BJP)"}
+                    </small>
+                  </span>
+                  <span className="radio-indicator" aria-hidden="true">
+                    {chairmanParty === "BJP" && <Check size={16} strokeWidth={3} />}
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  className={`option-card ${chairmanParty === "Congress" ? "is-selected" : ""}`}
+                  role="radio"
+                  aria-checked={chairmanParty === "Congress"}
+                  onClick={() => {
+                    setChairmanParty("Congress");
+                    setErrors((current) => ({ ...current, selectedChairman: undefined, form: undefined }));
+                  }}
+                  style={{ borderLeft: chairmanParty === "Congress" ? "6px solid #16a34a" : undefined }}
+                >
+                  <span className="option-index">02</span>
+                  <span className="option-copy">
+                    <span style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                      <PartyLogo option="Congress" size={36} />
+                      <strong style={{ fontSize: "17px", color: "#1e293b" }}>
+                        {(t as any).congressChairmanTitle || "भारतीय राष्ट्रीय कांग्रेस (Congress)"}
+                      </strong>
+                    </span>
+                    <small style={{ fontSize: "13px", marginTop: "4px", color: "#475569" }}>
+                      {(t as any).congressChairmanDesc || "अध्यक्ष पद प्रत्याशी - कांग्रेस (INC)"}
+                    </small>
+                  </span>
+                  <span className="radio-indicator" aria-hidden="true">
+                    {chairmanParty === "Congress" && <Check size={16} strokeWidth={3} />}
+                  </span>
+                </button>
+              </div>
+
+              {errors.selectedChairman && (
+                <FieldError id="selectedChairman-error" message={getTranslatedError(errors.selectedChairman, lang)} centered />
+              )}
+              {errors.form && <div className="form-error" role="alert">{getTranslatedError(errors.form, lang)}</div>}
+
+              <button className="primary-button" type="submit" disabled={!chairmanParty || isSubmitting}>
+                {isSubmitting ? (
+                  <>
+                    <LoaderCircle className="spinner" size={19} aria-hidden="true" />
+                    <span>{t.submittingBtn}</span>
+                  </>
+                ) : (
+                  <>
+                    <span>{t.submitBtn}</span>
+                    <Check size={19} strokeWidth={2.5} aria-hidden="true" />
+                  </>
+                )}
+              </button>
+            </form>
+          )}
 
           {stage === "success" && (
             <div className="stage stage-success">
@@ -800,11 +970,26 @@ export function SurveyFlow() {
               <p>{t.recordedMsg}</p>
 
               <div className="summary-box">
-                <div className="summary-item">
+                <div className="summary-item" style={{ marginBottom: "8px", borderBottom: "1px dashed #cbd5e1", paddingBottom: "8px" }}>
+                  <span className="summary-label">{lang === "hi" ? "चयनित वार्ड" : "Selected Ward"}</span>
+                  <span className="summary-value" style={{ fontWeight: 700, color: "#1e3a8a" }}>
+                    {lang === "hi" ? `वार्ड ${String(formData.wardNumber).padStart(2, "0")}` : `Ward ${String(formData.wardNumber).padStart(2, "0")}`}
+                  </span>
+                </div>
+
+                <div className="summary-item" style={{ marginBottom: "8px", borderBottom: "1px dashed #cbd5e1", paddingBottom: "8px" }}>
                   <span className="summary-label">{t.selectedChairmanChoice}</span>
                   <span className="summary-value" style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                     {selectedOption && <PartyLogo option={selectedOption} size={22} />}
                     {selectedChairman ? (lang === "hi" ? transliterateNameToHindi(selectedChairman) : selectedChairman) : "-"}
+                  </span>
+                </div>
+
+                <div className="summary-item">
+                  <span className="summary-label">{(t as any).selectedChairmanPartyLabel || "चुना गया अध्यक्ष (चेयरमैन)"}</span>
+                  <span className="summary-value" style={{ display: "inline-flex", alignItems: "center", gap: "8px", fontWeight: 700 }}>
+                    {chairmanParty && <PartyLogo option={chairmanParty} size={22} />}
+                    <span>{chairmanParty === "BJP" ? (lang === "hi" ? "भाजपा (BJP)" : "BJP") : chairmanParty === "Congress" ? (lang === "hi" ? "कांग्रेस (Congress)" : "Congress") : "-"}</span>
                   </span>
                 </div>
               </div>

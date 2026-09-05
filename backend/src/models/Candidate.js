@@ -31,6 +31,9 @@ const candidateSchema = new mongoose.Schema(
     category: {
       type: String,
     },
+    symbol: {
+      type: String,
+    },
   },
   {
     timestamps: true,

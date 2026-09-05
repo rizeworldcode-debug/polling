@@ -68,6 +68,8 @@ export type VoterResponse = {
   address?: string;
   candidateName?: string;
   selectedChairman?: string;
+  chairmanParty?: "BJP" | "Congress" | string;
+  chairmanCandidate?: string;
   serialNumber?: number;
   epicNumber?: string;
   houseNumber?: string;

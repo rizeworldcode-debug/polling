@@ -21,6 +21,7 @@ async function generateFrontendCandidates() {
       partyNameEn: c.party === "BJP" ? "Bharatiya Janata Party (BJP)" : c.party === "Congress" ? "Indian National Congress (INC)" : "Independent / Other",
       partyNameHi: c.party === "BJP" ? "भारतीय जनता पार्टी (BJP)" : c.party === "Congress" ? "इंडियन नेशनल कांग्रेस (Congress)" : "निर्दलीय / अन्य",
       category: c.category || "",
+      symbol: c.symbol || "",
     }));
 
     const fileContent = `export type ParsadCandidate = {
@@ -35,6 +36,7 @@ async function generateFrontendCandidates() {
   partyNameEn?: string;
   partyNameHi?: string;
   category?: string;
+  symbol?: string;
 };
 
 export const parsadCandidates: ParsadCandidate[] = ${JSON.stringify(formatted, null, 2)};

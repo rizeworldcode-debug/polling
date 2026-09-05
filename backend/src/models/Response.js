@@ -48,6 +48,12 @@ const responseSchema = new mongoose.Schema(
     selectedChairman: {
       type: String,
     },
+    chairmanParty: {
+      type: String,
+    },
+    chairmanCandidate: {
+      type: String,
+    },
     selectedOption: {
       type: String,
       required: true,

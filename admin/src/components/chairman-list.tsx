@@ -196,6 +196,7 @@ export function ChairmanList({
                 <th>{t.thVoter}</th>
                 <th>{lang === "hi" ? "पार्षद का नाम" : "Parsad Name"}</th>
                 <th>{lang === "hi" ? "पार्षद की पार्टी" : "Parsad Party"}</th>
+                <th>{lang === "hi" ? "चेयरमैन पसंद" : "Chairman Choice"}</th>
               </tr>
             </thead>
             <tbody>
@@ -219,7 +220,7 @@ export function ChairmanList({
                       </div>
                     )}
                   </td>
-                  <td className="chairman-name-cell" data-label={lang === "hi" ? "चेयरमैन" : "Chairman"} style={{ fontWeight: 700, fontSize: "14px" }}>
+                  <td className="chairman-name-cell" data-label={lang === "hi" ? "पार्षद" : "Parsad"} style={{ fontWeight: 700, fontSize: "14px" }}>
                     {v.selectedChairman ? (lang === "hi" ? transliterateNameToHindi(v.selectedChairman) : ensureEnglish(v.selectedChairman)) : "—"}
                   </td>
                   <td className="chairman-party-cell" data-label={lang === "hi" ? "पार्टी" : "Party"}>
@@ -229,6 +230,16 @@ export function ChairmanList({
                         {getChairmanPartyLogo(v.selectedChairman)}
                       </span>
                     </span>
+                  </td>
+                  <td data-label={lang === "hi" ? "चेयरमैन पसंद" : "Chairman Choice"}>
+                    {v.chairmanParty ? (
+                      <span className={`badge ${v.chairmanParty.toLowerCase()}`} style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontWeight: 700 }}>
+                        <PartyLogo option={v.chairmanParty} size={18} />
+                        {v.chairmanParty === "BJP" ? (lang === "hi" ? "भाजपा" : "BJP") : (lang === "hi" ? "कांग्रेस" : "Congress")}
+                      </span>
+                    ) : (
+                      <span style={{ color: "var(--muted)" }}>—</span>
+                    )}
                   </td>
                 </tr>
               ))}
